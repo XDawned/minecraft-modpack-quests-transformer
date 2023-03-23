@@ -10,6 +10,7 @@
 你可以通过我的另一款工具[FTBQLocalizationTools](https://github.com/XDawned/FTBQLocalizationTools)分别为中英quests生成lang文件，再将键值相同的中英lang文件合并即可得到中英任务对照数据集.
 ## 模型
 初期阶段，受限于硬件性能，暂时使用huggingface平台托管训练
-模型已公布于[minecraft-modpack-quests-transformer](https://huggingface.co/XDawned/minecraft-modpack-quests-transformer)
+
+**模型已公布于[minecraft-modpack-quests-transformer](https://huggingface.co/XDawned/minecraft-modpack-quests-transformer)**
 - 基于预训练模型[opus-mt-en-zh](https://huggingface.co/Helsinki-NLP/opus-mt-en-zh)强化而来
 - 建议本地部署调用
