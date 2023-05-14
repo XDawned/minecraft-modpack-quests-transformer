@@ -1,0 +1,63 @@
+{
+	quest_links: [ ]
+	default_hide_dependency_lines: false
+	group: "3F74603074C9AFB3"
+	id: "422B33F505FC1474"
+	filename: "power_tier_3"
+	default_quest_shape: "circle"
+	icon: "minecraft:redstone_block"
+	title: "能量阶段3"
+	order_index: 5
+	quests: [
+		{
+			tasks: [{
+				id: "201DB390D50BE7C1"
+				type: "checkmark"
+				title: "世界控制器"
+			}]
+			dependencies: ["2341B001A4B76230"]
+			id: "27645127551678CD"
+			y: -8.0d
+			x: -17.5d
+		}
+		{
+			tasks: [{
+				id: "040384F638E1398C"
+				type: "item"
+				item: "solarflux:sp_8"
+			}]
+			dependencies: [
+				"27645127551678CD"
+				"62A67E343313255E"
+			]
+			id: "16E5FE38C2E033F3"
+			y: -8.0d
+			x: -16.5d
+		}
+		{
+			tasks: [{
+				id: "45BB21B78716F201"
+				type: "item"
+				item: "solargeneration:solar_panel_ultimate"
+			}]
+			dependencies: [
+				"27645127551678CD"
+				"34CBDE4A2B6D5311"
+			]
+			id: "72B9FAB3C3B5459C"
+			y: -9.0d
+			x: -16.5d
+		}
+		{
+			tasks: [{
+				id: "2A9B214455918E5E"
+				type: "item"
+				item: "irongenerators:unobtainium_generator"
+			}]
+			dependencies: ["27645127551678CD"]
+			id: "6BF975BD5FCB18E0"
+			y: -7.0d
+			x: -16.5d
+		}
+	]
+}

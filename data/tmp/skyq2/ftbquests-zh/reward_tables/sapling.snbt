@@ -1,0 +1,15 @@
+{
+	rewards: [
+		{ item: "minecraft:spruce_sapling", count: 4 }
+		{ item: "minecraft:birch_sapling", count: 4 }
+		{ item: "minecraft:jungle_sapling", count: 4 }
+		{ item: "minecraft:acacia_sapling", count: 4 }
+		{ item: "minecraft:dark_oak_sapling", count: 4 }
+		{ item: "minecraft:oak_sapling", count: 4 }
+	]
+	loot_size: 1
+	order_index: 0
+	id: "590DC0F464A704FF"
+	icon: "minecraft:oak_leaves"
+	title: "树苗"
+}

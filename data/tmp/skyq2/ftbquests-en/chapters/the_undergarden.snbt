@@ -1,0 +1,229 @@
+{
+	quest_links: [ ]
+	default_hide_dependency_lines: false
+	group: "354A85BC2234DA50"
+	id: "5A24B16019DC6B86"
+	filename: "the_undergarden"
+	default_quest_shape: ""
+	icon: "undergarden:catalyst"
+	title: "The Undergarden"
+	order_index: 2
+	quests: [
+		{
+			tasks: [{
+				id: "39425E0314B3721E"
+				type: "checkmark"
+				title: "The Undergarden"
+			}]
+			dependencies: ["5F5F0CE2A260522C"]
+			id: "5D18F08E0FBEE17B"
+			y: -1.5d
+			x: -1.5d
+		}
+		{
+			tasks: [
+				{
+					type: "item"
+					count: 14L
+					id: "4365DBD65B1B18F7"
+					disable_toast: true
+					item: "minecraft:stone_bricks"
+				}
+				{
+					id: "5D0DCD5BE6778332"
+					type: "item"
+					disable_toast: true
+					item: "undergarden:catalyst"
+				}
+			]
+			dependencies: ["5D18F08E0FBEE17B"]
+			id: "1C759F69E949A49E"
+			y: -0.5d
+			x: -0.5d
+			title: "Portal to Undergarden"
+		}
+		{
+			tasks: [
+				{
+					type: "kill"
+					value: 5L
+					id: "1576E47DBFE4D48E"
+					icon: "undergarden:rotbeast_spawn_egg"
+					entity: "undergarden:rotbeast"
+				}
+				{
+					type: "kill"
+					value: 5L
+					id: "10D02DB33AA79CB9"
+					icon: "undergarden:rotwalker_spawn_egg"
+					entity: "undergarden:rotwalker"
+				}
+				{
+					type: "kill"
+					value: 5L
+					id: "731BB6D3C2DF75B1"
+					icon: "undergarden:rotling_spawn_egg"
+					entity: "undergarden:rotling"
+				}
+				{
+					type: "kill"
+					value: 5L
+					id: "40C1926DCFF70DE6"
+					icon: "undergarden:gwib_spawn_egg"
+					entity: "undergarden:gwib"
+				}
+				{
+					type: "kill"
+					value: 5L
+					id: "242DC7854596E427"
+					icon: "undergarden:nargoyle_spawn_egg"
+					entity: "undergarden:nargoyle"
+				}
+			]
+			dependencies: ["054E15EB41D7FA7E"]
+			id: "6FB498E07F5CA798"
+			y: -0.5d
+			x: 1.5d
+			rewards: [{
+				id: "342756209D016666"
+				type: "item"
+				item: "undergarden:utheric_shard"
+				count: 64
+			}]
+		}
+		{
+			tasks: [{
+				id: "599FB7E34C8DA135"
+				type: "advancement"
+				advancement: "undergarden:undergarden/catacombs"
+				criterion: ""
+			}]
+			dependencies: ["054E15EB41D7FA7E"]
+			id: "591D514A9E43D592"
+			y: 2.0d
+			x: 2.0d
+		}
+		{
+			tasks: [{
+				id: "63A644909FE94B40"
+				type: "item"
+				item: "undergarden:regalium_crystal"
+			}]
+			dependencies: ["054E15EB41D7FA7E"]
+			id: "2BF137F1733C2062"
+			y: -2.5d
+			x: 1.0d
+		}
+		{
+			tasks: [
+				{
+					id: "7386D38315F084EA"
+					type: "item"
+					item: "undergarden:smogstem_log"
+				}
+				{
+					id: "474D5074FB87E7AF"
+					type: "item"
+					item: "undergarden:wigglewood_log"
+				}
+				{
+					id: "25CFFA2E75CD5436"
+					type: "item"
+					item: "undergarden:grongle_log"
+				}
+			]
+			dependencies: ["054E15EB41D7FA7E"]
+			id: "64FF7E2C9D4A3BAF"
+			y: 1.5d
+			x: -0.5d
+			title: "Exploration"
+		}
+		{
+			tasks: [{
+				id: "199B62CAE47FC4CC"
+				type: "item"
+				item: "undergarden:cloggrum_ingot"
+			}]
+			dependencies: ["054E15EB41D7FA7E"]
+			id: "29ADD255063B37CB"
+			y: 0.0d
+			x: -2.5d
+		}
+		{
+			tasks: [{
+				type: "kill"
+				value: 1L
+				id: "1AA39AB16E5CC992"
+				icon: "undergarden:forgotten_guardian_spawn_egg"
+				entity: "undergarden:forgotten_guardian"
+			}]
+			dependencies: ["591D514A9E43D592"]
+			id: "119FD74165392BDC"
+			y: 3.0d
+			x: 3.0d
+		}
+		{
+			tasks: [{
+				id: "4BFC94AE6C97E643"
+				type: "item"
+				item: "undergarden:forgotten_ingot"
+			}]
+			dependencies: ["119FD74165392BDC"]
+			id: "52D6D9C6C8FFF075"
+			y: 4.0d
+			x: 4.0d
+		}
+		{
+			tasks: [{
+				id: "2DB6F00E7645C901"
+				type: "item"
+				item: "undergarden:froststeel_ingot"
+			}]
+			dependencies: ["054E15EB41D7FA7E"]
+			id: "6A128D778E5785BC"
+			y: 1.0d
+			x: -2.5d
+		}
+		{
+			tasks: [{
+				id: "2ED2C4E8F2025D10"
+				type: "item"
+				item: "undergarden:gloomgourd_pie"
+			}]
+			dependencies: ["5D18F08E0FBEE17B"]
+			id: "1D1D9EF35D969109"
+			y: -3.0d
+			x: -3.0d
+		}
+		{
+			tasks: [{
+				id: "032BAE7A728146FC"
+				type: "item"
+				item: "undergarden:utherium_crystal"
+			}]
+			dependencies: ["054E15EB41D7FA7E"]
+			id: "414F5055FBC2347E"
+			y: -2.5d
+			x: 0.0d
+		}
+		{
+			tasks: [{
+				type: "dimension"
+				id: "74C8B99E6ACE5118"
+				dimension: "undergarden:undergarden"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "undergarden:textures/block/undergarden_portal.png"
+					}
+				}
+				title: "Visit The Undergarden"
+			}]
+			dependencies: ["1C759F69E949A49E"]
+			id: "054E15EB41D7FA7E"
+			y: 0.5d
+			x: 0.5d
+		}
+	]
+}

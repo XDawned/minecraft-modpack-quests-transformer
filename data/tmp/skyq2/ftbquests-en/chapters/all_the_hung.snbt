@@ -1,0 +1,22 @@
+{
+	quest_links: [ ]
+	default_hide_dependency_lines: false
+	group: "269E1EFA0EF8FE1E"
+	id: "697AADF4F913624D"
+	filename: "all_the_hung"
+	default_quest_shape: ""
+	icon: "minecraft:enchanted_golden_apple"
+	title: "All the Hunger"
+	order_index: 3
+	quests: [{
+		tasks: [{
+			id: "4957DB109AB400C4"
+			type: "checkmark"
+			title: "Mmmmmm Food"
+		}]
+		dependencies: ["105D595ADBD4A01F"]
+		id: "557DF2B8FF048EB3"
+		y: 0.0d
+		x: 0.0d
+	}]
+}

@@ -1,0 +1,903 @@
+{
+	quest_links: [ ]
+	default_hide_dependency_lines: false
+	group: "26B45D9099BEACEA"
+	id: "3238715931121274"
+	filename: "immersive_engineering"
+	default_quest_shape: "square"
+	icon: {
+		id: "immersiveengineering:hammer"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
+	title: "沉浸工艺"
+	order_index: 1
+	quests: [
+		{
+			tasks: [{
+				id: "646A900E2D1C0A11"
+				type: "checkmark"
+				title: "现代科技"
+			}]
+			dependencies: ["5BCFCD52BF338F1E"]
+			id: "54DAC12CD05DC8C1"
+			y: -3.5d
+			x: -4.0d
+		}
+		{
+			tasks: [{
+				id: "2E7FFD2018C17ACE"
+				type: "checkmark"
+				title: "解锁热力膨胀"
+			}]
+			dependencies: ["0360CAE8218DAB90"]
+			id: "6F2A704EC8B729F1"
+			y: 4.5d
+			x: 6.0d
+			title: "解锁气动工艺:压缩"
+		}
+		{
+			tasks: [{
+				id: "4F1DF0598B177BFB"
+				type: "item"
+				item: "immersiveengineering:manual"
+			}]
+			dependencies: ["54DAC12CD05DC8C1"]
+			id: "5D81CEA88A72CC2A"
+			y: -2.0d
+			x: -3.5d
+		}
+		{
+			tasks: [{
+				id: "5F7A275BE7F172BD"
+				type: "item"
+				item: {
+					id: "immersiveengineering:hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			dependencies: ["54DAC12CD05DC8C1"]
+			id: "4190C6D04387724F"
+			y: -2.0d
+			x: -2.5d
+		}
+		{
+			tasks: [{
+				id: "75E70062444CC7E9"
+				type: "item"
+				item: {
+					id: "immersiveengineering:wirecutter"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			dependencies: ["54DAC12CD05DC8C1"]
+			id: "12272EBCFDE6AA23"
+			y: -3.0d
+			x: -2.5d
+		}
+		{
+			tasks: [{
+				id: "34D4BE6B4BE47248"
+				type: "item"
+				item: "immersiveengineering:blastbrick"
+				count: 27L
+			}]
+			icon: "immersiveengineering:blast_furnace"
+			id: "5F8B32096E47F1E0"
+			x: 0.5d
+			y: 0.0d
+			title: "高炉"
+			dependencies: ["2B40D3965E058108"]
+		}
+		{
+			tasks: [{
+				id: "39E66DCFA5E4C151"
+				type: "item"
+				item: "immersiveengineering:cokebrick"
+				count: 27L
+			}]
+			icon: "immersiveengineering:coke_oven"
+			id: "2B40D3965E058108"
+			x: -0.5d
+			y: 0.0d
+			title: "焦炉"
+			dependencies: ["51E06E0FB88996B3"]
+		}
+		{
+			tasks: [{
+				id: "0C184466ECA563EC"
+				type: "item"
+				item: "immersiveengineering:windmill"
+			}]
+			dependencies: ["4D4A0CD88558A4DA"]
+			id: "1AD6856D147C36EC"
+			y: 3.5d
+			x: -2.0d
+		}
+		{
+			tasks: [{
+				id: "113DF49DBDA4E577"
+				type: "item"
+				item: "immersiveengineering:watermill"
+				count: 3L
+			}]
+			dependencies: ["4D4A0CD88558A4DA"]
+			id: "7FEE8D4593C78CE2"
+			y: 3.5d
+			x: 0.0d
+		}
+		{
+			tasks: [{
+				id: "1CB7575B387963E9"
+				type: "item"
+				item: "immersiveengineering:alloybrick"
+				count: 8L
+			}]
+			icon: "immersiveengineering:alloy_smelter"
+			id: "51E06E0FB88996B3"
+			x: -1.5d
+			y: 0.0d
+			title: "窑炉"
+			dependencies: ["4190C6D04387724F"]
+		}
+		{
+			tasks: [{
+				id: "7C31C59EB6419858"
+				type: "item"
+				item: "immersiveengineering:capacitor_lv"
+			}]
+			dependencies: ["5F8B32096E47F1E0"]
+			id: "362F9B37B4346E91"
+			y: -2.0d
+			x: 2.0d
+		}
+		{
+			tasks: [{
+				id: "29A8FD1EE59D2291"
+				type: "item"
+				item: "immersiveengineering:capacitor_mv"
+			}]
+			dependencies: ["362F9B37B4346E91"]
+			id: "775C63D49B1613B8"
+			y: -2.0d
+			x: 3.0d
+		}
+		{
+			tasks: [{
+				id: "46FFC63D432D842D"
+				type: "item"
+				item: "immersiveengineering:capacitor_hv"
+			}]
+			dependencies: ["775C63D49B1613B8"]
+			id: "50C06419D9431BB4"
+			y: -2.0d
+			x: 4.0d
+		}
+		{
+			tasks: [{
+				id: "522D2BFAA077AE63"
+				type: "item"
+				item: "immersiveengineering:creosote_bucket"
+			}]
+			dependencies: ["2B40D3965E058108"]
+			id: "6905E1FC5D742673"
+			y: 1.0d
+			x: -0.5d
+		}
+		{
+			tasks: [{
+				id: "0C06FE03907C934F"
+				type: "item"
+				item: "immersiveengineering:treated_wood_horizontal"
+				count: 8L
+			}]
+			dependencies: ["6905E1FC5D742673"]
+			id: "4D4A0CD88558A4DA"
+			y: 2.0d
+			x: -0.5d
+		}
+		{
+			tasks: [{
+				id: "62F866DFD4278F92"
+				type: "item"
+				item: "immersiveengineering:windmill_sail"
+			}]
+			dependencies: ["1AD6856D147C36EC"]
+			id: "50CF2147CD56D7B7"
+			y: 4.5d
+			x: -2.0d
+		}
+		{
+			tasks: [{
+				id: "25D39BC6CC250B57"
+				type: "item"
+				title: "Any #forge:coal_coke"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:coal_coke"
+					}
+				}
+			}]
+			dependencies: ["2B40D3965E058108"]
+			id: "50EAA8D765102B0A"
+			y: -1.0d
+			x: -0.5d
+			title: "焦煤"
+		}
+		{
+			tasks: [{
+				id: "320CF32B868F2E15"
+				type: "item"
+				title: "钢锭"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:ingots/steel"
+					}
+				}
+			}]
+			dependencies: ["5F8B32096E47F1E0"]
+			id: "5B26AD4D220F278D"
+			y: 1.0d
+			x: 0.5d
+			title: "钢锭"
+		}
+		{
+			tasks: [{
+				id: "0D943F51859FB3FF"
+				type: "item"
+				item: "immersiveengineering:workbench"
+			}]
+			dependencies: ["54DAC12CD05DC8C1"]
+			id: "274A7DDFB5E6AF2C"
+			y: -4.0d
+			x: -1.5d
+		}
+		{
+			tasks: [{
+				id: "32A3D60BE0433A46"
+				type: "item"
+				item: "immersiveengineering:mold_gear"
+			}]
+			dependencies: ["72F9203075F32A7C"]
+			id: "08D3F8C53B61EC5C"
+			y: 1.5d
+			x: 3.0d
+		}
+		{
+			tasks: [{
+				id: "7AC19C04C4B9198A"
+				type: "item"
+				item: "immersiveengineering:mold_rod"
+			}]
+			dependencies: ["72F9203075F32A7C"]
+			id: "2EEB7F988EBF8191"
+			y: 2.5d
+			x: 2.0d
+		}
+		{
+			tasks: [{
+				id: "409FD40240CFA48C"
+				type: "item"
+				item: "immersiveengineering:mold_wire"
+			}]
+			dependencies: ["72F9203075F32A7C"]
+			id: "660C53F09338D9EA"
+			y: 1.5d
+			x: 2.0d
+		}
+		{
+			tasks: [{
+				id: "4AE49469692EFC89"
+				type: "item"
+				item: "immersiveengineering:mold_plate"
+			}]
+			dependencies: ["72F9203075F32A7C"]
+			id: "76C39C8259405CE3"
+			y: 2.5d
+			x: 3.0d
+		}
+		{
+			tasks: [{
+				id: "353DDC9AAAD11AD4"
+				type: "item"
+				item: "immersiveengineering:crate"
+			}]
+			dependencies: ["4D4A0CD88558A4DA"]
+			id: "527108DA4CE5B341"
+			y: 2.0d
+			x: -2.0d
+		}
+		{
+			tasks: [{
+				id: "776E953617B7DA43"
+				type: "item"
+				item: "immersiveengineering:reinforced_crate"
+			}]
+			dependencies: ["527108DA4CE5B341"]
+			id: "41EB55DA11A5D2B1"
+			y: 2.0d
+			x: -3.0d
+		}
+		{
+			tasks: [{
+				id: "6C1C9B9E160170AD"
+				type: "item"
+				item: "immersiveengineering:connector_mv"
+			}]
+			dependencies: ["775C63D49B1613B8"]
+			id: "6C5690A9D0B5827F"
+			y: -3.0d
+			x: 3.0d
+		}
+		{
+			tasks: [{
+				id: "340F56CC52D12A5D"
+				type: "item"
+				item: "immersiveengineering:connector_lv_relay"
+			}]
+			dependencies: ["03EC6B628966CD1B"]
+			id: "001DB6517E9A8A1E"
+			y: -4.0d
+			x: 2.0d
+		}
+		{
+			tasks: [{
+				id: "5492C860331B1571"
+				type: "item"
+				item: "immersiveengineering:connector_mv_relay"
+			}]
+			dependencies: ["6C5690A9D0B5827F"]
+			id: "6480EB53E9C82E4A"
+			y: -4.0d
+			x: 3.0d
+		}
+		{
+			tasks: [{
+				id: "4BAFF147BE1CF0B5"
+				type: "item"
+				item: "immersiveengineering:connector_hv"
+			}]
+			dependencies: ["50C06419D9431BB4"]
+			id: "7EEBCF8FEC7EDCB1"
+			y: -3.0d
+			x: 4.0d
+		}
+		{
+			tasks: [{
+				id: "104939F4A4084F10"
+				type: "item"
+				item: "immersiveengineering:connector_hv_relay"
+			}]
+			dependencies: ["7EEBCF8FEC7EDCB1"]
+			id: "2FE957B7DD05C4ED"
+			y: -4.0d
+			x: 4.0d
+		}
+		{
+			tasks: [{
+				id: "1CA5060C04E6CDB1"
+				type: "item"
+				item: "immersiveengineering:dynamo"
+			}]
+			dependency_requirement: "one_completed"
+			dependencies: [
+				"7FEE8D4593C78CE2"
+				"1AD6856D147C36EC"
+			]
+			id: "1ECB9B3CAFFA91A6"
+			y: 3.5d
+			x: -1.0d
+		}
+		{
+			tasks: [{
+				id: "63A601949C2A2BDE"
+				type: "item"
+				item: "immersiveengineering:thermoelectric_generator"
+			}]
+			dependencies: ["1AD6856D147C36EC"]
+			id: "20598E37FB9E38C4"
+			y: 3.5d
+			x: -3.5d
+		}
+		{
+			tasks: [{
+				id: "6BDC2F8920F5AA73"
+				type: "item"
+				item: "immersiveengineering:wirecoil_copper"
+			}]
+			dependencies: ["001DB6517E9A8A1E"]
+			id: "0978B0FBA75F59A5"
+			y: -5.0d
+			x: 2.0d
+		}
+		{
+			tasks: [{
+				id: "69D77EB29B5149CF"
+				type: "item"
+				item: "immersiveengineering:wirecoil_electrum"
+			}]
+			dependencies: ["6480EB53E9C82E4A"]
+			id: "5D9A519359E2925C"
+			y: -5.0d
+			x: 3.0d
+		}
+		{
+			tasks: [{
+				id: "051093108CC8054F"
+				type: "item"
+				item: "immersiveengineering:wirecoil_steel"
+			}]
+			dependencies: ["2FE957B7DD05C4ED"]
+			id: "4660CFBEB2D484F9"
+			y: -5.0d
+			x: 4.0d
+		}
+		{
+			tasks: [{
+				id: "3535D340E428E501"
+				type: "item"
+				item: "immersiveengineering:wirecoil_copper_ins"
+			}]
+			dependencies: ["0978B0FBA75F59A5"]
+			id: "749D21D086D5A570"
+			y: -6.0d
+			x: 2.0d
+		}
+		{
+			tasks: [{
+				id: "50F3684DBCA66846"
+				type: "item"
+				item: "immersiveengineering:wirecoil_electrum_ins"
+			}]
+			dependencies: ["5D9A519359E2925C"]
+			id: "2873E230B2F1B014"
+			y: -6.0d
+			x: 3.0d
+		}
+		{
+			tasks: [{
+				id: "62C3413E5E7C961A"
+				type: "item"
+				item: "immersiveengineering:wirecoil_redstone"
+			}]
+			dependency_requirement: "one_completed"
+			dependencies: [
+				"4660CFBEB2D484F9"
+				"5D9A519359E2925C"
+				"0978B0FBA75F59A5"
+			]
+			id: "62783163E43BA405"
+			y: -6.0d
+			x: 4.0d
+		}
+		{
+			tasks: [{
+				id: "6BD40044AEC5D7B9"
+				type: "item"
+				item: "immersiveengineering:seed"
+			}]
+			dependencies: ["54DAC12CD05DC8C1"]
+			id: "267AE65B7175689C"
+			y: -2.0d
+			x: -4.5d
+		}
+		{
+			tasks: [{
+				id: "0455B88370CF1264"
+				type: "item"
+				item: "immersiveengineering:hemp_fiber"
+			}]
+			dependencies: ["267AE65B7175689C"]
+			id: "6F8E8B50CFD2A424"
+			y: -1.0d
+			x: -4.5d
+		}
+		{
+			tasks: [{
+				id: "7CC9FAB14CA89913"
+				type: "item"
+				item: "immersiveengineering:blastbrick_reinforced"
+				count: 27L
+			}]
+			icon: "immersiveengineering:advanced_blast_furnace"
+			id: "666F96C12140A765"
+			x: 0.5d
+			y: -1.0d
+			title: "强化高炉"
+			dependencies: ["5F8B32096E47F1E0"]
+		}
+		{
+			tasks: [{
+				id: "172C962F90D85998"
+				type: "item"
+				item: "immersiveengineering:blastfurnace_preheater"
+				count: 2L
+			}]
+			dependencies: ["666F96C12140A765"]
+			id: "49A36A3AA0B0E12C"
+			y: -2.0d
+			x: 0.5d
+			title: "让它更快一点"
+		}
+		{
+			tasks: [
+				{
+					id: "086FFECDB486D750"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:piston"
+				}
+				{
+					type: "item"
+					count: 2L
+					id: "72398D95BF137756"
+					disable_toast: true
+					item: "immersiveengineering:steel_scaffolding_standard"
+				}
+				{
+					id: "53609EC3378776A9"
+					type: "item"
+					disable_toast: true
+					item: "immersiveengineering:rs_engineering"
+				}
+				{
+					id: "1A0E490E33E33F5B"
+					type: "item"
+					disable_toast: true
+					item: "immersiveengineering:heavy_engineering"
+				}
+				{
+					type: "item"
+					count: 2L
+					id: "4DBAA46DAB66F79D"
+					disable_toast: true
+					item: "immersiveengineering:conveyor_basic"
+				}
+			]
+			icon: "immersiveengineering:metal_press"
+			id: "72F9203075F32A7C"
+			x: 2.5d
+			y: 0.0d
+			title: "金属冲压机"
+			dependencies: ["5F8B32096E47F1E0"]
+		}
+		{
+			tasks: [
+				{
+					type: "item"
+					count: 9L
+					id: "0579FF5FCA3FD576"
+					disable_toast: true
+					item: "minecraft:hopper"
+				}
+				{
+					type: "item"
+					count: 10L
+					id: "5EDC88DF789FC469"
+					disable_toast: true
+					item: "immersiveengineering:light_engineering"
+				}
+				{
+					id: "1FFB4771A9BB31E1"
+					type: "item"
+					disable_toast: true
+					item: "immersiveengineering:rs_engineering"
+				}
+				{
+					type: "item"
+					count: 9L
+					id: "4791AD3712339875"
+					disable_toast: true
+					item: "immersiveengineering:steel_fence"
+				}
+				{
+					type: "item"
+					count: 10L
+					id: "7763DE6A45DDF033"
+					disable_toast: true
+					item: "immersiveengineering:steel_scaffolding_standard"
+				}
+			]
+			icon: "immersiveengineering:crusher"
+			id: "39CA5A43D8CEF066"
+			x: 5.5d
+			y: -1.5d
+			title: "粉碎机"
+			dependencies: ["6148AA104CDDEA09"]
+		}
+		{
+			tasks: [
+				{
+					id: "434B78F51798CBBE"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:piston"
+				}
+				{
+					type: "item"
+					count: 4L
+					id: "3BA676646FB8D858"
+					disable_toast: true
+					item: "immersiveengineering:wooden_barrel"
+				}
+				{
+					type: "item"
+					count: 3L
+					id: "04FADEF389E028D1"
+					disable_toast: true
+					item: "immersiveengineering:steel_fence"
+				}
+				{
+					type: "item"
+					count: 2L
+					id: "573CEE53BADFB8F2"
+					disable_toast: true
+					item: "immersiveengineering:fluid_pipe"
+				}
+				{
+					id: "148C0ED4C264CE55"
+					type: "item"
+					disable_toast: true
+					item: "immersiveengineering:rs_engineering"
+				}
+				{
+					type: "item"
+					count: 6L
+					id: "1FFCB801D7108065"
+					disable_toast: true
+					item: "immersiveengineering:steel_scaffolding_standard"
+				}
+				{
+					type: "item"
+					count: 2L
+					id: "266AE88689DF3493"
+					disable_toast: true
+					item: "immersiveengineering:light_engineering"
+				}
+			]
+			icon: "immersiveengineering:squeezer"
+			id: "5EBE0B55E73A8201"
+			x: 4.0d
+			y: 0.5d
+			title: "工业挤压机"
+			dependencies: ["72F9203075F32A7C"]
+		}
+		{
+			tasks: [
+				{
+					type: "item"
+					count: 6L
+					id: "687705F9324B846E"
+					disable_toast: true
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "immersiveengineering:scaffoldings/steel"
+						}
+					}
+					title: "Any #immersiveengineering:scaffoldings/steel"
+				}
+				{
+					type: "item"
+					count: 2L
+					id: "32D31C6C4BE4800F"
+					disable_toast: true
+					item: "immersiveengineering:light_engineering"
+				}
+				{
+					id: "6BDFE2B9884D0C96"
+					type: "item"
+					disable_toast: true
+					item: "immersiveengineering:rs_engineering"
+				}
+				{
+					type: "item"
+					count: 4L
+					id: "352BF380D75D7D1D"
+					disable_toast: true
+					item: "immersiveengineering:sheetmetal_iron"
+				}
+				{
+					type: "item"
+					count: 2L
+					id: "7A094D240BEE4152"
+					disable_toast: true
+					item: "immersiveengineering:fluid_pipe"
+				}
+				{
+					type: "item"
+					count: 4L
+					id: "04043814D1F5AD8D"
+					disable_toast: true
+					item: "minecraft:cauldron"
+				}
+			]
+			icon: "immersiveengineering:fermenter"
+			id: "20F319ACCEFF50E5"
+			x: 4.0d
+			y: -0.5d
+			title: "发酵机"
+			dependencies: ["72F9203075F32A7C"]
+		}
+		{
+			tasks: [
+				{
+					type: "item"
+					count: 16L
+					id: "5CC96AA45C068941"
+					disable_toast: true
+					item: "immersiveengineering:sheetmetal_iron"
+				}
+				{
+					type: "item"
+					count: 8L
+					id: "477ECAF61A159F2A"
+					disable_toast: true
+					item: "immersiveengineering:steel_scaffolding_standard"
+				}
+				{
+					type: "item"
+					count: 2L
+					id: "23E4D8CB333D5461"
+					disable_toast: true
+					item: "immersiveengineering:light_engineering"
+				}
+				{
+					type: "item"
+					count: 2L
+					id: "4C57C274658EBC4E"
+					disable_toast: true
+					item: "immersiveengineering:heavy_engineering"
+				}
+				{
+					type: "item"
+					count: 5L
+					id: "7EB097F81EAD5E37"
+					disable_toast: true
+					item: "immersiveengineering:fluid_pipe"
+				}
+			]
+			icon: "immersiveengineering:refinery"
+			id: "6148AA104CDDEA09"
+			x: 5.5d
+			y: 0.0d
+			title: "精炼厂"
+			dependencies: [
+				"20F319ACCEFF50E5"
+				"5EBE0B55E73A8201"
+			]
+		}
+		{
+			tasks: [
+				{
+					type: "item"
+					count: 10L
+					id: "5107C30AEB27387E"
+					disable_toast: true
+					item: "immersiveengineering:light_engineering"
+				}
+				{
+					type: "item"
+					count: 5L
+					id: "7C9B85FA87EC679E"
+					disable_toast: true
+					item: "immersiveengineering:heavy_engineering"
+				}
+				{
+					type: "item"
+					count: 5L
+					id: "093046C4B8173B4B"
+					disable_toast: true
+					item: "immersiveengineering:steel_scaffolding_standard"
+				}
+				{
+					type: "item"
+					count: 6L
+					id: "3A4580CFCCF20A29"
+					disable_toast: true
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:storage_blocks/steel"
+						}
+					}
+					title: "Any #forge:storage_blocks/steel"
+				}
+				{
+					type: "item"
+					count: 8L
+					id: "2EDDB22BFBF5A086"
+					disable_toast: true
+					item: "immersiveengineering:sheetmetal_steel"
+				}
+				{
+					type: "item"
+					count: 14L
+					id: "28988FC32EA8D491"
+					disable_toast: true
+					item: "immersiveengineering:slab_sheetmetal_steel"
+				}
+				{
+					id: "67B5479BEC60FE93"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:cauldron"
+				}
+				{
+					type: "item"
+					count: 27L
+					id: "1A03E74255DE89BC"
+					disable_toast: true
+					item: "immersiveengineering:blastbrick_reinforced"
+				}
+			]
+			icon: "immersiveengineering:arc_furnace"
+			id: "78EC309755C13791"
+			x: 7.0d
+			y: 0.0d
+			title: "电弧炉"
+			dependencies: [
+				"6148AA104CDDEA09"
+				"0360CAE8218DAB90"
+			]
+		}
+		{
+			tasks: [{
+				id: "4B1264E29F079C8F"
+				type: "item"
+				item: "immersiveengineering:cloche"
+			}]
+			dependencies: ["6148AA104CDDEA09"]
+			id: "0D81F25904397600"
+			y: 1.5d
+			x: 5.5d
+		}
+		{
+			tasks: [{
+				id: "012684F35EEFD9EC"
+				type: "item"
+				item: "immersiveengineering:ingot_hop_graphite"
+			}]
+			dependencies: ["5EBE0B55E73A8201"]
+			id: "0360CAE8218DAB90"
+			y: 3.0d
+			x: 5.5d
+		}
+		{
+			tasks: [{
+				id: "3F84E56F6A601E48"
+				type: "item"
+				item: "immersiveengineering:craftingtable"
+			}]
+			dependencies: ["54DAC12CD05DC8C1"]
+			id: "55FB2AD12FB18F47"
+			y: -4.0d
+			x: -2.5d
+		}
+		{
+			tasks: [{
+				id: "68636A55B808C56E"
+				type: "item"
+				item: "immersiveengineering:connector_lv"
+			}]
+			dependencies: ["362F9B37B4346E91"]
+			id: "03EC6B628966CD1B"
+			y: -3.0d
+			x: 2.0d
+		}
+	]
+}

@@ -1,0 +1,442 @@
+{
+	quest_links: [ ]
+	default_hide_dependency_lines: false
+	group: "354A85BC2234DA50"
+	id: "7E5A6A20A4E73243"
+	filename: "blue_skies"
+	default_quest_shape: ""
+	icon: "blue_skies:blue_journal"
+	title: "蓝色天空"
+	order_index: 0
+	quests: [
+		{
+			tasks: [{
+				id: "1E5052DDEA9D4290"
+				type: "checkmark"
+				title: "蓝色天空"
+			}]
+			dependencies: ["5F5F0CE2A260522C"]
+			id: "1D70D857F4054C9C"
+			y: -3.0d
+			x: -2.5d
+			rewards: [{
+				id: "48AEE9512729FF11"
+				type: "item"
+				item: "blue_skies:blue_journal"
+			}]
+		}
+		{
+			tasks: [{
+				id: "5E5EC1F02929E491"
+				type: "item"
+				item: "blue_skies:alchemy_table"
+			}]
+			dependencies: ["1D70D857F4054C9C"]
+			id: "65DA59B134916478"
+			y: -2.0d
+			x: -1.5d
+		}
+		{
+			tasks: [{
+				id: "47A191882E177E1D"
+				type: "item"
+				item: "blue_skies:turquoise_stonebrick"
+				count: 14L
+			}]
+			dependencies: ["2C966B26A6FC7CA7"]
+			id: "43EA9AC5B5FD9DF9"
+			y: -1.0d
+			x: 0.5d
+		}
+		{
+			tasks: [{
+				id: "2F5D47AB707DE217"
+				type: "item"
+				item: "blue_skies:lunar_stonebrick"
+				count: 14L
+			}]
+			dependencies: ["2C966B26A6FC7CA7"]
+			id: "4272F1CB496F5B8F"
+			y: 0.0d
+			x: -0.5d
+		}
+		{
+			tasks: [{
+				id: "0E519DD25553EB17"
+				type: "item"
+				item: {
+					id: "blue_skies:zeal_lighter"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			dependencies: ["65DA59B134916478"]
+			id: "2C966B26A6FC7CA7"
+			y: -1.0d
+			x: -0.5d
+		}
+		{
+			tasks: [{
+				type: "dimension"
+				id: "4809A47E9A63DB75"
+				dimension: "blue_skies:everbright"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "blue_skies:textures/block/portal/everbright_portal.png"
+					}
+				}
+				title: "造访永昼之地"
+			}]
+			dependencies: ["43EA9AC5B5FD9DF9"]
+			id: "093A691C8AE57362"
+			y: -1.0d
+			x: 1.5d
+		}
+		{
+			tasks: [{
+				id: "3232BC61DF153C0C"
+				type: "dimension"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "blue_skies:textures/block/portal/everdawn_portal.png"
+					}
+				}
+				dimension: "blue_skies:everdawn"
+			}]
+			dependencies: ["4272F1CB496F5B8F"]
+			id: "0CC48E4A90EEC52C"
+			y: 1.0d
+			x: -0.5d
+			title: "造访永夜之地"
+		}
+		{
+			tasks: [
+				{
+					type: "kill"
+					value: 16L
+					id: "1FD437A9BA9980BB"
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "blue_skies:textures/gui/journal/icons/infested_swarmer.png"
+						}
+					}
+					entity: "blue_skies:infested_swarmer"
+				}
+				{
+					type: "kill"
+					value: 16L
+					id: "3EF1C488CAB98FA2"
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "blue_skies:textures/gui/journal/icons/venom_spider.png"
+						}
+					}
+					entity: "blue_skies:venom_spider"
+				}
+				{
+					type: "kill"
+					value: 16L
+					id: "559EE4B888AC18E6"
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "blue_skies:textures/gui/journal/icons/emberback.png"
+						}
+					}
+					entity: "blue_skies:emberback"
+				}
+			]
+			dependencies: ["093A691C8AE57362"]
+			id: "5510271CE7DD2704"
+			y: -2.0d
+			x: 2.5d
+			title: "怪物"
+		}
+		{
+			tasks: [{
+				id: "0F7BF652AE937510"
+				type: "item"
+				item: "blue_skies:blinding_key"
+				count: 4L
+			}]
+			dependency_requirement: "one_completed"
+			dependencies: [
+				"093A691C8AE57362"
+				"0CC48E4A90EEC52C"
+			]
+			id: "7314955942EC7565"
+			y: 1.0d
+			x: 1.5d
+		}
+		{
+			tasks: [{
+				type: "kill"
+				value: 1L
+				id: "37A8C587713F26C7"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "blue_skies:textures/gui/journal/icons/alchemist.png"
+					}
+				}
+				entity: "blue_skies:alchemist"
+			}]
+			dependencies: ["093A691C8AE57362"]
+			id: "7AC7418EFE19D3EF"
+			y: 0.0d
+			x: 2.5d
+		}
+		{
+			x: 3.5d
+			y: 0.0d
+			id: "445C2700390FCCF1"
+			tasks: [{
+				id: "6292C5DCC316E6BE"
+				type: "item"
+				item: {
+					id: "blue_skies:alchemist_trophy"
+					Count: 1b
+					tag: {
+						BlockStateTag: {
+							tier: "bronze"
+						}
+					}
+				}
+			}]
+		}
+		{
+			tasks: [
+				{
+					id: "0049D9B0452DEB7F"
+					type: "item"
+					item: "blue_skies:everdawn_moonstone_ore"
+				}
+				{
+					id: "5CB146C1E8C4354C"
+					type: "item"
+					item: "blue_skies:everdawn_aquite_ore"
+				}
+				{
+					id: "2DD75F79865CB936"
+					type: "item"
+					item: "blue_skies:everdawn_pyrope_ore"
+				}
+				{
+					id: "6475AF7EF71F201E"
+					type: "item"
+					item: "blue_skies:everdawn_diopside_ore"
+				}
+				{
+					id: "1E9DFED925C0CE88"
+					type: "item"
+					item: "blue_skies:horizonite_ore"
+				}
+				{
+					id: "2F5C58D0750925E9"
+					type: "item"
+					item: "blue_skies:everdawn_charoite_ore"
+				}
+				{
+					id: "16B252F8B01484CE"
+					type: "item"
+					item: "blue_skies:everdawn_emerald_ore"
+				}
+			]
+			dependencies: ["093A691C8AE57362"]
+			id: "6EEE176B155F4BE8"
+			y: -3.0d
+			x: 1.5d
+			title: "探索"
+		}
+		{
+			tasks: [
+				{
+					id: "6E517BD18AF6CEA0"
+					type: "item"
+					item: "blue_skies:lunar_log"
+				}
+				{
+					id: "6AD945F30F64E4C3"
+					type: "item"
+					item: "blue_skies:dusk_log"
+				}
+				{
+					id: "5909F8DBF78B2CDB"
+					type: "item"
+					item: "blue_skies:maple_log"
+				}
+			]
+			dependencies: ["093A691C8AE57362"]
+			id: "499B68B8FE5D8688"
+			y: -2.0d
+			x: 1.5d
+			title: "原木"
+		}
+		{
+			tasks: [
+				{
+					type: "kill"
+					value: 16L
+					id: "0F63A8B07C67D3D3"
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "blue_skies:textures/gui/journal/icons/shrumpty.png"
+						}
+					}
+					entity: "blue_skies:shrumpty"
+				}
+				{
+					type: "kill"
+					value: 16L
+					id: "66CC9519B79DF15F"
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "blue_skies:textures/gui/journal/icons/armored_frost_spirit.png"
+						}
+					}
+					entity: "blue_skies:armored_frost_spirit"
+				}
+				{
+					type: "kill"
+					value: 16L
+					id: "4680B25FFDA27A5E"
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "blue_skies:textures/gui/journal/icons/diophyde_prowler.png"
+						}
+					}
+					entity: "blue_skies:diophyde_prowler"
+				}
+			]
+			dependencies: ["0CC48E4A90EEC52C"]
+			id: "48D7EF265784FAD3"
+			y: 2.0d
+			x: -1.5d
+			title: "怪物"
+		}
+		{
+			tasks: [
+				{
+					id: "6B37C6BE6552BFC4"
+					type: "item"
+					item: "blue_skies:bluebright_log"
+				}
+				{
+					id: "270C23C236D718E2"
+					type: "item"
+					item: "blue_skies:frostbright_log"
+				}
+				{
+					id: "713A75CBCA55E05E"
+					type: "item"
+					item: "blue_skies:starlit_log"
+				}
+			]
+			dependencies: ["0CC48E4A90EEC52C"]
+			id: "5EB270C149C4FBF2"
+			y: 1.0d
+			x: -1.5d
+			title: "原木"
+		}
+		{
+			tasks: [
+				{
+					id: "67E7D5B2AB47EA06"
+					type: "item"
+					item: "blue_skies:everbright_moonstone_ore"
+				}
+				{
+					id: "345A7F38B7A826E2"
+					type: "item"
+					item: "blue_skies:everbright_pyrope_ore"
+				}
+				{
+					id: "49FFBDD8FB604B4C"
+					type: "item"
+					item: "blue_skies:falsite_ore"
+				}
+				{
+					id: "497C434BEC8BA768"
+					type: "item"
+					item: "blue_skies:everbright_aquite_ore"
+				}
+				{
+					id: "71E6A47BC4CA4466"
+					type: "item"
+					item: "blue_skies:everbright_diopside_ore"
+				}
+				{
+					id: "356094766A57BF86"
+					type: "item"
+					item: "blue_skies:everbright_charoite_ore"
+				}
+				{
+					id: "44913C30EAB42FB6"
+					type: "item"
+					item: "blue_skies:ventium_ore"
+				}
+			]
+			dependencies: ["0CC48E4A90EEC52C"]
+			id: "35F7459D26030CF8"
+			y: 1.0d
+			x: -2.5d
+			title: "矿物"
+		}
+		{
+			tasks: [{
+				type: "kill"
+				value: 1L
+				id: "608E20A0D9C98E71"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "blue_skies:textures/gui/journal/icons/summoner.png"
+					}
+				}
+				entity: "blue_skies:summoner"
+			}]
+			dependencies: ["0CC48E4A90EEC52C"]
+			id: "615CB75E11B57BDF"
+			y: 2.0d
+			x: 0.5d
+		}
+		{
+			tasks: [{
+				id: "55A8CC6999DFE2A6"
+				type: "item"
+				item: {
+					id: "blue_skies:summoner_trophy"
+					Count: 1b
+					tag: {
+						BlockStateTag: {
+							tier: "gold"
+						}
+					}
+				}
+			}]
+			dependencies: ["615CB75E11B57BDF"]
+			id: "78283EE8FA06B59E"
+			y: 3.0d
+			x: 0.5d
+		}
+	]
+}

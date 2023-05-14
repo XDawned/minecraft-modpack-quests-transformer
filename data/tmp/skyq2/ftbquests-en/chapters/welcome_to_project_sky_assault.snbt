@@ -1,0 +1,175 @@
+{
+	quest_links: [ ]
+	default_hide_dependency_lines: false
+	group: ""
+	id: "49303DB428F9D915"
+	filename: "welcome_to_project_sky_assault"
+	default_quest_shape: ""
+	icon: "minecraft:bedrock"
+	title: "Welcome to Project SkyQ"
+	order_index: 0
+	quests: [
+		{
+			tasks: [{
+				id: "3D076DC2FC91A3BA"
+				type: "checkmark"
+				title: "Getting Started"
+			}]
+			description: ["The is your general Chapter, basically getting setup to collect all the thing."]
+			dependencies: ["2818E244528AD662"]
+			id: "7B8B96019707F940"
+			y: -3.5d
+			x: 0.0d
+		}
+		{
+			tasks: [{
+				id: "288B96C264A81298"
+				type: "checkmark"
+				title: "Extra Stuff"
+			}]
+			description: ["The is Chapter is basically extra tools/eqiupment to help you get to that end game."]
+			dependencies: ["7B8B96019707F940"]
+			id: "0E8A3F4213D1EF25"
+			y: -3.5d
+			x: 2.0d
+		}
+		{
+			tasks: [{
+				id: "210B46384D06F44B"
+				type: "checkmark"
+				title: "Tier 1"
+			}]
+			description: [
+				"Basic Storage > Simple Storage Network"
+				"Immersive Engineering > Pneumatic Craft"
+			]
+			dependencies: ["2D7E052B95EA49E1"]
+			id: "5977AAF0EE64431A"
+			y: -0.5d
+			x: 0.0d
+		}
+		{
+			tasks: [{
+				id: "7607096AFD35D2AD"
+				type: "checkmark"
+				title: "Tier 2"
+			}]
+			description: ["Simple Storage Network > AE2/RS"]
+			dependencies: ["5977AAF0EE64431A"]
+			id: "1907879B69CC8E46"
+			y: 1.0d
+			x: 0.0d
+		}
+		{
+			tasks: [{
+				id: "33724B72C5E6AB75"
+				type: "checkmark"
+				title: "Tier 3"
+			}]
+			description: ["Collecting an items from each chapter mod from Tier 3 will unlock the Start of Extended Crafting"]
+			dependencies: ["1907879B69CC8E46"]
+			id: "05370F1427F6FF76"
+			y: 2.5d
+			x: 0.0d
+		}
+		{
+			tasks: [{
+				id: "64A622723C953B6A"
+				type: "checkmark"
+				title: "End Game"
+			}]
+			description: ["This Chapter is the final push to completing this pack. Where you get the easy stuff to make that final push more enjoyable."]
+			dependencies: ["05370F1427F6FF76"]
+			id: "473D79CD25FEA4B3"
+			y: 5.5d
+			x: 0.0d
+		}
+		{
+			tasks: [{
+				id: "6952AA2C8FBA72B6"
+				type: "checkmark"
+				title: "Extra Challenges"
+			}]
+			description: ["The EXTRA challenges are just here if you just want that extra grind for all the items."]
+			dependencies: ["473D79CD25FEA4B3"]
+			id: "5C77EC96F3314D04"
+			y: 7.0d
+			x: 1.5d
+		}
+		{
+			tasks: [{
+				id: "43F78CD5BEF593B7"
+				type: "checkmark"
+				title: "Magic Time"
+			}]
+			description: [
+				"Some items from all the magic mods are needed for the end game stuff."
+				"But all of the mods are just here to make your journey to end game a lot more fun."
+			]
+			dependencies: ["05370F1427F6FF76"]
+			id: "03EBB91B60017984"
+			y: 4.0d
+			x: 1.5d
+		}
+		{
+			tasks: [{
+				id: "3D4D861C8F38ABBD"
+				type: "checkmark"
+				title: "Exploration"
+			}]
+			description: ["You will be exploring through 4 different dimensions finding the resources and completing quests to get to End Game."]
+			dependencies: ["05370F1427F6FF76"]
+			id: "1914861CC5581801"
+			y: 4.0d
+			x: -1.5d
+		}
+		{
+			size: 2.0d
+			description: [
+				"Basically the aim of this pack is to have a lot of fun with a bit of grand to it but not to much."
+				"Each Chapter will take you through the process of completing the pack."
+			]
+			id: "2818E244528AD662"
+			x: 0.0d
+			y: -6.0d
+			title: "Welcome to Project SkyQ"
+			tasks: [{
+				id: "45D6E4703D2811A4"
+				type: "checkmark"
+				title: "Welcome to Projecy SkyQ"
+			}]
+		}
+		{
+			size: 2.0d
+			description: [
+				"Overall i just hope you enjoy this mod pack."
+				"I had a blast making it and learned a lot while making this. "
+			]
+			id: "599B7115AD54AF22"
+			x: -2.0d
+			y: 7.5d
+			dependencies: ["473D79CD25FEA4B3"]
+			tasks: [{
+				id: "53179BFBAC19C12C"
+				type: "checkmark"
+				title: "Overall"
+			}]
+		}
+		{
+			tasks: [{
+				id: "106B91C6838F18A7"
+				type: "checkmark"
+				title: "About Each Tier"
+			}]
+			description: [
+				"Tier 1 - This tier unlocks after a few starter quests. It helps you get started with better tools, basic power and storage."
+				"Tier 2 -  In this tier is where you start to get more established in this pack with a better storage system and greater power."
+				"Tier 3 -  This is your last tier were you'll be aiming to push for the final set-up to get to end game."
+			]
+			dependencies: ["7B8B96019707F940"]
+			id: "2D7E052B95EA49E1"
+			y: -2.0d
+			x: 0.0d
+		}
+	]
+}

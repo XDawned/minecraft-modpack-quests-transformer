@@ -1,0 +1,979 @@
+{
+	quest_links: [ ]
+	default_hide_dependency_lines: false
+	group: "269E1EFA0EF8FE1E"
+	id: "07EE779331388AF7"
+	filename: "all_the_artificats"
+	default_quest_shape: ""
+	icon: "artifacts:eternal_steak"
+	title: "所有饰品"
+	order_index: 4
+	quests: [
+		{
+			tasks: [{
+				id: "3EBC37FFF002A630"
+				type: "checkmark"
+				title: "你可以收集所有的物品"
+			}]
+			dependencies: ["105D595ADBD4A01F"]
+			id: "7D2D700999F7BD6B"
+			y: 0.0d
+			x: 0.0d
+			icon: "artifacts:eternal_steak"
+		}
+		{
+			tasks: [{
+				id: "6189DF12DFB6A095"
+				type: "item"
+				item: "artifacts:golden_hook"
+			}]
+			dependencies: ["7D2D700999F7BD6B"]
+			id: "1213CF62C8EBAE91"
+			y: -2.5d
+			x: -3.0d
+		}
+		{
+			tasks: [{
+				id: "2F50AED05C7FF3A8"
+				type: "item"
+				item: "artifacts:vampiric_glove"
+			}]
+			dependencies: ["7D2D700999F7BD6B"]
+			id: "2E272DD029D2B7CB"
+			y: -4.5d
+			x: -2.0d
+		}
+		{
+			tasks: [{
+				id: "24E472575E4EF833"
+				type: "item"
+				item: "artifacts:aqua_dashers"
+			}]
+			dependencies: ["7D2D700999F7BD6B"]
+			id: "0AFC7AB60CBC2387"
+			y: -3.5d
+			x: 1.0d
+		}
+		{
+			tasks: [{
+				id: "6AB7A9B89867D402"
+				type: "item"
+				item: "artifacts:bunny_hoppers"
+			}]
+			dependencies: ["7D2D700999F7BD6B"]
+			id: "7E297AA3B0A1D3DB"
+			y: -3.5d
+			x: 2.0d
+		}
+		{
+			tasks: [{
+				id: "5C9965AF8383929B"
+				type: "item"
+				item: "artifacts:kitty_slippers"
+			}]
+			dependencies: ["7D2D700999F7BD6B"]
+			id: "552472F1C537D53A"
+			y: -3.5d
+			x: 3.0d
+		}
+		{
+			tasks: [{
+				id: "332C2F20349C40B0"
+				type: "item"
+				item: "artifacts:running_shoes"
+			}]
+			dependencies: ["7D2D700999F7BD6B"]
+			id: "0EE9AEAA5C8AE179"
+			y: -2.5d
+			x: 1.0d
+		}
+		{
+			tasks: [{
+				id: "1D53584165DB9ADA"
+				type: "item"
+				item: "artifacts:steadfast_spikes"
+			}]
+			dependencies: ["7D2D700999F7BD6B"]
+			id: "6D2304031FA72B09"
+			y: -2.5d
+			x: 2.0d
+		}
+		{
+			tasks: [{
+				id: "6D8896E94DBA7799"
+				type: "item"
+				item: "artifacts:flippers"
+			}]
+			dependencies: ["7D2D700999F7BD6B"]
+			id: "0BBD076DA0C862C4"
+			y: -2.5d
+			x: 3.0d
+		}
+		{
+			tasks: [{
+				id: "50CE966ACF29AD26"
+				type: "item"
+				item: "artifacts:whoopee_cushion"
+			}]
+			dependencies: ["7D2D700999F7BD6B"]
+			id: "0E8491E090B73369"
+			y: 2.0d
+			x: 3.5d
+		}
+		{
+			tasks: [{
+				id: "0660B697382AA11E"
+				type: "item"
+				item: "artifacts:umbrella"
+			}]
+			dependencies: ["7D2D700999F7BD6B"]
+			id: "4DFA5A2AE96F8E4E"
+			y: 2.0d
+			x: -3.5d
+		}
+		{
+			tasks: [{
+				id: "295F1664C2DAA1BA"
+				type: "item"
+				item: "artifacts:everlasting_beef"
+			}]
+			dependencies: ["7D2D700999F7BD6B"]
+			id: "4EA7D14448EADD20"
+			y: 2.0d
+			x: 0.0d
+		}
+		{
+			tasks: [{
+				id: "2FD18DA6AEFA34BD"
+				type: "item"
+				item: "artifacts:plastic_drinking_hat"
+			}]
+			dependencies: ["7D2D700999F7BD6B"]
+			id: "71B97849948D3C1E"
+			y: -0.5d
+			x: -4.5d
+		}
+		{
+			tasks: [{
+				id: "267B6763569670E3"
+				type: "item"
+				item: "artifacts:novelty_drinking_hat"
+			}]
+			dependencies: ["7D2D700999F7BD6B"]
+			id: "4B9F482CFE66D2FA"
+			y: -0.5d
+			x: -3.5d
+		}
+		{
+			tasks: [{
+				id: "6238275E53EFEC35"
+				type: "item"
+				item: "artifacts:snorkel"
+			}]
+			dependencies: ["7D2D700999F7BD6B"]
+			id: "0B01F31469CA6400"
+			y: -0.5d
+			x: -2.5d
+		}
+		{
+			tasks: [{
+				id: "49980B4350B7D676"
+				type: "item"
+				item: "artifacts:night_vision_goggles"
+			}]
+			dependencies: ["7D2D700999F7BD6B"]
+			id: "27130F80A7ED1027"
+			y: 0.5d
+			x: -3.5d
+		}
+		{
+			tasks: [{
+				id: "64DAD5681BECB8CA"
+				type: "item"
+				item: "artifacts:villager_hat"
+			}]
+			dependencies: ["7D2D700999F7BD6B"]
+			id: "699F5C4B643D3204"
+			y: 0.5d
+			x: -4.5d
+		}
+		{
+			tasks: [{
+				id: "1EA4D99F16AA6230"
+				type: "item"
+				item: "artifacts:superstitious_hat"
+			}]
+			dependencies: ["7D2D700999F7BD6B"]
+			id: "3DA0AF7D603F52CD"
+			y: 0.5d
+			x: -2.5d
+		}
+		{
+			tasks: [{
+				id: "7701457E63E1AFCB"
+				type: "item"
+				item: "artifacts:lucky_scarf"
+			}]
+			dependencies: ["7D2D700999F7BD6B"]
+			id: "2E100DFA94A19AE3"
+			y: 3.5d
+			x: -1.5d
+		}
+		{
+			tasks: [{
+				id: "73E797B00C97BC23"
+				type: "item"
+				item: "artifacts:scarf_of_invisibility"
+			}]
+			dependencies: ["7D2D700999F7BD6B"]
+			id: "38B6DC9BEFBF1E6E"
+			y: 3.5d
+			x: -0.5d
+		}
+		{
+			tasks: [{
+				id: "62B26E6BBB81E474"
+				type: "item"
+				item: "artifacts:cross_necklace"
+			}]
+			dependencies: ["7D2D700999F7BD6B"]
+			id: "45A2FDF0604F3131"
+			y: 3.5d
+			x: 0.5d
+		}
+		{
+			tasks: [{
+				id: "7F5AEA92353CF0FD"
+				type: "item"
+				item: "artifacts:panic_necklace"
+			}]
+			dependencies: ["7D2D700999F7BD6B"]
+			id: "68D591B47002CF13"
+			y: 3.5d
+			x: 1.5d
+		}
+		{
+			tasks: [{
+				id: "5A57E94050F898F5"
+				type: "item"
+				item: "artifacts:shock_pendant"
+			}]
+			dependencies: ["7D2D700999F7BD6B"]
+			id: "127739DF7A985172"
+			y: 4.5d
+			x: -1.5d
+		}
+		{
+			tasks: [{
+				id: "01B58B63976F1022"
+				type: "item"
+				item: "artifacts:flame_pendant"
+			}]
+			dependencies: ["7D2D700999F7BD6B"]
+			id: "7C7AF9E5621681E8"
+			y: 4.5d
+			x: -0.5d
+		}
+		{
+			tasks: [{
+				id: "08518A3145A3570D"
+				type: "item"
+				item: "artifacts:thorn_pendant"
+			}]
+			dependencies: ["7D2D700999F7BD6B"]
+			id: "750288F9316C5950"
+			y: 4.5d
+			x: 0.5d
+		}
+		{
+			tasks: [{
+				id: "3E15E441997BEC44"
+				type: "item"
+				item: "artifacts:charm_of_sinking"
+			}]
+			dependencies: ["7D2D700999F7BD6B"]
+			id: "2E31B72E8753812A"
+			y: 4.5d
+			x: 1.5d
+		}
+		{
+			tasks: [{
+				id: "21928F2D8136C407"
+				type: "item"
+				item: "artifacts:cloud_in_a_bottle"
+			}]
+			dependencies: ["7D2D700999F7BD6B"]
+			id: "4342D83D1E8789F5"
+			y: -0.5d
+			x: 2.5d
+		}
+		{
+			tasks: [{
+				id: "39AF4C3EA075471F"
+				type: "item"
+				item: "artifacts:obsidian_skull"
+			}]
+			dependencies: ["7D2D700999F7BD6B"]
+			id: "2138E2329D6CC1B8"
+			y: -0.5d
+			x: 3.5d
+		}
+		{
+			tasks: [{
+				id: "4DE4EFC68E5B87C2"
+				type: "item"
+				item: "artifacts:antidote_vessel"
+			}]
+			dependencies: ["7D2D700999F7BD6B"]
+			id: "0611C48F1F5444AC"
+			y: -0.5d
+			x: 4.5d
+		}
+		{
+			tasks: [{
+				id: "35DF5F89C49D283F"
+				type: "item"
+				item: "artifacts:universal_attractor"
+			}]
+			dependencies: ["7D2D700999F7BD6B"]
+			id: "18ACE6D42AC0F406"
+			y: 0.5d
+			x: 2.5d
+		}
+		{
+			tasks: [{
+				id: "4D4C17F16A1DF369"
+				type: "item"
+				item: "artifacts:crystal_heart"
+			}]
+			dependencies: ["7D2D700999F7BD6B"]
+			id: "58135CECCB6F82CB"
+			y: 0.5d
+			x: 3.5d
+		}
+		{
+			tasks: [{
+				id: "559B43923DD12985"
+				type: "item"
+				item: "artifacts:helium_flamingo"
+			}]
+			dependencies: ["7D2D700999F7BD6B"]
+			id: "391AC74141A17CE2"
+			y: 0.5d
+			x: 4.5d
+		}
+		{
+			tasks: [{
+				id: "482ADE9356452B88"
+				type: "item"
+				item: "artifacts:digging_claws"
+			}]
+			dependencies: ["7D2D700999F7BD6B"]
+			id: "197161CEE5A6D3A9"
+			y: -2.5d
+			x: -1.0d
+		}
+		{
+			tasks: [{
+				id: "495BF8B4D9919BEF"
+				type: "item"
+				item: "artifacts:feral_claws"
+			}]
+			dependencies: ["7D2D700999F7BD6B"]
+			id: "762EE3AB972D60C6"
+			y: -2.5d
+			x: -2.0d
+		}
+		{
+			tasks: [{
+				id: "7F74772E5DDC3A36"
+				type: "item"
+				item: "artifacts:power_glove"
+			}]
+			dependencies: ["7D2D700999F7BD6B"]
+			id: "2099A7C6AD589688"
+			y: -3.5d
+			x: -2.0d
+		}
+		{
+			tasks: [{
+				id: "547171F8C428ACB8"
+				type: "item"
+				item: "artifacts:fire_gauntlet"
+			}]
+			dependencies: ["7D2D700999F7BD6B"]
+			id: "2D19611DC869B426"
+			y: -3.5d
+			x: -1.0d
+		}
+		{
+			tasks: [{
+				id: "4CBE3646922F3608"
+				type: "item"
+				item: "artifacts:pocket_piston"
+			}]
+			dependencies: ["7D2D700999F7BD6B"]
+			id: "7B1D0DE39D80F56A"
+			y: -3.5d
+			x: -3.0d
+		}
+		{
+			tasks: [{
+				id: "04B34EE768892348"
+				type: "item"
+				item: {
+					id: "cyclic:charm_longfall"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			dependencies: ["7D2D700999F7BD6B"]
+			id: "01DF4C03692A2743"
+			y: 3.5d
+			x: -8.0d
+		}
+		{
+			tasks: [{
+				id: "23CC1DDF9D1049C4"
+				type: "item"
+				item: {
+					id: "cyclic:charm_creeper"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			dependencies: ["7D2D700999F7BD6B"]
+			id: "5FD34495B7836938"
+			y: 3.5d
+			x: -7.0d
+		}
+		{
+			tasks: [{
+				id: "4BA3AAC2F4659758"
+				type: "item"
+				item: {
+					id: "cyclic:charm_stone"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			dependencies: ["7D2D700999F7BD6B"]
+			id: "2748940CAAC0DFCF"
+			y: 3.5d
+			x: -6.0d
+		}
+		{
+			tasks: [{
+				id: "6A24BD8FE65C2324"
+				type: "item"
+				item: "cyclic:charm_stealthpotion"
+			}]
+			dependencies: ["7D2D700999F7BD6B"]
+			id: "561E6F26A989FEAD"
+			y: 3.5d
+			x: -5.0d
+		}
+		{
+			tasks: [{
+				id: "4C292574C07AE234"
+				type: "item"
+				item: {
+					id: "cyclic:charm_antipotion"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			dependencies: ["7D2D700999F7BD6B"]
+			id: "42B4D316DCBC415F"
+			y: 3.5d
+			x: -4.0d
+		}
+		{
+			tasks: [{
+				id: "02D92E5753097699"
+				type: "item"
+				item: {
+					id: "cyclic:charm_boostpotion"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			dependencies: ["7D2D700999F7BD6B"]
+			id: "3B5ABFA277FA5C1F"
+			y: 3.5d
+			x: 6.0d
+		}
+		{
+			tasks: [{
+				id: "7D4D1810F3066C9A"
+				type: "item"
+				item: {
+					id: "cyclic:charm_crit"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			dependencies: ["7D2D700999F7BD6B"]
+			id: "243830E831347419"
+			y: 4.5d
+			x: 7.5d
+		}
+		{
+			tasks: [{
+				id: "787F8A4385F21D5C"
+				type: "item"
+				item: {
+					id: "cyclic:quiver_damage"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			dependencies: ["7D2D700999F7BD6B"]
+			id: "38AB5B4FEDB2F067"
+			y: 3.5d
+			x: 8.0d
+		}
+		{
+			tasks: [{
+				id: "0485BD3126EE3C7E"
+				type: "item"
+				item: {
+					id: "cyclic:quiver_lightning"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			dependencies: ["7D2D700999F7BD6B"]
+			id: "34D908072123236C"
+			y: 3.5d
+			x: 7.0d
+		}
+		{
+			tasks: [{
+				id: "0B1B35355107AA40"
+				type: "item"
+				item: "cyclic:charm_xp_blocker"
+			}]
+			dependencies: ["7D2D700999F7BD6B"]
+			id: "127CBBED8281F97A"
+			y: 4.5d
+			x: -7.5d
+		}
+		{
+			tasks: [{
+				id: "4888A28F4104187B"
+				type: "item"
+				item: "cyclic:charm_xp_speed"
+			}]
+			dependencies: ["7D2D700999F7BD6B"]
+			id: "2BBE2579FB88CB72"
+			y: 4.5d
+			x: -6.5d
+		}
+		{
+			tasks: [{
+				id: "56C2CED25CB8155F"
+				type: "item"
+				item: {
+					id: "cyclic:charm_attack_speed"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			dependencies: ["7D2D700999F7BD6B"]
+			id: "6E8A897A6510247E"
+			y: 4.5d
+			x: -5.5d
+		}
+		{
+			tasks: [{
+				id: "3EFE8BF1C993558B"
+				type: "item"
+				item: {
+					id: "cyclic:charm_luck"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			dependencies: ["7D2D700999F7BD6B"]
+			id: "08D98748E85DA0BD"
+			y: 4.5d
+			x: -4.5d
+		}
+		{
+			tasks: [{
+				id: "3214EE1A1B12D79B"
+				type: "item"
+				item: {
+					id: "cyclic:charm_knockback_resistance"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			dependencies: ["7D2D700999F7BD6B"]
+			id: "5E71E742BE77F394"
+			y: 4.5d
+			x: -3.5d
+		}
+		{
+			tasks: [{
+				id: "359572DB7A8F531D"
+				type: "item"
+				item: {
+					id: "cyclic:charm_speed"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			dependencies: ["7D2D700999F7BD6B"]
+			id: "18881A969205D601"
+			y: 4.5d
+			x: 3.5d
+		}
+		{
+			tasks: [{
+				id: "2DA058A3C0146E55"
+				type: "item"
+				item: {
+					id: "cyclic:charm_water"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			dependencies: ["7D2D700999F7BD6B"]
+			id: "6F4551AB1E62C8F0"
+			y: 4.5d
+			x: 4.5d
+		}
+		{
+			tasks: [{
+				id: "7499D02D73D20C00"
+				type: "item"
+				item: {
+					id: "cyclic:charm_venom"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			dependencies: ["7D2D700999F7BD6B"]
+			id: "40E44AE0199A716F"
+			y: 4.5d
+			x: 5.5d
+		}
+		{
+			tasks: [{
+				id: "0EDFCA4F92FB5A7D"
+				type: "item"
+				item: {
+					id: "cyclic:charm_magicdefense"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			dependencies: ["7D2D700999F7BD6B"]
+			id: "6C6B0FE25707597D"
+			y: 4.5d
+			x: 6.5d
+		}
+		{
+			tasks: [{
+				id: "4D63BF76B4C93A58"
+				type: "item"
+				item: {
+					id: "cyclic:charm_invisible"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			dependencies: ["7D2D700999F7BD6B"]
+			id: "2D76FAEF9C9CBA47"
+			y: 3.5d
+			x: 4.0d
+		}
+		{
+			tasks: [{
+				id: "506C6DDEA66092E3"
+				type: "item"
+				item: {
+					id: "cyclic:charm_starvation"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			dependencies: ["7D2D700999F7BD6B"]
+			id: "6935735B9FDDE465"
+			y: 3.5d
+			x: 5.0d
+		}
+		{
+			tasks: [{
+				id: "3E36490D3212C0C2"
+				type: "item"
+				item: {
+					id: "minecraft:elytra"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			dependencies: ["7D2D700999F7BD6B"]
+			id: "24170E0294E11EA6"
+			y: -5.0d
+			x: -4.0d
+		}
+		{
+			tasks: [{
+				id: "2A5F2EF3975E70AA"
+				type: "item"
+				item: "minecraft:totem_of_undying"
+			}]
+			dependencies: ["7D2D700999F7BD6B"]
+			id: "1EC7BAF235314587"
+			y: -6.0d
+			x: -3.0d
+		}
+		{
+			tasks: [{
+				id: "4EF9662AF33F4C89"
+				type: "item"
+				item: "darkutils:charm_portal"
+			}]
+			dependencies: ["7D2D700999F7BD6B"]
+			id: "4DE4B80832CE53AD"
+			y: -6.0d
+			x: -1.0d
+		}
+		{
+			tasks: [{
+				id: "1A3E6768A7BB140B"
+				type: "item"
+				item: "darkutils:charm_sleep"
+			}]
+			dependencies: ["7D2D700999F7BD6B"]
+			id: "46C2A8F0713F0153"
+			y: -6.0d
+			x: 1.0d
+		}
+		{
+			tasks: [{
+				id: "317A26F705CC611B"
+				type: "item"
+				item: "darkutils:charm_warding"
+			}]
+			dependencies: ["7D2D700999F7BD6B"]
+			id: "020519E1610CA214"
+			y: -6.0d
+			x: 0.0d
+		}
+		{
+			tasks: [{
+				id: "14CF492C76DA0F17"
+				type: "item"
+				item: "reliquary:fortune_coin"
+			}]
+			dependencies: ["7D2D700999F7BD6B"]
+			id: "73D6B733276EE43B"
+			y: -6.0d
+			x: 3.0d
+		}
+		{
+			tasks: [{
+				id: "3DA3CEC418EDB405"
+				type: "item"
+				item: "reliquary:twilight_cloak"
+			}]
+			dependencies: ["7D2D700999F7BD6B"]
+			id: "67F3EE612A98DE12"
+			y: -5.0d
+			x: 4.0d
+		}
+		{
+			tasks: [{
+				id: "5C508D1460672D00"
+				type: "item"
+				item: {
+					id: "cyclic:charm_wing"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			dependencies: ["7D2D700999F7BD6B"]
+			id: "3C72B8B4A8AD58CD"
+			y: 5.5d
+			x: -3.0d
+		}
+		{
+			tasks: [{
+				id: "2F2AE28AB0342CBC"
+				type: "item"
+				item: {
+					id: "cyclic:antigravity"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			dependencies: ["7D2D700999F7BD6B"]
+			id: "2DD905C0B669DA7A"
+			y: 5.5d
+			x: 3.0d
+		}
+		{
+			tasks: [{
+				id: "1326C57915AEB81D"
+				type: "item"
+				item: {
+					id: "cyclic:charm_void"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			dependencies: ["7D2D700999F7BD6B"]
+			id: "5275E70921B25B25"
+			y: 5.5d
+			x: 4.0d
+		}
+		{
+			tasks: [{
+				id: "1D49A687C8B76ACA"
+				type: "item"
+				item: {
+					id: "cyclic:charm_antidote"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			dependencies: ["7D2D700999F7BD6B"]
+			id: "2436974BF03CE1AA"
+			y: 5.5d
+			x: 5.0d
+		}
+		{
+			tasks: [{
+				id: "77A6A4B7ADDB44EF"
+				type: "item"
+				item: {
+					id: "cyclic:charm_fire"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			dependencies: ["7D2D700999F7BD6B"]
+			id: "0E2F3A7DABB3E4CE"
+			y: 5.5d
+			x: 6.0d
+		}
+		{
+			tasks: [{
+				id: "6F4BDE8BAF1D2FB1"
+				type: "item"
+				item: {
+					id: "cyclic:charm_wither"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			dependencies: ["7D2D700999F7BD6B"]
+			id: "250CD0B0B023005A"
+			y: 5.5d
+			x: 7.0d
+		}
+		{
+			tasks: [{
+				id: "4C7EECE7DAA72585"
+				type: "item"
+				item: {
+					id: "cyclic:charm_ultimate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			dependencies: ["7D2D700999F7BD6B"]
+			id: "1317E49C079A24E9"
+			y: 5.5d
+			x: 8.0d
+		}
+		{
+			tasks: [{
+				id: "778E7BB2FB861E40"
+				type: "item"
+				item: {
+					id: "cyclic:flippers"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			dependencies: ["7D2D700999F7BD6B"]
+			id: "220DE29044782118"
+			y: 5.5d
+			x: -4.0d
+		}
+		{
+			tasks: [{
+				id: "6703080D34F99061"
+				type: "item"
+				item: {
+					id: "cyclic:glove_climb"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			dependencies: ["7D2D700999F7BD6B"]
+			id: "37C92B90955F3A4C"
+			y: 5.5d
+			x: -5.0d
+		}
+	]
+}

@@ -1,0 +1,382 @@
+{
+	quest_links: [ ]
+	default_hide_dependency_lines: false
+	group: "26B45D9099BEACEA"
+	id: "4B33933B531E2D1F"
+	filename: "power_tier_1"
+	default_quest_shape: "square"
+	icon: "minecraft:redstone_block"
+	title: "能量阶段1"
+	order_index: 4
+	quests: [
+		{
+			tasks: [{
+				id: "4CFDAF19A95FC457"
+				type: "checkmark"
+				title: "更多能量"
+			}]
+			dependencies: ["7B37DCCC3903A23F"]
+			id: "3C3A679B8B4729A6"
+			y: 0.0d
+			x: -1.0d
+		}
+		{
+			tasks: [{
+				id: "73304798F1995B6D"
+				type: "checkmark"
+				title: "解锁能量阶段2"
+			}]
+			dependency_requirement: "one_completed"
+			dependencies: [
+				"64D2C4DDDC06B709"
+				"47191E291083220C"
+				"0F1A8B2C9DF1A64B"
+			]
+			id: "07A811F8E5AA598C"
+			y: 0.0d
+			x: 6.0d
+		}
+		{
+			tasks: [{
+				id: "20E7E70FF499DBDD"
+				type: "item"
+				item: "irongenerators:dirt_generator"
+			}]
+			dependencies: ["3C3A679B8B4729A6"]
+			id: "49714484D2E64A17"
+			y: -2.0d
+			x: -1.5d
+		}
+		{
+			tasks: [{
+				id: "690999AAAF0F9E69"
+				type: "item"
+				item: "irongenerators:stone_generator"
+			}]
+			dependencies: ["49714484D2E64A17"]
+			id: "513F60ED757EB7BD"
+			y: -2.0d
+			x: -0.5d
+		}
+		{
+			tasks: [{
+				id: "55CD13E0EA62ED0F"
+				type: "item"
+				item: "irongenerators:netherrack_generator"
+			}]
+			dependencies: ["513F60ED757EB7BD"]
+			id: "74436AF98E1DDBF6"
+			y: -2.0d
+			x: 0.5d
+		}
+		{
+			tasks: [{
+				id: "7D47CB6052FD57A0"
+				type: "item"
+				item: "irongenerators:certus_quartz_generator"
+			}]
+			dependencies: ["3962024A4AB5A3B3"]
+			id: "45A83D41B7D02157"
+			y: -2.0d
+			x: 2.5d
+		}
+		{
+			tasks: [{
+				id: "08FCF3F5974579E3"
+				type: "item"
+				item: "irongenerators:skystone_generator"
+			}]
+			dependencies: ["74436AF98E1DDBF6"]
+			id: "3962024A4AB5A3B3"
+			y: -2.0d
+			x: 1.5d
+		}
+		{
+			tasks: [{
+				id: "1B31111CC69FD857"
+				type: "item"
+				item: "irongenerators:iron_generator"
+			}]
+			dependencies: ["45A83D41B7D02157"]
+			id: "20B57EA26EABE19C"
+			y: -2.0d
+			x: 3.5d
+		}
+		{
+			tasks: [{
+				id: "592F4D648AF6818D"
+				type: "item"
+				item: "irongenerators:lead_generator"
+			}]
+			dependencies: ["20B57EA26EABE19C"]
+			id: "3B57C155DC4120FD"
+			y: -3.0d
+			x: 3.0d
+		}
+		{
+			tasks: [{
+				id: "06652E5AF4D0A44B"
+				type: "item"
+				item: "irongenerators:copper_generator"
+			}]
+			dependencies: ["3B57C155DC4120FD"]
+			id: "3A79E3E72D75D8C2"
+			y: -3.0d
+			x: 2.0d
+		}
+		{
+			tasks: [{
+				id: "10A79D0F003A5DF3"
+				type: "item"
+				item: "irongenerators:bronze_generator"
+			}]
+			dependencies: ["3A79E3E72D75D8C2"]
+			id: "09B518FF154274B7"
+			y: -3.0d
+			x: 1.0d
+		}
+		{
+			tasks: [{
+				id: "2E0FB1596C9D824C"
+				type: "item"
+				item: "irongenerators:tin_generator"
+			}]
+			dependencies: ["09B518FF154274B7"]
+			id: "4308140DF7CEEAAF"
+			y: -3.0d
+			x: 0.0d
+		}
+		{
+			tasks: [{
+				id: "4ADD46349C92C34B"
+				type: "item"
+				item: "irongenerators:gold_generator"
+			}]
+			dependencies: ["4308140DF7CEEAAF"]
+			id: "3F0E101A6EAF59DA"
+			y: -4.0d
+			x: 0.5d
+		}
+		{
+			tasks: [{
+				id: "6E657B7512FC1FDB"
+				type: "item"
+				item: "irongenerators:osmium_generator"
+			}]
+			dependencies: ["3F0E101A6EAF59DA"]
+			id: "437BC3E40B66D786"
+			y: -4.0d
+			x: 1.5d
+		}
+		{
+			tasks: [{
+				id: "79986C806A73E890"
+				type: "item"
+				item: "irongenerators:quartz_enriched_iron_generator"
+			}]
+			dependencies: ["437BC3E40B66D786"]
+			id: "5CB829B46B8128C1"
+			y: -4.0d
+			x: 2.5d
+		}
+		{
+			tasks: [{
+				id: "331CD74988CAD3EC"
+				type: "item"
+				item: "irongenerators:invar_generator"
+			}]
+			dependencies: ["5CB829B46B8128C1"]
+			id: "64D2C4DDDC06B709"
+			y: -4.0d
+			x: 3.5d
+		}
+		{
+			tasks: [{
+				id: "59AD9E8DA127CC95"
+				type: "item"
+				item: "solarflux:sp_1"
+			}]
+			dependencies: ["3C3A679B8B4729A6"]
+			id: "6CA43372B139BEB2"
+			y: -0.5d
+			x: 1.5d
+		}
+		{
+			tasks: [{
+				id: "77D700F341565345"
+				type: "item"
+				item: "solarflux:sp_2"
+			}]
+			dependencies: ["6CA43372B139BEB2"]
+			id: "79A54043D0A35AB6"
+			y: -0.5d
+			x: 2.5d
+		}
+		{
+			tasks: [{
+				id: "109DF0B8FA8D5251"
+				type: "item"
+				item: "solarflux:sp_3"
+			}]
+			dependencies: ["79A54043D0A35AB6"]
+			id: "3A99EEF7708B678E"
+			y: -0.5d
+			x: 3.5d
+		}
+		{
+			tasks: [{
+				id: "7990AF5B18BB850E"
+				type: "item"
+				item: "solarflux:sp_4"
+			}]
+			dependencies: ["3A99EEF7708B678E"]
+			id: "47191E291083220C"
+			y: -0.5d
+			x: 4.5d
+		}
+		{
+			tasks: [{
+				id: "1C5194D6AF1DF87B"
+				type: "item"
+				item: "solargeneration:solar_panel_leadstone"
+			}]
+			dependencies: ["3C3A679B8B4729A6"]
+			id: "526A86069262D68E"
+			y: 0.5d
+			x: 1.5d
+		}
+		{
+			tasks: [{
+				id: "6060298BED718DAA"
+				type: "item"
+				item: "solargeneration:solar_panel_hardened"
+			}]
+			dependencies: ["526A86069262D68E"]
+			id: "55267471E79DB75D"
+			y: 0.5d
+			x: 2.5d
+		}
+		{
+			tasks: [{
+				id: "1005EE74655825F6"
+				type: "item"
+				item: "solargeneration:solar_panel_redstone"
+			}]
+			dependencies: ["55267471E79DB75D"]
+			id: "0F1A8B2C9DF1A64B"
+			y: 0.5d
+			x: 3.5d
+		}
+		{
+			tasks: [{
+				id: "3E9BD8E5CC502390"
+				type: "item"
+				item: "cyclic:generator_fuel"
+			}]
+			dependencies: ["3C3A679B8B4729A6"]
+			id: "07E3F876608674F9"
+			y: 1.5d
+			x: -3.0d
+		}
+		{
+			tasks: [{
+				id: "62626FFD14739840"
+				type: "item"
+				item: "cyclic:generator_food"
+			}]
+			dependencies: ["3C3A679B8B4729A6"]
+			id: "5A7BA6B5BC79374C"
+			y: 1.5d
+			x: -2.0d
+		}
+		{
+			tasks: [{
+				id: "306DA107AAEDF691"
+				type: "item"
+				item: "cyclic:generator_fluid"
+			}]
+			dependencies: ["3C3A679B8B4729A6"]
+			id: "44E8A9FB6E46EB5D"
+			y: 1.5d
+			x: -1.0d
+		}
+		{
+			tasks: [{
+				id: "6BBCAAA686EB6AB5"
+				type: "item"
+				item: "cyclic:generator_item"
+			}]
+			dependencies: ["3C3A679B8B4729A6"]
+			id: "0954253222A9AE7E"
+			y: 1.5d
+			x: 0.0d
+		}
+		{
+			x: -4.5d
+			y: 0.0d
+			id: "569D5C2F7B02E9E9"
+			tasks: [{
+				id: "7368376EE434E88E"
+				type: "item"
+				item: {
+					id: "cyclic:battery"
+					Count: 1b
+					tag: {
+						energyttmax: 6400000
+						energytt: 0
+					}
+					ForgeCaps: {
+						Parent: {
+							energy: {
+								energy: 0
+							}
+						}
+					}
+				}
+			}]
+		}
+		{
+			tasks: [{
+				id: "41B97CD2DA2B6FAD"
+				type: "item"
+				item: "industrialforegoing:pitiful_generator"
+			}]
+			dependencies: ["3C3A679B8B4729A6"]
+			id: "5665FBBC31C4A8BC"
+			y: -1.5d
+			x: -3.5d
+		}
+		{
+			tasks: [{
+				id: "71E5BD1DFA537AC1"
+				type: "item"
+				item: "industrialforegoing:biofuel_generator"
+			}]
+			dependencies: ["5665FBBC31C4A8BC"]
+			id: "6D18332D34370786"
+			y: -1.5d
+			x: -4.5d
+		}
+		{
+			tasks: [{
+				id: "772B61581C065FFE"
+				type: "item"
+				item: {
+					id: "cyclic:battery_clay"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							energy: {
+								energy: 0
+							}
+						}
+					}
+				}
+			}]
+			dependencies: ["3C3A679B8B4729A6"]
+			id: "19154AD47EE30804"
+			y: 0.0d
+			x: -3.5d
+		}
+	]
+}

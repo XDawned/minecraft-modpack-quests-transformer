@@ -1,0 +1,1792 @@
+{
+	quest_links: [ ]
+	default_hide_dependency_lines: false
+	group: "26B45D9099BEACEA"
+	id: "016FEDDFC130B138"
+	filename: "thermal_series"
+	default_quest_shape: ""
+	icon: "thermal:wrench"
+	title: "Thermal Series"
+	order_index: 2
+	quests: [
+		{
+			tasks: [{
+				id: "52082F26A412F9D7"
+				type: "checkmark"
+				title: "Need to go Faster"
+			}]
+			dependencies: ["672E9FDCC8C1B363"]
+			id: "2315AEC53A313A0A"
+			y: -3.5d
+			x: 0.0d
+			rewards: [{
+				id: "7D40471C8561CE22"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "thermal:guidebook"
+					}
+				}
+			}]
+		}
+		{
+			tasks: [{
+				id: "53F51EA9A01D3D0B"
+				type: "checkmark"
+				title: "Unlocks Mekanism"
+			}]
+			dependencies: ["4354AAE454969D9D"]
+			id: "619C48554E4197CB"
+			y: 6.0d
+			x: 4.5d
+		}
+		{
+			tasks: [{
+				id: "761A3E79D5DA370F"
+				type: "item"
+				item: {
+					id: "thermal:flux_capacitor"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			dependencies: ["0F4AB1E1344930FD"]
+			id: "0EE05B0398083AC2"
+			y: -6.0d
+			x: 0.0d
+		}
+		{
+			tasks: [{
+				id: "31D7C555DBBA96BA"
+				type: "item"
+				item: {
+					id: "thermal:flux_magnet"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			dependencies: ["0F4AB1E1344930FD"]
+			id: "427FFDA30F43E000"
+			y: -6.0d
+			x: 1.0d
+		}
+		{
+			tasks: [{
+				id: "29E60277A0C0183D"
+				type: "item"
+				item: {
+					id: "thermal:fluid_reservoir"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			dependencies: ["6A1B058E4D44A2E4"]
+			id: "0F6A9140F849302F"
+			y: -6.0d
+			x: -1.5d
+		}
+		{
+			tasks: [{
+				id: "5617F8EB10379116"
+				type: "item"
+				item: "thermal:machine_furnace"
+			}]
+			dependencies: ["4271ED40A666077A"]
+			id: "2376176EEE6BD2E2"
+			y: 0.5d
+			x: 0.0d
+		}
+		{
+			tasks: [{
+				id: "7BC5959841FA806E"
+				type: "item"
+				item: "thermal:machine_sawmill"
+			}]
+			dependencies: ["4271ED40A666077A"]
+			id: "34018E3E02BBA216"
+			y: 1.5d
+			x: -2.0d
+		}
+		{
+			tasks: [{
+				id: "51A58D911D52B7B7"
+				type: "item"
+				item: "thermal:machine_pulverizer"
+			}]
+			dependencies: ["4271ED40A666077A"]
+			id: "31D6461145546FFA"
+			y: 0.5d
+			x: -1.0d
+		}
+		{
+			tasks: [{
+				id: "40B58B309E9B89E4"
+				type: "item"
+				item: "thermal:machine_smelter"
+			}]
+			dependencies: ["4271ED40A666077A"]
+			id: "2A112F992E465D80"
+			y: 0.5d
+			x: 1.0d
+		}
+		{
+			tasks: [{
+				id: "29476E2A92FD80A2"
+				type: "item"
+				item: "thermal:machine_insolator"
+			}]
+			dependencies: ["4271ED40A666077A"]
+			id: "171DFCCD28754DA7"
+			y: 2.5d
+			x: -2.0d
+		}
+		{
+			tasks: [{
+				id: "6D9DA2E9A5E50EEF"
+				type: "item"
+				item: "thermal:machine_centrifuge"
+			}]
+			dependencies: ["4271ED40A666077A"]
+			id: "3E0E2A5624B73E79"
+			y: 2.5d
+			x: -1.0d
+		}
+		{
+			tasks: [{
+				id: "3768A47295EDE33C"
+				type: "item"
+				item: "thermal:machine_press"
+			}]
+			dependencies: ["4271ED40A666077A"]
+			id: "0BACE35547EE16E7"
+			y: -0.5d
+			x: 0.0d
+		}
+		{
+			tasks: [{
+				id: "32DA1BEA6A616FDB"
+				type: "item"
+				item: "thermal:machine_crucible"
+			}]
+			dependencies: ["4271ED40A666077A"]
+			id: "252880F90AE18B34"
+			y: 1.5d
+			x: 2.0d
+		}
+		{
+			tasks: [{
+				id: "2CEF62578C24EBD7"
+				type: "item"
+				item: "thermal:machine_chiller"
+			}]
+			dependencies: ["4271ED40A666077A"]
+			id: "7D194CAE4DCB73C8"
+			y: 1.5d
+			x: -1.0d
+		}
+		{
+			tasks: [{
+				id: "03D1066A0C454D10"
+				type: "item"
+				item: "thermal:machine_refinery"
+			}]
+			dependencies: ["4271ED40A666077A"]
+			id: "37C72BFEB2ABB500"
+			y: 1.5d
+			x: 0.0d
+		}
+		{
+			tasks: [{
+				id: "334CDBB155A4B99A"
+				type: "item"
+				item: "thermal:machine_pyrolyzer"
+			}]
+			dependencies: ["4271ED40A666077A"]
+			id: "6ACE3D531E4E90FA"
+			y: 2.5d
+			x: 0.0d
+		}
+		{
+			tasks: [{
+				id: "0EF245A1E6FC2A6A"
+				type: "item"
+				item: "thermal:machine_bottler"
+			}]
+			dependencies: ["4271ED40A666077A"]
+			id: "7243DDDD1C7BA5A2"
+			y: 2.5d
+			x: 1.0d
+		}
+		{
+			tasks: [{
+				id: "5EA7E183358051B8"
+				type: "item"
+				item: "thermal:machine_brewer"
+			}]
+			dependencies: ["4271ED40A666077A"]
+			id: "229ADC16DCEB433F"
+			y: 1.5d
+			x: 1.0d
+		}
+		{
+			tasks: [{
+				id: "3EF7FB4B8A4674AF"
+				type: "item"
+				item: "thermal:machine_crafter"
+			}]
+			dependencies: ["4271ED40A666077A"]
+			id: "5D87B8478A70BED4"
+			y: 2.5d
+			x: 2.0d
+		}
+		{
+			tasks: [{
+				id: "69FA101BC4B8F977"
+				type: "item"
+				item: "thermal:device_water_gen"
+			}]
+			dependencies: ["6A1B058E4D44A2E4"]
+			id: "41D8890FFDD2F60A"
+			y: -7.0d
+			x: -2.5d
+		}
+		{
+			tasks: [{
+				id: "3785F809E0F80115"
+				type: "item"
+				item: "thermal:device_rock_gen"
+			}]
+			dependencies: ["6A1B058E4D44A2E4"]
+			id: "07E870BBCB5764C0"
+			y: -6.0d
+			x: -3.5d
+		}
+		{
+			tasks: [{
+				id: "44005E1E048EDC9D"
+				type: "item"
+				item: {
+					id: "thermal:energy_cell"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							EnergyMax: 1000000
+							EnergySend: 1000
+							Energy: 0
+							EnergyRecv: 1000
+						}
+					}
+				}
+			}]
+			dependencies: ["081C698651D54945"]
+			id: "519F302EDCB6D138"
+			y: -2.5d
+			x: 3.0d
+		}
+		{
+			tasks: [{
+				id: "579C150111860F16"
+				type: "item"
+				item: {
+					id: "thermal:fluid_cell"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							TankInv: [{
+								FluidName: "minecraft:empty"
+								Tank: 0b
+								Capacity: 32000
+								Amount: 0
+							}]
+						}
+					}
+				}
+			}]
+			dependencies: ["5617AC8FD95081DD"]
+			id: "39D584F7AB935889"
+			y: -3.5d
+			x: 3.0d
+		}
+		{
+			tasks: [{
+				id: "6793E84F49B2BC48"
+				type: "item"
+				item: "thermal:device_collector"
+			}]
+			dependencies: ["6A1B058E4D44A2E4"]
+			id: "6F7C20296CF9432A"
+			y: -6.0d
+			x: -2.5d
+		}
+		{
+			tasks: [{
+				id: "03BB93701821DDE1"
+				type: "item"
+				item: "thermal:upgrade_augment_1"
+			}]
+			dependencies: [
+				"5B6E6DAE233A040F"
+				"24AA1A433DB4C88C"
+			]
+			id: "15B8808059F51D3E"
+			y: 0.0d
+			x: 5.5d
+		}
+		{
+			tasks: [{
+				id: "45ECEDE6A7C43A9B"
+				type: "item"
+				item: "thermal:upgrade_augment_2"
+			}]
+			dependencies: [
+				"75410BEDE4B0C717"
+				"1CFA38B6086BF173"
+			]
+			id: "3D280C61D117CDDE"
+			y: 2.0d
+			x: 5.5d
+		}
+		{
+			tasks: [{
+				id: "183882CAC839D1E4"
+				type: "item"
+				item: "thermal:upgrade_augment_3"
+			}]
+			dependencies: [
+				"4354AAE454969D9D"
+				"015BB336C7B92F2A"
+			]
+			id: "3CDCB3E599A3320C"
+			y: 4.0d
+			x: 5.5d
+		}
+		{
+			tasks: [{
+				id: "65FC63AF3314CEE3"
+				type: "kill"
+				entity: "thermal:blitz"
+				value: 16L
+			}]
+			dependencies: ["2315AEC53A313A0A"]
+			id: "65988763CB152870"
+			y: -3.0d
+			x: -4.0d
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "ftbchunks:textures/faces/thermal/blitz.png"
+				}
+			}
+		}
+		{
+			tasks: [{
+				id: "3E2459EF33E57346"
+				type: "kill"
+				entity: "thermal:basalz"
+				value: 16L
+			}]
+			dependencies: ["2315AEC53A313A0A"]
+			id: "6295E99E69C42D76"
+			y: -4.0d
+			x: -4.0d
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "ftbchunks:textures/faces/thermal/basalz.png"
+				}
+			}
+		}
+		{
+			tasks: [{
+				id: "1E1A5BF4EC850A2C"
+				type: "kill"
+				entity: "thermal:blizz"
+				value: 16L
+			}]
+			dependencies: ["2315AEC53A313A0A"]
+			id: "6909E6563F0559DC"
+			y: -5.0d
+			x: -4.0d
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "ftbchunks:textures/faces/thermal/blizz.png"
+				}
+			}
+		}
+		{
+			tasks: [{
+				id: "065A9D369B8EAD9D"
+				type: "item"
+				item: "thermal:basalz_rod"
+			}]
+			dependencies: ["6295E99E69C42D76"]
+			id: "5302A7DEE5A969E2"
+			y: -4.0d
+			x: -5.0d
+		}
+		{
+			tasks: [{
+				id: "5FE3CA671747577A"
+				type: "item"
+				item: "thermal:blitz_rod"
+			}]
+			dependencies: ["65988763CB152870"]
+			id: "6DA8BD50571144BA"
+			y: -3.0d
+			x: -5.0d
+		}
+		{
+			tasks: [{
+				id: "6F7FAF19E37BA3A6"
+				type: "item"
+				item: "thermal:blizz_rod"
+			}]
+			dependencies: ["6909E6563F0559DC"]
+			id: "4B7D6D90562A61E6"
+			y: -5.0d
+			x: -5.0d
+		}
+		{
+			tasks: [{
+				id: "3A97D8EC4CE7187C"
+				type: "item"
+				item: "thermal:dynamo_gourmand"
+			}]
+			dependencies: ["0F4AB1E1344930FD"]
+			id: "3D4EBDF4847CF510"
+			y: -4.5d
+			x: 4.0d
+		}
+		{
+			tasks: [{
+				id: "4A11403EA491B65E"
+				type: "item"
+				item: "thermal:dynamo_disenchantment"
+			}]
+			dependencies: ["0F4AB1E1344930FD"]
+			id: "4912BF2D1ED0831B"
+			y: -7.5d
+			x: 4.0d
+		}
+		{
+			tasks: [{
+				id: "2BDD260164FF38F3"
+				type: "item"
+				item: "thermal:dynamo_lapidary"
+			}]
+			dependencies: ["0F4AB1E1344930FD"]
+			id: "2330446082DC3475"
+			y: -5.5d
+			x: 4.0d
+		}
+		{
+			tasks: [{
+				id: "3ADBD0A68EE26277"
+				type: "item"
+				item: "thermal:dynamo_numismatic"
+			}]
+			dependencies: ["0F4AB1E1344930FD"]
+			id: "1186976A4F068752"
+			y: -6.5d
+			x: 4.0d
+		}
+		{
+			tasks: [{
+				id: "7FF02BC0A56B806E"
+				type: "item"
+				item: "thermal:dynamo_magmatic"
+			}]
+			dependencies: ["0F4AB1E1344930FD"]
+			id: "5C7E86571D24CF4E"
+			y: -6.5d
+			x: 3.0d
+		}
+		{
+			tasks: [{
+				id: "254A0A93D2E1A985"
+				type: "item"
+				item: "thermal:dynamo_compression"
+			}]
+			dependencies: ["0F4AB1E1344930FD"]
+			id: "69268590EB01C9E2"
+			y: -5.5d
+			x: 3.0d
+		}
+		{
+			tasks: [{
+				id: "4BD24471432AB997"
+				type: "item"
+				item: "thermal:dynamo_stirling"
+			}]
+			dependencies: ["0F4AB1E1344930FD"]
+			id: "4C1C5C42F1AB64A8"
+			y: -4.5d
+			x: 3.0d
+		}
+		{
+			tasks: [{
+				id: "5A27972499ED5674"
+				type: "item"
+				item: "thermal:obsidian_glass"
+			}]
+			dependencies: ["2A112F992E465D80"]
+			id: "24AA1A433DB4C88C"
+			y: -0.5d
+			x: 4.5d
+		}
+		{
+			tasks: [{
+				id: "0929C44502A4306B"
+				type: "item"
+				item: "thermal:wrench"
+			}]
+			dependencies: ["2315AEC53A313A0A"]
+			id: "30C03181EDCE84D5"
+			y: -2.5d
+			x: 0.5d
+		}
+		{
+			tasks: [{
+				id: "7DB329D992905C70"
+				type: "item"
+				item: {
+					id: "thermal:watering_can"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			dependencies: ["46508E446264A0E0"]
+			id: "493A0FB96DFFF197"
+			y: -1.5d
+			x: -4.0d
+		}
+		{
+			tasks: [{
+				id: "7D72C867D506D17C"
+				type: "item"
+				title: "Any #forge:ingots/signalum"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:ingots/signalum"
+					}
+				}
+			}]
+			dependencies: ["1CFA38B6086BF173"]
+			id: "75410BEDE4B0C717"
+			y: 2.5d
+			x: 4.5d
+			title: "Signalum"
+		}
+		{
+			tasks: [{
+				id: "2300322A0081545A"
+				type: "item"
+				title: "Any #forge:ingots/lumium"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:ingots/lumium"
+					}
+				}
+			}]
+			dependencies: ["75410BEDE4B0C717"]
+			id: "015BB336C7B92F2A"
+			y: 3.5d
+			x: 4.5d
+			title: "Lumium"
+		}
+		{
+			tasks: [{
+				id: "03804F633417C92E"
+				type: "item"
+				title: "Any #forge:ingots/enderium"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:ingots/enderium"
+					}
+				}
+			}]
+			dependencies: ["015BB336C7B92F2A"]
+			id: "4354AAE454969D9D"
+			y: 4.5d
+			x: 4.5d
+			title: "Enderium"
+		}
+		{
+			tasks: [{
+				id: "2AF9E2EFB38E973A"
+				type: "item"
+				item: "thermal:machine_frame"
+			}]
+			dependencies: ["2315AEC53A313A0A"]
+			id: "4271ED40A666077A"
+			y: -1.5d
+			x: 0.0d
+		}
+		{
+			tasks: [{
+				id: "0AA6ACD7812F0C4D"
+				type: "item"
+				item: "thermal:fluid_cell_frame"
+			}]
+			dependencies: ["2315AEC53A313A0A"]
+			id: "5617AC8FD95081DD"
+			y: -3.5d
+			x: 2.0d
+		}
+		{
+			tasks: [{
+				id: "657BE9478CC63D79"
+				type: "item"
+				item: "thermal:energy_cell_frame"
+			}]
+			dependencies: ["2315AEC53A313A0A"]
+			id: "081C698651D54945"
+			y: -2.5d
+			x: 2.0d
+		}
+		{
+			tasks: [{
+				id: "38DA036DD649D77D"
+				type: "item"
+				item: "thermal:dynamo_output_augment"
+			}]
+			dependencies: ["0F4AB1E1344930FD"]
+			id: "3C0D24660DA922E3"
+			y: -7.0d
+			x: 5.0d
+		}
+		{
+			tasks: [{
+				id: "0C95DA73A6C4997F"
+				type: "item"
+				item: "thermal:dynamo_fuel_augment"
+			}]
+			dependencies: ["0F4AB1E1344930FD"]
+			id: "0029E2E8D9F2C83F"
+			y: -6.0d
+			x: 5.0d
+		}
+		{
+			tasks: [{
+				id: "57281541963B77E0"
+				type: "item"
+				item: "thermal:dynamo_throttle_augment"
+			}]
+			dependencies: ["0F4AB1E1344930FD"]
+			id: "6C066C0755C999B8"
+			y: -5.0d
+			x: 5.0d
+		}
+		{
+			tasks: [{
+				id: "3EF91D695D4DF541"
+				type: "item"
+				item: "thermal:rf_coil_augment"
+			}]
+			dependency_requirement: "one_completed"
+			dependencies: [
+				"0EE05B0398083AC2"
+				"427FFDA30F43E000"
+			]
+			id: "449C7A48F1A1463B"
+			y: -7.0d
+			x: 1.5d
+		}
+		{
+			tasks: [{
+				id: "662F63BAF37C6498"
+				type: "item"
+				item: "thermal:rf_coil_storage_augment"
+			}]
+			dependency_requirement: "one_completed"
+			dependencies: [
+				"0EE05B0398083AC2"
+				"427FFDA30F43E000"
+			]
+			id: "1B8CAED5432BBC13"
+			y: -7.0d
+			x: -0.5d
+		}
+		{
+			tasks: [{
+				id: "29E6DD199389AD27"
+				type: "item"
+				item: "thermal:rf_coil_xfer_augment"
+			}]
+			dependency_requirement: "one_completed"
+			dependencies: [
+				"0EE05B0398083AC2"
+				"427FFDA30F43E000"
+			]
+			id: "51ED2F335AF1D78A"
+			y: -7.0d
+			x: 0.5d
+		}
+		{
+			tasks: [{
+				id: "41000BE1DB1593B4"
+				type: "item"
+				item: "thermal:fluid_tank_augment"
+			}]
+			dependencies: ["0F6A9140F849302F"]
+			id: "1D3AA0C4989E8EE7"
+			y: -7.0d
+			x: -1.5d
+		}
+		{
+			tasks: [{
+				id: "1ABD35117CF6EAC9"
+				type: "item"
+				item: "thermal:machine_output_augment"
+			}]
+			dependencies: ["4271ED40A666077A"]
+			id: "5542129272A69CF8"
+			y: 3.5d
+			x: -1.0d
+		}
+		{
+			tasks: [{
+				id: "5CF24A1A4F5B6E67"
+				type: "item"
+				item: "thermal:machine_speed_augment"
+			}]
+			dependencies: ["4271ED40A666077A"]
+			id: "515D8FEDA18147CF"
+			y: 3.5d
+			x: 0.0d
+		}
+		{
+			tasks: [{
+				id: "0568A3A04B791CD5"
+				type: "item"
+				item: "thermal:machine_efficiency_augment"
+			}]
+			dependencies: ["4271ED40A666077A"]
+			id: "6840ECCED3E16F96"
+			y: 3.5d
+			x: 1.0d
+		}
+		{
+			tasks: [{
+				id: "5DE7C0A824FB71F9"
+				type: "item"
+				item: "redstone_arsenal:flux_gem"
+			}]
+			dependencies: ["2A112F992E465D80"]
+			id: "3E21BCD18692CCC1"
+			y: -1.5d
+			x: 4.5d
+		}
+		{
+			tasks: [{
+				id: "4CA3FB505BDC01BB"
+				type: "item"
+				item: "redstone_arsenal:flux_ingot"
+			}]
+			dependencies: ["2A112F992E465D80"]
+			id: "04700E5CCDACADDC"
+			y: -2.5d
+			x: 4.5d
+		}
+		{
+			tasks: [{
+				id: "6B9D75170357A354"
+				type: "item"
+				item: "redstone_arsenal:flux_plating"
+			}]
+			dependencies: [
+				"3E21BCD18692CCC1"
+				"04700E5CCDACADDC"
+			]
+			id: "3E7A6451D3768919"
+			y: -1.5d
+			x: 5.5d
+		}
+		{
+			tasks: [{
+				id: "6B5433B238AB9BF0"
+				type: "item"
+				item: "redstone_arsenal:obsidian_rod"
+			}]
+			dependencies: ["04700E5CCDACADDC"]
+			id: "3CB1EFB750C0098D"
+			y: -2.5d
+			x: 5.5d
+		}
+		{
+			tasks: [{
+				id: "5D1150BC836C194D"
+				type: "item"
+				item: "redstone_arsenal:flux_obsidian_rod"
+			}]
+			dependencies: [
+				"3E7A6451D3768919"
+				"3CB1EFB750C0098D"
+			]
+			id: "757A98F3DA54C063"
+			y: -2.0d
+			x: 6.5d
+		}
+		{
+			tasks: [{
+				id: "3BA10FD019500648"
+				type: "item"
+				title: "Any #forge:ingots/invar"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:ingots/invar"
+					}
+				}
+			}]
+			dependencies: ["24AA1A433DB4C88C"]
+			id: "5B6E6DAE233A040F"
+			y: 0.5d
+			x: 4.5d
+			title: "Invar"
+		}
+		{
+			tasks: [{
+				id: "60A9E714D491B797"
+				type: "item"
+				item: "thermal:redstone_servo"
+			}]
+			dependencies: ["2315AEC53A313A0A"]
+			id: "6A1B058E4D44A2E4"
+			y: -4.5d
+			x: -0.5d
+		}
+		{
+			tasks: [{
+				id: "23542C3B5C4AF008"
+				type: "item"
+				item: "thermal:rf_coil"
+			}]
+			dependencies: ["2315AEC53A313A0A"]
+			id: "0F4AB1E1344930FD"
+			y: -4.5d
+			x: 0.5d
+		}
+		{
+			tasks: [{
+				id: "2CDAE38C18457EE7"
+				type: "item"
+				title: "Any #forge:ingots/electrum"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:ingots/electrum"
+					}
+				}
+			}]
+			dependencies: ["5B6E6DAE233A040F"]
+			id: "1CFA38B6086BF173"
+			y: 1.5d
+			x: 4.5d
+			title: "Electrum"
+		}
+		{
+			tasks: [{
+				id: "49D40F5C83502633"
+				type: "item"
+				item: "thermal:signalum_glass"
+			}]
+			dependencies: ["2AD0F78BA928ED08"]
+			id: "226E2C5AB5BA45CB"
+			y: 0.5d
+			x: 7.0d
+		}
+		{
+			tasks: [{
+				id: "7E60A6E205C81D34"
+				type: "item"
+				item: "thermal:lumium_glass"
+			}]
+			dependencies: ["24AA1A433DB4C88C"]
+			id: "2AD0F78BA928ED08"
+			y: -0.5d
+			x: 7.0d
+		}
+		{
+			tasks: [{
+				id: "05AF578180F8F7BC"
+				type: "item"
+				item: "thermal:enderium_glass"
+			}]
+			dependencies: ["226E2C5AB5BA45CB"]
+			id: "3D34C2CBF0FC2D3C"
+			y: 1.5d
+			x: 7.0d
+		}
+		{
+			tasks: [{
+				id: "7EF2D09A61942D6F"
+				type: "item"
+				item: {
+					id: "thermal:flux_drill"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			dependencies: ["46508E446264A0E0"]
+			id: "582A7CD3010A0D10"
+			y: -2.5d
+			x: -2.0d
+		}
+		{
+			tasks: [{
+				id: "29BEAA8A698E5B3C"
+				type: "item"
+				item: {
+					id: "thermal:flux_saw"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			dependencies: ["46508E446264A0E0"]
+			id: "2C411DD612F8C933"
+			y: -1.5d
+			x: -2.0d
+		}
+		{
+			tasks: [{
+				id: "389D01240284DABB"
+				type: "item"
+				item: {
+					id: "thermal:potion_infuser"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			dependencies: ["46508E446264A0E0"]
+			id: "748AA53A8C8C8B9E"
+			y: -2.5d
+			x: -3.0d
+		}
+		{
+			tasks: [{
+				id: "7912CB79E987FFCD"
+				type: "item"
+				item: {
+					id: "thermal:potion_quiver"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			dependencies: ["46508E446264A0E0"]
+			id: "02BD501D1A892BCA"
+			y: -1.5d
+			x: -3.0d
+		}
+		{
+			tasks: [{
+				id: "72C0883EEF783C66"
+				type: "item"
+				item: "thermal:tinker_bench"
+			}]
+			dependencies: ["2315AEC53A313A0A"]
+			id: "46508E446264A0E0"
+			y: -2.5d
+			x: -0.5d
+		}
+		{
+			tasks: [{
+				id: "5C7DBA220C25A76D"
+				type: "item"
+				item: "thermal:satchel"
+			}]
+			dependencies: ["46508E446264A0E0"]
+			id: "483747268A5AA8E4"
+			y: -0.5d
+			x: -3.0d
+		}
+		{
+			tasks: [{
+				id: "0F5F3D1864D858DC"
+				type: "item"
+				item: {
+					id: "thermal:xp_crystal"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			dependencies: ["46508E446264A0E0"]
+			id: "665275B0E2EE25E0"
+			y: -0.5d
+			x: -4.0d
+		}
+		{
+			tasks: [
+				{
+					id: "715DB8F69BA0075A"
+					type: "item"
+					item: "thermal:energy_duct"
+				}
+				{
+					id: "0BF23C375FB9964D"
+					type: "item"
+					item: "thermal:fluid_duct_windowed"
+				}
+			]
+			dependencies: ["30C03181EDCE84D5"]
+			id: "1953555C89278004"
+			y: -1.5d
+			x: 1.0d
+			title: "Pipes"
+		}
+		{
+			tasks: [
+				{
+					id: "0A46D835ADE84CBA"
+					type: "item"
+					item: "thermal:energy_limiter_attachment"
+				}
+				{
+					id: "34214FECEAD20155"
+					type: "item"
+					item: "thermal:filter_attachment"
+				}
+				{
+					id: "4E25B67A87E0631E"
+					type: "item"
+					item: "thermal:servo_attachment"
+				}
+				{
+					id: "744A192A04686423"
+					type: "item"
+					item: "thermal:turbo_servo_attachment"
+				}
+			]
+			dependencies: ["1953555C89278004"]
+			id: "23FC068F5FDBEF4F"
+			y: -1.5d
+			x: 2.0d
+			title: "Addons"
+		}
+		{
+			tasks: [{
+				id: "3DE5E97FADEEAA2B"
+				type: "item"
+				item: "systeams:steam_dynamo"
+			}]
+			dependencies: ["0F4AB1E1344930FD"]
+			id: "61859F7D210252C9"
+			y: -7.5d
+			x: 3.0d
+		}
+		{
+			x: 8.0d
+			y: -0.5d
+			id: "1869CBAC7015F718"
+			tasks: [{
+				id: "5EE36C67E1B73BCA"
+				type: "item"
+				item: "thermal_extra:soul_infused_glass"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 0.5d
+			id: "269F48D144F0B314"
+			tasks: [{
+				id: "5A08FC1E708C47A3"
+				type: "item"
+				item: "thermal_extra:shellite_glass"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 1.5d
+			id: "72411FB492AE92A6"
+			tasks: [{
+				id: "3F026A2F5834B30F"
+				type: "item"
+				item: "thermal_extra:twinite_glass"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 2.5d
+			id: "2AED1D2DDB62337C"
+			tasks: [{
+				id: "0E2C21CAA8B46A02"
+				type: "item"
+				item: "thermal_extra:dragonsteel_glass"
+			}]
+		}
+		{
+			x: 10.0d
+			y: -0.5d
+			id: "7D6C98E72EA47524"
+			tasks: [{
+				id: "67687BE7AB6F20DB"
+				type: "item"
+				item: "thermal_extra:soul_infused_ingot"
+			}]
+		}
+		{
+			x: 10.0d
+			y: 0.5d
+			id: "71895901942168A1"
+			tasks: [{
+				id: "3BC01BADFC086484"
+				type: "item"
+				item: "thermal_extra:shellite_ingot"
+			}]
+		}
+		{
+			x: 10.0d
+			y: 1.5d
+			id: "2CDDC4B450B5DB7F"
+			tasks: [{
+				id: "73C3A6B68484D54B"
+				type: "item"
+				item: "thermal_extra:twinite_ingot"
+			}]
+		}
+		{
+			x: 10.0d
+			y: 2.5d
+			id: "11542BCF80010B36"
+			tasks: [{
+				id: "29D83727D6FFEB8F"
+				type: "item"
+				item: "thermal_extra:dragonsteel_ingot"
+			}]
+		}
+		{
+			x: -10.0d
+			y: 1.5d
+			id: "117C209FB1AF2B12"
+			tasks: [{
+				id: "4D305F40A5EDEE93"
+				type: "item"
+				item: "thermal_extra:area_radius_augment_1"
+			}]
+		}
+		{
+			x: -9.0d
+			y: 1.5d
+			id: "51A7EA313CBE3116"
+			tasks: [{
+				id: "2A85673D80DEA999"
+				type: "item"
+				item: "thermal_extra:area_radius_augment_2"
+			}]
+		}
+		{
+			x: -8.0d
+			y: 1.5d
+			id: "0FB33DBA76C191D6"
+			tasks: [{
+				id: "00C09338CF0C2000"
+				type: "item"
+				item: "thermal_extra:area_radius_augment_3"
+			}]
+		}
+		{
+			x: -7.0d
+			y: 1.5d
+			id: "0B517654633F566F"
+			tasks: [{
+				id: "79090B3C43E4B944"
+				type: "item"
+				item: "thermal_extra:area_radius_augment_4"
+			}]
+		}
+		{
+			x: -11.0d
+			y: 1.5d
+			id: "232005C520A77C0B"
+			tasks: [{
+				id: "2DE74DF5D536CB9C"
+				type: "item"
+				item: "thermal:area_radius_augment"
+			}]
+		}
+		{
+			x: -11.0d
+			y: 2.5d
+			id: "64D321A88637238A"
+			tasks: [{
+				id: "5A1CBE5C7C7E98D7"
+				type: "item"
+				item: "thermal:potion_amplifier_augment"
+			}]
+		}
+		{
+			x: -10.0d
+			y: 2.5d
+			id: "0024E88D264D315F"
+			tasks: [{
+				id: "7889FC427E1DE637"
+				type: "item"
+				item: "thermal_extra:potion_amplifier_augment_1"
+			}]
+		}
+		{
+			x: -9.0d
+			y: 2.5d
+			id: "547B874F7E9527E3"
+			tasks: [{
+				id: "45CD465BCD7B21D5"
+				type: "item"
+				item: "thermal_extra:potion_amplifier_augment_2"
+			}]
+		}
+		{
+			x: -7.0d
+			y: 2.5d
+			id: "711D723D8866BC58"
+			tasks: [{
+				id: "32168D1AEFEDBC84"
+				type: "item"
+				item: "thermal_extra:potion_amplifier_augment_4"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 2.5d
+			id: "7B8DCF15B04BA628"
+			tasks: [{
+				id: "61A568B78FE127DF"
+				type: "item"
+				item: "thermal_extra:potion_amplifier_augment_5"
+			}]
+		}
+		{
+			x: -8.0d
+			y: 2.5d
+			id: "28CC18817DBEAFF8"
+			tasks: [{
+				id: "1A27DCDD269EACBE"
+				type: "item"
+				item: "thermal_extra:potion_amplifier_augment_3"
+			}]
+		}
+		{
+			x: -11.0d
+			y: 3.5d
+			id: "2D88D30A4A990E9D"
+			tasks: [{
+				id: "5DA8B7C5D3BB36B2"
+				type: "item"
+				item: "thermal:potion_duration_augment"
+			}]
+		}
+		{
+			x: -10.0d
+			y: 3.5d
+			id: "631FBB54DA323956"
+			tasks: [{
+				id: "6D8584975A9D94DB"
+				type: "item"
+				item: "thermal_extra:potion_duration_augment_1"
+			}]
+		}
+		{
+			x: -9.0d
+			y: 3.5d
+			id: "2DDFF9272664E301"
+			tasks: [{
+				id: "33F3E430F236157B"
+				type: "item"
+				item: "thermal_extra:potion_duration_augment_2"
+			}]
+		}
+		{
+			x: -8.0d
+			y: 3.5d
+			id: "5D4A5748AB24FF53"
+			tasks: [{
+				id: "1FF4B6E0C897F4CC"
+				type: "item"
+				item: "thermal_extra:potion_duration_augment_3"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 3.5d
+			id: "156C9B17CC32BC11"
+			tasks: [{
+				id: "6CBEB55FE3D21537"
+				type: "item"
+				item: "thermal_extra:potion_duration_augment_5"
+			}]
+		}
+		{
+			x: -7.0d
+			y: 3.5d
+			id: "3E50D03CF138F56A"
+			tasks: [{
+				id: "3046C7119EBE9C95"
+				type: "item"
+				item: "thermal_extra:potion_duration_augment_4"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 4.0d
+			id: "1F7D9ED1C278106D"
+			tasks: [{
+				id: "6CFAB42604FA6CF2"
+				type: "item"
+				item: "thermal_extra:upgrade_augment"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -8.0d
+			id: "7130816EFF920C34"
+			tasks: [{
+				id: "21F6D8B34D265941"
+				type: "item"
+				item: "thermal_extra:rf_coil_augment_1"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -9.0d
+			id: "21C49744E6E71FD0"
+			tasks: [{
+				id: "04A0232E62551880"
+				type: "item"
+				item: "thermal_extra:rf_coil_augment_2"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -10.0d
+			id: "45B10406B619350B"
+			tasks: [{
+				id: "37351C8AF090FD19"
+				type: "item"
+				item: "thermal_extra:rf_coil_augment_3"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -11.0d
+			id: "6F6B4145CD31C565"
+			tasks: [{
+				id: "6FE112AE2FCA1102"
+				type: "item"
+				item: "thermal_extra:rf_coil_augment_4"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -12.0d
+			id: "753F99AEE2BC06E2"
+			tasks: [{
+				id: "78139A6FCCD28035"
+				type: "item"
+				item: "thermal_extra:rf_coil_augment_5"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -8.0d
+			id: "0C7068CAF5247343"
+			tasks: [{
+				id: "56EB8382A68B9466"
+				type: "item"
+				item: "thermal_extra:rf_coil_storage_augment_1"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -9.0d
+			id: "40D5B43708F40835"
+			tasks: [{
+				id: "2457F4EA47BB2E47"
+				type: "item"
+				item: "thermal_extra:rf_coil_storage_augment_2"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -10.0d
+			id: "5047CF9DCA2E5C14"
+			tasks: [{
+				id: "432104EF724F371A"
+				type: "item"
+				item: "thermal_extra:rf_coil_storage_augment_3"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -11.0d
+			id: "06F237468ED60432"
+			tasks: [{
+				id: "35ED26993C3D6F86"
+				type: "item"
+				item: "thermal_extra:rf_coil_storage_augment_4"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -12.0d
+			id: "066365567C602B80"
+			tasks: [{
+				id: "437ACD25F465F398"
+				type: "item"
+				item: "thermal_extra:rf_coil_storage_augment_5"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -8.0d
+			id: "7DD498168EE71AC3"
+			tasks: [{
+				id: "31B237AA85095F68"
+				type: "item"
+				item: "thermal_extra:rf_coil_xfer_augment_1"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -9.0d
+			id: "51E67E8397D23A9B"
+			tasks: [{
+				id: "201D7F063E96638A"
+				type: "item"
+				item: "thermal_extra:rf_coil_xfer_augment_2"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -10.0d
+			id: "57192E208B90E26E"
+			tasks: [{
+				id: "5E75DAFBA3C1E939"
+				type: "item"
+				item: "thermal_extra:rf_coil_xfer_augment_3"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -11.0d
+			id: "6BE77EA39642FB9B"
+			tasks: [{
+				id: "1ABA80ECA09D6241"
+				type: "item"
+				item: "thermal_extra:rf_coil_xfer_augment_4"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -12.0d
+			id: "3BDF7E127E16CF6E"
+			tasks: [{
+				id: "46BFA54083BA98D3"
+				type: "item"
+				item: "thermal_extra:rf_coil_xfer_augment_5"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -8.0d
+			id: "14909F5209B1E1D4"
+			tasks: [{
+				id: "660C604DD9CF82D6"
+				type: "item"
+				item: "thermal_extra:fluid_tank_augment_1"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -9.0d
+			id: "76320F351B17748C"
+			tasks: [{
+				id: "55B1BD536E933E9C"
+				type: "item"
+				item: "thermal_extra:fluid_tank_augment_2"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -10.0d
+			id: "1174465F0109A58E"
+			tasks: [{
+				id: "7AB3FF0BF3561C06"
+				type: "item"
+				item: "thermal_extra:fluid_tank_augment_3"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -11.0d
+			id: "4510B1C37AD5CE2F"
+			tasks: [{
+				id: "6C2D03A31166A8EC"
+				type: "item"
+				item: "thermal_extra:fluid_tank_augment_4"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -12.0d
+			id: "1BDDCA284792919E"
+			tasks: [{
+				id: "3FF1CA036DD8779D"
+				type: "item"
+				item: "thermal_extra:fluid_tank_augment_5"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -13.0d
+			id: "0C2A2C32C20688EA"
+			tasks: [{
+				id: "20469DFAAE8ED678"
+				type: "item"
+				item: "thermal_extra:fluid_tank_augment_6"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 4.5d
+			id: "17CF320F68747F32"
+			tasks: [{
+				id: "550999611E6C9D2C"
+				type: "item"
+				item: "thermal_extra:machine_speed_augment_1"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 5.5d
+			id: "2F8143A78DAF45F5"
+			tasks: [{
+				id: "533E181201A02A6D"
+				type: "item"
+				item: "thermal_extra:machine_speed_augment_2"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 6.5d
+			id: "3316CF355DFDD079"
+			tasks: [{
+				id: "520CE835A8C508E4"
+				type: "item"
+				item: "thermal_extra:machine_speed_augment_3"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 7.5d
+			id: "04E55AF23810C0DB"
+			tasks: [{
+				id: "2960BAC7F8466F66"
+				type: "item"
+				item: "thermal_extra:machine_speed_augment_4"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 4.5d
+			id: "3D5C8A1027E839B8"
+			tasks: [{
+				id: "254567AAD792EF98"
+				type: "item"
+				item: "thermal_extra:machine_efficiency_augment_1"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 5.5d
+			id: "2EBF2F3E0C81033E"
+			tasks: [{
+				id: "53ADA1FCC5CA134E"
+				type: "item"
+				item: "thermal_extra:machine_efficiency_augment_2"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 6.5d
+			id: "640C81B7E46B94F5"
+			tasks: [{
+				id: "5D5386D454B71D53"
+				type: "item"
+				item: "thermal_extra:machine_efficiency_augment_3"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 7.5d
+			id: "4927880C51F227E6"
+			tasks: [{
+				id: "6046C52B81B2C8D4"
+				type: "item"
+				item: "thermal_extra:machine_efficiency_augment_4"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 4.5d
+			id: "21ED95831FEE8162"
+			tasks: [{
+				id: "5542CF6FF2B84850"
+				type: "item"
+				item: "thermal_extra:machine_output_augment_1"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 5.5d
+			id: "1D134450B99E0926"
+			tasks: [{
+				id: "00A5F450284DC3FE"
+				type: "item"
+				item: "thermal_extra:machine_output_augment_2"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 6.5d
+			id: "6E4C34514862BC35"
+			tasks: [{
+				id: "5DA466A5D8076080"
+				type: "item"
+				item: "thermal_extra:machine_output_augment_3"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 4.5d
+			id: "5694CCB66B5D3895"
+			tasks: [{
+				id: "4A9212FB68853C38"
+				type: "item"
+				item: "thermal_extra:machine_catalyst_augment_1"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 5.5d
+			id: "1170D38C91702F94"
+			tasks: [{
+				id: "5D6CA86F62F1001E"
+				type: "item"
+				item: "thermal_extra:machine_catalyst_augment_2"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 6.5d
+			id: "3AAD5A35DF52CCD3"
+			tasks: [{
+				id: "40DBF34A7FEB72C0"
+				type: "item"
+				item: "thermal_extra:machine_catalyst_augment_3"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 3.5d
+			id: "7817DBEC04CA3BE4"
+			tasks: [{
+				id: "018E03A2E597BFFB"
+				type: "item"
+				item: "thermal:machine_catalyst_augment"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -6.0d
+			id: "39FB94054CF64491"
+			tasks: [{
+				id: "2ADBFCC1552EFE75"
+				type: "item"
+				item: "thermal_extra:dynamo_fuel_augment_1"
+			}]
+		}
+		{
+			x: 7.0d
+			y: -6.0d
+			id: "0B49E88BF02C84F4"
+			tasks: [{
+				id: "070B0860C7D30B16"
+				type: "item"
+				item: "thermal_extra:dynamo_fuel_augment_2"
+			}]
+		}
+		{
+			x: 8.0d
+			y: -6.0d
+			id: "4090AF48B7A3EB9D"
+			tasks: [{
+				id: "17C9ADB4C81A4259"
+				type: "item"
+				item: "thermal_extra:dynamo_fuel_augment_3"
+			}]
+		}
+		{
+			x: 9.0d
+			y: -6.0d
+			id: "31F7509EF13D7EB5"
+			tasks: [{
+				id: "4FDDDA9D10AF5751"
+				type: "item"
+				item: "thermal_extra:dynamo_fuel_augment_4"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -7.0d
+			id: "324CAEB777D20A42"
+			tasks: [{
+				id: "40FB4748586B661C"
+				type: "item"
+				item: "thermal_extra:dynamo_output_augment_1"
+			}]
+		}
+		{
+			x: 7.0d
+			y: -7.0d
+			id: "0D15349B1DE95BBC"
+			tasks: [{
+				id: "6661051766236BA4"
+				type: "item"
+				item: "thermal_extra:dynamo_output_augment_2"
+			}]
+		}
+		{
+			x: 8.0d
+			y: -7.0d
+			id: "12F1A9A9D6F50A9F"
+			tasks: [{
+				id: "74FBF4EF6C00BB0B"
+				type: "item"
+				item: "thermal_extra:dynamo_output_augment_3"
+			}]
+		}
+		{
+			x: 9.0d
+			y: -7.0d
+			id: "3983F95E38B4CBCD"
+			tasks: [{
+				id: "752C29579A09C231"
+				type: "item"
+				item: "thermal_extra:dynamo_output_augment_4"
+			}]
+		}
+	]
+}

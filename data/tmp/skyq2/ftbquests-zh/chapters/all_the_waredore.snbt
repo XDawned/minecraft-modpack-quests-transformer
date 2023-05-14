@@ -1,0 +1,4217 @@
+{
+	quest_links: [ ]
+	default_hide_dependency_lines: false
+	group: "269E1EFA0EF8FE1E"
+	id: "6E98E8011D5FDABF"
+	filename: "all_the_waredore"
+	default_quest_shape: ""
+	icon: {
+		id: "minecraft:netherite_chestplate"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
+	title: "所有护甲"
+	order_index: 0
+	quests: [
+		{
+			tasks: [{
+				id: "75F2EC04D09DEFCB"
+				type: "checkmark"
+				title: "造型分析"
+			}]
+			dependency_requirement: "one_completed"
+			dependencies: [
+				"105D595ADBD4A01F"
+				"63116323DB259B82"
+			]
+			id: "3D0B26EF6DA0F020"
+			y: -4.0d
+			x: -5.5d
+		}
+		{
+			tasks: [{
+				id: "0DF12140D23A7E9A"
+				type: "checkmark"
+				title: "阶段1"
+			}]
+			description: ["正常合成"]
+			icon: "minecraft:crafting_table"
+			id: "20E45D95C8E7B8F0"
+			x: -5.5d
+			y: -3.0d
+			dependencies: ["3D0B26EF6DA0F020"]
+		}
+		{
+			tasks: [{
+				id: "4F063708569080E1"
+				type: "checkmark"
+				title: "阶段3"
+			}]
+			description: ["需要一个召唤祭坛"]
+			icon: "summoningrituals:altar"
+			id: "13366E4DF7CDCC14"
+			x: -5.5d
+			y: -1.0d
+			dependencies: [
+				"490DF4EB818423AC"
+				"0E7D8CA408ED3244"
+			]
+		}
+		{
+			tasks: [{
+				id: "7B990405B479EC20"
+				type: "checkmark"
+				title: "阶段4"
+			}]
+			description: ["需要一个觉醒祭坛"]
+			icon: "mysticalagriculture:awakening_altar"
+			id: "204E487DA8249E99"
+			x: -5.5d
+			y: 0.0d
+			dependencies: [
+				"13366E4DF7CDCC14"
+				"0623A29EB702F3B2"
+			]
+		}
+		{
+			tasks: [{
+				id: "642E8F474779C182"
+				type: "checkmark"
+				title: "末地游戏"
+			}]
+			description: ["需要一个高级工作台"]
+			icon: "extendedcrafting:advanced_table"
+			id: "2490DEE1BB3E0078"
+			x: -5.5d
+			y: 1.0d
+			dependencies: [
+				"204E487DA8249E99"
+				"358668DCBA42977E"
+			]
+		}
+		{
+			tasks: [
+				{
+					id: "7CA6D7AACFFC69EF"
+					type: "item"
+					item: "projecte:rm_helmet"
+				}
+				{
+					id: "55E97A3EF1EAD5CE"
+					type: "item"
+					item: "projecte:rm_chestplate"
+				}
+				{
+					id: "5D70A4526344FB31"
+					type: "item"
+					item: "projecte:rm_leggings"
+				}
+				{
+					id: "5BC65E80AE148BE2"
+					type: "item"
+					item: "projecte:rm_boots"
+				}
+			]
+			icon: "projecte:rm_chestplate"
+			id: "33D850A30483937C"
+			x: -3.5d
+			y: 1.0d
+			title: "红物质套装"
+			dependencies: ["578C8DA820F77437"]
+		}
+		{
+			tasks: [
+				{
+					id: "73ECF3450AD858BA"
+					type: "item"
+					item: "projecte:dm_helmet"
+				}
+				{
+					id: "2BC60A3718801405"
+					type: "item"
+					item: "projecte:dm_chestplate"
+				}
+				{
+					id: "5BC0699833752FD0"
+					type: "item"
+					item: "projecte:dm_leggings"
+				}
+				{
+					id: "7B38C193D4329318"
+					type: "item"
+					item: "projecte:dm_boots"
+				}
+			]
+			icon: "projecte:dm_chestplate"
+			id: "578C8DA820F77437"
+			x: -4.5d
+			y: 1.0d
+			title: "暗物质套装"
+			dependencies: ["2490DEE1BB3E0078"]
+		}
+		{
+			tasks: [
+				{
+					id: "7363EADA2EDE5FD3"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:inferium_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3CB5B3C56DF18BA8"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:inferium_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3379AFA59238FD36"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:inferium_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0B4712A64617940E"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:inferium_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			icon: {
+				id: "mysticalagriculture:inferium_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "44E50130CA50241B"
+			x: -1.5d
+			y: 1.0d
+			title: "下级套装"
+			dependencies: ["05FD3706C73B2AD6"]
+		}
+		{
+			tasks: [
+				{
+					id: "25EB3EEF7A1FB2FF"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:prudentium_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "79293839D01B172C"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:prudentium_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4AF2AA988976296F"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:prudentium_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6B1697DB878B6E93"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:prudentium_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			icon: {
+				id: "mysticalagriculture:prudentium_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "668F529B8500DBB7"
+			x: -0.5d
+			y: 1.0d
+			title: "初级套装"
+			dependencies: ["44E50130CA50241B"]
+		}
+		{
+			tasks: [
+				{
+					id: "24AA545ED25EE999"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:tertium_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5D8EFE36601AF286"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:tertium_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2C73210B11CF3815"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:tertium_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "48EB2C0978F08B6E"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:tertium_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			icon: {
+				id: "mysticalagriculture:tertium_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "001C74FDDE5AC182"
+			x: 0.5d
+			y: 1.0d
+			title: "中级套装"
+			dependencies: ["668F529B8500DBB7"]
+		}
+		{
+			tasks: [
+				{
+					id: "6F82CE4F732B432E"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:imperium_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "481C61D0D6CE2F93"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:imperium_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7DF487D0B376F5AD"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:imperium_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "52859E6B7912F4D0"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:imperium_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			icon: {
+				id: "mysticalagriculture:imperium_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "695B3CF52D3268D2"
+			x: 1.5d
+			y: 1.0d
+			title: "高级套装"
+			dependencies: ["001C74FDDE5AC182"]
+		}
+		{
+			tasks: [
+				{
+					id: "511C39B3D3D8AF8B"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:supremium_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5AE0939472AC0E04"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:supremium_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "584D913DDAB55281"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:supremium_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3D969E76DBDF14BE"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:supremium_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			icon: {
+				id: "mysticalagriculture:supremium_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4D82B5741EFCFDA8"
+			x: 2.5d
+			y: 1.0d
+			title: "终极套装"
+			dependencies: ["695B3CF52D3268D2"]
+		}
+		{
+			tasks: [
+				{
+					id: "6A20EBC73E6F0807"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:awakened_supremium_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "22553E979D1D2576"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:awakened_supremium_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "56ABAE24C189A52F"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:awakened_supremium_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "00278887AEE4CBB7"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:awakened_supremium_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			icon: {
+				id: "mysticalagriculture:awakened_supremium_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7296493A86BE64DD"
+			x: 3.5d
+			y: 1.0d
+			title: "觉醒中级套装"
+			dependencies: ["4D82B5741EFCFDA8"]
+		}
+		{
+			tasks: [
+				{
+					id: "4B90CC34F5530FAA"
+					type: "item"
+					item: {
+						id: "avaritia:infinity_armor_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0026BD494ABA29C0"
+					type: "item"
+					item: {
+						id: "avaritia:infinity_armor_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "345FD7CFFF3B1294"
+					type: "item"
+					item: {
+						id: "avaritia:infinity_armor_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6DCB533F845BF206"
+					type: "item"
+					item: {
+						id: "avaritia:infinity_armor_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			icon: {
+				id: "avaritia:infinity_armor_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6265F3827E873377"
+			x: 5.5d
+			y: 1.0d
+			title: "神态"
+			dependencies: ["3FCFA35F0154707A"]
+		}
+		{
+			tasks: [
+				{
+					id: "17F7A22D6DDBC268"
+					type: "item"
+					item: "allthemodium:allthemodium_helmet"
+				}
+				{
+					id: "5557129FF422CA98"
+					type: "item"
+					item: "allthemodium:allthemodium_chestplate"
+				}
+				{
+					id: "3A33142910AC60CD"
+					type: "item"
+					item: "allthemodium:allthemodium_leggings"
+				}
+				{
+					id: "3F0F89AEC34775A0"
+					type: "item"
+					item: "allthemodium:allthemodium_boots"
+				}
+			]
+			icon: "allthemodium:allthemodium_chestplate"
+			id: "05FD3706C73B2AD6"
+			x: -2.5d
+			y: 1.0d
+			title: "ATM套装"
+			dependencies: ["33D850A30483937C"]
+		}
+		{
+			tasks: [
+				{
+					id: "16C36C098A9ED2E7"
+					type: "item"
+					item: {
+						id: "mysticaladaptations:insanium_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5DA2EED116B28F06"
+					type: "item"
+					item: {
+						id: "mysticaladaptations:insanium_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1648CCC73D478105"
+					type: "item"
+					item: {
+						id: "mysticaladaptations:insanium_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "52BE7CA26EC79F24"
+					type: "item"
+					item: {
+						id: "mysticaladaptations:insanium_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			icon: {
+				id: "mysticaladaptations:insanium_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3FCFA35F0154707A"
+			x: 4.5d
+			y: 1.0d
+			title: "菌丝套装"
+			dependencies: ["7296493A86BE64DD"]
+		}
+		{
+			tasks: [
+				{
+					id: "7E407E2CAB57DCB3"
+					type: "item"
+					item: {
+						id: "minecraft:leather_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0F50CEF34B0E5F5B"
+					type: "item"
+					item: {
+						id: "minecraft:leather_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "10F8EC0498D33163"
+					type: "item"
+					item: {
+						id: "minecraft:leather_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "646CC67D16464A10"
+					type: "item"
+					item: {
+						id: "minecraft:leather_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			icon: {
+				id: "minecraft:leather_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "404B64942F2D2BEE"
+			x: -0.5d
+			y: -3.0d
+			title: "皮革套装"
+			dependencies: ["14B2AF732EB330F1"]
+		}
+		{
+			tasks: [
+				{
+					id: "45B3DA20EA605F28"
+					type: "item"
+					item: {
+						id: "minecraft:chainmail_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5B8E02FDFCC2FE86"
+					type: "item"
+					item: {
+						id: "minecraft:chainmail_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4EAD6230CD2AF5D7"
+					type: "item"
+					item: {
+						id: "minecraft:chainmail_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1B235544612A2DE5"
+					type: "item"
+					item: {
+						id: "minecraft:chainmail_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			icon: {
+				id: "minecraft:chainmail_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3EA3961E7E1135B5"
+			x: -2.5d
+			y: -2.0d
+			title: "锁链套装"
+			dependencies: ["0C26A36DE03DE107"]
+		}
+		{
+			tasks: [
+				{
+					id: "7BBCA11779E792FF"
+					type: "item"
+					item: {
+						id: "minecraft:iron_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "49153AFAE6F8F0AD"
+					type: "item"
+					item: {
+						id: "minecraft:iron_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "727FB21397010049"
+					type: "item"
+					item: {
+						id: "minecraft:iron_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5DE87A552C4E0E12"
+					type: "item"
+					item: {
+						id: "minecraft:iron_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			icon: {
+				id: "minecraft:iron_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "532B026061C872C6"
+			x: 2.5d
+			y: -2.0d
+			title: "铁套装"
+			dependencies: ["14712EC0B65EF6FC"]
+		}
+		{
+			tasks: [
+				{
+					id: "73A022BC2CFF263B"
+					type: "item"
+					item: {
+						id: "minecraft:diamond_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2098F5A4835535A0"
+					type: "item"
+					item: {
+						id: "minecraft:diamond_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "44B81D35906E85A6"
+					type: "item"
+					item: {
+						id: "minecraft:diamond_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5B9DB3D733A47174"
+					type: "item"
+					item: {
+						id: "minecraft:diamond_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			icon: {
+				id: "minecraft:diamond_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3320CAF71D2EE28A"
+			x: 5.5d
+			y: -1.0d
+			title: "钻石套装"
+			dependencies: ["5C1A95064FFFDB2F"]
+		}
+		{
+			tasks: [
+				{
+					id: "7C87687B6C0213FA"
+					type: "item"
+					item: {
+						id: "minecraft:golden_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "67C950425F4A54B2"
+					type: "item"
+					item: {
+						id: "minecraft:golden_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "579BBA48CDB0868E"
+					type: "item"
+					item: {
+						id: "minecraft:golden_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3E516BCEE5A267E3"
+					type: "item"
+					item: {
+						id: "minecraft:golden_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			icon: {
+				id: "minecraft:golden_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4954DA78AF2AC9AB"
+			x: 7.5d
+			y: -3.0d
+			title: "金套"
+			dependencies: ["71C6B10C882ACFFE"]
+		}
+		{
+			tasks: [
+				{
+					id: "1AD2E50D72EF8707"
+					type: "item"
+					item: {
+						id: "minecraft:netherite_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "69BC495195C37E48"
+					type: "item"
+					item: {
+						id: "minecraft:netherite_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4210C1136CAA3767"
+					type: "item"
+					item: {
+						id: "minecraft:netherite_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2DEE751C03CE9DF3"
+					type: "item"
+					item: {
+						id: "minecraft:netherite_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			icon: {
+				id: "minecraft:netherite_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "24558788049150BB"
+			x: -2.5d
+			y: 0.0d
+			title: "下界合金套装"
+			dependencies: ["1881400BB95AC000"]
+		}
+		{
+			tasks: [
+				{
+					id: "0F89ED4A8FAFF8AC"
+					type: "item"
+					item: {
+						id: "armorplus:coal_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "68ABED329E4149F8"
+					type: "item"
+					item: {
+						id: "armorplus:coal_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "142A46311A4D43B8"
+					type: "item"
+					item: {
+						id: "armorplus:coal_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "398F1BFDD2D2EEA5"
+					type: "item"
+					item: {
+						id: "armorplus:coal_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			icon: {
+				id: "armorplus:coal_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3FF751BE980ADA63"
+			x: -4.5d
+			y: -3.0d
+			title: "煤炭套装"
+			dependencies: ["20E45D95C8E7B8F0"]
+		}
+		{
+			tasks: [
+				{
+					id: "4C504C1B4D7E32C0"
+					type: "item"
+					item: {
+						id: "armorplus:redstone_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "28BB4587E3370760"
+					type: "item"
+					item: {
+						id: "armorplus:redstone_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3F980D55E4D1F427"
+					type: "item"
+					item: {
+						id: "armorplus:redstone_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2FBC2425298FABC8"
+					type: "item"
+					item: {
+						id: "armorplus:redstone_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			icon: {
+				id: "armorplus:redstone_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5DE39C0B03BBE8C4"
+			x: 0.5d
+			y: -3.0d
+			title: "红石套装"
+			dependencies: ["404B64942F2D2BEE"]
+		}
+		{
+			tasks: [
+				{
+					id: "32911DDB71908E1E"
+					type: "item"
+					item: {
+						id: "armorplus:chicken_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "150179416F82F733"
+					type: "item"
+					item: {
+						id: "armorplus:chicken_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2257A7BF28309E4E"
+					type: "item"
+					item: {
+						id: "armorplus:chicken_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "001AF052FF11A30A"
+					type: "item"
+					item: {
+						id: "armorplus:chicken_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			icon: {
+				id: "armorplus:chicken_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "18E0701CBDE99523"
+			x: -3.5d
+			y: -3.0d
+			title: "小鸡套装"
+			dependencies: ["3FF751BE980ADA63"]
+		}
+		{
+			tasks: [
+				{
+					id: "4828EF1CEC7E7ED4"
+					type: "item"
+					item: {
+						id: "armorplus:slime_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "27345905637CEC58"
+					type: "item"
+					item: {
+						id: "armorplus:slime_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "27973373DA31C4DF"
+					type: "item"
+					item: {
+						id: "armorplus:slime_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6FD2FB791C66277B"
+					type: "item"
+					item: {
+						id: "armorplus:slime_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			icon: {
+				id: "armorplus:slime_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "787E24612D49D3D6"
+			x: -2.5d
+			y: -3.0d
+			title: "黏液套装"
+			dependencies: ["18E0701CBDE99523"]
+		}
+		{
+			tasks: [
+				{
+					id: "396D33181E00A591"
+					type: "item"
+					item: {
+						id: "armorplus:emerald_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2E6043B667BE3B1B"
+					type: "item"
+					item: {
+						id: "armorplus:emerald_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1F7E209549AB64F3"
+					type: "item"
+					item: {
+						id: "armorplus:emerald_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "62F48EC838EFB52B"
+					type: "item"
+					item: {
+						id: "armorplus:emerald_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			icon: {
+				id: "armorplus:emerald_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "390E5D9C44A1B235"
+			x: 11.5d
+			y: -1.0d
+			title: "绿宝石套装"
+			dependencies: ["3C5B9AE29C4B4EB8"]
+		}
+		{
+			tasks: [
+				{
+					id: "072E40AD529C0B19"
+					type: "item"
+					item: {
+						id: "armorplus:obsidian_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "44FAE7D6915D5AD0"
+					type: "item"
+					item: {
+						id: "armorplus:obsidian_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7F40D4FEFF3ECC8B"
+					type: "item"
+					item: {
+						id: "armorplus:obsidian_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "272AA33A41ACEE8B"
+					type: "item"
+					item: {
+						id: "armorplus:obsidian_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			icon: {
+				id: "armorplus:obsidian_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "73270AEE231D87AB"
+			x: -4.5d
+			y: 0.0d
+			title: "富集黑曜石套装"
+			dependencies: ["204E487DA8249E99"]
+		}
+		{
+			tasks: [
+				{
+					id: "1E808AB35E85EBC2"
+					type: "item"
+					item: {
+						id: "armorplus:infused_lava_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "64356A1223EE9A24"
+					type: "item"
+					item: {
+						id: "armorplus:infused_lava_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "20F3A97B4905191C"
+					type: "item"
+					item: {
+						id: "armorplus:infused_lava_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "19E55CBA4F3A952D"
+					type: "item"
+					item: {
+						id: "armorplus:infused_lava_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			icon: {
+				id: "armorplus:infused_lava_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0B1422221B10F35A"
+			x: -0.5d
+			y: 0.0d
+			title: "灌注熔岩套装"
+			dependencies: ["159F30F121C2E81D"]
+		}
+		{
+			tasks: [
+				{
+					id: "1B28E63A52105114"
+					type: "item"
+					item: {
+						id: "armorplus:guardian_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "32CE9AD3B021E56F"
+					type: "item"
+					item: {
+						id: "armorplus:guardian_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7A84F184DCAE8AD8"
+					type: "item"
+					item: {
+						id: "armorplus:guardian_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "338EBDF3D14FEAF1"
+					type: "item"
+					item: {
+						id: "armorplus:guardian_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			icon: {
+				id: "armorplus:guardian_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2F13CC5778DE1B87"
+			x: 2.5d
+			y: 0.0d
+			title: "守卫者套装"
+			dependencies: ["39480DF41094C0CA"]
+		}
+		{
+			tasks: [
+				{
+					id: "2CAD995DA266EC70"
+					type: "item"
+					item: {
+						id: "armorplus:super_star_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "35DFD029CBF59227"
+					type: "item"
+					item: {
+						id: "armorplus:super_star_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "24FBAA794A66B0AF"
+					type: "item"
+					item: {
+						id: "armorplus:super_star_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "472C1AC7AA92B032"
+					type: "item"
+					item: {
+						id: "armorplus:super_star_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			icon: {
+				id: "armorplus:super_star_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2159886C3E94FC45"
+			x: 5.5d
+			y: 0.0d
+			title: "下界之星套装"
+			dependencies: ["19304193BA2F92CB"]
+		}
+		{
+			tasks: [
+				{
+					id: "444C921BF4C4153A"
+					type: "item"
+					item: {
+						id: "armorplus:ender_dragon_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2309C06B3B12FA76"
+					type: "item"
+					item: {
+						id: "armorplus:ender_dragon_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4E5C26D2883ACB09"
+					type: "item"
+					item: {
+						id: "armorplus:ender_dragon_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "58369421F05C846D"
+					type: "item"
+					item: {
+						id: "armorplus:ender_dragon_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			icon: {
+				id: "armorplus:ender_dragon_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6E095BA616D110F6"
+			x: 6.5d
+			y: 0.0d
+			title: "末影龙套"
+			dependencies: ["2159886C3E94FC45"]
+		}
+		{
+			tasks: [
+				{
+					id: "0C85B74B751B45D8"
+					type: "item"
+					item: {
+						id: "armorplus:slayer_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2F59BB3E039DC23A"
+					type: "item"
+					item: {
+						id: "armorplus:slayer_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "68EBA08DE1F81E6D"
+					type: "item"
+					item: {
+						id: "armorplus:slayer_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7D0A172E8067CA2E"
+					type: "item"
+					item: {
+						id: "armorplus:slayer_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			icon: {
+				id: "armorplus:slayer_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "358668DCBA42977E"
+			x: 7.5d
+			y: 0.0d
+			title: "杀手套装"
+			dependencies: ["6E095BA616D110F6"]
+		}
+		{
+			tasks: [{
+				id: "449A35F768A19854"
+				type: "item"
+				item: {
+					id: "armorplus:chainmail_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			icon: {
+				id: "armorplus:chainmail_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "66FEDB58A2494996"
+			x: 7.5d
+			y: -2.0d
+			title: "强化锁链套装"
+			dependencies: ["25B647EAD0747001"]
+		}
+		{
+			tasks: [
+				{
+					id: "7EDC4419BA612D3D"
+					type: "item"
+					item: {
+						id: "armorplus:golden_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "700252C1939A37E6"
+					type: "item"
+					item: {
+						id: "armorplus:golden_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1801C2C05C8415A5"
+					type: "item"
+					item: {
+						id: "armorplus:golden_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5935AE23BD6E2684"
+					type: "item"
+					item: {
+						id: "armorplus:golden_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			icon: {
+				id: "armorplus:golden_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "524EC6039873C31F"
+			x: 8.5d
+			y: -3.0d
+			title: "强化金套装"
+			dependencies: ["4954DA78AF2AC9AB"]
+		}
+		{
+			tasks: [
+				{
+					id: "18C0264EEFC33A8A"
+					type: "item"
+					item: {
+						id: "armorplus:diamond_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "30ED3DC10FCB6056"
+					type: "item"
+					item: {
+						id: "armorplus:diamond_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "24DC6B3C8F35F349"
+					type: "item"
+					item: {
+						id: "armorplus:diamond_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1F59F6D9A4AC8E6F"
+					type: "item"
+					item: {
+						id: "armorplus:diamond_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			icon: {
+				id: "armorplus:diamond_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1C6C69E0DF9EDEDF"
+			x: 6.5d
+			y: -1.0d
+			title: "强化钻石套装"
+			dependencies: ["3320CAF71D2EE28A"]
+		}
+		{
+			tasks: [
+				{
+					id: "5110FAA6ECC83822"
+					type: "item"
+					item: {
+						id: "armorplus:netherite_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "52E72C94CFDF4C68"
+					type: "item"
+					item: {
+						id: "armorplus:netherite_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1B0AB67113F9EA28"
+					type: "item"
+					item: {
+						id: "armorplus:netherite_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2FEB356AF2ABF5C5"
+					type: "item"
+					item: {
+						id: "armorplus:netherite_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			icon: {
+				id: "armorplus:netherite_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "159F30F121C2E81D"
+			x: -1.5d
+			y: 0.0d
+			title: "强化下界合金套装"
+			dependencies: ["24558788049150BB"]
+		}
+		{
+			tasks: [
+				{
+					id: "6E038724C02A7153"
+					type: "item"
+					item: {
+						id: "armorplus:frost_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0548E8BF8247D47A"
+					type: "item"
+					item: {
+						id: "armorplus:frost_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "75510C017EB80AA0"
+					type: "item"
+					item: {
+						id: "armorplus:frost_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "50CA3C7489CFEA97"
+					type: "item"
+					item: {
+						id: "armorplus:frost_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			icon: {
+				id: "armorplus:frost_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "695A81AA3933274B"
+			x: 0.5d
+			y: 0.0d
+			title: "冰霜套装"
+			dependencies: ["0B1422221B10F35A"]
+		}
+		{
+			tasks: [
+				{
+					id: "753A09C7BC536190"
+					type: "item"
+					item: {
+						id: "armorplus:frost_lava_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "408A78DD45E8D255"
+					type: "item"
+					item: {
+						id: "armorplus:frost_lava_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "25C880870A93914D"
+					type: "item"
+					item: {
+						id: "armorplus:frost_lava_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3A8FB2309DDF0F88"
+					type: "item"
+					item: {
+						id: "armorplus:frost_lava_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			icon: {
+				id: "armorplus:frost_lava_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "39480DF41094C0CA"
+			x: 1.5d
+			y: 0.0d
+			title: "霜火套装"
+			dependencies: ["695A81AA3933274B"]
+		}
+		{
+			tasks: [
+				{
+					id: "51661D8DE7A315B4"
+					type: "item"
+					item: {
+						id: "blue_skies:pyrope_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1C6030FEBF204E02"
+					type: "item"
+					item: {
+						id: "blue_skies:pyrope_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "69797248D72F8D0B"
+					type: "item"
+					item: {
+						id: "blue_skies:pyrope_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7DCFC47FB4C0EC79"
+					type: "item"
+					item: {
+						id: "blue_skies:pyrope_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			icon: {
+				id: "blue_skies:pyrope_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2BA304F0AA09B111"
+			x: -0.5d
+			y: -2.0d
+			title: "榴石套装"
+			dependencies: ["066E55A84F99BE76"]
+		}
+		{
+			tasks: [
+				{
+					id: "2DDF534590DD7897"
+					type: "item"
+					item: {
+						id: "blue_skies:aquite_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7CD80CE1FCAE831B"
+					type: "item"
+					item: {
+						id: "blue_skies:aquite_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3417206D4022C09B"
+					type: "item"
+					item: {
+						id: "blue_skies:aquite_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "27915A36AA8D8708"
+					type: "item"
+					item: {
+						id: "blue_skies:aquite_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			icon: {
+				id: "blue_skies:aquite_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "14712EC0B65EF6FC"
+			x: 1.5d
+			y: -2.0d
+			title: "水蓝石套装"
+			dependencies: ["2D62443BFEC2E2B1"]
+		}
+		{
+			tasks: [
+				{
+					id: "4BEEBBCB46C2867F"
+					type: "item"
+					item: {
+						id: "blue_skies:diopside_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1C7E5C41A4CCDFBF"
+					type: "item"
+					item: {
+						id: "blue_skies:diopside_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3187B86286716863"
+					type: "item"
+					item: {
+						id: "blue_skies:diopside_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "64DB7754E2C18F45"
+					type: "item"
+					item: {
+						id: "blue_skies:diopside_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			icon: {
+				id: "blue_skies:diopside_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7726F93F6FEF3C81"
+			x: 1.5d
+			y: -1.0d
+			title: "透辉石套装"
+			dependencies: ["4B9F9609EDD20B95"]
+		}
+		{
+			tasks: [
+				{
+					id: "08B6E28C6C7D9030"
+					type: "item"
+					item: {
+						id: "blue_skies:charoite_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5B602296EB6F6DD9"
+					type: "item"
+					item: {
+						id: "blue_skies:charoite_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2FAC801AC1943493"
+					type: "item"
+					item: {
+						id: "blue_skies:charoite_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3FFB1BC30C14EDB9"
+					type: "item"
+					item: {
+						id: "blue_skies:charoite_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			icon: {
+				id: "blue_skies:charoite_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0623A29EB702F3B2"
+			x: 12.5d
+			y: -1.0d
+			title: "绛紫晶套装"
+			dependencies: ["390E5D9C44A1B235"]
+		}
+		{
+			tasks: [
+				{
+					id: "0605E17DD00BB167"
+					type: "item"
+					item: {
+						id: "blue_skies:horizonite_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "156AF4E8AF921749"
+					type: "item"
+					item: {
+						id: "blue_skies:horizonite_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0D08505286BE50A8"
+					type: "item"
+					item: {
+						id: "blue_skies:horizonite_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "61E67914880BAB93"
+					type: "item"
+					item: {
+						id: "blue_skies:horizonite_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			icon: {
+				id: "blue_skies:horizonite_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2D62443BFEC2E2B1"
+			x: 0.5d
+			y: -2.0d
+			title: "炙铁套装"
+			dependencies: ["2BA304F0AA09B111"]
+		}
+		{
+			tasks: [
+				{
+					id: "521A976DD08AE9DA"
+					type: "item"
+					item: {
+						id: "botania:manasteel_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6EDF7E19DBA18FE8"
+					type: "item"
+					item: {
+						id: "botania:manasteel_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "704B95BA4B54FC2A"
+					type: "item"
+					item: {
+						id: "botania:manasteel_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2637D54B091C7432"
+					type: "item"
+					item: {
+						id: "botania:manasteel_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			icon: {
+				id: "botania:manasteel_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "223D1AE664E0AB3F"
+			x: 3.5d
+			y: -2.0d
+			title: "魔力钢套装"
+			dependencies: ["532B026061C872C6"]
+		}
+		{
+			tasks: [
+				{
+					id: "36E9E068DED9689B"
+					type: "item"
+					item: {
+						id: "botania:elementium_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5045165B23FD1A1F"
+					type: "item"
+					item: {
+						id: "botania:elementium_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "06AA14EDC08629B8"
+					type: "item"
+					item: {
+						id: "botania:elementium_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2773969CEC17892C"
+					type: "item"
+					item: {
+						id: "botania:elementium_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			icon: {
+				id: "botania:elementium_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "712F6E43D8DF09D7"
+			x: 4.5d
+			y: -2.0d
+			title: "源质钢套装"
+			dependencies: ["223D1AE664E0AB3F"]
+		}
+		{
+			tasks: [
+				{
+					id: "07599B6E15963C8A"
+					type: "item"
+					item: {
+						id: "botania:terrasteel_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "35B676F69A00AF0C"
+					type: "item"
+					item: {
+						id: "botania:terrasteel_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0256D184BBB628EE"
+					type: "item"
+					item: {
+						id: "botania:terrasteel_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "26BD7B2CDA2B568F"
+					type: "item"
+					item: {
+						id: "botania:terrasteel_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			icon: {
+				id: "botania:terrasteel_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1881400BB95AC000"
+			x: -3.5d
+			y: 0.0d
+			title: "泰拉钢套装"
+			dependencies: ["73270AEE231D87AB"]
+		}
+		{
+			tasks: [
+				{
+					id: "15FB1BD9CDF46786"
+					type: "item"
+					item: {
+						id: "cyclic:crystal_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0E75FFE5D19C704F"
+					type: "item"
+					item: {
+						id: "cyclic:crystal_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5E284E9147E163BB"
+					type: "item"
+					item: {
+						id: "cyclic:crystal_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7AE09CB210A17554"
+					type: "item"
+					item: {
+						id: "cyclic:crystal_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			icon: {
+				id: "cyclic:crystal_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "49DAB7098ED1B01D"
+			x: 3.5d
+			y: 0.0d
+			title: "哭泣黑曜石套装"
+			dependencies: ["2F13CC5778DE1B87"]
+		}
+		{
+			tasks: [
+				{
+					id: "4AD1FECA9D12E841"
+					type: "item"
+					item: {
+						id: "immersiveengineering:armor_faraday_head"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "631AEC3BA6BA2C2A"
+					type: "item"
+					item: {
+						id: "immersiveengineering:armor_faraday_chest"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "67279A2079B43E61"
+					type: "item"
+					item: {
+						id: "immersiveengineering:armor_faraday_legs"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "366B7E1A2FCDFFDE"
+					type: "item"
+					item: {
+						id: "immersiveengineering:armor_faraday_feet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			icon: {
+				id: "immersiveengineering:armor_faraday_chest"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "14B2AF732EB330F1"
+			x: -1.5d
+			y: -3.0d
+			title: "法拉第套装"
+			dependencies: ["787E24612D49D3D6"]
+		}
+		{
+			tasks: [
+				{
+					id: "0980CEDBDD9DE5F2"
+					type: "item"
+					item: {
+						id: "mekanismtools:bronze_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6E31325275EFEAB7"
+					type: "item"
+					item: {
+						id: "mekanismtools:bronze_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4590F05533E04861"
+					type: "item"
+					item: {
+						id: "mekanismtools:bronze_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0553B4043DF63066"
+					type: "item"
+					item: {
+						id: "mekanismtools:bronze_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			icon: {
+				id: "mekanismtools:bronze_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0B0056CCA107E342"
+			x: -1.5d
+			y: -1.0d
+			title: "青铜套装"
+			dependencies: ["2B9656D2BCF87F96"]
+		}
+		{
+			tasks: [
+				{
+					id: "131F240208B7E398"
+					type: "item"
+					item: {
+						id: "mekanismtools:lapis_lazuli_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "708E63CBB60F7D92"
+					type: "item"
+					item: {
+						id: "mekanismtools:lapis_lazuli_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "33DFF99D30221343"
+					type: "item"
+					item: {
+						id: "mekanismtools:lapis_lazuli_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "41D7DBC9BB63B2FE"
+					type: "item"
+					item: {
+						id: "mekanismtools:lapis_lazuli_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			icon: {
+				id: "mekanismtools:lapis_lazuli_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "671F4DF7211F25D8"
+			x: 4.5d
+			y: -3.0d
+			title: "青金石套装"
+			dependencies: ["475F5C7BCF319EA3"]
+		}
+		{
+			tasks: [
+				{
+					id: "41324C460D0D8EBC"
+					type: "item"
+					item: {
+						id: "mekanismtools:osmium_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "296CF5D02403FEF0"
+					type: "item"
+					item: {
+						id: "mekanismtools:osmium_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5F002858D6563FE4"
+					type: "item"
+					item: {
+						id: "mekanismtools:osmium_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "42B35E0C42E8B4E6"
+					type: "item"
+					item: {
+						id: "mekanismtools:osmium_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			icon: {
+				id: "mekanismtools:osmium_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6CDD795844C1452B"
+			x: 7.5d
+			y: -1.0d
+			title: "锇套装"
+			dependencies: ["1C6C69E0DF9EDEDF"]
+		}
+		{
+			tasks: [
+				{
+					id: "0CA7C193B7FE92F1"
+					type: "item"
+					item: {
+						id: "mekanismtools:refined_glowstone_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1D0423E6005F2491"
+					type: "item"
+					item: {
+						id: "mekanismtools:refined_glowstone_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0EFB417C23A24D90"
+					type: "item"
+					item: {
+						id: "mekanismtools:refined_glowstone_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5BE7ECB3187A461B"
+					type: "item"
+					item: {
+						id: "mekanismtools:refined_glowstone_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			icon: {
+				id: "mekanismtools:refined_glowstone_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0D95FD2A9158E10A"
+			x: 8.5d
+			y: -1.0d
+			title: "强化荧石套装"
+			dependencies: ["6CDD795844C1452B"]
+		}
+		{
+			tasks: [
+				{
+					id: "19D87B838D647D32"
+					type: "item"
+					item: {
+						id: "mekanismtools:refined_obsidian_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "17CCB857F732F957"
+					type: "item"
+					item: {
+						id: "mekanismtools:refined_obsidian_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "37261C4BF3A0955C"
+					type: "item"
+					item: {
+						id: "mekanismtools:refined_obsidian_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "274CABF938CE6E36"
+					type: "item"
+					item: {
+						id: "mekanismtools:refined_obsidian_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			icon: {
+				id: "mekanismtools:refined_obsidian_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "19304193BA2F92CB"
+			x: 4.5d
+			y: 0.0d
+			title: "强化黑曜石套装"
+			dependencies: ["49DAB7098ED1B01D"]
+		}
+		{
+			tasks: [
+				{
+					id: "328425869EFF7C07"
+					type: "item"
+					item: {
+						id: "mekanismtools:steel_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4B4E362C6D30C4B7"
+					type: "item"
+					item: {
+						id: "mekanismtools:steel_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6F6D7257D9A7509D"
+					type: "item"
+					item: {
+						id: "mekanismtools:steel_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3F41E1B9069364AC"
+					type: "item"
+					item: {
+						id: "mekanismtools:steel_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			icon: {
+				id: "mekanismtools:steel_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5C1A95064FFFDB2F"
+			x: 4.5d
+			y: -1.0d
+			title: "钢套装"
+			dependencies: ["4648506D94D7DC80"]
+		}
+		{
+			tasks: [
+				{
+					id: "1C0FAF1B0A01EDDC"
+					type: "item"
+					item: {
+						id: "pickletweaks:flint_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1972B6C72B9244CF"
+					type: "item"
+					item: {
+						id: "pickletweaks:flint_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7ED5CA8988678A5D"
+					type: "item"
+					item: {
+						id: "pickletweaks:flint_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "01FE2B703FF610B1"
+					type: "item"
+					item: {
+						id: "pickletweaks:flint_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			icon: {
+				id: "pickletweaks:flint_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "066E55A84F99BE76"
+			x: -1.5d
+			y: -2.0d
+			title: "燧石套装"
+			dependencies: ["3EA3961E7E1135B5"]
+		}
+		{
+			tasks: [{
+				id: "6C410FE96CD5FFA9"
+				type: "item"
+				item: {
+					id: "pneumaticcraft:compressed_iron_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			icon: {
+				id: "pneumaticcraft:compressed_iron_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0E7D8CA408ED3244"
+			x: 8.5d
+			y: -2.0d
+			title: "压缩铁套装"
+			dependencies: ["66FEDB58A2494996"]
+		}
+		{
+			tasks: [
+				{
+					id: "0A75BC6DC9832AF3"
+					type: "item"
+					item: {
+						id: "undergarden:cloggrum_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "787445F3AC5CCA5F"
+					type: "item"
+					item: {
+						id: "undergarden:cloggrum_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "00DCC440398285AD"
+					type: "item"
+					item: {
+						id: "undergarden:cloggrum_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "76A7BDE1E6D19682"
+					type: "item"
+					item: {
+						id: "undergarden:cloggrum_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			icon: {
+				id: "undergarden:cloggrum_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6B49939F2CE319C2"
+			x: 5.5d
+			y: -2.0d
+			title: "扼塞套装"
+			dependencies: ["712F6E43D8DF09D7"]
+		}
+		{
+			tasks: [
+				{
+					id: "456265928DDDA46F"
+					type: "item"
+					item: {
+						id: "undergarden:froststeel_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "59FAA055F249D69A"
+					type: "item"
+					item: {
+						id: "undergarden:froststeel_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "30F1AA28D78AA11C"
+					type: "item"
+					item: {
+						id: "undergarden:froststeel_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "13A6DADCDD3FDCD2"
+					type: "item"
+					item: {
+						id: "undergarden:froststeel_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			icon: {
+				id: "undergarden:froststeel_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4B9F9609EDD20B95"
+			x: 0.5d
+			y: -1.0d
+			title: "霜钢套装"
+			dependencies: ["30CD6BB46DBF96E2"]
+		}
+		{
+			tasks: [
+				{
+					id: "5D79A8D1156A2EB1"
+					type: "item"
+					item: {
+						id: "undergarden:utherium_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "65DD8A09FF1A7442"
+					type: "item"
+					item: {
+						id: "undergarden:utherium_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "251CBF7982906C18"
+					type: "item"
+					item: {
+						id: "undergarden:utherium_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "06077E80349F66C9"
+					type: "item"
+					item: {
+						id: "undergarden:utherium_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			icon: {
+				id: "undergarden:utherium_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5E2FD8BA078558BD"
+			x: 9.5d
+			y: -1.0d
+			title: "御腐套装"
+			dependencies: ["0D95FD2A9158E10A"]
+		}
+		{
+			tasks: [
+				{
+					id: "48481BDBDCCEA876"
+					type: "item"
+					item: {
+						id: "tools_complement:copper_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3C6716455A5FD5B0"
+					type: "item"
+					item: {
+						id: "tools_complement:copper_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6DB4CA638AB2912D"
+					type: "item"
+					item: {
+						id: "tools_complement:copper_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0F62E4122D6A30E1"
+					type: "item"
+					item: {
+						id: "tools_complement:copper_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			icon: {
+				id: "tools_complement:copper_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1D59038BB002B36F"
+			x: 1.5d
+			y: -3.0d
+			title: "铜套装"
+			dependencies: ["5DE39C0B03BBE8C4"]
+		}
+		{
+			tasks: [
+				{
+					id: "54B23FE49DA18861"
+					type: "item"
+					item: {
+						id: "tools_complement:tin_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "02300F015176563A"
+					type: "item"
+					item: {
+						id: "tools_complement:tin_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1107DE63F7D882A2"
+					type: "item"
+					item: {
+						id: "tools_complement:tin_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "20BCFEE97C8CC993"
+					type: "item"
+					item: {
+						id: "tools_complement:tin_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			icon: {
+				id: "tools_complement:tin_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "475F5C7BCF319EA3"
+			x: 3.5d
+			y: -3.0d
+			title: "锡套装"
+			dependencies: ["25030AE3E1E0B9E4"]
+		}
+		{
+			tasks: [
+				{
+					id: "144D12D5A220CE5F"
+					type: "item"
+					item: {
+						id: "tools_complement:lead_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2E231B08C4D7C7EE"
+					type: "item"
+					item: {
+						id: "tools_complement:lead_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "60062B8952DD5F5D"
+					type: "item"
+					item: {
+						id: "tools_complement:lead_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "44235E27F34CB77C"
+					type: "item"
+					item: {
+						id: "tools_complement:lead_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			icon: {
+				id: "tools_complement:lead_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "73C04EC313AEF2B0"
+			x: -4.5d
+			y: -2.0d
+			title: "铅套装"
+			dependencies: ["490DF4EB818423AC"]
+		}
+		{
+			tasks: [
+				{
+					id: "165A3B374F08EB22"
+					type: "item"
+					item: {
+						id: "tools_complement:silver_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5799E4AA55E86E62"
+					type: "item"
+					item: {
+						id: "tools_complement:silver_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "58DA582E9A02C6AE"
+					type: "item"
+					item: {
+						id: "tools_complement:silver_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "68C90F86B6972F7D"
+					type: "item"
+					item: {
+						id: "tools_complement:silver_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			icon: {
+				id: "tools_complement:silver_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "039AEB92BBF286F2"
+			x: 5.5d
+			y: -3.0d
+			title: "银套"
+			dependencies: ["671F4DF7211F25D8"]
+		}
+		{
+			tasks: [
+				{
+					id: "0C51849FA9490BBD"
+					type: "item"
+					item: {
+						id: "tools_complement:nickel_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5199C868754485AE"
+					type: "item"
+					item: {
+						id: "tools_complement:nickel_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "03B89B3B6EE9942D"
+					type: "item"
+					item: {
+						id: "tools_complement:nickel_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "26969AFAA802DDDF"
+					type: "item"
+					item: {
+						id: "tools_complement:nickel_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			icon: {
+				id: "tools_complement:nickel_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0C26A36DE03DE107"
+			x: -3.5d
+			y: -2.0d
+			title: "镍套装"
+			dependencies: ["73C04EC313AEF2B0"]
+		}
+		{
+			tasks: [
+				{
+					id: "7598402DADF96AD7"
+					type: "item"
+					item: {
+						id: "tools_complement:electrum_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "655C4516B93DA17F"
+					type: "item"
+					item: {
+						id: "tools_complement:electrum_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "19B691C81CB88176"
+					type: "item"
+					item: {
+						id: "tools_complement:electrum_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "40FD91875C41EC82"
+					type: "item"
+					item: {
+						id: "tools_complement:electrum_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			icon: {
+				id: "tools_complement:electrum_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "71C6B10C882ACFFE"
+			x: 6.5d
+			y: -3.0d
+			title: "琥珀金套装"
+			dependencies: ["039AEB92BBF286F2"]
+		}
+		{
+			tasks: [
+				{
+					id: "0D5BAEE4C7A0CC4A"
+					type: "item"
+					item: {
+						id: "tools_complement:invar_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7D6DA2C1A0F005B5"
+					type: "item"
+					item: {
+						id: "tools_complement:invar_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "469AE19CDFFF319D"
+					type: "item"
+					item: {
+						id: "tools_complement:invar_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "32AB599A347F877F"
+					type: "item"
+					item: {
+						id: "tools_complement:invar_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			icon: {
+				id: "tools_complement:invar_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5DAAA5A93F4D3180"
+			x: -3.5d
+			y: -1.0d
+			title: "殷钢套装"
+			dependencies: ["20D6548E42B4F00C"]
+		}
+		{
+			tasks: [
+				{
+					id: "785F8749C1EE6CB7"
+					type: "item"
+					item: {
+						id: "tools_complement:constantan_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6FCD5A7A3F139288"
+					type: "item"
+					item: {
+						id: "tools_complement:constantan_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "42DF28ADC665DF86"
+					type: "item"
+					item: {
+						id: "tools_complement:constantan_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2203C8264084C659"
+					type: "item"
+					item: {
+						id: "tools_complement:constantan_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			icon: {
+				id: "tools_complement:constantan_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "25030AE3E1E0B9E4"
+			x: 2.5d
+			y: -3.0d
+			title: "康铜套装"
+			dependencies: ["1D59038BB002B36F"]
+		}
+		{
+			tasks: [
+				{
+					id: "67CE58B1ECEC1C0D"
+					type: "item"
+					item: {
+						id: "twilightforest:ironwood_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								lvl: 1s
+								id: "minecraft:aqua_affinity"
+							}]
+						}
+					}
+				}
+				{
+					id: "75E32CEE87194B8D"
+					type: "item"
+					item: {
+						id: "twilightforest:ironwood_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								lvl: 1s
+								id: "minecraft:protection"
+							}]
+						}
+					}
+				}
+				{
+					id: "4B753A850B78058C"
+					type: "item"
+					item: {
+						id: "twilightforest:ironwood_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								lvl: 1s
+								id: "minecraft:protection"
+							}]
+						}
+					}
+				}
+				{
+					id: "56414AF2CB467084"
+					type: "item"
+					item: {
+						id: "twilightforest:ironwood_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								lvl: 1s
+								id: "minecraft:feather_falling"
+							}]
+						}
+					}
+				}
+			]
+			icon: {
+				id: "twilightforest:ironwood_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+					Enchantments: [{
+						lvl: 1s
+						id: "minecraft:protection"
+					}]
+				}
+			}
+			id: "30CD6BB46DBF96E2"
+			x: -0.5d
+			y: -1.0d
+			title: "铁木套装"
+			dependencies: ["0B0056CCA107E342"]
+		}
+		{
+			tasks: [
+				{
+					id: "3DC0BE47E74AA649"
+					type: "item"
+					item: {
+						id: "twilightforest:fiery_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3840FC273CC9F7C4"
+					type: "item"
+					item: {
+						id: "twilightforest:fiery_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4C8B5E5D1CC4A73C"
+					type: "item"
+					item: {
+						id: "twilightforest:fiery_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7C9BF1DF79F3395D"
+					type: "item"
+					item: {
+						id: "twilightforest:fiery_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			icon: {
+				id: "twilightforest:fiery_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3C5B9AE29C4B4EB8"
+			x: 10.5d
+			y: -1.0d
+			title: "炽铁套装"
+			dependencies: ["5E2FD8BA078558BD"]
+		}
+		{
+			tasks: [
+				{
+					id: "1A973BEB455C1018"
+					type: "item"
+					item: {
+						id: "twilightforest:knightmetal_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2321F27C0E0997D1"
+					type: "item"
+					item: {
+						id: "twilightforest:knightmetal_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "16E79BFF3A8EBE1A"
+					type: "item"
+					item: {
+						id: "twilightforest:knightmetal_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0CB7F5D6FA9AA1BA"
+					type: "item"
+					item: {
+						id: "twilightforest:knightmetal_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			icon: {
+				id: "twilightforest:knightmetal_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4648506D94D7DC80"
+			x: 3.5d
+			y: -1.0d
+			title: "骑士钢套装"
+			dependencies: ["4C72DAFEC53049BB"]
+		}
+		{
+			tasks: [
+				{
+					id: "1D2EFA1928E21522"
+					type: "item"
+					item: {
+						id: "twilightforest:arctic_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5B2ECACF9C6807C7"
+					type: "item"
+					item: {
+						id: "twilightforest:arctic_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1F0A68F57F5A513E"
+					type: "item"
+					item: {
+						id: "twilightforest:arctic_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "004277F8E155920C"
+					type: "item"
+					item: {
+						id: "twilightforest:arctic_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			icon: {
+				id: "twilightforest:arctic_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "20D6548E42B4F00C"
+			x: -4.5d
+			y: -1.0d
+			title: "北极套装"
+			dependencies: ["13366E4DF7CDCC14"]
+		}
+		{
+			tasks: [
+				{
+					id: "713ED1959309A691"
+					type: "item"
+					item: {
+						id: "twilightforest:yeti_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								lvl: 2s
+								id: "minecraft:protection"
+							}]
+						}
+					}
+				}
+				{
+					id: "3CDC749787768B9D"
+					type: "item"
+					item: {
+						id: "twilightforest:yeti_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								lvl: 2s
+								id: "minecraft:protection"
+							}]
+						}
+					}
+				}
+				{
+					id: "3627D6BA68CEB25F"
+					type: "item"
+					item: {
+						id: "twilightforest:yeti_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								lvl: 2s
+								id: "minecraft:protection"
+							}]
+						}
+					}
+				}
+				{
+					id: "281CF61E0D0364A2"
+					type: "item"
+					item: {
+						id: "twilightforest:yeti_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [
+								{
+									lvl: 2s
+									id: "minecraft:protection"
+								}
+								{
+									lvl: 4s
+									id: "minecraft:feather_falling"
+								}
+							]
+						}
+					}
+				}
+			]
+			icon: {
+				id: "twilightforest:yeti_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+					Enchantments: [{
+						lvl: 2s
+						id: "minecraft:protection"
+					}]
+				}
+			}
+			id: "2B9656D2BCF87F96"
+			x: -2.5d
+			y: -1.0d
+			title: "雪怪套装"
+			dependencies: ["5DAAA5A93F4D3180"]
+		}
+		{
+			tasks: [
+				{
+					id: "2255084ADD750253"
+					type: "item"
+					item: {
+						id: "armorplus:iron_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "16193AFE6C17DB99"
+					type: "item"
+					item: {
+						id: "armorplus:iron_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "604EDA66E345093E"
+					type: "item"
+					item: {
+						id: "armorplus:iron_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "123E2AD7676C7925"
+					type: "item"
+					item: {
+						id: "armorplus:iron_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			icon: {
+				id: "armorplus:iron_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "25B647EAD0747001"
+			x: 6.5d
+			y: -2.0d
+			title: "强化铁套装"
+			dependencies: ["6B49939F2CE319C2"]
+		}
+		{
+			tasks: [
+				{
+					id: "4C6947EABD73660F"
+					type: "item"
+					item: {
+						id: "twilightforest:steeleaf_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								lvl: 2s
+								id: "minecraft:projectile_protection"
+							}]
+						}
+					}
+				}
+				{
+					id: "0F36842DB7090D8F"
+					type: "item"
+					item: {
+						id: "twilightforest:steeleaf_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								lvl: 2s
+								id: "minecraft:blast_protection"
+							}]
+						}
+					}
+				}
+				{
+					id: "338C3B03A7FE9418"
+					type: "item"
+					item: {
+						id: "twilightforest:steeleaf_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								lvl: 2s
+								id: "minecraft:fire_protection"
+							}]
+						}
+					}
+				}
+				{
+					id: "2CEEE82F113D009E"
+					type: "item"
+					item: {
+						id: "twilightforest:steeleaf_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								lvl: 2s
+								id: "minecraft:feather_falling"
+							}]
+						}
+					}
+				}
+			]
+			icon: {
+				id: "twilightforest:steeleaf_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+					Enchantments: [{
+						lvl: 2s
+						id: "minecraft:blast_protection"
+					}]
+				}
+			}
+			id: "4C72DAFEC53049BB"
+			x: 2.5d
+			y: -1.0d
+			title: "钢叶套装"
+			dependencies: ["7726F93F6FEF3C81"]
+		}
+		{
+			tasks: [{
+				id: "3C37C106E9BCF89F"
+				type: "checkmark"
+				title: "阶段2"
+			}]
+			description: ["需要符文祭坛"]
+			icon: "botania:runic_altar"
+			id: "490DF4EB818423AC"
+			x: -5.5d
+			y: -2.0d
+			dependencies: [
+				"20E45D95C8E7B8F0"
+				"524EC6039873C31F"
+			]
+		}
+	]
+}

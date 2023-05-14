@@ -1,0 +1,631 @@
+{
+	quest_links: [ ]
+	default_hide_dependency_lines: false
+	group: "7ACFC886019EA7E0"
+	id: "7D08D721B12F00AE"
+	filename: "pneumatic_craft"
+	default_quest_shape: ""
+	icon: "pneumaticcraft:ingot_iron_compressed"
+	title: "气动工艺:压缩"
+	order_index: 1
+	quests: [
+		{
+			tasks: [{
+				id: "2BBB4F299C903BC5"
+				type: "checkmark"
+				title: "在压力下"
+			}]
+			dependencies: ["6F2A704EC8B729F1"]
+			id: "6C2340CC75C1B634"
+			y: -2.0d
+			x: -3.0d
+			rewards: [{
+				id: "5081BFF985864ECC"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "pneumaticcraft:book"
+					}
+				}
+			}]
+		}
+		{
+			tasks: [{
+				id: "73A80F099DCBDDBD"
+				type: "checkmark"
+				title: "解锁超越地球章节"
+			}]
+			dependencies: ["641B810BBE24CBBF"]
+			id: "3BE4ADBD48D42AAC"
+			y: 6.0d
+			x: 0.5d
+			title: "解锁探索星空章节!"
+		}
+		{
+			tasks: [{
+				id: "629862B900E6DEAA"
+				type: "item"
+				item: "pneumaticcraft:ingot_iron_compressed"
+			}]
+			dependencies: ["6C2340CC75C1B634"]
+			id: "5742605EC0B0D149"
+			y: -1.0d
+			x: -2.0d
+		}
+		{
+			tasks: [{
+				id: "0E23D7C1E5F70DC4"
+				type: "item"
+				item: "pneumaticcraft:transistor"
+			}]
+			dependencies: ["3E2B4D8F9BB1A8F4"]
+			id: "5D57755B573F31DA"
+			y: -4.0d
+			x: -0.5d
+		}
+		{
+			tasks: [{
+				id: "0D57B8300B67869D"
+				type: "item"
+				item: "pneumaticcraft:capacitor"
+			}]
+			dependencies: ["3E2B4D8F9BB1A8F4"]
+			id: "482757498563E45D"
+			y: -4.0d
+			x: 0.5d
+		}
+		{
+			tasks: [{
+				id: "18E72AC30DBACAC7"
+				type: "item"
+				item: "pneumaticcraft:printed_circuit_board"
+			}]
+			dependencies: ["778CBC82CB8C3C70"]
+			id: "6F3F94EBB578CE12"
+			y: -4.0d
+			x: 4.5d
+		}
+		{
+			tasks: [{
+				id: "31FE899856800638"
+				type: "item"
+				item: "pneumaticcraft:assembly_controller"
+			}]
+			dependencies: ["732DB09406C1B8D9"]
+			id: "098547E8397A5AFC"
+			y: -1.0d
+			x: 5.0d
+		}
+		{
+			tasks: [{
+				id: "23049CC54F0CC967"
+				type: "item"
+				item: "pneumaticcraft:uv_light_box"
+			}]
+			dependencies: ["77CD1B3BCFD4274F"]
+			id: "237BE86C0C12503B"
+			y: -5.0d
+			x: 2.5d
+		}
+		{
+			tasks: [{
+				id: "1FCD80ACDAAB1EAC"
+				type: "item"
+				item: "pneumaticcraft:empty_pcb"
+			}]
+			dependencies: ["25A632E2E4E166F5"]
+			id: "5A798C9AF6446883"
+			y: -4.0d
+			x: 2.5d
+		}
+		{
+			tasks: [{
+				id: "5FECFA39C3F8C841"
+				type: "item"
+				item: "pneumaticcraft:assembly_laser"
+			}]
+			dependencies: ["732DB09406C1B8D9"]
+			id: "65927EB60593BE7B"
+			y: -2.0d
+			x: 3.5d
+		}
+		{
+			tasks: [{
+				id: "77B6CDDEC630FD69"
+				type: "item"
+				item: "pneumaticcraft:assembly_io_unit_import"
+			}]
+			dependencies: ["732DB09406C1B8D9"]
+			id: "472DA2255F7D3A0C"
+			y: -2.0d
+			x: 4.5d
+		}
+		{
+			tasks: [{
+				id: "7B4F085A15DDADDF"
+				type: "item"
+				item: "pneumaticcraft:assembly_io_unit_export"
+			}]
+			dependencies: ["732DB09406C1B8D9"]
+			id: "669893E56ACD1909"
+			y: -2.0d
+			x: 5.5d
+		}
+		{
+			tasks: [{
+				id: "1DD315D9F03C0F32"
+				type: "item"
+				item: "pneumaticcraft:assembly_platform"
+			}]
+			dependencies: ["732DB09406C1B8D9"]
+			id: "3B65B8ED859509F8"
+			y: -1.0d
+			x: 4.0d
+		}
+		{
+			tasks: [{
+				id: "094F6F3B9F5504A6"
+				type: "item"
+				item: "pneumaticcraft:etching_tank"
+			}]
+			dependencies: ["25A632E2E4E166F5"]
+			id: "77CD1B3BCFD4274F"
+			y: -5.0d
+			x: 1.5d
+		}
+		{
+			tasks: [{
+				id: "79BE221796C4EE07"
+				type: "item"
+				item: "pneumaticcraft:spawner_agitator"
+			}]
+			dependencies: ["6C2340CC75C1B634"]
+			id: "048C0DD64A8FD573"
+			y: -3.5d
+			x: -5.0d
+		}
+		{
+			tasks: [{
+				id: "55A2B1F18C3E7F21"
+				type: "item"
+				item: "pneumaticcraft:speed_upgrade"
+			}]
+			dependencies: ["4BE2FC68803C670C"]
+			id: "47857410EF7B64E9"
+			y: 2.5d
+			x: -3.5d
+		}
+		{
+			tasks: [{
+				id: "5CE174D31E5056B7"
+				type: "item"
+				item: "pneumaticcraft:security_upgrade"
+			}]
+			dependencies: ["4BE2FC68803C670C"]
+			id: "53D0D15418FE3BBF"
+			y: 2.5d
+			x: -2.5d
+		}
+		{
+			tasks: [{
+				id: "6E33BC567C33B8F9"
+				type: "item"
+				item: "pneumaticcraft:volume_upgrade"
+			}]
+			dependencies: ["4BE2FC68803C670C"]
+			id: "5F7DF2DC451A3A89"
+			y: 3.5d
+			x: -3.5d
+		}
+		{
+			tasks: [{
+				id: "073DAADC1164D0EC"
+				type: "item"
+				item: "pneumaticcraft:dispenser_upgrade"
+			}]
+			dependencies: ["4BE2FC68803C670C"]
+			id: "637CDF56B842E9C5"
+			y: 3.5d
+			x: -2.5d
+		}
+		{
+			tasks: [{
+				id: "67EB3930632462F6"
+				type: "item"
+				item: "pneumaticcraft:pressure_tube"
+			}]
+			dependencies: ["5742605EC0B0D149"]
+			id: "7EBFA4422A129210"
+			y: -2.0d
+			x: -2.0d
+		}
+		{
+			tasks: [{
+				id: "6FDC1D8BED0F46BD"
+				type: "item"
+				item: "pneumaticcraft:reinforced_pressure_tube"
+			}]
+			dependencies: ["7EBFA4422A129210"]
+			id: "267E1D030CD92B0B"
+			y: -3.0d
+			x: -2.0d
+		}
+		{
+			tasks: [{
+				id: "16FDB07B0CCD0493"
+				type: "item"
+				item: "pneumaticcraft:advanced_pressure_tube"
+			}]
+			dependencies: ["267E1D030CD92B0B"]
+			id: "4196703AE2AC32F5"
+			y: -4.0d
+			x: -2.0d
+		}
+		{
+			tasks: [{
+				id: "4180198F87D01C02"
+				type: "item"
+				item: "pneumaticcraft:charging_station"
+			}]
+			dependencies: ["6C2340CC75C1B634"]
+			id: "151FBC177E9A1184"
+			y: -3.5d
+			x: -4.0d
+		}
+		{
+			tasks: [{
+				id: "771891EA660B8C45"
+				type: "item"
+				item: "pneumaticcraft:pressure_chamber_interface"
+			}]
+			dependencies: ["1F9379892615CD16"]
+			id: "610AB74372398E32"
+			y: -2.0d
+			x: 0.5d
+		}
+		{
+			tasks: [{
+				id: "678C6866CBB44344"
+				type: "item"
+				item: "pneumaticcraft:pressure_chamber_valve"
+				count: 2L
+			}]
+			dependencies: ["610AB74372398E32"]
+			id: "3E2B4D8F9BB1A8F4"
+			y: -3.0d
+			x: 0.5d
+		}
+		{
+			tasks: [
+				{
+					id: "30A106DF18EF05CC"
+					type: "item"
+					item: "pneumaticcraft:pressure_chamber_wall"
+					count: 22L
+				}
+				{
+					id: "5C66481CF9E61FB4"
+					type: "item"
+					item: "pneumaticcraft:pressure_chamber_glass"
+				}
+			]
+			description: [
+				"你也可以做4x4x4或5x5x5"
+				"对于5x5×5,我推荐配置两个输入槽和两个输出槽.还有4个压力输入来方便传输."
+			]
+			id: "1F9379892615CD16"
+			x: 0.5d
+			y: -1.0d
+			title: "基础3x3"
+			rewards: [{
+				id: "0D6BB274D57AFCC2"
+				type: "item"
+				item: "pneumaticcraft:pressure_chamber_wall"
+				count: 64
+			}]
+			dependencies: ["5742605EC0B0D149"]
+		}
+		{
+			tasks: [{
+				id: "54C276D09E201509"
+				type: "item"
+				item: "pneumaticcraft:assembly_drill"
+			}]
+			dependencies: ["6F3F94EBB578CE12"]
+			id: "732DB09406C1B8D9"
+			y: -3.0d
+			x: 4.5d
+		}
+		{
+			tasks: [{
+				id: "3BAA3930E1EBC4F1"
+				type: "item"
+				item: "pneumaticcraft:assembly_program_drill_laser"
+			}]
+			dependencies: ["732DB09406C1B8D9"]
+			id: "3C6A8BC44E7DE55E"
+			y: -3.0d
+			x: 6.0d
+		}
+		{
+			tasks: [{
+				id: "7D3FB0F4096D43F2"
+				type: "item"
+				item: "pneumaticcraft:liquid_compressor"
+			}]
+			dependencies: ["0988F4750F3F9D7A"]
+			id: "1900A8653ACC7C2E"
+			y: 1.0d
+			x: -3.0d
+		}
+		{
+			tasks: [{
+				id: "79F8227EEC694D86"
+				type: "item"
+				item: "pneumaticcraft:air_compressor"
+			}]
+			dependencies: ["5742605EC0B0D149"]
+			id: "0988F4750F3F9D7A"
+			y: 0.0d
+			x: -3.0d
+		}
+		{
+			tasks: [{
+				id: "443057EDF970CEC6"
+				type: "item"
+				item: "pneumaticcraft:advanced_air_compressor"
+			}]
+			dependencies: ["0988F4750F3F9D7A"]
+			id: "52F2CE538EF18E79"
+			y: 0.0d
+			x: -4.0d
+		}
+		{
+			tasks: [{
+				id: "2D58731A6B4F0A5E"
+				type: "item"
+				item: "pneumaticcraft:advanced_liquid_compressor"
+			}]
+			dependencies: ["1900A8653ACC7C2E"]
+			id: "7DA6B2CDFCE7CAC6"
+			y: 1.0d
+			x: -4.0d
+		}
+		{
+			tasks: [{
+				id: "5A932C5E3AD7434B"
+				type: "item"
+				item: "pneumaticcraft:flux_compressor"
+			}]
+			dependency_requirement: "one_completed"
+			dependencies: [
+				"52F2CE538EF18E79"
+				"7DA6B2CDFCE7CAC6"
+			]
+			id: "1B21031C2EF874A3"
+			y: 0.5d
+			x: -5.0d
+		}
+		{
+			tasks: [{
+				id: "29B94EFCFF845293"
+				type: "item"
+				item: "pneumaticcraft:etching_acid_bucket"
+			}]
+			dependencies: ["3E2B4D8F9BB1A8F4"]
+			id: "25A632E2E4E166F5"
+			y: -4.0d
+			x: 1.5d
+		}
+		{
+			tasks: [{
+				id: "6C94B072221E42AA"
+				type: "item"
+				item: "pneumaticcraft:biodiesel_bucket"
+			}]
+			dependencies: ["369CF2FADF260D82"]
+			id: "641B810BBE24CBBF"
+			y: 5.0d
+			x: 0.5d
+		}
+		{
+			tasks: [{
+				id: "7477918897086AD3"
+				type: "item"
+				item: "pneumaticcraft:refinery"
+			}]
+			dependencies: ["1F9379892615CD16"]
+			id: "47AADB1934CEB99F"
+			y: 0.0d
+			x: 0.5d
+		}
+		{
+			tasks: [{
+				id: "05AF311C24A9E2BF"
+				type: "item"
+				item: "pneumaticcraft:refinery_output"
+				count: 4L
+			}]
+			dependencies: ["47AADB1934CEB99F"]
+			id: "263710314D6A7C9B"
+			y: 0.0d
+			x: 2.5d
+		}
+		{
+			tasks: [{
+				id: "2C6F29FED11CDC21"
+				type: "item"
+				item: "pneumaticcraft:diesel_bucket"
+			}]
+			dependencies: ["47AADB1934CEB99F"]
+			id: "1569BE36F5D1194A"
+			y: 1.0d
+			x: -1.0d
+		}
+		{
+			tasks: [{
+				id: "73B13E3A562765B7"
+				type: "item"
+				item: "pneumaticcraft:kerosene_bucket"
+			}]
+			dependencies: ["47AADB1934CEB99F"]
+			id: "3F07F73288D26BEA"
+			y: 1.0d
+			x: 0.0d
+		}
+		{
+			tasks: [{
+				id: "10DE100CAE1AC90D"
+				type: "item"
+				item: "pneumaticcraft:gasoline_bucket"
+			}]
+			dependencies: ["47AADB1934CEB99F"]
+			id: "0A2694F81B1FDB64"
+			y: 1.0d
+			x: 1.0d
+		}
+		{
+			tasks: [{
+				id: "6501C5C1691F8482"
+				type: "item"
+				item: "pneumaticcraft:lpg_bucket"
+			}]
+			dependencies: ["47AADB1934CEB99F"]
+			id: "4533E9FB3446B910"
+			y: 1.0d
+			x: 2.0d
+		}
+		{
+			tasks: [{
+				id: "6C274BC528F6A139"
+				type: "item"
+				item: "pneumaticcraft:vortex_tube"
+			}]
+			dependencies: ["263710314D6A7C9B"]
+			id: "14AB8B6EB3D3B1A7"
+			y: 0.0d
+			x: 3.5d
+		}
+		{
+			tasks: [{
+				id: "5D5A8A85526D41BE"
+				type: "item"
+				item: "pneumaticcraft:plastic_bucket"
+			}]
+			dependencies: ["497187E95356C2B8"]
+			id: "1D54FA75ABE9DB1C"
+			y: 2.0d
+			x: 1.5d
+		}
+		{
+			tasks: [{
+				id: "02AC7078DDAB310A"
+				type: "item"
+				item: "pneumaticcraft:plastic"
+			}]
+			dependencies: ["1D54FA75ABE9DB1C"]
+			id: "300DBDD4611BBBBB"
+			y: 2.0d
+			x: 3.0d
+		}
+		{
+			tasks: [{
+				id: "3A2363B12924F332"
+				type: "item"
+				item: "pneumaticcraft:fluid_mixer"
+			}]
+			dependencies: [
+				"2277BAC9F47AC9BA"
+				"7C46CBD7391CFE0B"
+			]
+			id: "369CF2FADF260D82"
+			y: 4.0d
+			x: 0.5d
+		}
+		{
+			tasks: [{
+				id: "63DA13AD9E3D04AD"
+				type: "item"
+				item: "pneumaticcraft:ethanol_bucket"
+			}]
+			dependencies: ["497187E95356C2B8"]
+			id: "2277BAC9F47AC9BA"
+			y: 3.0d
+			x: 0.0d
+		}
+		{
+			tasks: [{
+				id: "3A24B522CB2257FA"
+				type: "item"
+				item: "pneumaticcraft:thermopneumatic_processing_plant"
+			}]
+			dependency_requirement: "one_completed"
+			dependencies: [
+				"0A2694F81B1FDB64"
+				"3F07F73288D26BEA"
+				"1569BE36F5D1194A"
+				"4533E9FB3446B910"
+			]
+			id: "497187E95356C2B8"
+			y: 2.0d
+			x: 0.5d
+		}
+		{
+			tasks: [{
+				id: "00C85D353C17CD3F"
+				type: "item"
+				item: "pneumaticcraft:vegetable_oil_bucket"
+			}]
+			dependencies: ["497187E95356C2B8"]
+			id: "7C46CBD7391CFE0B"
+			y: 3.0d
+			x: 1.0d
+		}
+		{
+			tasks: [{
+				id: "683FBFA95E4052E1"
+				type: "item"
+				item: "pneumaticcraft:yeast_culture_bucket"
+			}]
+			dependencies: ["497187E95356C2B8"]
+			id: "32D4CC48D602BFC4"
+			y: 2.0d
+			x: -0.5d
+		}
+		{
+			tasks: [{
+				id: "11AE423377E2253E"
+				type: "item"
+				item: "pneumaticcraft:unassembled_pcb"
+			}]
+			dependencies: ["5A798C9AF6446883"]
+			id: "778CBC82CB8C3C70"
+			y: -4.0d
+			x: 3.5d
+		}
+		{
+			tasks: [{
+				id: "20AC952BB4B73F91"
+				type: "item"
+				item: "pneumaticcraft:amadron_tablet"
+			}]
+			dependencies: ["6C2340CC75C1B634"]
+			id: "6400586317528175"
+			y: -2.5d
+			x: -5.0d
+		}
+		{
+			tasks: [{
+				id: "1CA2587A0B0F7590"
+				type: "item"
+				item: "pneumaticcraft:lubricant_bucket"
+			}]
+			dependencies: ["497187E95356C2B8"]
+			id: "4BE2FC68803C670C"
+			y: 3.0d
+			x: -1.0d
+		}
+	]
+}

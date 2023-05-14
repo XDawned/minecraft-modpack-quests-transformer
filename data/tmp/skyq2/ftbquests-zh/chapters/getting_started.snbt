@@ -1,0 +1,1808 @@
+{
+	quest_links: [ ]
+	default_hide_dependency_lines: false
+	group: ""
+	id: "4CF56140ADA0A6E2"
+	filename: "getting_started"
+	default_quest_shape: "square"
+	icon: "minecraft:cobblestone"
+	title: "开始"
+	order_index: 1
+	quests: [
+		{
+			size: 2.0d
+			id: "4733CECCC8048C75"
+			x: -9.5d
+			y: -1.5d
+			rewards: [
+				{
+					type: "item"
+					count: 4
+					id: "392DAE8DB4CE842A"
+					auto: "enabled"
+					item: "minecraft:oak_sapling"
+				}
+				{
+					id: "03160422079092F1"
+					type: "item"
+					item: "minecraft:bone_meal"
+					count: 64
+				}
+			]
+			subtitle: "享受:}"
+			dependencies: ["2818E244528AD662"]
+			tasks: [{
+				id: "76A2DAB9727C98A1"
+				type: "checkmark"
+				title: "开始"
+			}]
+			hide: false
+		}
+		{
+			tasks: [{
+				id: "56C92D88B03F8857"
+				type: "item"
+				item: {
+					id: "exnihilosequentia:wooden_crook"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			dependencies: ["603E1BF202C6AD8B"]
+			id: "7DEBD70E96B09FE3"
+			y: -2.0d
+			x: -5.5d
+			rewards: [
+				{
+					id: "3E4AE60AF8602F9E"
+					type: "item"
+					item: "minecraft:oak_log"
+					count: 2
+				}
+				{
+					id: "257A1A63E1A26B2E"
+					type: "item"
+					item: "minecraft:charcoal"
+					count: 8
+				}
+			]
+		}
+		{
+			tasks: [{
+				id: "73EA1C85D3B70E09"
+				type: "item"
+				item: "exnihilosequentia:silkworm"
+			}]
+			dependencies: ["7DEBD70E96B09FE3"]
+			id: "10361789461E4406"
+			y: -2.0d
+			x: -4.5d
+			rewards: [
+				{
+					id: "2A681DA6BA340D3E"
+					type: "item"
+					item: "minecraft:apple"
+					count: 8
+				}
+				{
+					id: "78855BD78A641162"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			tasks: [{
+				id: "4C3BB4EB5B796F54"
+				type: "item"
+				item: "minecraft:string"
+			}]
+			dependencies: ["10361789461E4406"]
+			id: "1B582413E7F6B5CE"
+			y: -2.0d
+			x: -3.5d
+			rewards: [{
+				id: "6A81818B9E25532D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			tasks: [{
+				id: "41DB498E41F502D8"
+				type: "item"
+				title: "Any #exnihilosequentia:sieves"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "exnihilosequentia:sieves"
+					}
+				}
+			}]
+			id: "740DC097E5CC73C7"
+			x: -2.5d
+			y: -2.0d
+			title: "筛子"
+			rewards: [{
+				id: "43A4FCDC1383263E"
+				type: "item"
+				item: "minecraft:oak_log"
+				count: 16
+			}]
+			dependencies: ["1B582413E7F6B5CE"]
+		}
+		{
+			tasks: [{
+				id: "0E439CBAE7BF187E"
+				type: "item"
+				item: "minecraft:white_bed"
+			}]
+			dependencies: ["58FFD331D6D45AC4"]
+			id: "6ADCD6CA661BCBC5"
+			y: -4.0d
+			x: -3.0d
+			rewards: [{
+				id: "426047702B5B9628"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			tasks: [{
+				id: "775B65EF20A7F9E8"
+				type: "item"
+				item: "comforts:sleeping_bag_white"
+			}]
+			dependencies: ["58FFD331D6D45AC4"]
+			id: "6B21E4EBB413F85B"
+			y: -4.0d
+			x: -4.0d
+			rewards: [{
+				id: "0748AD53DD9E0D4B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			tasks: [{
+				id: "2F153E64B1A3E77E"
+				type: "item"
+				title: "Any #exnihilosequentia:barrels"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "exnihilosequentia:barrels"
+					}
+				}
+			}]
+			id: "713F034BB188020C"
+			x: -5.5d
+			y: -1.0d
+			title: "桶"
+			rewards: [{
+				id: "1A1871900C3388D7"
+				type: "item"
+				item: "minecraft:oak_log"
+				count: 8
+			}]
+			dependencies: ["603E1BF202C6AD8B"]
+		}
+		{
+			tasks: [{
+				id: "7712BE1CC43672D2"
+				type: "item"
+				item: "exnihilosequentia:fired_crucible"
+			}]
+			dependencies: ["6A48F3FCF09BA229"]
+			id: "4413021492F86565"
+			y: -1.0d
+			x: -3.5d
+			rewards: [{
+				id: "34229F9B91467B15"
+				type: "item"
+				item: "minecraft:cobblestone"
+				count: 32
+			}]
+		}
+		{
+			tasks: [{
+				id: "1B8B653FB1A7CF18"
+				type: "item"
+				item: "minecraft:dirt"
+			}]
+			dependencies: ["713F034BB188020C"]
+			id: "30E72E03FB61A23E"
+			y: 0.0d
+			x: -5.5d
+			rewards: [{
+				id: "65C6E1AA73AAA1A8"
+				type: "item"
+				item: "minecraft:dirt"
+				count: 64
+			}]
+		}
+		{
+			tasks: [{
+				id: "3DE0B4AD3608096E"
+				type: "item"
+				item: "minecraft:cobblestone"
+			}]
+			dependencies: ["30E72E03FB61A23E"]
+			id: "611C5191D5919A51"
+			y: 0.0d
+			x: -4.5d
+			rewards: [{
+				id: "350B26B579262E68"
+				type: "item"
+				item: "minecraft:cobblestone"
+				count: 64
+			}]
+		}
+		{
+			tasks: [{
+				id: "4753959329D72E50"
+				type: "item"
+				item: "minecraft:gravel"
+			}]
+			dependencies: ["611C5191D5919A51"]
+			id: "1222B63C3EBFA171"
+			y: 0.0d
+			x: -3.5d
+			rewards: [{
+				id: "6E8C0E1025FB0653"
+				type: "item"
+				item: "minecraft:gravel"
+				count: 64
+			}]
+		}
+		{
+			tasks: [{
+				id: "70BE6E25E60DD95D"
+				type: "item"
+				item: "minecraft:sand"
+			}]
+			dependencies: ["1222B63C3EBFA171"]
+			id: "034B2F81EB61ED7B"
+			y: 0.0d
+			x: -2.5d
+			rewards: [{
+				id: "21C7ECC31B5E0BA5"
+				type: "item"
+				item: "minecraft:sand"
+				count: 64
+			}]
+		}
+		{
+			tasks: [{
+				id: "569ABB0F42ABC02A"
+				type: "item"
+				item: "exnihilosequentia:dust"
+			}]
+			dependencies: ["034B2F81EB61ED7B"]
+			id: "0C02CE4A9FD83966"
+			y: 0.0d
+			x: -1.5d
+			rewards: [{
+				id: "06081E2836219CDB"
+				type: "item"
+				item: "exnihilosequentia:dust"
+				count: 64
+			}]
+		}
+		{
+			tasks: [{
+				id: "24213ADCCC5E9DCA"
+				type: "item"
+				item: "exnihilosequentia:stone_barrel"
+			}]
+			dependencies: ["4413021492F86565"]
+			id: "6FC8FDEA85D0083B"
+			y: -1.0d
+			x: -2.5d
+		}
+		{
+			tasks: [{
+				id: "094F10F2AE1CF433"
+				type: "item"
+				item: "exnihilosequentia:string_mesh"
+			}]
+			dependencies: ["1B582413E7F6B5CE"]
+			id: "3F9717EDDB0D1EEC"
+			y: -2.0d
+			x: -1.5d
+			rewards: [{
+				id: "3692FE3524EEADDB"
+				type: "item"
+				item: {
+					id: "exnihilosequentia:string_mesh"
+					Count: 1b
+					tag: {
+						Enchantments: [{
+							lvl: 3s
+							id: "minecraft:fortune"
+						}]
+					}
+				}
+			}]
+		}
+		{
+			tasks: [{
+				id: "4AE8308649DF1379"
+				type: "item"
+				item: "exnihilosequentia:flint_mesh"
+			}]
+			dependencies: ["3F9717EDDB0D1EEC"]
+			id: "3411FEEA89074560"
+			y: -2.0d
+			x: -0.5d
+			rewards: [{
+				id: "6E758FEBCF82F3E8"
+				type: "item"
+				item: {
+					id: "exnihilosequentia:flint_mesh"
+					Count: 1b
+					tag: {
+						Enchantments: [{
+							lvl: 3s
+							id: "minecraft:fortune"
+						}]
+					}
+				}
+			}]
+		}
+		{
+			tasks: [{
+				id: "7E4177E765C05F4F"
+				type: "item"
+				item: "exnihilosequentia:iron_mesh"
+			}]
+			dependencies: ["3411FEEA89074560"]
+			id: "476548AE7DB4432F"
+			y: -2.0d
+			x: 0.5d
+			rewards: [{
+				id: "006137306E6DAE91"
+				type: "item"
+				item: {
+					id: "exnihilosequentia:iron_mesh"
+					Count: 1b
+					tag: {
+						Enchantments: [{
+							lvl: 3s
+							id: "minecraft:fortune"
+						}]
+					}
+				}
+			}]
+		}
+		{
+			tasks: [{
+				id: "34346DD8FAF03036"
+				type: "item"
+				item: "exnihilosequentia:diamond_mesh"
+			}]
+			dependencies: ["476548AE7DB4432F"]
+			id: "115B5803CD306711"
+			y: -2.0d
+			x: 1.5d
+			rewards: [{
+				id: "5516DBDE6DDCFDAD"
+				type: "item"
+				item: {
+					id: "exnihilosequentia:diamond_mesh"
+					Count: 1b
+					tag: {
+						Enchantments: [{
+							lvl: 3s
+							id: "minecraft:fortune"
+						}]
+					}
+				}
+			}]
+		}
+		{
+			tasks: [{
+				id: "47208D338711454C"
+				type: "item"
+				item: "exnihilosequentia:emerald_mesh"
+			}]
+			dependencies: ["115B5803CD306711"]
+			id: "4C98B4BDDEE20997"
+			y: -3.0d
+			x: 1.5d
+			rewards: [{
+				id: "370D967D64FF9078"
+				type: "item"
+				item: {
+					id: "exnihilosequentia:emerald_mesh"
+					Count: 1b
+					tag: {
+						Enchantments: [{
+							lvl: 3s
+							id: "minecraft:fortune"
+						}]
+					}
+				}
+			}]
+		}
+		{
+			tasks: [{
+				id: "2431D945495A68BB"
+				type: "item"
+				item: "exnihilosequentia:netherite_mesh"
+			}]
+			dependencies: ["4C98B4BDDEE20997"]
+			id: "5DFE0FF2D1095F5A"
+			y: -3.0d
+			x: 0.5d
+		}
+		{
+			tasks: [{
+				id: "4F33D28B588918A0"
+				type: "item"
+				title: "Any #forge:chests/wooden"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:chests/wooden"
+					}
+				}
+			}]
+			id: "3A462364FA18CDCD"
+			x: -7.0d
+			y: 0.0d
+			title: "基础箱子"
+			rewards: [{
+				id: "07AEFFAE7C0E5ED1"
+				type: "item"
+				item: "minecraft:oak_log"
+				count: 8
+			}]
+			dependencies: ["603E1BF202C6AD8B"]
+		}
+		{
+			tasks: [{
+				id: "1D0E9B962447276F"
+				type: "item"
+				item: "exnihilosequentia:crushed_netherrack"
+			}]
+			dependencies: ["0475A7210FE001CA"]
+			id: "177A277528373063"
+			y: 1.0d
+			x: 2.0d
+		}
+		{
+			tasks: [{
+				id: "54F15746BB6E8651"
+				type: "item"
+				item: "exnihilosequentia:crushed_end_stone"
+			}]
+			dependencies: ["539CDCAF24E1D0C1"]
+			id: "23D17CE2FE1FD93B"
+			y: 1.0d
+			x: 3.0d
+		}
+		{
+			tasks: [{
+				id: "4B13D04696AABC43"
+				type: "item"
+				item: "exnihilosequentia:mycelium_spores"
+			}]
+			dependencies: ["20C8A6E0472DAD72"]
+			id: "1986BBCAF2B7B246"
+			y: 0.0d
+			x: 1.0d
+		}
+		{
+			tasks: [{
+				id: "0223145BF6E516F3"
+				type: "item"
+				item: "exnihilosequentia:witch_water_bucket"
+			}]
+			dependencies: [
+				"20C8A6E0472DAD72"
+				"1986BBCAF2B7B246"
+			]
+			id: "3271C804CEA38BBF"
+			y: 1.0d
+			x: 1.0d
+			rewards: [{
+				id: "3A7F7095C4310C52"
+				type: "item"
+				item: "minecraft:quartz"
+				count: 8
+			}]
+		}
+		{
+			tasks: [{
+				id: "1FC165893DB77B09"
+				type: "item"
+				item: "minecraft:soul_sand"
+			}]
+			dependencies: ["3271C804CEA38BBF"]
+			id: "662BA1E4242BEF2B"
+			y: 2.0d
+			x: 2.0d
+			rewards: [{
+				id: "2477DF68052E57C5"
+				type: "item"
+				item: "minecraft:soul_sand"
+				count: 64
+			}]
+		}
+		{
+			tasks: [{
+				id: "1624E5A0B1AE6496"
+				type: "item"
+				item: "minecraft:furnace"
+			}]
+			dependencies: ["3A462364FA18CDCD"]
+			id: "265E6CA9A82E59F4"
+			y: 1.5d
+			x: -7.0d
+			rewards: [{
+				id: "59421993CE5A253A"
+				type: "item"
+				item: "minecraft:cobblestone"
+				count: 64
+			}]
+		}
+		{
+			tasks: [{
+				id: "2F8F8651AD02652E"
+				type: "item"
+				item: "minecraft:nether_star"
+			}]
+			dependencies: ["7D9FB259788C771C"]
+			id: "5E69F1D862570D56"
+			y: -1.0d
+			x: 8.0d
+		}
+		{
+			tasks: [
+				{
+					type: "item"
+					count: 3L
+					id: "0E06E85E33731956"
+					disable_toast: true
+					item: "minecraft:wither_skeleton_skull"
+				}
+				{
+					type: "item"
+					count: 4L
+					id: "0FDF32F46C7DCC31"
+					disable_toast: true
+					item: "minecraft:soul_sand"
+				}
+			]
+			dependencies: ["114F3ABA7CBF3979"]
+			id: "6D93CF71324B84AE"
+			y: -1.0d
+			x: 6.0d
+			title: "杀死凋零"
+		}
+		{
+			tasks: [{
+				type: "kill"
+				value: 1L
+				id: "6BB0A4B192CA4DAA"
+				icon: "minecraft:wither_rose"
+				entity: "minecraft:wither"
+			}]
+			dependencies: ["6D93CF71324B84AE"]
+			id: "7D9FB259788C771C"
+			y: -1.0d
+			x: 7.0d
+			icon: "minecraft:wither_rose"
+		}
+		{
+			tasks: [
+				{
+					id: "0D805B8A7CF6ED1C"
+					type: "item"
+					item: "telepastries:nether_cake"
+				}
+				{
+					id: "46F56EEB1354AE97"
+					type: "item"
+					item: "dimpaintings:nether_painting"
+				}
+			]
+			dependencies: ["4B634F3E4C74B475"]
+			id: "73F73593DB12C415"
+			y: -1.0d
+			x: 4.0d
+			rewards: [{
+				id: "771283B9B67AC220"
+				type: "item"
+				item: "telepastries:overworld_cake"
+			}]
+		}
+		{
+			tasks: [
+				{
+					id: "6FC4676FA8F44A98"
+					type: "item"
+					item: "telepastries:end_cake"
+				}
+				{
+					id: "258FDA48FC67D593"
+					type: "item"
+					item: "dimpaintings:end_painting"
+				}
+			]
+			dependencies: ["539CDCAF24E1D0C1"]
+			id: "5339D1740B4C15A1"
+			y: 0.0d
+			x: 4.0d
+			rewards: [{
+				id: "7E760B48FC66A104"
+				type: "item"
+				item: "telepastries:overworld_cake"
+			}]
+		}
+		{
+			tasks: [{
+				id: "70202C22FF6D54D8"
+				type: "item"
+				item: "minecraft:obsidian"
+			}]
+			dependencies: ["6FC8FDEA85D0083B"]
+			id: "4B634F3E4C74B475"
+			y: -1.0d
+			x: 3.0d
+			rewards: [{
+				id: "02E110D07B626574"
+				type: "item"
+				item: {
+					id: "minecraft:flint_and_steel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			tasks: [{
+				id: "1C6AA73AEBA2B933"
+				type: "item"
+				item: "minecraft:clay"
+			}]
+			dependencies: ["0C02CE4A9FD83966"]
+			id: "34ED29F6B62856DB"
+			y: 1.0d
+			x: -1.5d
+			rewards: [{
+				id: "2E33FCA314450807"
+				type: "item"
+				item: "minecraft:clay_ball"
+				count: 64
+			}]
+		}
+		{
+			tasks: [
+				{
+					type: "kill"
+					value: 16L
+					id: "3D037831AEAF76C9"
+					disable_toast: true
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "ftbchunks:textures/faces/minecraft/skeleton.png"
+						}
+					}
+					entity: "minecraft:skeleton"
+				}
+				{
+					type: "kill"
+					value: 16L
+					id: "7DABA95ACBAEE61C"
+					disable_toast: true
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "ftbchunks:textures/faces/minecraft/zombie.png"
+						}
+					}
+					entity: "minecraft:zombie"
+				}
+				{
+					type: "kill"
+					value: 16L
+					id: "049D22FC38533F81"
+					disable_toast: true
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "ftbchunks:textures/faces/minecraft/spider.png"
+						}
+					}
+					entity: "minecraft:spider"
+				}
+				{
+					type: "kill"
+					value: 16L
+					id: "168D0CBF58065308"
+					disable_toast: true
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "ftbchunks:textures/faces/minecraft/creeper.png"
+						}
+					}
+					entity: "minecraft:creeper"
+				}
+			]
+			dependencies: ["47830576A0C726AB"]
+			id: "267F587862F3CA55"
+			y: -2.0d
+			x: 5.0d
+			title: "主世界的杀戮"
+		}
+		{
+			tasks: [
+				{
+					type: "kill"
+					value: 16L
+					id: "330CE7952C6851E7"
+					disable_toast: true
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "ftbchunks:textures/faces/minecraft/blaze.png"
+						}
+					}
+					entity: "minecraft:blaze"
+				}
+				{
+					type: "kill"
+					value: 16L
+					id: "429F2B6CFB72BE9B"
+					disable_toast: true
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "ftbchunks:textures/faces/minecraft/wither_skeleton.png"
+						}
+					}
+					entity: "minecraft:wither_skeleton"
+				}
+				{
+					type: "kill"
+					value: 1L
+					id: "3D0F35E36FF2D8F5"
+					disable_toast: true
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "ftbchunks:textures/faces/minecraft/enderman.png"
+						}
+					}
+					entity: "minecraft:enderman"
+				}
+				{
+					type: "kill"
+					value: 1L
+					id: "76B4876B211CA0AE"
+					disable_toast: true
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "ftbchunks:textures/faces/minecraft/ghast.png"
+						}
+					}
+					entity: "minecraft:ghast"
+				}
+			]
+			dependencies: ["114F3ABA7CBF3979"]
+			id: "7B0055F9BC2347AF"
+			y: -2.0d
+			x: 6.0d
+			title: "下界杀戮"
+		}
+		{
+			tasks: [{
+				type: "kill"
+				value: 1L
+				id: "5444C61926B4D7DF"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "ftbchunks:textures/faces/minecraft/zombie_pigman.png"
+					}
+				}
+				entity: "minecraft:zombified_piglin"
+			}]
+			dependencies: ["114F3ABA7CBF3979"]
+			id: "513DDBB6524DCAEB"
+			y: -2.0d
+			x: 7.0d
+			title: "你敢吗!!!"
+		}
+		{
+			tasks: [{
+				id: "43053D877A80983B"
+				type: "item"
+				item: "minecraft:dragon_egg"
+			}]
+			dependencies: ["63F27505DD8DEF3C"]
+			id: "734C62CAF55D4E33"
+			y: 0.0d
+			x: 7.0d
+		}
+		{
+			tasks: [{
+				type: "kill"
+				value: 1L
+				id: "6BAD65E46A3A0846"
+				icon: "minecraft:dragon_head"
+				entity: "minecraft:ender_dragon"
+			}]
+			dependencies: ["4F0BB48FEC37B2F3"]
+			id: "63F27505DD8DEF3C"
+			y: 0.0d
+			x: 6.0d
+		}
+		{
+			tasks: [{
+				type: "dimension"
+				id: "0C5F172625A61FCF"
+				dimension: "minecraft:the_nether"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/block/nether_portal.png"
+					}
+				}
+				title: "造访下界"
+			}]
+			id: "114F3ABA7CBF3979"
+			x: 5.0d
+			y: -1.0d
+			title: "造访下界"
+			rewards: [{
+				id: "634C2D4DCA7A7823"
+				type: "item"
+				item: "waystones:waystone"
+			}]
+			dependencies: ["73F73593DB12C415"]
+		}
+		{
+			tasks: [{
+				type: "dimension"
+				id: "31CD71CF16407D8F"
+				dimension: "minecraft:the_end"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/entity/end_portal.png"
+					}
+				}
+				title: "造访末地"
+			}]
+			id: "4F0BB48FEC37B2F3"
+			x: 5.0d
+			y: 0.0d
+			title: "造访末地"
+			rewards: [{
+				id: "7844C10B002202C1"
+				type: "item"
+				item: "waystones:waystone"
+			}]
+			dependencies: ["5339D1740B4C15A1"]
+		}
+		{
+			tasks: [{
+				id: "679A0C3BF0EF6616"
+				type: "item"
+				item: "minecraft:end_crystal"
+			}]
+			dependencies: ["734C62CAF55D4E33"]
+			id: "7F07571BCE3A6F8C"
+			y: 0.0d
+			x: 8.0d
+			title: "重生末影龙"
+		}
+		{
+			tasks: [{
+				type: "dimension"
+				id: "749B6B86002EBFFF"
+				dimension: "lostcities:lostcity"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "lostcities:textures/gui/configicon.png"
+					}
+				}
+				title: "造访失落城市"
+			}]
+			dependencies: ["0234E7B3C8E5F311"]
+			id: "70F7A40AA856D0F3"
+			y: -3.0d
+			x: 6.0d
+			rewards: [{
+				id: "7E1BFB99DD4B6C5C"
+				type: "item"
+				item: "waystones:waystone"
+			}]
+		}
+		{
+			tasks: [
+				{
+					type: "item"
+					count: 2L
+					id: "22E0D9DDF09B058F"
+					disable_toast: true
+					item: "minecraft:diamond_block"
+				}
+				{
+					type: "item"
+					count: 6L
+					id: "2941C0DD13B07CC5"
+					disable_toast: true
+					item: "minecraft:skeleton_skull"
+				}
+				{
+					id: "2BD37ED3BF6993DF"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:white_bed"
+				}
+			]
+			dependencies: ["267F587862F3CA55"]
+			id: "0234E7B3C8E5F311"
+			y: -3.0d
+			x: 5.0d
+			title: "失落的城市"
+		}
+		{
+			tasks: [{
+				id: "4DE57997BCB008CD"
+				type: "item"
+				item: "cobblefordays:tier_1"
+			}]
+			dependencies: ["611C5191D5919A51"]
+			id: "0387F62FCE0EF5DB"
+			y: 3.0d
+			x: -5.5d
+		}
+		{
+			tasks: [{
+				id: "37DA12CB505E521F"
+				type: "item"
+				item: "cobblefordays:tier_2"
+			}]
+			dependencies: ["0387F62FCE0EF5DB"]
+			id: "0F716EC5B8F4A202"
+			y: 3.0d
+			x: -4.5d
+		}
+		{
+			tasks: [{
+				id: "6BFC938F465D1B87"
+				type: "item"
+				item: "cobblefordays:tier_3"
+			}]
+			dependencies: ["0F716EC5B8F4A202"]
+			id: "18AE39BF16FD4D75"
+			y: 3.0d
+			x: -3.5d
+		}
+		{
+			tasks: [{
+				id: "5BDFD13B8A0573D8"
+				type: "item"
+				item: "cobblefordays:tier_4"
+			}]
+			dependencies: ["18AE39BF16FD4D75"]
+			id: "1182A8E40F2FEC57"
+			y: 3.0d
+			x: -2.5d
+		}
+		{
+			tasks: [{
+				id: "2AE37882F9C4EC4B"
+				type: "item"
+				item: "cobblefordays:tier_5"
+			}]
+			dependencies: ["1182A8E40F2FEC57"]
+			id: "53FAE18185A699D0"
+			y: 3.0d
+			x: -1.5d
+		}
+		{
+			tasks: [{
+				type: "dimension"
+				id: "2F9457A4DF0CA66E"
+				dimension: "javd:void"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "javd:textures/block/portal_block.png"
+					}
+				}
+				title: "造访虚空"
+			}]
+			id: "4238C03773E153A4"
+			x: 6.0d
+			y: -4.0d
+			title: "造访虚空维度"
+			rewards: [{
+				id: "15F5FEF689E93F0C"
+				type: "item"
+				item: "waystones:waystone"
+			}]
+			dependencies: ["7FB50A3AE2BEB1C0"]
+		}
+		{
+			tasks: [{
+				id: "455F359C00E38F73"
+				type: "item"
+				item: {
+					id: "tiab:time_in_a_bottle"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			dependencies: ["5E69F1D862570D56"]
+			id: "227141060056A35D"
+			y: -1.0d
+			x: 9.0d
+		}
+		{
+			tasks: [{
+				id: "1D8490794DE420A1"
+				type: "item"
+				item: "minecraft:lava_bucket"
+			}]
+			dependencies: ["4413021492F86565"]
+			id: "47830576A0C726AB"
+			y: -1.0d
+			x: 2.0d
+		}
+		{
+			tasks: [{
+				id: "3C76709E37774C55"
+				type: "item"
+				item: "minecraft:water_bucket"
+			}]
+			dependencies: ["713F034BB188020C"]
+			id: "20C8A6E0472DAD72"
+			y: 0.0d
+			x: 0.0d
+		}
+		{
+			tasks: [{
+				id: "0F1A81768667C2E3"
+				type: "item"
+				item: "javd:portal_block"
+			}]
+			dependencies: ["0234E7B3C8E5F311"]
+			id: "7FB50A3AE2BEB1C0"
+			y: -4.0d
+			x: 5.0d
+			title: "虚空世界"
+		}
+		{
+			tasks: [{
+				id: "67CA7F15A142D372"
+				type: "checkmark"
+				title: "建筑小帮手"
+			}]
+			id: "578CE6CE895DDB51"
+			x: -5.5d
+			y: 4.0d
+			title: "解锁建筑帮助"
+			rewards: [{
+				id: "6CE9BA05CB300C0C"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			dependencies: ["0387F62FCE0EF5DB"]
+		}
+		{
+			tasks: [{
+				id: "1D88E4C4DB061C85"
+				type: "checkmark"
+				title: "其他小帮手"
+			}]
+			id: "3038C27BAEEFBDA1"
+			x: -1.5d
+			y: 2.0d
+			title: "解锁其他小帮手"
+			rewards: [{
+				id: "20BB039341EE8AA4"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			dependencies: ["34ED29F6B62856DB"]
+		}
+		{
+			tasks: [{
+				id: "26A3CAEC7A82D9DB"
+				type: "checkmark"
+				title: "基础存储"
+			}]
+			id: "18F89F4F6317A163"
+			x: -8.0d
+			y: 0.0d
+			title: "解锁基础存储"
+			rewards: [{
+				id: "199F2CFDC9F6DFEB"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			dependencies: ["3A462364FA18CDCD"]
+		}
+		{
+			tasks: [{
+				id: "1E78B2FF5357F90B"
+				type: "checkmark"
+				title: "沉浸工艺"
+			}]
+			id: "5BCFCD52BF338F1E"
+			x: -3.5d
+			y: 2.0d
+			title: "解锁沉浸工程"
+			rewards: [{
+				id: "654CBFAAA483EA43"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			dependencies: ["6F4449B7E16E4B1C"]
+		}
+		{
+			tasks: [{
+				id: "3D846F15CCF98898"
+				type: "checkmark"
+				title: "资源阶段1"
+			}]
+			id: "3A921447E8BA16F4"
+			x: -2.5d
+			y: -3.0d
+			title: "解锁资源阶段 1"
+			rewards: [{
+				id: "23F1D843D136455E"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			dependencies: ["740DC097E5CC73C7"]
+		}
+		{
+			tasks: [{
+				id: "7BC280AA0946213B"
+				type: "checkmark"
+				title: "能量阶段1"
+			}]
+			id: "7B37DCCC3903A23F"
+			x: -8.0d
+			y: 3.0d
+			title: "解锁能量阶段1"
+			rewards: [{
+				id: "27BB89CF50D05B59"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			dependencies: ["412F42D80364C25C"]
+		}
+		{
+			tasks: [{
+				id: "323FB3B67F02892A"
+				type: "checkmark"
+				title: "额外的任务阶段 1"
+			}]
+			id: "03A16B3D3371E74E"
+			x: -8.0d
+			y: 1.5d
+			title: "解锁额外任务阶段 1"
+			rewards: [{
+				id: "681C01E229D34241"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			dependencies: ["265E6CA9A82E59F4"]
+		}
+		{
+			tasks: [{
+				id: "0478D987DF20DD23"
+				type: "checkmark"
+				title: "解锁魔法任务"
+			}]
+			id: "25974FEFF2398224"
+			x: -8.0d
+			y: 4.5d
+			title: "解锁魔法时间"
+			rewards: [{
+				id: "0199020FC678F2E5"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			dependencies: ["547D1CEEA4B96641"]
+		}
+		{
+			tasks: [{
+				id: "577A2EE0780852C9"
+				type: "checkmark"
+				title: "解锁探索"
+			}]
+			dependencies: [
+				"4238C03773E153A4"
+				"70F7A40AA856D0F3"
+				"4F0BB48FEC37B2F3"
+				"114F3ABA7CBF3979"
+				"0DC35CFFF75778BC"
+			]
+			id: "5F5F0CE2A260522C"
+			y: -4.0d
+			x: 7.5d
+		}
+		{
+			tasks: [{
+				id: "2FBEA5995354316A"
+				type: "checkmark"
+				title: "解锁额外的挑战"
+			}]
+			dependencies: [
+				"03A16B3D3371E74E"
+				"18F89F4F6317A163"
+				"7B37DCCC3903A23F"
+				"25974FEFF2398224"
+			]
+			id: "105D595ADBD4A01F"
+			y: 4.5d
+			x: -9.5d
+			rewards: [{
+				id: "4B6854B0F01AA385"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+		}
+		{
+			tasks: [{
+				id: "0813C27B40C309AA"
+				type: "item"
+				item: {
+					id: "minecraft:elytra"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			dependencies: ["734C62CAF55D4E33"]
+			id: "1C3DE348BD3BFF86"
+			y: 1.0d
+			x: 7.0d
+		}
+		{
+			tasks: [{
+				id: "09AC82C5725D31A4"
+				type: "item"
+				item: "minecraft:sandstone"
+			}]
+			dependencies: ["034B2F81EB61ED7B"]
+			id: "6F4449B7E16E4B1C"
+			y: 1.0d
+			x: -3.5d
+			rewards: [{
+				id: "30B8491A37FD84E6"
+				type: "item"
+				item: "minecraft:sand"
+				count: 64
+			}]
+		}
+		{
+			tasks: [{
+				id: "37D6F22E68D9FD34"
+				type: "item"
+				item: "minecraft:stone"
+			}]
+			dependencies: ["611C5191D5919A51"]
+			id: "28EE450189D5153C"
+			y: 1.0d
+			x: -4.5d
+			rewards: [{
+				id: "5FC5E7B545ED0B9F"
+				type: "item"
+				item: "minecraft:stone"
+				count: 64
+			}]
+		}
+		{
+			tasks: [{
+				id: "7A9D3137982CA73C"
+				type: "item"
+				item: "minecraft:glass"
+			}]
+			dependencies: ["034B2F81EB61ED7B"]
+			id: "29E83BF67DAC2FE1"
+			y: 1.0d
+			x: -2.5d
+			rewards: [{
+				id: "7E842EBAC76C507A"
+				type: "item"
+				item: "minecraft:glass"
+				count: 64
+			}]
+		}
+		{
+			tasks: [{
+				id: "625C4F26C9EDD96D"
+				type: "item"
+				item: "minecraft:smoker"
+			}]
+			dependencies: ["412F42D80364C25C"]
+			id: "547D1CEEA4B96641"
+			y: 4.5d
+			x: -7.0d
+			rewards: [{
+				id: "6A66D28DBA185C22"
+				type: "item"
+				item: "minecraft:cooked_beef"
+				count: 16
+			}]
+		}
+		{
+			tasks: [{
+				id: "3F98E4D54E0057A3"
+				type: "item"
+				item: "minecraft:blast_furnace"
+			}]
+			dependencies: ["265E6CA9A82E59F4"]
+			id: "412F42D80364C25C"
+			y: 3.0d
+			x: -7.0d
+			rewards: [{
+				id: "0E34E2951DA3C153"
+				type: "item"
+				item: "minecraft:raw_iron"
+				count: 16
+			}]
+		}
+		{
+			tasks: [{
+				id: "34B9257D9E427DFE"
+				type: "item"
+				title: "Any #exnihilosequentia:crucibles"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "exnihilosequentia:crucibles"
+					}
+				}
+			}]
+			id: "6A48F3FCF09BA229"
+			x: -4.5d
+			y: -1.0d
+			title: "木制"
+			rewards: [{
+				id: "19BC43F8CB45D0C1"
+				type: "item"
+				item: "minecraft:oak_log"
+				count: 8
+			}]
+			dependencies: ["713F034BB188020C"]
+		}
+		{
+			tasks: [{
+				id: "5B54481641F8820C"
+				type: "item"
+				item: "allthemodium:teleport_pad"
+			}]
+			dependencies: ["5F5F0CE2A260522C"]
+			id: "51CF532506BA153B"
+			y: -4.0d
+			x: 8.5d
+		}
+		{
+			tasks: [{
+				type: "dimension"
+				id: "27F9F036ABC9DE8B"
+				dimension: "allthemodium:mining"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "allthemodium:textures/block/teleport_pad_top.png"
+					}
+				}
+				title: "造访采矿维度"
+			}]
+			id: "338A0C5A39954EA5"
+			x: 9.5d
+			y: -4.5d
+			title: "造访采矿维度"
+			rewards: [{
+				id: "2E5381B0602322A7"
+				type: "item"
+				item: "waystones:waystone"
+			}]
+			dependencies: ["51CF532506BA153B"]
+		}
+		{
+			tasks: [{
+				type: "dimension"
+				id: "7B44A479A6712E26"
+				dimension: "allthemodium:the_other"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "allthemodium:block/teleport_pad_top"
+					}
+				}
+				title: "造访其他"
+			}]
+			description: ["将传送垫放入地狱"]
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "allthemodium:textures/block/teleport_pad_top.png"
+				}
+			}
+			id: "1E43A1DA4D35709B"
+			x: 9.5d
+			y: -3.5d
+			title: "造访其他"
+			rewards: [{
+				id: "709A874748F6AD81"
+				type: "item"
+				item: "waystones:waystone"
+			}]
+			dependencies: ["51CF532506BA153B"]
+		}
+		{
+			tasks: [{
+				id: "3F53132204C3D6F3"
+				type: "item"
+				item: "minecraft:white_wool"
+			}]
+			dependencies: ["1B582413E7F6B5CE"]
+			id: "58FFD331D6D45AC4"
+			y: -3.0d
+			x: -3.5d
+			rewards: [{
+				id: "3002FAEA1BDC38C0"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			tasks: [{
+				id: "0B81800DD580CA0A"
+				type: "item"
+				item: "minecraft:slime_block"
+			}]
+			dependencies: ["3271C804CEA38BBF"]
+			id: "125FC60DD57FCC63"
+			y: 2.0d
+			x: 1.0d
+			rewards: [{
+				id: "16F893D703051D22"
+				type: "item"
+				item: "minecraft:slime_block"
+				count: 16
+			}]
+		}
+		{
+			tasks: [{
+				id: "130BAF23B5EC5811"
+				type: "item"
+				item: "minecraft:netherrack"
+			}]
+			dependencies: ["47830576A0C726AB"]
+			id: "0475A7210FE001CA"
+			y: 0.0d
+			x: 2.0d
+			rewards: [{
+				id: "75F42B518285128C"
+				type: "item"
+				item: "minecraft:netherrack"
+				count: 64
+			}]
+		}
+		{
+			tasks: [{
+				id: "7F677C436A5C8952"
+				type: "item"
+				item: "minecraft:end_stone"
+			}]
+			dependencies: ["47830576A0C726AB"]
+			id: "539CDCAF24E1D0C1"
+			y: 0.0d
+			x: 3.0d
+			rewards: [{
+				id: "3370EA98A0019A7C"
+				type: "item"
+				item: "minecraft:end_stone"
+				count: 64
+			}]
+		}
+		{
+			tasks: [{
+				id: "0B0BDB0B6A58D86D"
+				type: "item"
+				item: "exmachinis:flux_sieve"
+			}]
+			dependencies: ["740DC097E5CC73C7"]
+			id: "5A22EAF6DCFA9855"
+			y: -3.0d
+			x: -1.5d
+		}
+		{
+			tasks: [{
+				id: "34D4F5E975672ECD"
+				type: "item"
+				item: "exmachinis:flux_hammer"
+			}]
+			dependencies: ["5A22EAF6DCFA9855"]
+			id: "7EDCEDFE464218BB"
+			y: -4.0d
+			x: -1.5d
+		}
+		{
+			tasks: [{
+				id: "4080BDB3FE1181D6"
+				type: "item"
+				item: "exmachinis:flux_compactor"
+			}]
+			dependency_requirement: "one_completed"
+			dependencies: ["7EDCEDFE464218BB"]
+			id: "2D281761752D0371"
+			y: -5.0d
+			x: -1.5d
+		}
+		{
+			tasks: [{
+				id: "53A0C0EEED130AE6"
+				type: "item"
+				item: "exmachinis:diamond_upgrade"
+			}]
+			dependencies: ["6708F174B033796C"]
+			id: "2DDFD406E96DD333"
+			y: -4.0d
+			x: -0.5d
+		}
+		{
+			tasks: [{
+				id: "0BC639C060170B79"
+				type: "item"
+				item: "exmachinis:netherite_upgrade"
+			}]
+			dependencies: ["2DDFD406E96DD333"]
+			id: "11FE252A9D304797"
+			y: -5.0d
+			x: -0.5d
+		}
+		{
+			tasks: [{
+				id: "0A81FC1CA170CD83"
+				type: "item"
+				item: {
+					id: "exnihilosequentia:stone_hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			dependencies: ["611C5191D5919A51"]
+			id: "36165C3738415BD3"
+			y: 1.0d
+			x: -5.5d
+			rewards: [{
+				id: "71B6DDE75597D4C9"
+				type: "item"
+				item: {
+					id: "exnihilosequentia:iron_hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								lvl: 3s
+								id: "minecraft:unbreaking"
+							}
+							{
+								lvl: 5s
+								id: "minecraft:efficiency"
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			tasks: [{
+				id: "618B34AA0B4C0B06"
+				type: "item"
+				item: "minecraft:honey_block"
+			}]
+			dependencies: ["20C8A6E0472DAD72"]
+			id: "35ACEE58CF67A109"
+			y: 1.0d
+			x: 0.0d
+			rewards: [{
+				id: "5225DCEC1824F59E"
+				type: "item"
+				item: "minecraft:honey_block"
+				count: 16
+			}]
+		}
+		{
+			tasks: [{
+				id: "311D4563B6CBCF67"
+				type: "checkmark"
+				title: "解锁热力膨胀"
+			}]
+			dependencies: ["6F4449B7E16E4B1C"]
+			id: "672E9FDCC8C1B363"
+			y: 2.0d
+			x: -2.5d
+		}
+		{
+			tasks: [{
+				id: "49AFC86886CEA2A1"
+				type: "item"
+				item: "mining_dimension:teleporter"
+			}]
+			dependencies: ["7FB50A3AE2BEB1C0"]
+			id: "58018FEAA1C94DA7"
+			y: -5.0d
+			x: 5.0d
+		}
+		{
+			tasks: [{
+				id: "45C04C8D0D9C8841"
+				type: "dimension"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "mining_dimension:textures/block/teleporter_side.png"
+					}
+				}
+				dimension: "mining_dimension:mining"
+			}]
+			id: "0DC35CFFF75778BC"
+			x: 6.0d
+			y: -5.0d
+			title: "采矿维度"
+			rewards: [{
+				id: "1D5CD2627C11DAAF"
+				type: "item"
+				item: "waystones:waystone"
+			}]
+			dependencies: ["58018FEAA1C94DA7"]
+		}
+		{
+			tasks: [{
+				id: "463E2752D863B21B"
+				type: "item"
+				item: "exmachinis:gold_upgrade"
+			}]
+			dependencies: [
+				"7EDCEDFE464218BB"
+				"5A22EAF6DCFA9855"
+				"2D281761752D0371"
+			]
+			id: "6708F174B033796C"
+			y: -3.0d
+			x: -0.5d
+		}
+		{
+			size: 1.5d
+			id: "603E1BF202C6AD8B"
+			x: -7.0d
+			y: -1.5d
+			title: "基础"
+			dependencies: ["4733CECCC8048C75"]
+			tasks: [{
+				id: "35982F6E72EF0613"
+				type: "item"
+				item: "minecraft:oak_log"
+				count: 16L
+			}]
+		}
+		{
+			tasks: [{
+				id: "10101E227EB0671B"
+				type: "item"
+				item: {
+					id: "pickletweaks:stone_paxel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			dependencies: ["611C5191D5919A51"]
+			id: "511BF0A0BAEBF789"
+			y: 2.0d
+			x: -4.5d
+		}
+		{
+			tasks: [{
+				id: "7BE8139AA8CFCC9C"
+				type: "item"
+				item: {
+					id: "exnihilosequentia:diamond_hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			dependencies: ["36165C3738415BD3"]
+			id: "75DCBF3BFD3C738B"
+			y: 2.0d
+			x: -5.5d
+			rewards: [{
+				id: "39842FE34F82C6A9"
+				type: "item"
+				item: {
+					id: "exnihilosequentia:diamond_hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								lvl: 5s
+								id: "minecraft:efficiency"
+							}
+							{
+								lvl: 3s
+								id: "minecraft:unbreaking"
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			tasks: [{
+				id: "10CDCA05E9214DA7"
+				type: "item"
+				item: "minecraft:smithing_table"
+			}]
+			dependencies: ["547D1CEEA4B96641"]
+			id: "70D0FEF0EB52C538"
+			y: 6.0d
+			x: -7.0d
+		}
+		{
+			tasks: [{
+				id: "0184FE016403AB5C"
+				type: "checkmark"
+				title: "解锁所有时装"
+			}]
+			dependencies: ["70D0FEF0EB52C538"]
+			id: "63116323DB259B82"
+			y: 6.0d
+			x: -8.0d
+			title: "解锁所有的护甲"
+		}
+	]
+}

@@ -1,0 +1,1137 @@
+{
+	quest_links: [ ]
+	default_hide_dependency_lines: false
+	group: "354A85BC2234DA50"
+	id: "5733A5BB2537D4E7"
+	filename: "the_twilight_forest"
+	default_quest_shape: ""
+	icon: "twilightforest:twilight_portal_miniature_structure"
+	title: "暮色森林"
+	order_index: 1
+	quests: [
+		{
+			tasks: [{
+				id: "7BC0AEDF211BF704"
+				type: "checkmark"
+				title: "暮色森林"
+			}]
+			dependencies: ["5F5F0CE2A260522C"]
+			id: "01FA73F6B3701AEA"
+			y: 1.0d
+			x: -0.5d
+		}
+		{
+			x: 1.0d
+			y: 1.0d
+			id: "797D8CAC1D9F8E6B"
+			tasks: [{
+				type: "dimension"
+				id: "6E0AC11A133CCD44"
+				dimension: "twilightforest:twilight_forest"
+				icon: "twilightforest:twilight_portal_miniature_structure"
+				title: "造访暮色森林"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 1.0d
+			id: "48AEF2A88A3A74ED"
+			tasks: [{
+				id: "4AACE663FCEEFEDB"
+				type: "item"
+				item: "twilightforest:magic_map_focus"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 1.0d
+			id: "3FBDC29E1BA5B069"
+			tasks: [{
+				id: "3AAF04EB792ABEBD"
+				type: "item"
+				item: "twilightforest:magic_map"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 1.0d
+			id: "02DA6077DDCE0C24"
+			tasks: [{
+				type: "kill"
+				value: 1L
+				id: "28621C382BF34098"
+				icon: "twilightforest:naga_spawn_egg"
+				entity: "twilightforest:naga"
+			}]
+		}
+		{
+			x: 6.5d
+			y: 1.0d
+			id: "359B43931C6DA0C0"
+			tasks: [{
+				id: "705B9C9A829664D9"
+				type: "item"
+				item: "twilightforest:naga_trophy"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -5.0d
+			id: "5774B6CE23FEEAEC"
+			tasks: [{
+				type: "kill"
+				value: 16L
+				id: "1EEA922BF5D5D6CB"
+				icon: "twilightforest:skeleton_druid_spawn_egg"
+				entity: "twilightforest:skeleton_druid"
+			}]
+		}
+		{
+			tasks: [
+				{
+					id: "1FD16C2A9EFFD2B8"
+					type: "item"
+					item: "twilightforest:canopy_log"
+				}
+				{
+					id: "3C616BC8FB80A233"
+					type: "item"
+					item: "twilightforest:twilight_oak_log"
+				}
+				{
+					id: "7DB7037371B7D069"
+					type: "item"
+					item: "twilightforest:mangrove_log"
+				}
+				{
+					id: "33E943865810A084"
+					type: "item"
+					item: "twilightforest:dark_log"
+				}
+			]
+			id: "361365F4E0A941BD"
+			y: -1.0d
+			x: 0.0d
+			title: "探索"
+		}
+		{
+			tasks: [
+				{
+					id: "7D53DBB07D1D0586"
+					type: "item"
+					item: {
+						id: "twilightforest:naga_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								lvl: 3s
+								id: "minecraft:fire_protection"
+							}]
+						}
+					}
+				}
+				{
+					id: "75EA867F9C3AA057"
+					type: "item"
+					item: {
+						id: "twilightforest:naga_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								lvl: 3s
+								id: "minecraft:protection"
+							}]
+						}
+					}
+				}
+			]
+			id: "198EA508F7B8A97A"
+			y: 1.0d
+			x: 8.5d
+			title: "娜迦装饰品"
+		}
+		{
+			x: 3.0d
+			y: -5.0d
+			id: "6144102EBB7433F6"
+			tasks: [{
+				type: "kill"
+				value: 16L
+				id: "33AD17D98D3C3D5F"
+				icon: "twilightforest:death_tome_spawn_egg"
+				entity: "twilightforest:death_tome"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 0.0d
+			id: "747DD9D3D63F803F"
+			tasks: [{
+				type: "kill"
+				value: 1L
+				id: "40107896032749BD"
+				icon: "twilightforest:lich_spawn_egg"
+				entity: "twilightforest:lich"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -5.0d
+			id: "6932298015BA8AA8"
+			tasks: [{
+				type: "kill"
+				value: 16L
+				id: "2254740F6F3F4A07"
+				icon: "twilightforest:swarm_spider_spawn_egg"
+				entity: "twilightforest:swarm_spider"
+			}]
+		}
+		{
+			x: 6.5d
+			y: 0.0d
+			id: "119F120785251AE3"
+			tasks: [{
+				id: "5883A8ED23907CA5"
+				type: "item"
+				item: "twilightforest:lich_trophy"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 0.0d
+			id: "45B4ACECA64D8396"
+			tasks: [
+				{
+					id: "50A74CA2BAC31700"
+					type: "item"
+					item: {
+						id: "twilightforest:twilight_scepter"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2FB8A72536DC274A"
+					type: "item"
+					item: {
+						id: "twilightforest:lifedrain_scepter"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "240464D0187A21C2"
+					type: "item"
+					item: {
+						id: "twilightforest:zombie_scepter"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3508E7B97192CAEA"
+					type: "item"
+					item: {
+						id: "twilightforest:fortification_scepter"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: 3.0d
+			id: "45B660B3981D73D9"
+			tasks: [{
+				type: "kill"
+				value: 1L
+				id: "1C605CCCE2251BBB"
+				icon: "twilightforest:alpha_yeti_spawn_egg"
+				entity: "twilightforest:alpha_yeti"
+			}]
+		}
+		{
+			x: 6.5d
+			y: 3.0d
+			id: "6B60FAA37085217A"
+			tasks: [{
+				id: "30C1CC2739154C7B"
+				type: "item"
+				item: "twilightforest:alpha_yeti_trophy"
+			}]
+		}
+		{
+			tasks: [
+				{
+					id: "4C1F2C7BAB11EA92"
+					type: "item"
+					item: {
+						id: "twilightforest:yeti_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								lvl: 2s
+								id: "minecraft:protection"
+							}]
+						}
+					}
+				}
+				{
+					id: "0C905F6CE4827B80"
+					type: "item"
+					item: {
+						id: "twilightforest:yeti_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								lvl: 2s
+								id: "minecraft:protection"
+							}]
+						}
+					}
+				}
+				{
+					id: "29DD122BBB29EC22"
+					type: "item"
+					item: {
+						id: "twilightforest:yeti_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								lvl: 2s
+								id: "minecraft:protection"
+							}]
+						}
+					}
+				}
+				{
+					id: "3C9B228CAF4DCF41"
+					type: "item"
+					item: {
+						id: "twilightforest:yeti_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [
+								{
+									lvl: 2s
+									id: "minecraft:protection"
+								}
+								{
+									lvl: 4s
+									id: "minecraft:feather_falling"
+								}
+							]
+						}
+					}
+				}
+			]
+			id: "53C78927F1FA5145"
+			y: 3.0d
+			x: 8.5d
+			title: "雪怪装饰品"
+		}
+		{
+			x: 7.5d
+			y: 1.0d
+			id: "41A598068AC13C62"
+			tasks: [{
+				id: "60D362EDDE42C724"
+				type: "item"
+				item: "twilightforest:naga_scale"
+				count: 16L
+			}]
+		}
+		{
+			x: 7.5d
+			y: 3.0d
+			id: "0245138EDC4C2277"
+			tasks: [{
+				id: "01B7D4914AFC685B"
+				type: "item"
+				item: "twilightforest:alpha_yeti_fur"
+				count: 16L
+			}]
+		}
+		{
+			tasks: [{
+				type: "kill"
+				value: 16L
+				id: "7D10CFAB43B0C261"
+				icon: "twilightforest:yeti_spawn_egg"
+				entity: "twilightforest:yeti"
+			}]
+			id: "49ACC58979C5353A"
+			y: -5.0d
+			x: 4.0d
+			rewards: [{
+				id: "41D643BCDBF5D060"
+				type: "item"
+				item: "twilightforest:arctic_fur"
+				count: 64
+			}]
+		}
+		{
+			x: 5.0d
+			y: -5.0d
+			id: "71DC56F5E78A663D"
+			tasks: [{
+				type: "kill"
+				value: 16L
+				id: "230FD0E453169B0C"
+				icon: "twilightforest:snow_guardian_spawn_egg"
+				entity: "twilightforest:snow_guardian"
+			}]
+		}
+		{
+			x: 8.5d
+			y: -3.0d
+			id: "5DBBE1DCB02E10D8"
+			tasks: [{
+				id: "5F54BC1CBC31EC21"
+				type: "item"
+				item: "twilightforest:ironwood_ingot"
+				count: 32L
+			}]
+		}
+		{
+			x: 2.0d
+			y: -1.0d
+			id: "5CF2FE9A86601402"
+			tasks: [{
+				id: "2953A6793FAB2BB8"
+				type: "item"
+				item: "twilightforest:firefly"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -5.0d
+			id: "11204A102CC46424"
+			tasks: [{
+				type: "kill"
+				value: 16L
+				id: "496F2ECBEF3C2008"
+				icon: "twilightforest:stable_ice_core_spawn_egg"
+				entity: "twilightforest:stable_ice_core"
+			}]
+		}
+		{
+			x: 7.0d
+			y: -5.0d
+			id: "631F2144201B50FB"
+			tasks: [{
+				type: "kill"
+				value: 16L
+				id: "77539550FDF9C465"
+				icon: "twilightforest:unstable_ice_core_spawn_egg"
+				entity: "twilightforest:unstable_ice_core"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 4.0d
+			id: "51BBA3525182FE02"
+			tasks: [{
+				type: "kill"
+				value: 1L
+				id: "29FCB9D441CF35AB"
+				icon: "twilightforest:snow_queen_spawn_egg"
+				entity: "twilightforest:snow_queen"
+			}]
+		}
+		{
+			tasks: [
+				{
+					id: "7F90A29D73CA6426"
+					type: "item"
+					item: {
+						id: "twilightforest:seeker_bow"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "01B19C375AE0DFD6"
+					type: "item"
+					item: {
+						id: "twilightforest:triple_bow"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4300B35BF8F80BF6"
+					type: "item"
+					item: {
+						id: "twilightforest:ender_bow"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0B043891C1C22E34"
+					type: "item"
+					item: {
+						id: "twilightforest:ice_bow"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "62BB03F88DF3D4CF"
+					type: "item"
+					item: {
+						id: "twilightforest:ice_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			id: "7952BBF4AA06F478"
+			y: 4.0d
+			x: 7.5d
+			title: "弓"
+		}
+		{
+			x: 6.5d
+			y: 4.0d
+			id: "2499112A89DC4C14"
+			tasks: [{
+				id: "3580102927A78500"
+				type: "item"
+				item: "twilightforest:snow_queen_trophy"
+			}]
+		}
+		{
+			x: 8.0d
+			y: -5.0d
+			id: "038362585414368E"
+			tasks: [{
+				type: "kill"
+				value: 16L
+				id: "12CB803A9D02D71A"
+				icon: "twilightforest:redcap_spawn_egg"
+				entity: "twilightforest:redcap"
+			}]
+		}
+		{
+			x: 9.0d
+			y: -5.0d
+			id: "45B02061FCEEDBE7"
+			tasks: [{
+				type: "kill"
+				value: 16L
+				id: "71A9E9A8308EB278"
+				icon: "twilightforest:minotaur_spawn_egg"
+				entity: "twilightforest:minotaur"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -3.0d
+			id: "7D2F4932F78DA86E"
+			tasks: [{
+				id: "615435FE6A6F1D9F"
+				type: "item"
+				item: "twilightforest:steeleaf_ingot"
+				count: 32L
+			}]
+		}
+		{
+			x: 10.0d
+			y: -5.0d
+			id: "7110059B648BFAFB"
+			tasks: [{
+				type: "kill"
+				value: 16L
+				id: "6275DEFB725473AA"
+				icon: "twilightforest:fire_beetle_spawn_egg"
+				entity: "twilightforest:fire_beetle"
+			}]
+		}
+		{
+			x: 11.0d
+			y: -5.0d
+			id: "6806756A43E8F260"
+			tasks: [{
+				type: "kill"
+				value: 16L
+				id: "3B4B947DC1F6CE89"
+				icon: "twilightforest:slime_beetle_spawn_egg"
+				entity: "twilightforest:slime_beetle"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 6.0d
+			id: "586D6C81076B8AFE"
+			tasks: [{
+				type: "kill"
+				value: 1L
+				id: "7066B9B932CEB7B3"
+				icon: "twilightforest:minoshroom_spawn_egg"
+				entity: "twilightforest:minoshroom"
+			}]
+		}
+		{
+			x: 6.5d
+			y: 6.0d
+			id: "0D5B830851CACA43"
+			tasks: [{
+				id: "174008F2DA475109"
+				type: "item"
+				item: "twilightforest:minoshroom_trophy"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 7.0d
+			id: "76CAFA29D47B0AB8"
+			tasks: [{
+				id: "149E727573B78267"
+				type: "item"
+				item: "twilightforest:meef_stroganoff"
+			}]
+		}
+		{
+			x: 9.5d
+			y: 6.0d
+			id: "7E71B092DF987CC7"
+			tasks: [{
+				id: "0DB4829297902205"
+				type: "item"
+				item: {
+					id: "twilightforest:mazebreaker_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								lvl: 4s
+								id: "minecraft:efficiency"
+							}
+							{
+								lvl: 3s
+								id: "minecraft:unbreaking"
+							}
+							{
+								lvl: 2s
+								id: "minecraft:fortune"
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: 7.5d
+			y: 6.0d
+			id: "08DD9D5612AA97B3"
+			tasks: [{
+				id: "20F8F88A5302FAB3"
+				type: "item"
+				item: {
+					id: "twilightforest:diamond_minotaur_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 12.0d
+			y: -5.0d
+			id: "7897CD70D950851C"
+			tasks: [{
+				type: "kill"
+				value: 16L
+				id: "73DB985B4F318968"
+				icon: "twilightforest:maze_slime_spawn_egg"
+				entity: "twilightforest:maze_slime"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 7.0d
+			id: "78A133D344982EED"
+			tasks: [{
+				type: "kill"
+				value: 1L
+				id: "4D7C609B03FCEF39"
+				icon: "twilightforest:hydra_spawn_egg"
+				entity: "twilightforest:hydra"
+			}]
+		}
+		{
+			x: 6.5d
+			y: 7.0d
+			id: "058BD0B0847D9C52"
+			tasks: [{
+				id: "228277F3933797C4"
+				type: "item"
+				item: "twilightforest:hydra_trophy"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 7.0d
+			id: "385EA73170078BB5"
+			tasks: [{
+				id: "18FD9613F0F9DCAE"
+				type: "item"
+				item: "twilightforest:hydra_chop"
+			}]
+		}
+		{
+			x: 9.5d
+			y: 7.0d
+			id: "45CBA2F2E86C19BB"
+			tasks: [{
+				id: "1DD138A44204D99A"
+				type: "item"
+				item: "twilightforest:fiery_blood"
+				count: 16L
+			}]
+		}
+		{
+			x: 4.5d
+			y: 9.0d
+			id: "69DE30F91224160C"
+			tasks: [{
+				type: "advancement"
+				advancement: "twilightforest:progress_trophy_pedestal"
+				criterion: ""
+				id: "309398ECA807B019"
+				icon: "twilightforest:trophy_pedestal"
+			}]
+		}
+		{
+			x: 9.5d
+			y: -3.0d
+			id: "3EA65C141AD35C2F"
+			tasks: [{
+				id: "6C81468FF5C0E533"
+				type: "item"
+				item: "twilightforest:knightmetal_ingot"
+				count: 32L
+			}]
+		}
+		{
+			x: 5.5d
+			y: 9.0d
+			id: "0498E9BD84B9C38E"
+			tasks: [{
+				type: "kill"
+				value: 6L
+				id: "772E53EFBD484FD4"
+				icon: "twilightforest:knight_phantom_spawn_egg"
+				entity: "twilightforest:knight_phantom"
+			}]
+		}
+		{
+			x: 6.5d
+			y: 9.0d
+			id: "0FF0A0C0C3FC4DC1"
+			tasks: [{
+				id: "67E4E723487ABCB1"
+				type: "item"
+				item: "twilightforest:knight_phantom_trophy"
+			}]
+		}
+		{
+			x: 13.0d
+			y: -5.0d
+			id: "3C7FBD0F5E029C1F"
+			tasks: [{
+				type: "kill"
+				value: 16L
+				id: "62CCE1737C07856A"
+				icon: "twilightforest:blockchain_goblin_spawn_egg"
+				entity: "twilightforest:blockchain_goblin"
+			}]
+		}
+		{
+			x: 14.0d
+			y: -5.0d
+			id: "3704D19AB74937B4"
+			tasks: [{
+				type: "kill"
+				value: 16L
+				id: "1E1BF3A7B5F6DEE8"
+				icon: "twilightforest:helmet_crab_spawn_egg"
+				entity: "twilightforest:helmet_crab"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 0.0d
+			id: "2B35A0B819F6497C"
+			tasks: [{
+				id: "506C52D17D27BCCC"
+				type: "item"
+				item: "twilightforest:maze_map"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -1.0d
+			id: "47CB03F3AA3D231F"
+			tasks: [{
+				id: "47590E993A05D863"
+				type: "item"
+				item: "twilightforest:ore_map"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 10.0d
+			id: "15208201A0FD509D"
+			tasks: [{
+				type: "kill"
+				value: 1L
+				id: "344C841CC14906D3"
+				icon: "twilightforest:ur_ghast_spawn_egg"
+				entity: "twilightforest:ur_ghast"
+			}]
+		}
+		{
+			x: 6.5d
+			y: 10.0d
+			id: "4C2ED0459E0AC4E9"
+			tasks: [{
+				id: "5FF6EA6DF3495035"
+				type: "item"
+				item: "twilightforest:ur_ghast_trophy"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 10.0d
+			id: "6285DE1FFBAA3CAB"
+			tasks: [{
+				id: "5BEC10F87D0F62F0"
+				type: "item"
+				item: "twilightforest:carminite"
+			}]
+		}
+		{
+			x: 15.0d
+			y: -5.0d
+			id: "2B30DF6CD5B6DAA4"
+			tasks: [{
+				type: "kill"
+				value: 16L
+				id: "51912F4ACF702207"
+				icon: "twilightforest:carminite_ghastling_spawn_egg"
+				entity: "twilightforest:carminite_ghastling"
+			}]
+		}
+		{
+			x: 17.0d
+			y: -5.0d
+			id: "0F445439D5A0F1BB"
+			tasks: [{
+				type: "kill"
+				value: 16L
+				id: "3E82817F959C2862"
+				icon: "twilightforest:carminite_golem_spawn_egg"
+				entity: "twilightforest:carminite_golem"
+			}]
+		}
+		{
+			x: 16.0d
+			y: -5.0d
+			id: "1B4188DCFE243333"
+			tasks: [{
+				type: "kill"
+				value: 16L
+				id: "44E3C0D941101F84"
+				icon: "twilightforest:carminite_ghastguard_spawn_egg"
+				entity: "twilightforest:carminite_ghastguard"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 12.0d
+			id: "24E9352A47C3A1F3"
+			tasks: [{
+				id: "10E6FA2BF6E0F2A4"
+				type: "item"
+				item: "twilightforest:magic_beans"
+			}]
+		}
+		{
+			x: 18.0d
+			y: -5.0d
+			id: "4F6279DA093FDBAB"
+			tasks: [{
+				type: "kill"
+				value: 16L
+				id: "42670C6E980263EA"
+				icon: "twilightforest:troll_spawn_egg"
+				entity: "twilightforest:troll"
+			}]
+		}
+		{
+			x: 6.5d
+			y: 13.0d
+			id: "09BB7F563D1D138D"
+			tasks: [{
+				id: "600E9E0CA2E4FC2B"
+				type: "item"
+				item: {
+					id: "twilightforest:lamp_of_cinders"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 5.5d
+			y: 12.0d
+			id: "593EFE0EF32DE115"
+			tasks: [{
+				type: "kill"
+				value: 1L
+				id: "0FC7809FFA528F3F"
+				icon: "twilightforest:armored_giant_spawn_egg"
+				entity: "twilightforest:armored_giant"
+			}]
+		}
+		{
+			tasks: [
+				{
+					id: "528139742E2F1FF1"
+					type: "item"
+					item: {
+						id: "twilightforest:giant_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0B27C9AD0D919A50"
+					type: "item"
+					item: {
+						id: "twilightforest:giant_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			id: "281D8577D3619155"
+			y: 12.0d
+			x: 6.5d
+			title: "巨大的工具"
+		}
+		{
+			tasks: [
+				{
+					id: "2A5EB6D6410E3D28"
+					type: "item"
+					item: "twilightforest:giant_log"
+				}
+				{
+					id: "682CC38E0B08B044"
+					type: "item"
+					item: "twilightforest:giant_cobblestone"
+				}
+				{
+					id: "2904C3B55D0F2C2F"
+					type: "item"
+					item: "twilightforest:giant_leaves"
+				}
+				{
+					id: "070A958AAFE90A66"
+					type: "item"
+					item: "twilightforest:giant_obsidian"
+				}
+			]
+			id: "45240A7A9E372B5F"
+			y: 12.0d
+			x: 7.5d
+			title: "巨大的方块"
+		}
+		{
+			x: 19.0d
+			y: -5.0d
+			id: "6B9FED998B14F309"
+			tasks: [{
+				type: "kill"
+				value: 16L
+				id: "3FE62DD7F0EAF825"
+				icon: "twilightforest:kobold_spawn_egg"
+				entity: "twilightforest:kobold"
+			}]
+		}
+		{
+			x: 10.5d
+			y: -3.0d
+			id: "02674396C9CECBF2"
+			tasks: [{
+				id: "16AC9D29AD238CBD"
+				type: "item"
+				item: "twilightforest:fiery_ingot"
+				count: 16L
+			}]
+		}
+		{
+			tasks: [
+				{
+					id: "632D97343F836E45"
+					type: "item"
+					item: "minecraft:white_wool"
+				}
+				{
+					id: "28AA0DC7A8D66008"
+					type: "item"
+					item: "minecraft:orange_wool"
+				}
+				{
+					id: "3F3CE0D5D5BFEF3B"
+					type: "item"
+					item: "minecraft:magenta_wool"
+				}
+				{
+					id: "758B59B9055E78AA"
+					type: "item"
+					item: "minecraft:yellow_wool"
+				}
+				{
+					id: "747CAEE49DAC2A47"
+					type: "item"
+					item: "minecraft:light_blue_wool"
+				}
+				{
+					id: "4A51641C629D3788"
+					type: "item"
+					item: "minecraft:lime_wool"
+				}
+				{
+					id: "33FD4C98AD1E98EF"
+					type: "item"
+					item: "minecraft:pink_wool"
+				}
+				{
+					id: "30A52528316E5A25"
+					type: "item"
+					item: "minecraft:gray_wool"
+				}
+				{
+					id: "2F655DA684888C8E"
+					type: "item"
+					item: "minecraft:light_gray_wool"
+				}
+				{
+					id: "0CBABE4C79F62D65"
+					type: "item"
+					item: "minecraft:cyan_wool"
+				}
+				{
+					id: "09BA4AB32DE2F2FF"
+					type: "item"
+					item: "minecraft:purple_wool"
+				}
+				{
+					id: "1D63AAE7FD5CF3FB"
+					type: "item"
+					item: "minecraft:blue_wool"
+				}
+				{
+					id: "2900F2CB7FEB9A4D"
+					type: "item"
+					item: "minecraft:brown_wool"
+				}
+				{
+					id: "047C78C18C164F54"
+					type: "item"
+					item: "minecraft:green_wool"
+				}
+				{
+					id: "4705CA967F9262F7"
+					type: "item"
+					item: "minecraft:red_wool"
+				}
+				{
+					id: "0FC3C7AC71EAE074"
+					type: "item"
+					item: "minecraft:black_wool"
+				}
+			]
+			id: "3ADFA458E195125C"
+			y: 3.5d
+			x: 2.0d
+			title: "16块羊毛"
+		}
+		{
+			x: 0.0d
+			y: 3.5d
+			id: "5EC04F3AEB98D078"
+			tasks: [{
+				id: "28243DA9CBCEA157"
+				type: "item"
+				item: {
+					id: "twilightforest:crumble_horn"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: 3.5d
+			id: "7CC9A79B33191157"
+			tasks: [{
+				id: "58D53255FCA786F7"
+				type: "item"
+				item: "twilightforest:quest_ram_trophy"
+			}]
+		}
+		{
+			x: 20.0d
+			y: -5.0d
+			id: "45956A2BC1D47A65"
+			tasks: [{
+				type: "kill"
+				value: 16L
+				id: "166090E1BF45A36A"
+				icon: "twilightforest:hedge_spider_spawn_egg"
+				entity: "twilightforest:hedge_spider"
+			}]
+		}
+	]
+}

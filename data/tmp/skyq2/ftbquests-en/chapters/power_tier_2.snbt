@@ -1,0 +1,236 @@
+{
+	quest_links: [ ]
+	default_hide_dependency_lines: false
+	group: "7ACFC886019EA7E0"
+	id: "2450974B07C94703"
+	filename: "power_tier_2"
+	default_quest_shape: ""
+	icon: "minecraft:redstone_block"
+	title: "Power Tier 2"
+	order_index: 4
+	quests: [
+		{
+			tasks: [{
+				id: "42323078711178F3"
+				type: "checkmark"
+				title: "Greater Power"
+			}]
+			dependencies: ["07A811F8E5AA598C"]
+			id: "3D698A24E65726B3"
+			y: 0.0d
+			x: -3.0d
+			title: "Even More Power"
+		}
+		{
+			tasks: [{
+				id: "1E07ED5F3A14ADA9"
+				type: "checkmark"
+				title: "Unlock Power Tier 3"
+			}]
+			dependencies: [
+				"34CBDE4A2B6D5311"
+				"62A67E343313255E"
+				"637090B75113535F"
+			]
+			id: "2341B001A4B76230"
+			y: 1.5d
+			x: 1.5d
+		}
+		{
+			tasks: [{
+				id: "01AD904C7394C3CC"
+				type: "item"
+				item: "solarflux:sp_5"
+			}]
+			dependencies: [
+				"47191E291083220C"
+				"3D698A24E65726B3"
+			]
+			id: "3AFBC64AB3ECD297"
+			y: 1.0d
+			x: -2.0d
+		}
+		{
+			tasks: [{
+				id: "0C6BFBB0999AD296"
+				type: "item"
+				item: "solarflux:sp_6"
+			}]
+			dependencies: ["3AFBC64AB3ECD297"]
+			id: "6C1BF6C3EB5984DC"
+			y: 1.0d
+			x: -1.0d
+		}
+		{
+			tasks: [{
+				id: "223EAA6D62A87EA0"
+				type: "item"
+				item: "solarflux:sp_7"
+			}]
+			dependencies: ["6C1BF6C3EB5984DC"]
+			id: "62A67E343313255E"
+			y: 1.0d
+			x: 0.0d
+		}
+		{
+			tasks: [{
+				id: "5B756AE942FDF778"
+				type: "item"
+				item: "solargeneration:solar_panel_advanced"
+			}]
+			dependencies: ["045F38215600E420"]
+			id: "34CBDE4A2B6D5311"
+			y: 2.0d
+			x: 0.0d
+		}
+		{
+			tasks: [{
+				id: "38405CBF262304FB"
+				type: "item"
+				item: "solargeneration:solar_panel_signalum"
+			}]
+			dependencies: [
+				"0F1A8B2C9DF1A64B"
+				"3D698A24E65726B3"
+			]
+			id: "094C3682134E63FE"
+			y: 2.0d
+			x: -2.0d
+		}
+		{
+			tasks: [{
+				id: "6BE0690EF28BFD22"
+				type: "item"
+				item: "solargeneration:solar_panel_resonant"
+			}]
+			dependencies: ["094C3682134E63FE"]
+			id: "045F38215600E420"
+			y: 2.0d
+			x: -1.0d
+		}
+		{
+			tasks: [{
+				id: "543B27E6049D1F69"
+				type: "item"
+				item: "irongenerators:vibranium_generator"
+			}]
+			dependencies: ["55AF0D6374B8564A"]
+			id: "637090B75113535F"
+			y: 0.0d
+			x: 1.5d
+		}
+		{
+			tasks: [{
+				id: "3995E4882019F3D2"
+				type: "item"
+				item: "irongenerators:allthemodium_generator"
+			}]
+			dependencies: ["5E1B5524E39C495B"]
+			id: "55AF0D6374B8564A"
+			y: -1.0d
+			x: 1.5d
+		}
+		{
+			tasks: [{
+				id: "1DAF4B17045004B0"
+				type: "item"
+				item: "irongenerators:enderium_generator"
+			}]
+			dependencies: ["2FCFB785C4B19CAC"]
+			id: "5E1B5524E39C495B"
+			y: -2.0d
+			x: 0.5d
+		}
+		{
+			tasks: [{
+				id: "5663BF649921654F"
+				type: "item"
+				item: "irongenerators:platin_generator"
+			}]
+			dependencies: ["7B78CBAD9B19083D"]
+			id: "2FCFB785C4B19CAC"
+			y: -2.0d
+			x: -0.5d
+		}
+		{
+			tasks: [{
+				id: "465434CCFA5196D8"
+				type: "item"
+				item: "irongenerators:netherite_generator"
+			}]
+			dependencies: ["7A341B97394E5221"]
+			id: "7B78CBAD9B19083D"
+			y: -2.0d
+			x: -1.5d
+		}
+		{
+			tasks: [{
+				id: "1A08237FBE774624"
+				type: "item"
+				item: "irongenerators:signalum_generator"
+			}]
+			dependencies: ["5985465304814CC4"]
+			id: "7A341B97394E5221"
+			y: -1.0d
+			x: -2.0d
+		}
+		{
+			tasks: [{
+				id: "4B964F78045D4DD4"
+				type: "item"
+				item: "irongenerators:refined_obsidian_generator"
+			}]
+			dependencies: ["01D48CB8F459430D"]
+			id: "5985465304814CC4"
+			y: -1.0d
+			x: -1.0d
+		}
+		{
+			tasks: [{
+				id: "7B1C2B474C6FF8C4"
+				type: "item"
+				item: "irongenerators:uranium_generator"
+			}]
+			dependencies: ["296C159585ECEF7E"]
+			id: "01D48CB8F459430D"
+			y: -1.0d
+			x: 0.0d
+		}
+		{
+			tasks: [{
+				id: "3CEECC277345C961"
+				type: "item"
+				item: "irongenerators:steel_generator"
+			}]
+			dependencies: ["38008C1DC798C016"]
+			id: "296C159585ECEF7E"
+			y: 0.0d
+			x: 0.0d
+		}
+		{
+			tasks: [{
+				id: "54F2DD3E7F97F963"
+				type: "item"
+				item: "irongenerators:obsidian_generator"
+			}]
+			dependencies: ["1B6B98565FC6EE64"]
+			id: "38008C1DC798C016"
+			y: 0.0d
+			x: -1.0d
+		}
+		{
+			tasks: [{
+				id: "5F82DA490EC63918"
+				type: "item"
+				item: "irongenerators:diamond_generator"
+			}]
+			dependencies: [
+				"64D2C4DDDC06B709"
+				"3D698A24E65726B3"
+			]
+			id: "1B6B98565FC6EE64"
+			y: 0.0d
+			x: -2.0d
+		}
+	]
+}

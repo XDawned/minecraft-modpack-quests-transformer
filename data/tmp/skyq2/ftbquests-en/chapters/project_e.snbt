@@ -1,0 +1,22 @@
+{
+	quest_links: [ ]
+	default_hide_dependency_lines: false
+	group: "07A9419A06D6B296"
+	id: "7F024755D877E3CF"
+	filename: "project_e"
+	default_quest_shape: ""
+	icon: "projecte:transmutation_tablet"
+	title: "Project E"
+	order_index: 1
+	quests: [{
+		tasks: [{
+			id: "635DB52CADE07F7B"
+			type: "checkmark"
+			title: "EMC all the things!!!!"
+		}]
+		dependencies: ["69E32CD74E9A55A1"]
+		id: "2EAD8F344F25E08B"
+		y: 0.0d
+		x: 0.0d
+	}]
+}

@@ -1,0 +1,362 @@
+{
+	quest_links: [ ]
+	default_hide_dependency_lines: false
+	group: "1B5135B04A9FBE34"
+	id: "2DF93E38D333549D"
+	filename: "building_help"
+	default_quest_shape: "square"
+	icon: "minecraft:redstone"
+	title: "Building Help"
+	order_index: 0
+	quests: [
+		{
+			tasks: [{
+				id: "5D9FDABFFAF0E96E"
+				type: "item"
+				item: {
+					id: "buildinggadgets:gadget_building"
+					Count: 1b
+					tag: {
+						state: {
+							serializer: "buildinggadgets:dummy_serializer"
+							state: {
+								Name: "minecraft:air"
+							}
+							data: { }
+						}
+					}
+				}
+			}]
+			dependencies: ["36B8C874F1DFAD1A"]
+			id: "1688294AFC0F707A"
+			y: 0.5d
+			x: -1.5d
+		}
+		{
+			tasks: [{
+				id: "0E2ED0F1E02C4959"
+				type: "item"
+				item: {
+					id: "buildinggadgets:gadget_exchanging"
+					Count: 1b
+					tag: {
+						state: {
+							serializer: "buildinggadgets:dummy_serializer"
+							state: {
+								Name: "minecraft:air"
+							}
+							data: { }
+						}
+					}
+				}
+			}]
+			dependencies: ["36B8C874F1DFAD1A"]
+			id: "638C655A5FFAC723"
+			y: 0.5d
+			x: -2.5d
+		}
+		{
+			tasks: [{
+				id: "0090461372BB9995"
+				type: "item"
+				item: {
+					id: "buildinggadgets:gadget_copy_paste"
+					Count: 1b
+					tag: {
+						mode: 0b
+						template_id: [I;
+							-1991982148
+							316885716
+							-2115618603
+							1466777233
+						]
+					}
+				}
+			}]
+			dependencies: ["36B8C874F1DFAD1A"]
+			id: "4709D8D2FCAC6D8F"
+			y: 0.5d
+			x: -3.5d
+		}
+		{
+			tasks: [{
+				id: "581F596BAA787B7B"
+				type: "item"
+				item: {
+					id: "constructionwand:diamond_wand"
+					Count: 1b
+					tag: {
+						Damage: 0
+						wand_options: { }
+					}
+				}
+			}]
+			dependencies: ["51D4499A1AD16F4C"]
+			id: "09C17EF242248C94"
+			y: 0.5d
+			x: 3.5d
+			rewards: [{
+				id: "029FCB9F0A076BBD"
+				type: "item"
+				item: {
+					id: "constructionwand:diamond_wand"
+					Count: 1b
+					tag: {
+						Damage: 0
+						wand_options: { }
+						Enchantments: [{
+							lvl: 3s
+							id: "minecraft:unbreaking"
+						}]
+					}
+				}
+			}]
+		}
+		{
+			tasks: [{
+				id: "204F45F39CB08ECF"
+				type: "item"
+				item: {
+					id: "constructionwand:iron_wand"
+					Count: 1b
+					tag: {
+						Damage: 0
+						wand_options: { }
+					}
+				}
+			}]
+			dependencies: ["6E36C297B9E32CFD"]
+			id: "51D4499A1AD16F4C"
+			y: 0.5d
+			x: 2.5d
+		}
+		{
+			tasks: [{
+				id: "2BBE7760AA215AED"
+				type: "item"
+				item: {
+					id: "constructionwand:infinity_wand"
+					Count: 1b
+					tag: {
+						wand_options: { }
+					}
+				}
+			}]
+			dependencies: [
+				"09C17EF242248C94"
+				"5E69F1D862570D56"
+			]
+			id: "0B69E64248500049"
+			y: 0.5d
+			x: 4.5d
+		}
+		{
+			tasks: [{
+				id: "65991FE7539854B9"
+				type: "checkmark"
+				title: "Unlock after Stone Wand"
+			}]
+			dependencies: ["578CE6CE895DDB51"]
+			id: "36B8C874F1DFAD1A"
+			y: 0.0d
+			x: 0.0d
+			title: "Other Building Tips"
+		}
+		{
+			tasks: [{
+				id: "50C7DE99007069FD"
+				type: "item"
+				item: {
+					id: "constructionwand:stone_wand"
+					Count: 1b
+					tag: {
+						Damage: 0
+						wand_options: { }
+					}
+				}
+			}]
+			dependencies: [
+				"36B8C874F1DFAD1A"
+				"611C5191D5919A51"
+			]
+			id: "6E36C297B9E32CFD"
+			y: 0.5d
+			x: 1.5d
+		}
+		{
+			tasks: [{
+				id: "239CBD9F9CC0E9E0"
+				type: "item"
+				item: {
+					id: "buildinggadgets:gadget_destruction"
+					Count: 1b
+					tag: {
+						overlay: 1b
+						fuzzy: 1b
+					}
+				}
+			}]
+			dependencies: ["36B8C874F1DFAD1A"]
+			id: "2FAD9A0A62BCB49D"
+			y: 1.5d
+			x: -3.5d
+		}
+		{
+			tasks: [
+				{
+					id: "0529EFA028389A6F"
+					type: "item"
+					disable_toast: true
+					item: {
+						id: "buildinggadgets:template"
+						Count: 1b
+						tag: {
+							template_id: [I;
+								1430765652
+								1618300127
+								-1343866999
+								-1558706199
+							]
+						}
+					}
+				}
+				{
+					id: "3C5E307CB31F58C5"
+					type: "item"
+					disable_toast: true
+					item: "buildinggadgets:template_manager"
+				}
+			]
+			dependencies: ["36B8C874F1DFAD1A"]
+			id: "46E70304711E5423"
+			y: 1.5d
+			x: -2.5d
+		}
+		{
+			tasks: [{
+				id: "5FA88435A6734C49"
+				type: "item"
+				item: {
+					id: "charginggadgets:charging_station"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			dependencies: ["36B8C874F1DFAD1A"]
+			id: "432B31D120D89084"
+			y: 1.5d
+			x: -1.5d
+		}
+		{
+			tasks: [{
+				id: "2269763B20283325"
+				type: "item"
+				item: {
+					id: "similsaxtranstructors:transtructor_basic"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			dependencies: ["36B8C874F1DFAD1A"]
+			id: "740404A660839C84"
+			y: 1.5d
+			x: 1.5d
+		}
+		{
+			tasks: [{
+				id: "582481D0D4ECFAE9"
+				type: "item"
+				item: {
+					id: "similsaxtranstructors:transtructor_advanced"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			dependencies: ["740404A660839C84"]
+			id: "1CD0F58C3BFCFDF9"
+			y: 1.5d
+			x: 2.5d
+		}
+		{
+			tasks: [{
+				id: "1D92AC8EC5D66ACA"
+				type: "item"
+				item: "chipped:loom_table"
+			}]
+			dependencies: ["36B8C874F1DFAD1A"]
+			id: "6FA2957341B4DB0A"
+			y: -1.5d
+			x: 0.0d
+		}
+		{
+			tasks: [{
+				id: "31008345629C0F7A"
+				type: "item"
+				item: "chipped:mason_table"
+			}]
+			dependencies: ["36B8C874F1DFAD1A"]
+			id: "7FF6E594CAABBD7E"
+			y: -1.5d
+			x: 1.0d
+		}
+		{
+			tasks: [{
+				id: "0CA808FB824519D0"
+				type: "item"
+				item: "chipped:alchemy_bench"
+			}]
+			dependencies: ["36B8C874F1DFAD1A"]
+			id: "3D5FD1DA306BA006"
+			y: -1.5d
+			x: 2.0d
+		}
+		{
+			tasks: [{
+				id: "14C7139359079756"
+				type: "item"
+				item: "chipped:tinkering_table"
+			}]
+			dependencies: ["36B8C874F1DFAD1A"]
+			id: "36B1144C2ACA5479"
+			y: -1.5d
+			x: 3.0d
+		}
+		{
+			tasks: [{
+				id: "3CFC623885780E90"
+				type: "item"
+				item: "chipped:carpenters_table"
+			}]
+			dependencies: ["36B8C874F1DFAD1A"]
+			id: "7A3646CAEC4F9454"
+			y: -1.5d
+			x: -1.0d
+		}
+		{
+			tasks: [{
+				id: "4DB03C0295194C10"
+				type: "item"
+				item: "chipped:glassblower"
+			}]
+			dependencies: ["36B8C874F1DFAD1A"]
+			id: "2D52292DC7B53AD6"
+			y: -1.5d
+			x: -2.0d
+		}
+		{
+			tasks: [{
+				id: "59EBA535E5E69AA2"
+				type: "item"
+				item: "chipped:botanist_workbench"
+			}]
+			dependencies: ["36B8C874F1DFAD1A"]
+			id: "01C9F3B076646F1C"
+			y: -1.5d
+			x: -3.0d
+		}
+	]
+}

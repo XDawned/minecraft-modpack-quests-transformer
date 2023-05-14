@@ -1,0 +1,24 @@
+{
+	quest_links: [ ]
+	default_hide_dependency_lines: false
+	group: "7666C88BBE05D284"
+	id: "1F6E308CEBCD2552"
+	filename: "evil_craft"
+	default_quest_shape: ""
+	icon: "evilcraft:origins_of_darkness"
+	title: "Evil Craft"
+	order_index: 2
+	quests: [{
+		tasks: [{
+			id: "6EB794A601840CEB"
+			type: "checkmark"
+			title: "Welcome to Evil Craft"
+			icon: "evilcraft:origins_of_darkness"
+		}]
+		description: ["Use the Book provided to help you through the mod a bit more."]
+		dependencies: ["25974FEFF2398224"]
+		id: "59887BAC10D3601B"
+		y: 0.0d
+		x: 0.0d
+	}]
+}

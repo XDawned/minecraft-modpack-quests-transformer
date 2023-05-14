@@ -1,0 +1,1048 @@
+{
+	quest_links: [ ]
+	default_hide_dependency_lines: false
+	group: "1B5135B04A9FBE34"
+	id: "1F52D4030F87D62D"
+	filename: "other_gadgets"
+	default_quest_shape: "square"
+	icon: {
+		id: "simplemagnets:advancedmagnet"
+		Count: 1b
+		tag: { }
+	}
+	title: "其他小帮手"
+	order_index: 1
+	quests: [
+		{
+			tasks: [{
+				id: "61E6EC241490ECA5"
+				type: "item"
+				item: {
+					id: "simplemagnets:basicmagnet"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			dependencies: ["60E83B0820464EEB"]
+			id: "1EECE2FADC86D955"
+			y: -3.0d
+			x: -4.0d
+		}
+		{
+			tasks: [{
+				id: "7E435E60F1DC2AE6"
+				type: "item"
+				item: {
+					id: "simplemagnets:advancedmagnet"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			dependencies: ["1EECE2FADC86D955"]
+			id: "4E689EB80A8E62E8"
+			y: -3.0d
+			x: -5.0d
+		}
+		{
+			tasks: [{
+				id: "6A41EDDEDDB2243E"
+				type: "item"
+				item: {
+					id: "ironjetpacks:jetpack"
+					Count: 1b
+					tag: {
+						Id: "ironjetpacks:stone"
+						Throttle: 1.0d
+					}
+				}
+			}]
+			dependencies: ["52EAA5D5392620EB"]
+			id: "6F4BCFF1755D9E84"
+			y: -1.5d
+			x: 3.0d
+		}
+		{
+			tasks: [{
+				id: "0B72DBC3F6618A99"
+				type: "item"
+				item: {
+					id: "ironjetpacks:jetpack"
+					Count: 1b
+					tag: {
+						Id: "ironjetpacks:wood"
+						Throttle: 1.0d
+					}
+				}
+			}]
+			dependencies: [
+				"60E83B0820464EEB"
+				"24170E0294E11EA6"
+			]
+			id: "52EAA5D5392620EB"
+			y: -1.5d
+			x: 2.0d
+		}
+		{
+			tasks: [{
+				id: "537776962DCE21C5"
+				type: "item"
+				item: {
+					id: "ironjetpacks:jetpack"
+					Count: 1b
+					tag: {
+						Id: "ironjetpacks:copper"
+						Throttle: 1.0d
+					}
+				}
+			}]
+			dependencies: ["6F4BCFF1755D9E84"]
+			id: "16C5C684F02BBDA0"
+			y: -1.5d
+			x: 4.0d
+		}
+		{
+			tasks: [{
+				id: "39C8F01ECD3F8098"
+				type: "item"
+				item: {
+					id: "ironjetpacks:jetpack"
+					Count: 1b
+					tag: {
+						Id: "ironjetpacks:iron"
+						Throttle: 1.0d
+					}
+				}
+			}]
+			dependencies: ["16C5C684F02BBDA0"]
+			id: "28BC5D5783175187"
+			y: -1.5d
+			x: 5.0d
+		}
+		{
+			tasks: [{
+				id: "49E9F3F5AEB434B2"
+				type: "item"
+				item: {
+					id: "ironjetpacks:jetpack"
+					Count: 1b
+					tag: {
+						Id: "ironjetpacks:bronze"
+						Throttle: 1.0d
+					}
+				}
+			}]
+			dependencies: ["28BC5D5783175187"]
+			id: "0D91D41B428644FC"
+			y: -1.5d
+			x: 6.0d
+		}
+		{
+			tasks: [{
+				id: "231685DEA24972D6"
+				type: "item"
+				item: {
+					id: "ironjetpacks:jetpack"
+					Count: 1b
+					tag: {
+						Id: "ironjetpacks:silver"
+						Throttle: 1.0d
+					}
+				}
+			}]
+			dependencies: ["0D91D41B428644FC"]
+			id: "2A9B1DAE4AE01BC6"
+			y: -0.5d
+			x: 6.0d
+		}
+		{
+			tasks: [{
+				id: "401C98A516706559"
+				type: "item"
+				item: {
+					id: "ironjetpacks:jetpack"
+					Count: 1b
+					tag: {
+						Id: "ironjetpacks:electrum"
+						Throttle: 1.0d
+					}
+				}
+			}]
+			dependencies: ["75CBB0E4D7034E1E"]
+			id: "5B6C22E145C7165A"
+			y: -0.5d
+			x: 4.0d
+		}
+		{
+			tasks: [{
+				id: "04AADA7EB128D45A"
+				type: "item"
+				item: {
+					id: "ironjetpacks:jetpack"
+					Count: 1b
+					tag: {
+						Id: "ironjetpacks:gold"
+						Throttle: 1.0d
+					}
+				}
+			}]
+			dependencies: ["2A9B1DAE4AE01BC6"]
+			id: "75CBB0E4D7034E1E"
+			y: -0.5d
+			x: 5.0d
+		}
+		{
+			tasks: [{
+				id: "29516BE9F20202E4"
+				type: "item"
+				item: {
+					id: "ironjetpacks:jetpack"
+					Count: 1b
+					tag: {
+						Id: "ironjetpacks:invar"
+						Throttle: 1.0d
+					}
+				}
+			}]
+			dependencies: ["5B6C22E145C7165A"]
+			id: "1AB22C2B1161A2D1"
+			y: -0.5d
+			x: 3.0d
+		}
+		{
+			tasks: [{
+				id: "337F3B3E45CA99CA"
+				type: "item"
+				item: {
+					id: "ironjetpacks:jetpack"
+					Count: 1b
+					tag: {
+						Id: "ironjetpacks:steel"
+						Throttle: 1.0d
+					}
+				}
+			}]
+			dependencies: ["1AB22C2B1161A2D1"]
+			id: "0E93F2B06226FE27"
+			y: -0.5d
+			x: 2.0d
+		}
+		{
+			tasks: [{
+				id: "21BDAACD4225DCFD"
+				type: "item"
+				item: {
+					id: "ironjetpacks:jetpack"
+					Count: 1b
+					tag: {
+						Id: "ironjetpacks:diamond"
+						Throttle: 1.0d
+					}
+				}
+			}]
+			dependencies: ["0E93F2B06226FE27"]
+			id: "4E82AB60A9794602"
+			y: 0.5d
+			x: 2.0d
+		}
+		{
+			tasks: [{
+				id: "43E8EC87F24F4854"
+				type: "item"
+				item: {
+					id: "ironjetpacks:jetpack"
+					Count: 1b
+					tag: {
+						Id: "ironjetpacks:platinum"
+						Throttle: 1.0d
+					}
+				}
+			}]
+			dependencies: ["4E82AB60A9794602"]
+			id: "4A34BB0345EB5958"
+			y: 0.5d
+			x: 3.0d
+		}
+		{
+			tasks: [{
+				id: "52D91E4CBBD6D76E"
+				type: "item"
+				item: {
+					id: "ironjetpacks:jetpack"
+					Count: 1b
+					tag: {
+						Id: "ironjetpacks:emerald"
+						Throttle: 1.0d
+					}
+				}
+			}]
+			dependencies: ["4A34BB0345EB5958"]
+			id: "2041E1188CA6A537"
+			y: 0.5d
+			x: 4.0d
+		}
+		{
+			tasks: [{
+				id: "02EE018B414A1F70"
+				type: "checkmark"
+				title: "更好的QOL物品"
+			}]
+			dependencies: ["3038C27BAEEFBDA1"]
+			id: "60E83B0820464EEB"
+			y: -1.0d
+			x: -1.0d
+		}
+		{
+			tasks: [{
+				id: "5DFE576D28E8E7C0"
+				type: "item"
+				item: "akashictome:tome"
+			}]
+			dependencies: ["60E83B0820464EEB"]
+			id: "1D670E06BD92144C"
+			y: 1.5d
+			x: 2.0d
+		}
+		{
+			tasks: [{
+				id: "6C9BD3633A4B0645"
+				type: "item"
+				item: "bhc:heart_amulet"
+			}]
+			dependencies: ["60E83B0820464EEB"]
+			id: "482F6A4C643609E9"
+			y: 1.5d
+			x: -2.0d
+		}
+		{
+			tasks: [{
+				id: "522A693175690F53"
+				type: "item"
+				item: "bhc:red_heart_canister"
+			}]
+			dependencies: ["482F6A4C643609E9"]
+			id: "646F5605F9DF3356"
+			y: 2.5d
+			x: -2.0d
+		}
+		{
+			tasks: [{
+				id: "11C33E943139D1A1"
+				type: "item"
+				item: "bhc:yellow_heart_canister"
+			}]
+			dependencies: ["646F5605F9DF3356"]
+			id: "4469CE9D2F684518"
+			y: 3.5d
+			x: -2.0d
+		}
+		{
+			tasks: [{
+				id: "0D5640BE9504280A"
+				type: "item"
+				item: "bhc:green_heart_canister"
+			}]
+			dependencies: ["4469CE9D2F684518"]
+			id: "618775EEA7436C13"
+			y: 4.5d
+			x: -2.0d
+		}
+		{
+			tasks: [{
+				id: "35E37A30137106D1"
+				type: "item"
+				item: "bhc:blue_heart_canister"
+			}]
+			description: ["收集它们的简单方法就是在地狱使用传送面板来探索结构。"]
+			dependencies: ["618775EEA7436C13"]
+			id: "01AB6D0A8972D16D"
+			y: 5.5d
+			x: -2.0d
+		}
+		{
+			tasks: [{
+				id: "2F30EB707E5CD819"
+				type: "item"
+				item: "cookingforblockheads:cow_jar"
+			}]
+			dependencies: ["60E83B0820464EEB"]
+			id: "7CC8EA627EC6962C"
+			y: 1.0d
+			x: -5.0d
+		}
+		{
+			tasks: [{
+				id: "5DEC3FD4692D8EDF"
+				type: "item"
+				item: "cookingforblockheads:sink"
+			}]
+			dependencies: [
+				"20C8A6E0472DAD72"
+				"60E83B0820464EEB"
+			]
+			id: "4A5A514437CCCA0F"
+			y: 1.0d
+			x: -4.0d
+		}
+		{
+			tasks: [{
+				id: "378415A40A81F122"
+				type: "item"
+				item: "flopper:flopper"
+			}]
+			dependencies: ["60E83B0820464EEB"]
+			id: "1BBE87BBDF658CAA"
+			y: 1.5d
+			x: -3.0d
+		}
+		{
+			tasks: [{
+				id: "3970A805DABDF8C2"
+				type: "item"
+				item: {
+					id: "mininggadgets:mininggadget_simple"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			dependencies: ["60E83B0820464EEB"]
+			id: "05C8196B9F92AD64"
+			y: -2.0d
+			x: -4.0d
+		}
+		{
+			tasks: [{
+				id: "2BDE8024D5948614"
+				type: "item"
+				item: "mininggadgets:modificationtable"
+			}]
+			dependencies: ["05C8196B9F92AD64"]
+			id: "59ED0ED6F99F44BB"
+			y: -2.0d
+			x: -5.0d
+		}
+		{
+			tasks: [
+				{
+					id: "3677508550C5AF75"
+					type: "item"
+					disable_toast: true
+					item: "mininggadgets:upgrade_silk"
+				}
+				{
+					id: "5779166CFA917E1A"
+					type: "item"
+					disable_toast: true
+					item: "mininggadgets:upgrade_void_junk"
+				}
+				{
+					id: "623D0842DDDC0804"
+					type: "item"
+					disable_toast: true
+					item: "mininggadgets:upgrade_magnet"
+				}
+				{
+					id: "0C9436B56C1D5610"
+					type: "item"
+					disable_toast: true
+					item: "mininggadgets:upgrade_three_by_three"
+				}
+				{
+					id: "41AD7D9466AD5293"
+					type: "item"
+					disable_toast: true
+					item: "mininggadgets:upgrade_fortune_3"
+				}
+				{
+					id: "0F59C049049103FC"
+					type: "item"
+					disable_toast: true
+					item: "mininggadgets:upgrade_range_3"
+				}
+				{
+					id: "05875E3C71931287"
+					type: "item"
+					disable_toast: true
+					item: "mininggadgets:upgrade_battery_3"
+				}
+				{
+					id: "25AD1A1DAB2D2553"
+					type: "item"
+					disable_toast: true
+					item: "mininggadgets:upgrade_efficiency_5"
+				}
+			]
+			dependencies: ["59ED0ED6F99F44BB"]
+			id: "19B311CECF34D22C"
+			y: -2.0d
+			x: -6.0d
+		}
+		{
+			tasks: [{
+				id: "7CED0DCDF81F0D1D"
+				type: "item"
+				item: "mob_catcher:netherite_mob_catcher"
+			}]
+			dependencies: ["74F2AC89E2298A1B"]
+			id: "59BA32B0F5EB2732"
+			y: -2.5d
+			x: 3.0d
+		}
+		{
+			tasks: [{
+				id: "56C0C8B17CB3A3C2"
+				type: "item"
+				item: "mob_catcher:diamond_mob_catcher"
+			}]
+			dependencies: ["60E83B0820464EEB"]
+			id: "74F2AC89E2298A1B"
+			y: -2.5d
+			x: 2.0d
+		}
+		{
+			tasks: [{
+				id: "591A12EF5AD4D45E"
+				type: "item"
+				item: "cyclic:hopper_fluid"
+			}]
+			dependencies: ["1BBE87BBDF658CAA"]
+			id: "32302F1D2F2C50C3"
+			y: 2.5d
+			x: -3.0d
+		}
+		{
+			tasks: [{
+				id: "1A5D070856E98E63"
+				type: "item"
+				item: {
+					id: "pocketstorage:psu_1"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			dependencies: ["60E83B0820464EEB"]
+			id: "5B04A53ED4A93814"
+			y: 1.5d
+			x: -1.0d
+		}
+		{
+			tasks: [{
+				id: "188912A3B395BED0"
+				type: "item"
+				item: {
+					id: "pocketstorage:psu_2"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			dependencies: ["5B04A53ED4A93814"]
+			id: "6B9C86F13DE8C2DB"
+			y: 2.5d
+			x: -1.0d
+		}
+		{
+			tasks: [{
+				id: "1581CA9E76251C14"
+				type: "item"
+				item: {
+					id: "pocketstorage:psu_3"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			dependencies: ["6B9C86F13DE8C2DB"]
+			id: "03AACE3B6533C63C"
+			y: 4.5d
+			x: -1.0d
+		}
+		{
+			tasks: [{
+				id: "7DE115B05DE70EF2"
+				type: "item"
+				item: {
+					id: "pocketstorage:psu_4"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			dependencies: ["03AACE3B6533C63C"]
+			id: "55B05011E088D295"
+			y: 3.5d
+			x: -1.0d
+		}
+		{
+			tasks: [{
+				id: "09E1715A5FBA1559"
+				type: "item"
+				item: "reliquary:fertile_lily_pad"
+			}]
+			dependencies: ["60E83B0820464EEB"]
+			id: "186A63CE274DBFA2"
+			y: -4.0d
+			x: -3.0d
+		}
+		{
+			tasks: [{
+				id: "008ECB336D7F363A"
+				type: "item"
+				item: "reliquary:lantern_of_paranoia"
+			}]
+			dependencies: ["60E83B0820464EEB"]
+			id: "1D87A6A5DED97661"
+			y: -4.0d
+			x: -1.0d
+		}
+		{
+			tasks: [{
+				id: "312D4EF8DD8475EB"
+				type: "item"
+				item: "reliquary:sojourner_staff"
+			}]
+			dependencies: ["60E83B0820464EEB"]
+			id: "14DAAAF6F4976225"
+			y: -4.0d
+			x: -2.0d
+		}
+		{
+			tasks: [{
+				id: "18F54272AB96DE61"
+				type: "item"
+				item: {
+					id: "reliquary:void_tear"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+						}
+					}
+				}
+			}]
+			dependencies: ["60E83B0820464EEB"]
+			id: "7B906D71F3164DFB"
+			y: -4.0d
+			x: 0.0d
+		}
+		{
+			tasks: [{
+				id: "5F5D1006BDABCACF"
+				type: "item"
+				item: {
+					id: "xpbook:xp_tome"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			dependencies: ["60E83B0820464EEB"]
+			id: "76A18D321E00AB79"
+			y: 1.5d
+			x: 1.0d
+		}
+		{
+			tasks: [{
+				id: "7697A526770660F2"
+				type: "item"
+				item: "morphtool:tool"
+			}]
+			dependencies: ["60E83B0820464EEB"]
+			id: "4979DE5927F65304"
+			y: 2.5d
+			x: 2.5d
+		}
+		{
+			tasks: [{
+				id: "407692BC4ACC0579"
+				type: "item"
+				item: {
+					id: "cyclic:ender_book"
+					Count: 1b
+					tag: {
+						Damage: 0
+						itemCount: 0
+					}
+					ForgeCaps: {
+						Parent: {
+							Size: 9
+							Items: [ ]
+						}
+					}
+				}
+			}]
+			dependencies: ["60E83B0820464EEB"]
+			id: "14B914E23FCFE4F1"
+			y: 1.5d
+			x: 3.0d
+		}
+		{
+			tasks: [{
+				id: "39F72EE81720131C"
+				type: "item"
+				item: "cyclic:magic_net"
+			}]
+			dependencies: ["59BA32B0F5EB2732"]
+			id: "066618B7452974C3"
+			y: -2.5d
+			x: 4.0d
+		}
+		{
+			tasks: [{
+				id: "69983838101CEA58"
+				type: "item"
+				item: {
+					id: "pickletweaks:watering_can"
+					Count: 1b
+					tag: {
+						Water: 0b
+					}
+				}
+			}]
+			dependencies: ["60E83B0820464EEB"]
+			id: "5F636071D00D427F"
+			y: -3.5d
+			x: 2.0d
+		}
+		{
+			tasks: [{
+				id: "61C3DA840A92EB44"
+				type: "item"
+				item: {
+					id: "pickletweaks:reinforced_watering_can"
+					Count: 1b
+					tag: {
+						Water: 0b
+					}
+				}
+			}]
+			dependencies: ["5F636071D00D427F"]
+			id: "778AE6C9D0AABE6A"
+			y: -3.5d
+			x: 3.0d
+		}
+		{
+			tasks: [{
+				id: "2C86FAC8F297F530"
+				type: "item"
+				item: "reliquary:emperor_chalice"
+			}]
+			dependencies: ["60E83B0820464EEB"]
+			id: "3486549A634D8FC7"
+			y: -4.0d
+			x: 1.0d
+		}
+		{
+			tasks: [{
+				id: "6C50BF60BBA67B85"
+				type: "item"
+				item: {
+					id: "shrink:shrinking_device"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			dependencies: ["60E83B0820464EEB"]
+			id: "1B8A994458565D58"
+			y: 2.5d
+			x: 1.5d
+		}
+		{
+			tasks: [{
+				id: "53DE944779D69B76"
+				type: "item"
+				item: "botanypots:terracotta_botany_pot"
+			}]
+			dependencies: ["60E83B0820464EEB"]
+			id: "6C53FEECB98251BF"
+			y: -1.0d
+			x: -4.0d
+		}
+		{
+			tasks: [{
+				id: "0E0AF5981793051D"
+				type: "item"
+				item: "botanypots:terracotta_hopper_botany_pot"
+			}]
+			dependencies: ["6C53FEECB98251BF"]
+			id: "557DC5E9DCEBE2E1"
+			y: 0.0d
+			x: -4.0d
+		}
+		{
+			tasks: [{
+				id: "013472F0EB8D95EC"
+				type: "item"
+				item: "botanypotstiers:elite_terracotta_botany_pot"
+			}]
+			dependencies: ["6C53FEECB98251BF"]
+			id: "78AA78381CFF65BC"
+			y: -1.0d
+			x: -5.0d
+		}
+		{
+			tasks: [{
+				id: "3CD1286466D0275C"
+				type: "item"
+				item: "botanypotstiers:ultra_terracotta_botany_pot"
+			}]
+			dependencies: ["78AA78381CFF65BC"]
+			id: "480759E3092569C5"
+			y: -1.0d
+			x: -6.0d
+		}
+		{
+			tasks: [{
+				id: "772BC07BEE3814B3"
+				type: "item"
+				item: "botanypotstiers:creative_terracotta_botany_pot"
+			}]
+			dependencies: ["480759E3092569C5"]
+			id: "10B6BC536D682E81"
+			y: -1.0d
+			x: -7.0d
+		}
+		{
+			tasks: [{
+				id: "2204DBD7C709BBFE"
+				type: "item"
+				item: "botanypotstiers:elite_terracotta_hopper_botany_pot"
+			}]
+			dependencies: ["557DC5E9DCEBE2E1"]
+			id: "2260A73B0094DE8F"
+			y: 0.0d
+			x: -5.0d
+		}
+		{
+			tasks: [{
+				id: "686531248C8879B7"
+				type: "item"
+				item: "botanypotstiers:ultra_terracotta_hopper_botany_pot"
+			}]
+			dependencies: ["2260A73B0094DE8F"]
+			id: "05E9603A93D1E6CE"
+			y: 0.0d
+			x: -6.0d
+		}
+		{
+			tasks: [{
+				id: "64260A1D7A80A3C9"
+				type: "item"
+				item: "botanypotstiers:creative_terracotta_hopper_botany_pot"
+			}]
+			dependencies: ["05E9603A93D1E6CE"]
+			id: "689025BC998AF7D9"
+			y: 0.0d
+			x: -7.0d
+		}
+		{
+			tasks: [{
+				id: "01F770912F22E598"
+				type: "item"
+				item: "bhc:soul_heart_canister"
+			}]
+			dependencies: ["01AB6D0A8972D16D"]
+			id: "4018256A06027DC3"
+			y: 6.5d
+			x: -2.0d
+		}
+		{
+			tasks: [{
+				id: "3ADDD03D4F8C41BE"
+				type: "item"
+				item: "bhc:soul_heart_amulet"
+			}]
+			dependencies: ["4018256A06027DC3"]
+			id: "5D23C92D0336BCD5"
+			y: 6.5d
+			x: -3.0d
+		}
+		{
+			tasks: [{
+				id: "501A988EE7E5E0EE"
+				type: "item"
+				item: "scannable:scanner"
+			}]
+			dependencies: ["60E83B0820464EEB"]
+			id: "281F8D0BD9A8B15F"
+			y: -4.0d
+			x: -4.0d
+		}
+		{
+			tasks: [{
+				id: "642938890C9E0B86"
+				type: "item"
+				item: "scannable:blank_module"
+			}]
+			dependencies: ["281F8D0BD9A8B15F"]
+			id: "721328DDD62A9BD9"
+			y: -4.0d
+			x: -5.0d
+		}
+		{
+			tasks: [{
+				id: "15D3AF4A9E001400"
+				type: "item"
+				item: "scannable:range_module"
+			}]
+			dependencies: ["721328DDD62A9BD9"]
+			id: "21ABEEE922B6443A"
+			y: -5.0d
+			x: -5.0d
+		}
+		{
+			tasks: [{
+				id: "795E87AD910DF25B"
+				type: "item"
+				item: "scannable:entity_module"
+			}]
+			dependencies: ["721328DDD62A9BD9"]
+			id: "437B08D5A26F1AAB"
+			y: -4.0d
+			x: -6.0d
+		}
+		{
+			tasks: [{
+				id: "3814E6435D88CF4D"
+				type: "item"
+				item: "scannable:block_module"
+			}]
+			dependencies: ["721328DDD62A9BD9"]
+			id: "2F406E7327A1BEB2"
+			y: -5.0d
+			x: -6.0d
+		}
+		{
+			tasks: [
+				{
+					id: "33E3417A36FB22E0"
+					type: "item"
+					item: "scannable:friendly_entity_module"
+				}
+				{
+					id: "20F961C2F2F2E23C"
+					type: "item"
+					item: "scannable:hostile_entity_module"
+				}
+			]
+			dependencies: ["437B08D5A26F1AAB"]
+			id: "6B96C5E722595458"
+			y: -4.0d
+			x: -7.0d
+			title: "扫描器模块:被动/主机怪物"
+		}
+		{
+			tasks: [{
+				id: "35D293D0ABC26F65"
+				type: "item"
+				item: "scannable:fluid_module"
+			}]
+			dependencies: ["2F406E7327A1BEB2"]
+			id: "73B8875E04849D0B"
+			y: -6.0d
+			x: -6.0d
+		}
+		{
+			tasks: [
+				{
+					id: "7CB939659B19249D"
+					type: "item"
+					item: "scannable:common_ores_module"
+				}
+				{
+					id: "235ABCD5E07EB217"
+					type: "item"
+					item: "scannable:rare_ores_module"
+				}
+			]
+			dependencies: ["2F406E7327A1BEB2"]
+			id: "4AF40D97D9804C55"
+			y: -5.0d
+			x: -7.0d
+			title: "扫描器模块:矿石"
+		}
+		{
+			tasks: [{
+				id: "3086248E5E5F95D8"
+				type: "item"
+				item: "dankstorage:dock"
+			}]
+			dependencies: ["60E83B0820464EEB"]
+			id: "74EBFD86484FABC7"
+			y: 1.5d
+			x: 0.0d
+		}
+		{
+			tasks: [{
+				id: "4CD5C5A6F5F42B5F"
+				type: "item"
+				item: "dankstorage:dank_1"
+			}]
+			dependencies: ["74EBFD86484FABC7"]
+			id: "47C3F29D5FB09597"
+			y: 2.5d
+			x: 0.0d
+		}
+		{
+			tasks: [{
+				id: "0CE1F9C30F8B0028"
+				type: "item"
+				item: "dankstorage:dank_2"
+			}]
+			dependencies: ["47C3F29D5FB09597"]
+			id: "08DB20402F6DDACB"
+			y: 3.5d
+			x: 0.0d
+		}
+		{
+			tasks: [{
+				id: "46B8C0A092298630"
+				type: "item"
+				item: "dankstorage:dank_3"
+			}]
+			dependencies: ["08DB20402F6DDACB"]
+			id: "4A0864176B5A39BB"
+			y: 4.5d
+			x: 0.0d
+		}
+		{
+			tasks: [{
+				id: "377DF2E12E837CF8"
+				type: "item"
+				item: "dankstorage:dank_4"
+			}]
+			dependencies: ["4A0864176B5A39BB"]
+			id: "4FBEFABB9BB9EEC3"
+			y: 5.5d
+			x: 0.0d
+		}
+		{
+			tasks: [{
+				id: "7B5EEB73A76DDEF5"
+				type: "item"
+				item: "dankstorage:dank_5"
+			}]
+			dependencies: ["4FBEFABB9BB9EEC3"]
+			id: "220CB8D73BF26C7B"
+			y: 5.5d
+			x: 1.0d
+		}
+		{
+			tasks: [{
+				id: "7F087658F52539C6"
+				type: "item"
+				item: "dankstorage:dank_6"
+			}]
+			dependencies: ["220CB8D73BF26C7B"]
+			id: "781FC0F2BA857673"
+			y: 4.5d
+			x: 1.0d
+		}
+		{
+			tasks: [{
+				id: "64256C3C404EDA7A"
+				type: "item"
+				item: "dankstorage:dank_7"
+			}]
+			dependencies: ["781FC0F2BA857673"]
+			id: "4C510A46E4375F1D"
+			y: 3.5d
+			x: 1.0d
+		}
+	]
+}

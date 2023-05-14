@@ -1,0 +1,530 @@
+{
+	quest_links: [ ]
+	default_hide_dependency_lines: false
+	group: "07A9419A06D6B296"
+	id: "5F3F8128A8134673"
+	filename: "creative"
+	default_quest_shape: ""
+	icon: "minecraft:barrier"
+	title: "创造章节"
+	order_index: 2
+	quests: [
+		{
+			tasks: [{
+				id: "545ED2D47588E276"
+				type: "checkmark"
+				title: "真正的力量"
+			}]
+			dependencies: ["2AF6F5484DBDF3CA"]
+			id: "067847D05526F8F6"
+			y: 0.0d
+			x: 0.0d
+		}
+		{
+			x: 3.5d
+			y: 0.0d
+			id: "3A905A6484E70DF2"
+			tasks: [{
+				id: "74EF98A66ECF1B56"
+				type: "item"
+				item: "ae2:creative_energy_cell"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 0.0d
+			id: "06E3492FE7071DE9"
+			tasks: [{
+				id: "6747266E510A5D04"
+				type: "item"
+				item: "ae2:creative_item_cell"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 0.0d
+			id: "1D38236FE74D02E9"
+			tasks: [{
+				id: "4311A87806F382B4"
+				type: "item"
+				item: "ae2:creative_fluid_cell"
+			}]
+		}
+		{
+			x: 6.5d
+			y: 0.0d
+			id: "2B075A1BFD016526"
+			tasks: [{
+				id: "00BC7FB630073011"
+				type: "item"
+				item: "appmek:creative_chemical_cell"
+			}]
+		}
+		{
+			x: 13.5d
+			y: -2.0d
+			id: "6DCD394271E3D7D4"
+			tasks: [{
+				id: "548A2AD211E4B716"
+				type: "item"
+				item: "creativewirelesstransmitter:creative_wireless_transmitter"
+			}]
+		}
+		{
+			x: 12.5d
+			y: 0.0d
+			id: "05E6C2576C04B6BB"
+			tasks: [{
+				id: "02070D6D0DEB72A8"
+				type: "item"
+				item: "cabletiers:creative_exporter"
+			}]
+		}
+		{
+			x: 13.5d
+			y: 0.0d
+			id: "6FEDDAA00A9E5046"
+			tasks: [{
+				id: "33D399A0F16BDE8B"
+				type: "item"
+				item: "cabletiers:creative_importer"
+			}]
+		}
+		{
+			x: 14.5d
+			y: 0.0d
+			id: "195E5903BDBEAB0D"
+			tasks: [{
+				id: "1F028BAB02796F8E"
+				type: "item"
+				item: "cabletiers:creative_constructor"
+			}]
+		}
+		{
+			x: 15.5d
+			y: 0.0d
+			id: "5FA11AF2D1896FC3"
+			tasks: [{
+				id: "3F9D1355A59CDE5A"
+				type: "item"
+				item: "cabletiers:creative_destructor"
+			}]
+		}
+		{
+			x: 12.5d
+			y: -1.0d
+			id: "5C52CCC25BA1981B"
+			tasks: [{
+				id: "4E76A9EDFC5B6E85"
+				type: "item"
+				item: "cabletiers:creative_disk_manipulator"
+			}]
+		}
+		{
+			x: 13.5d
+			y: -1.0d
+			id: "79018BAF76A7A606"
+			tasks: [{
+				id: "5E880DD29E04410F"
+				type: "item"
+				item: "cabletiers:creative_requester"
+			}]
+		}
+		{
+			x: 17.5d
+			y: -2.0d
+			id: "4A6E56D758681C06"
+			tasks: [{
+				id: "1D2D6EC917503B74"
+				type: "item"
+				item: {
+					id: "rebornstorage:creative_super_wireless_crafting_grid"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 12.5d
+			y: -3.0d
+			id: "2587A4F9A81B990A"
+			tasks: [{
+				id: "19E1C1F33FD53568"
+				type: "item"
+				item: {
+					id: "refinedstorage:creative_storage_disk"
+					Count: 1b
+					tag: {
+						Id: [I;
+							-38456138
+							-91665531
+							-1980714024
+							2062673882
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: 13.5d
+			y: -3.0d
+			id: "330A3593CA3F0FA5"
+			tasks: [{
+				id: "087E2B12F7D1882D"
+				type: "item"
+				item: {
+					id: "refinedstorage:creative_fluid_storage_disk"
+					Count: 1b
+					tag: {
+						Id: [I;
+							-726094731
+							686965556
+							-1751972399
+							-1320520912
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: 12.5d
+			y: 1.0d
+			id: "6F256066F9748F1B"
+			tasks: [{
+				id: "58E00B0284CDC432"
+				type: "item"
+				item: "refinedstorage:creative_controller"
+			}]
+		}
+		{
+			x: 15.5d
+			y: -2.0d
+			id: "21E2BD4D2C9733B7"
+			tasks: [{
+				id: "478A90D1152389DA"
+				type: "item"
+				item: "refinedstorageaddons:creative_wireless_crafting_grid"
+			}]
+		}
+		{
+			x: 16.5d
+			y: -3.0d
+			id: "5771A0B409160051"
+			tasks: [{
+				id: "3CF9445393F51B13"
+				type: "item"
+				item: "refinedstorage:creative_wireless_crafting_monitor"
+			}]
+		}
+		{
+			x: 16.5d
+			y: -1.0d
+			id: "3F6BCEE6B47F2B82"
+			tasks: [{
+				id: "4947DD246448A306"
+				type: "item"
+				item: "refinedstorage:creative_wireless_fluid_grid"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.5d
+			id: "30307760041351C7"
+			tasks: [{
+				id: "69FB463B8993FC19"
+				type: "item"
+				item: "thermal:rf_coil_creative_augment"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 3.5d
+			id: "05F18DA0FBFB02B0"
+			tasks: [{
+				id: "24BE0F8787C29336"
+				type: "item"
+				item: "thermal:fluid_tank_creative_augment"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 4.5d
+			id: "380354B16B33676F"
+			tasks: [{
+				id: "4F8D6BD747DC7D32"
+				type: "item"
+				item: "thermal:machine_efficiency_creative_augment"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 4.5d
+			id: "645CD0BF5F958ED3"
+			tasks: [{
+				id: "31FF4429B0BD0B3D"
+				type: "item"
+				item: "thermal:machine_catalyst_creative_augment"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 1.5d
+			id: "0CA256DFD09A305F"
+			tasks: [{
+				id: "35EB7CAA07E9A5A0"
+				type: "item"
+				item: "botanypotstiers:creative_terracotta_hopper_botany_pot"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 3.5d
+			id: "00F962F40936874B"
+			tasks: [{
+				id: "4545E5A64F1C5430"
+				type: "item"
+				item: "botania:creative_pool"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 3.5d
+			id: "5D8A8E83303DFC2D"
+			tasks: [{
+				id: "21AAECE1355E6465"
+				type: "item"
+				item: {
+					id: "botania:mana_tablet"
+					Count: 1b
+					tag: {
+						mana: 500000
+						creative: 1b
+					}
+				}
+			}]
+		}
+		{
+			x: 7.0d
+			y: 3.5d
+			id: "7DBB72C72F7DAF31"
+			tasks: [{
+				id: "243189D5EDBC7D06"
+				type: "item"
+				item: "mysticalagriculture:creative_soulium_dagger"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 5.5d
+			id: "1014931B31F1BE2D"
+			tasks: [{
+				id: "5F9D24BC27CF1F44"
+				type: "item"
+				item: "mekanism:creative_bin"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 5.5d
+			id: "5D7E23CD28412CB1"
+			tasks: [{
+				id: "2F2C7DC34365B562"
+				type: "item"
+				item: "mekanism:creative_fluid_tank"
+			}]
+		}
+		{
+			x: 10.5d
+			y: 3.5d
+			id: "019C6980656A109F"
+			tasks: [{
+				id: "342C2F1DE54C07B3"
+				type: "item"
+				item: "pneumaticcraft:creative_compressor"
+			}]
+		}
+		{
+			x: 11.5d
+			y: 3.5d
+			id: "6427339361B0291F"
+			tasks: [{
+				id: "08A1819B1DA40478"
+				type: "item"
+				item: "pneumaticcraft:creative_compressed_iron_block"
+			}]
+		}
+		{
+			x: 10.5d
+			y: 5.5d
+			id: "566B4816947A3F04"
+			tasks: [{
+				id: "0E85DBD42621F2E6"
+				type: "item"
+				item: "easy_mob_farm:creative_mob_farm"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 5.5d
+			id: "311B240B6D960A15"
+			tasks: [{
+				id: "0638178914F18EBE"
+				type: "item"
+				item: "powah:energy_cell_creative"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 2.0d
+			id: "3A4B2C9863528A27"
+			tasks: [{
+				id: "25740DD314DD2756"
+				type: "item"
+				item: "storagedrawers:creative_storage_upgrade"
+			}]
+		}
+		{
+			x: 8.5d
+			y: 2.0d
+			id: "79EA9312D28ED18C"
+			tasks: [{
+				id: "1F6EB2AB8D44440A"
+				type: "item"
+				item: "storagedrawers:creative_vending_upgrade"
+			}]
+		}
+		{
+			x: 11.0d
+			y: 2.0d
+			id: "6DD0C16A6A826C00"
+			tasks: [{
+				id: "335323BDF22A8EC8"
+				type: "item"
+				item: "ars_nouveau:creative_source_jar"
+			}]
+		}
+		{
+			x: 11.5d
+			y: 5.5d
+			id: "26BC4C5B9EFD8F96"
+			tasks: [{
+				id: "1FDF3FD0AFD0CEA8"
+				type: "item"
+				item: {
+					id: "easy_mob_farm:capture_net"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: 2.5d
+			id: "6101F9C6AF9D29DA"
+			tasks: [{
+				id: "4B0D959559FAECFC"
+				type: "item"
+				item: "botania:corporea_spark_creative"
+			}]
+		}
+		{
+			x: 12.5d
+			y: 5.5d
+			id: "570254C82203626E"
+			tasks: [{
+				id: "1C1F01FB34D4D286"
+				type: "item"
+				item: {
+					id: "easy_mob_farm:creative_mob_catcher"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: 2.5d
+			id: "56F9F17C12A3252B"
+			tasks: [{
+				id: "19316D790D43030D"
+				type: "item"
+				item: "botania:lens_storm"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 6.5d
+			id: "7B06ABCBD70EF872"
+			tasks: [{
+				id: "4EA96BB40BF0C6C7"
+				type: "item"
+				item: "mekanism:creative_chemical_tank"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 6.5d
+			id: "68BD2DB41E4F219C"
+			tasks: [{
+				id: "1E99AD7123D18E4F"
+				type: "item"
+				item: {
+					id: "mekanism:creative_energy_cube"
+					Count: 1b
+					tag: {
+						mekData: {
+							EnergyContainers: [{
+								Container: 0b
+								stored: "18446744073709551615.9999"
+							}]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 12.5d
+			y: 3.5d
+			id: "196545DF3DD19604"
+			tasks: [{
+				id: "59C2F47583CC57BF"
+				type: "item"
+				item: "pneumaticcraft:creative_upgrade"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 1.0d
+			id: "38DE4041009B4AD0"
+			tasks: [{
+				id: "4F96FF3D3C909F21"
+				type: "item"
+				item: "functionalstorage:creative_vending_upgrade"
+			}]
+		}
+		{
+			x: 15.0d
+			y: 2.5d
+			id: "72BB00ECDABC9CF2"
+			tasks: [{
+				id: "7AC677742A058401"
+				type: "item"
+				item: "immersiveengineering:capacitor_creative"
+			}]
+		}
+		{
+			x: 15.0d
+			y: 3.5d
+			id: "548689A93EF19BB2"
+			tasks: [{
+				id: "6801902731BF9192"
+				type: "item"
+				item: "cyclic:battery_infinite"
+			}]
+		}
+	]
+}

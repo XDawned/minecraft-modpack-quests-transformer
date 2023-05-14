@@ -1,0 +1,176 @@
+{
+	quest_links: [ ]
+	default_hide_dependency_lines: false
+	group: ""
+	id: "49303DB428F9D915"
+	filename: "welcome_to_project_sky_assault"
+	default_quest_shape: ""
+	icon: "minecraft:bedrock"
+	title: "欢迎来到空岛计划2(Project SkyQ2)"
+	order_index: 0
+	quests: [
+		{
+			tasks: [{
+				id: "3D076DC2FC91A3BA"
+				type: "checkmark"
+				title: "开始"
+			}]
+			description: ["这是你的通用章节,基本上可以用来收集所有东西."]
+			dependencies: ["2818E244528AD662"]
+			id: "7B8B96019707F940"
+			y: -3.5d
+			x: 0.0d
+		}
+		{
+			tasks: [{
+				id: "288B96C264A81298"
+				type: "checkmark"
+				title: "额外的物品"
+			}]
+			description: ["章节基本上就是额外的工具/装备来帮助你完成通关游戏."]
+			dependencies: ["7B8B96019707F940"]
+			id: "0E8A3F4213D1EF25"
+			y: -3.5d
+			x: 2.0d
+		}
+		{
+			tasks: [{
+				id: "210B46384D06F44B"
+				type: "checkmark"
+				title: "阶段1"
+			}]
+			description: [
+				"基础存储> 简单存储网络"
+				"沉浸工艺 > 气动工艺"
+			]
+			dependencies: ["2D7E052B95EA49E1"]
+			id: "5977AAF0EE64431A"
+			y: -0.5d
+			x: 0.0d
+		}
+		{
+			tasks: [{
+				id: "7607096AFD35D2AD"
+				type: "checkmark"
+				title: "阶段2"
+			}]
+			description: ["简单存储网络 > AE2/RS"]
+			dependencies: ["5977AAF0EE64431A"]
+			id: "1907879B69CC8E46"
+			y: 1.0d
+			x: 0.0d
+		}
+		{
+			tasks: [{
+				id: "33724B72C5E6AB75"
+				type: "checkmark"
+				title: "阶段3"
+			}]
+			description: ["收集阶段3的每个子章节关键物品以解锁合成扩展章节"]
+			dependencies: ["1907879B69CC8E46"]
+			id: "05370F1427F6FF76"
+			y: 2.5d
+			x: 0.0d
+		}
+		{
+			tasks: [{
+				id: "64A622723C953B6A"
+				type: "checkmark"
+				title: "结束游戏"
+			}]
+			description: ["本章是通关此整合包的最后一步。在这里你可以获得一些创造物品来让通关变得更有趣."]
+			dependencies: ["05370F1427F6FF76"]
+			id: "473D79CD25FEA4B3"
+			y: 5.5d
+			x: 0.0d
+		}
+		{
+			tasks: [{
+				id: "6952AA2C8FBA72B6"
+				type: "checkmark"
+				title: "额外挑战"
+			}]
+			description: ["额外挑战？那就是完成所有的任务."]
+			dependencies: ["473D79CD25FEA4B3"]
+			id: "5C77EC96F3314D04"
+			y: 7.0d
+			x: 1.5d
+		}
+		{
+			tasks: [{
+				id: "43F78CD5BEF593B7"
+				type: "checkmark"
+				title: "魔法时间"
+			}]
+			description: [
+				"通关游戏需要来自所有魔法模组的一些物品。"
+				"但是所有的模组都只是为了让你的通关之旅变得更有趣."
+			]
+			dependencies: ["05370F1427F6FF76"]
+			id: "03EBB91B60017984"
+			y: 4.0d
+			x: 1.5d
+		}
+		{
+			tasks: [{
+				id: "3D4D861C8F38ABBD"
+				type: "checkmark"
+				title: "探索"
+			}]
+			description: ["你会探索4个不同的维度来找到资源并完成完成任务以完成通关游戏章节。"]
+			dependencies: ["05370F1427F6FF76"]
+			id: "1914861CC5581801"
+			y: 4.0d
+			x: -1.5d
+		}
+		{
+			size: 2.0d
+			description: [
+				"这个整合包的目的就是给你带来乐趣,虽然它可能不多."
+				"每一章都会指引你通关整合包."
+			]
+			id: "2818E244528AD662"
+			x: 0.0d
+			y: -6.0d
+			title: "欢迎来到天空工程(Project SkyQ2)"
+			tasks: [{
+				id: "45D6E4703D2811A4"
+				type: "checkmark"
+				title: "欢迎来到Project SkyQ"
+			}]
+		}
+		{
+			size: 2.0d
+			description: [
+				"总的来说,我只希望你喜欢这个整合包."
+				"这是我的一个开创作,在制作此整合包时我也学到了不少东西."
+			]
+			id: "599B7115AD54AF22"
+			x: -2.0d
+			y: 7.5d
+			title: "最后"
+			dependencies: ["473D79CD25FEA4B3"]
+			tasks: [{
+				id: "53179BFBAC19C12C"
+				type: "checkmark"
+				title: "总结"
+			}]
+		}
+		{
+			tasks: [{
+				id: "106B91C6838F18A7"
+				type: "checkmark"
+				title: "关于每个阶段"
+			}]
+			description: [
+				"阶段1 - 这个阶段会在几个初始任务后解锁. 它可以帮助你开始更好的工具、基本的能量和存储."
+				"阶段2 - 这个阶段中你可以拥有更好的存储系统、更多的电力."
+				"阶段3 - 这个阶段中你将会登上最终的通关之旅."
+			]
+			dependencies: ["7B8B96019707F940"]
+			id: "2D7E052B95EA49E1"
+			y: -2.0d
+			x: 0.0d
+		}
+	]
+}

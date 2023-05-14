@@ -1,0 +1,710 @@
+{
+	quest_links: [ ]
+	default_hide_dependency_lines: false
+	group: "7ACFC886019EA7E0"
+	id: "535966DF914044C1"
+	filename: "additional_quests_tier_2"
+	default_quest_shape: ""
+	icon: "minecraft:stick"
+	title: "额外的任务阶段 2"
+	order_index: 5
+	quests: [
+		{
+			tasks: [{
+				id: "5ADBA5A11023AA39"
+				type: "checkmark"
+				title: "哇!真的更多!"
+			}]
+			dependencies: ["3A921447E8BA16F4"]
+			id: "339C38AAD706A6F2"
+			y: 0.5d
+			x: 0.0d
+		}
+		{
+			tasks: [{
+				id: "062904FFDAE883B3"
+				type: "checkmark"
+				title: "解锁额外的任务阶段 3"
+			}]
+			dependencies: ["7B2A5CF7FA9D7BAA"]
+			id: "11F2DD3587517592"
+			y: -1.5d
+			x: 3.5d
+		}
+		{
+			tasks: [{
+				id: "02D8A99510065156"
+				type: "item"
+				item: {
+					id: "chargers:charger_t4"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			dependencies: ["339C38AAD706A6F2"]
+			id: "61821F185D24E7B3"
+			y: -0.5d
+			x: -3.0d
+		}
+		{
+			tasks: [{
+				id: "2B168C7398E1B212"
+				type: "item"
+				item: "easy_villagers:trader"
+			}]
+			dependencies: ["339C38AAD706A6F2"]
+			id: "473AC348BB095734"
+			y: -1.5d
+			x: -2.0d
+		}
+		{
+			tasks: [{
+				id: "1255D872C1657C5A"
+				type: "item"
+				item: "easy_villagers:auto_trader"
+			}]
+			dependencies: ["473AC348BB095734"]
+			id: "753E41847238BA16"
+			y: -2.5d
+			x: -2.0d
+		}
+		{
+			tasks: [{
+				id: "3D62E3BD864F8890"
+				type: "item"
+				item: "easy_villagers:farmer"
+			}]
+			dependencies: ["339C38AAD706A6F2"]
+			id: "1379AE12F09A3F03"
+			y: -2.5d
+			x: -4.0d
+		}
+		{
+			tasks: [{
+				id: "274461385B891C17"
+				type: "item"
+				item: "easy_piglins:barterer"
+			}]
+			dependencies: ["339C38AAD706A6F2"]
+			id: "43C4E4565EBDA44A"
+			y: -1.5d
+			x: -4.0d
+		}
+		{
+			tasks: [{
+				id: "5F4AE0E8C8E80FEC"
+				type: "item"
+				item: "easy_villagers:breeder"
+			}]
+			dependencies: ["339C38AAD706A6F2"]
+			id: "2BD283396D67FEAC"
+			y: -1.5d
+			x: -3.0d
+		}
+		{
+			tasks: [{
+				id: "56314B1BF9E09AB3"
+				type: "item"
+				item: "easy_villagers:converter"
+			}]
+			dependencies: ["339C38AAD706A6F2"]
+			id: "7B9325BCD4F71A90"
+			y: -1.5d
+			x: -1.0d
+		}
+		{
+			tasks: [{
+				id: "5327FDD91BFC67CF"
+				type: "item"
+				item: "easy_villagers:iron_farm"
+			}]
+			dependencies: ["7B9325BCD4F71A90"]
+			id: "55876ADCB202F04C"
+			y: -2.5d
+			x: -1.0d
+		}
+		{
+			tasks: [{
+				id: "79011FE3B585FF79"
+				type: "item"
+				item: "easy_villagers:incubator"
+			}]
+			dependencies: ["2BD283396D67FEAC"]
+			id: "5EDCB285A6F58299"
+			y: -2.5d
+			x: -3.0d
+		}
+		{
+			tasks: [{
+				id: "3C1C4E73E41512F7"
+				type: "item"
+				item: "darkutils:charm_sleep"
+			}]
+			dependencies: ["339C38AAD706A6F2"]
+			id: "3771CAD3D633E5C6"
+			y: -2.5d
+			x: 0.5d
+		}
+		{
+			tasks: [{
+				id: "6F720F49432DFAC7"
+				type: "item"
+				item: "darkutils:charm_portal"
+			}]
+			dependencies: ["339C38AAD706A6F2"]
+			id: "24AF59B1267B4CDB"
+			y: -2.5d
+			x: 1.5d
+		}
+		{
+			tasks: [{
+				id: "5341297882C0617F"
+				type: "item"
+				item: "darkutils:charm_warding"
+			}]
+			dependencies: ["339C38AAD706A6F2"]
+			id: "308D969B17D7DCE5"
+			y: -2.5d
+			x: 2.5d
+		}
+		{
+			tasks: [{
+				id: "171891514D897492"
+				type: "item"
+				item: {
+					id: "notenoughwands:protection_wand"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			dependencies: ["339C38AAD706A6F2"]
+			id: "17ED78CDF032DA1E"
+			y: -1.5d
+			x: 0.5d
+		}
+		{
+			tasks: [{
+				id: "1FD8B853A32FC8FB"
+				type: "item"
+				item: "notenoughwands:acceleration_wand"
+			}]
+			dependencies: ["339C38AAD706A6F2"]
+			id: "2881E08378B805D4"
+			y: -1.5d
+			x: 1.5d
+		}
+		{
+			tasks: [{
+				id: "20E889EF0DFAC801"
+				type: "item"
+				item: "notenoughwands:capturing_wand"
+			}]
+			dependencies: [
+				"339C38AAD706A6F2"
+				"066618B7452974C3"
+			]
+			id: "7B2A5CF7FA9D7BAA"
+			y: -1.5d
+			x: 2.5d
+		}
+		{
+			tasks: [{
+				id: "106DE041CC29DAB6"
+				type: "item"
+				item: "pipez:item_pipe"
+			}]
+			dependencies: ["388A35EAB5246755"]
+			id: "304EA0AA71A69369"
+			hide_dependency_lines: false
+			y: 3.5d
+			x: 0.5d
+		}
+		{
+			tasks: [{
+				id: "56F6BD6A041C5706"
+				type: "item"
+				item: "pipez:fluid_pipe"
+			}]
+			dependencies: ["388A35EAB5246755"]
+			id: "76CA3278D4C94BD3"
+			y: 3.5d
+			x: 1.5d
+		}
+		{
+			tasks: [{
+				id: "1329802F4B59E632"
+				type: "item"
+				item: "pipez:energy_pipe"
+			}]
+			dependencies: ["388A35EAB5246755"]
+			id: "07E3E60B8F10D376"
+			y: 3.5d
+			x: 2.5d
+		}
+		{
+			tasks: [{
+				id: "3DAEED10881CCF65"
+				type: "item"
+				item: "pipez:gas_pipe"
+			}]
+			dependencies: ["388A35EAB5246755"]
+			id: "73D3612AB8B4BB76"
+			y: 3.5d
+			x: 3.5d
+		}
+		{
+			tasks: [{
+				id: "3986F877871F1EC4"
+				type: "item"
+				item: "pipez:universal_pipe"
+			}]
+			dependencies: [
+				"4E25095DD19EC27B"
+				"4161202E5012BBE5"
+				"332C7A7C3E5542E8"
+				"3DFC9B28C054509C"
+				"07E3E60B8F10D376"
+				"76CA3278D4C94BD3"
+				"73D3612AB8B4BB76"
+				"304EA0AA71A69369"
+			]
+			id: "508864E6CBC0B395"
+			y: 4.5d
+			x: 2.0d
+		}
+		{
+			tasks: [{
+				id: "0CBCBB5F407BE326"
+				type: "item"
+				item: "pipez:wrench"
+			}]
+			dependencies: ["339C38AAD706A6F2"]
+			id: "388A35EAB5246755"
+			y: 2.5d
+			x: -0.5d
+		}
+		{
+			tasks: [{
+				id: "33054B2A6754365C"
+				type: "item"
+				item: "pipez:basic_upgrade"
+			}]
+			dependencies: ["388A35EAB5246755"]
+			id: "7370FD278A41CA8D"
+			y: 2.5d
+			x: 0.5d
+		}
+		{
+			tasks: [{
+				id: "4E3AE0516AEFC086"
+				type: "item"
+				item: "pipez:improved_upgrade"
+			}]
+			dependencies: ["7370FD278A41CA8D"]
+			id: "0D2488D9FAE14C6F"
+			y: 2.5d
+			x: 1.5d
+		}
+		{
+			tasks: [{
+				id: "0C9A78CC6BDF407E"
+				type: "item"
+				item: "pipez:advanced_upgrade"
+			}]
+			dependencies: ["0D2488D9FAE14C6F"]
+			id: "6F17664B3814BA09"
+			y: 2.5d
+			x: 2.5d
+		}
+		{
+			tasks: [{
+				id: "6B96A9EA0837F24D"
+				type: "item"
+				item: "pipez:ultimate_upgrade"
+			}]
+			dependencies: ["6F17664B3814BA09"]
+			id: "5BA7F833DCA1BB8F"
+			y: 2.5d
+			x: 3.5d
+		}
+		{
+			tasks: [{
+				id: "638B3D0CAF2C73B6"
+				type: "item"
+				item: "pipez:filter_destination_tool"
+			}]
+			dependencies: ["388A35EAB5246755"]
+			id: "3E6E9676E51170EE"
+			y: 3.5d
+			x: -0.5d
+		}
+		{
+			tasks: [{
+				id: "6949FE2F7A2BAE89"
+				type: "item"
+				item: "wirelesschargers:basic_wireless_block_charger"
+			}]
+			dependencies: ["339C38AAD706A6F2"]
+			id: "6106E74488B8AA3D"
+			y: 0.5d
+			x: -3.0d
+		}
+		{
+			tasks: [{
+				id: "494E4210E5FAED83"
+				type: "item"
+				item: "wirelesschargers:advanced_wireless_block_charger"
+			}]
+			dependencies: ["6106E74488B8AA3D"]
+			id: "4A755524A9018A2B"
+			y: 0.5d
+			x: -4.0d
+		}
+		{
+			tasks: [{
+				id: "284E378CA1724CB3"
+				type: "item"
+				item: "wirelesschargers:basic_wireless_player_charger"
+			}]
+			dependencies: ["339C38AAD706A6F2"]
+			id: "4B0DC43E9467CBCA"
+			y: 1.5d
+			x: -3.0d
+		}
+		{
+			tasks: [{
+				id: "2C9E3A8444832B6A"
+				type: "item"
+				item: "wirelesschargers:advanced_wireless_player_charger"
+			}]
+			dependencies: ["4B0DC43E9467CBCA"]
+			id: "2DD310591C7185FD"
+			y: 1.5d
+			x: -4.0d
+		}
+		{
+			tasks: [{
+				id: "1885D3EFDA358157"
+				type: "item"
+				item: "waystones:waystone"
+			}]
+			dependencies: ["15DCF3AB0421C2BD"]
+			id: "064E52CFAF885FC3"
+			y: 1.5d
+			x: 3.5d
+		}
+		{
+			tasks: [{
+				id: "359233A6FF5DF35E"
+				type: "item"
+				item: {
+					id: "waystones:warp_stone"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			dependencies: ["339C38AAD706A6F2"]
+			id: "15DCF3AB0421C2BD"
+			y: 1.5d
+			x: 2.5d
+		}
+		{
+			tasks: [{
+				id: "387793CC93A707B9"
+				type: "item"
+				item: "industrialforegoing:enchantment_sorter"
+			}]
+			dependencies: ["339C38AAD706A6F2"]
+			id: "304D5198111BCE65"
+			y: 4.0d
+			x: -3.0d
+		}
+		{
+			tasks: [{
+				id: "20821071CEA41C29"
+				type: "item"
+				item: "industrialforegoing:enchantment_applicator"
+			}]
+			dependencies: ["339C38AAD706A6F2"]
+			id: "4C4DC09632FB4168"
+			y: 4.0d
+			x: -2.0d
+		}
+		{
+			tasks: [{
+				id: "30208EEDE6A08E94"
+				type: "item"
+				item: "industrialforegoing:enchantment_extractor"
+			}]
+			dependencies: ["339C38AAD706A6F2"]
+			id: "4367628E5B8CBDEB"
+			y: 3.0d
+			x: -3.0d
+		}
+		{
+			tasks: [{
+				id: "73529906682F187F"
+				type: "item"
+				item: "industrialforegoing:enchantment_factory"
+			}]
+			dependencies: ["339C38AAD706A6F2"]
+			id: "0B527CAA9F9B1E1C"
+			y: 3.0d
+			x: -2.0d
+		}
+		{
+			tasks: [{
+				id: "37417618F45FDC4F"
+				type: "item"
+				item: "laserio:logic_chip"
+			}]
+			dependencies: ["4EF8F602F5B84A90"]
+			id: "5B0E7BDA1BAB5CFA"
+			y: 0.5d
+			x: 4.5d
+		}
+		{
+			tasks: [{
+				id: "2478F9A3FBCFC65F"
+				type: "item"
+				item: {
+					id: "laserio:laser_wrench"
+					Count: 1b
+					tag: {
+						connectionpos: {
+							X: 0
+							Y: 0
+							Z: 0
+						}
+					}
+				}
+			}]
+			dependencies: ["339C38AAD706A6F2"]
+			id: "7892DDAAF4308DCE"
+			y: 0.5d
+			x: 2.5d
+		}
+		{
+			tasks: [{
+				id: "553C0DE52B9B8D4E"
+				type: "item"
+				item: "laserio:laser_connector"
+			}]
+			dependencies: ["5B0E7BDA1BAB5CFA"]
+			id: "7C46DF3F14EF5E3E"
+			y: 0.5d
+			x: 5.5d
+		}
+		{
+			tasks: [{
+				id: "2ECA9E3C556EC34D"
+				type: "item"
+				item: "laserio:laser_node"
+			}]
+			dependencies: ["7C46DF3F14EF5E3E"]
+			id: "73E800D7FA2F02CB"
+			y: 0.5d
+			x: 6.5d
+		}
+		{
+			tasks: [
+				{
+					id: "07A9632BD5E3BD14"
+					type: "item"
+					disable_toast: true
+					item: "laserio:card_item"
+				}
+				{
+					id: "0CEE792EB9814DDB"
+					type: "item"
+					disable_toast: true
+					item: "laserio:card_fluid"
+				}
+				{
+					id: "42FBE82C952C5EC9"
+					type: "item"
+					disable_toast: true
+					item: "laserio:card_energy"
+				}
+			]
+			dependencies: ["5B0E7BDA1BAB5CFA"]
+			id: "58E06CA441795BD2"
+			y: -0.5d
+			x: 3.5d
+			title: "卡片"
+		}
+		{
+			tasks: [
+				{
+					id: "021E56F8D2B1C405"
+					type: "item"
+					disable_toast: true
+					item: "laserio:overclocker_card"
+				}
+				{
+					id: "69384E9640A2681B"
+					type: "item"
+					disable_toast: true
+					item: "laserio:overclocker_node"
+				}
+			]
+			dependencies: ["5B0E7BDA1BAB5CFA"]
+			id: "0137DB67ECEEE901"
+			y: -0.5d
+			x: 4.5d
+			title: "超频"
+		}
+		{
+			tasks: [
+				{
+					id: "79B74CECD58F9212"
+					type: "item"
+					disable_toast: true
+					item: {
+						id: "laserio:filter_basic"
+						Count: 1b
+						tag: {
+							inv: {
+								Size: 15
+								Items: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "1F47A8B919321B39"
+					type: "item"
+					disable_toast: true
+					item: {
+						id: "laserio:filter_count"
+						Count: 1b
+						tag: {
+							inv: {
+								Size: 15
+								Items: [ ]
+							}
+							counts: [
+								{
+									Slot: 0
+									Count: 0
+								}
+								{
+									Slot: 1
+									Count: 0
+								}
+								{
+									Slot: 2
+									Count: 0
+								}
+								{
+									Slot: 3
+									Count: 0
+								}
+								{
+									Slot: 4
+									Count: 0
+								}
+								{
+									Slot: 5
+									Count: 0
+								}
+								{
+									Slot: 6
+									Count: 0
+								}
+								{
+									Slot: 7
+									Count: 0
+								}
+								{
+									Slot: 8
+									Count: 0
+								}
+								{
+									Slot: 9
+									Count: 0
+								}
+								{
+									Slot: 10
+									Count: 0
+								}
+								{
+									Slot: 11
+									Count: 0
+								}
+								{
+									Slot: 12
+									Count: 0
+								}
+								{
+									Slot: 13
+									Count: 0
+								}
+								{
+									Slot: 14
+									Count: 0
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "044755EFD24DE3E0"
+					type: "item"
+					disable_toast: true
+					item: {
+						id: "laserio:filter_tag"
+						Count: 1b
+						tag: {
+							tags: [ ]
+						}
+					}
+				}
+				{
+					id: "472F96A8F891D34B"
+					type: "item"
+					disable_toast: true
+					item: {
+						id: "laserio:filter_mod"
+						Count: 1b
+						tag: {
+							inv: {
+								Size: 15
+								Items: [ ]
+							}
+						}
+					}
+				}
+			]
+			dependencies: ["5B0E7BDA1BAB5CFA"]
+			id: "737A36E54E1615C5"
+			y: -0.5d
+			x: 5.5d
+			title: "过滤器"
+		}
+		{
+			tasks: [{
+				id: "31B3486CDFD86024"
+				type: "item"
+				item: "laserio:logic_chip_raw"
+			}]
+			dependencies: ["7892DDAAF4308DCE"]
+			id: "4EF8F602F5B84A90"
+			y: 0.5d
+			x: 3.5d
+		}
+		{
+			tasks: [{
+				id: "13FEBF369744B97A"
+				type: "item"
+				item: "industrialforegoing:potion_brewer"
+			}]
+			dependencies: ["339C38AAD706A6F2"]
+			id: "2CC11D1ADB0AD55B"
+			y: 3.0d
+			x: -4.0d
+		}
+	]
+}

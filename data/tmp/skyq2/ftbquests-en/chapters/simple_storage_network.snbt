@@ -1,0 +1,239 @@
+{
+	quest_links: [ ]
+	default_hide_dependency_lines: false
+	group: "7ACFC886019EA7E0"
+	id: "2FFA763E37329E3B"
+	filename: "simple_storage_network"
+	default_quest_shape: ""
+	icon: {
+		id: "patchouli:guide_book"
+		Count: 1b
+		tag: {
+			"patchouli:book": "storagenetwork:network_book"
+		}
+	}
+	title: "Simple Storage Network"
+	order_index: 0
+	quests: [
+		{
+			tasks: [{
+				id: "13A33476016AB8B7"
+				type: "checkmark"
+				title: "Chest Monster in 1"
+			}]
+			dependencies: ["7FD0D95779C5786C"]
+			id: "75B343697AD3474D"
+			y: 0.0d
+			x: -6.0d
+		}
+		{
+			tasks: [{
+				id: "79C658603BAE4873"
+				type: "checkmark"
+				title: "Unlocks AE2 and RS"
+			}]
+			dependencies: ["13B3B242840483EB"]
+			id: "5959B23DCC91023F"
+			y: 0.0d
+			x: 4.5d
+		}
+		{
+			tasks: [{
+				id: "09EF888A5D4407FD"
+				type: "item"
+				item: "storagenetwork:inventory"
+			}]
+			dependencies: ["735C35A2A1F78B15"]
+			id: "06F02D582529DE36"
+			y: 0.0d
+			x: -3.0d
+		}
+		{
+			tasks: [{
+				id: "6309DDCBE07A2EF5"
+				type: "item"
+				item: "storagenetwork:master"
+			}]
+			dependencies: ["75B343697AD3474D"]
+			id: "735C35A2A1F78B15"
+			y: 0.0d
+			x: -4.5d
+		}
+		{
+			tasks: [{
+				id: "7AB9F3E6A2280A96"
+				type: "item"
+				item: "storagenetwork:request"
+			}]
+			dependencies: ["052AD3661E4621E0"]
+			id: "10DA74E24F5942CD"
+			y: 0.0d
+			x: 1.5d
+		}
+		{
+			tasks: [{
+				id: "6EE39CA7A0A62B74"
+				type: "item"
+				item: "storagenetwork:crafting_remote"
+			}]
+			dependencies: ["10DA74E24F5942CD"]
+			id: "336D035A3557546E"
+			y: 1.5d
+			x: 1.5d
+		}
+		{
+			tasks: [{
+				id: "1769CCD9CB80B02E"
+				type: "item"
+				item: "storagenetwork:inventory_remote"
+			}]
+			dependencies: ["06F02D582529DE36"]
+			id: "38EB7259C173E42F"
+			y: 1.5d
+			x: -3.0d
+		}
+		{
+			tasks: [{
+				id: "3FF88F1648A24343"
+				type: "item"
+				item: "storagenetwork:stack_upgrade"
+			}]
+			dependencies: ["70E13AA8B68A3AE0"]
+			id: "01E4AF2347FEB0A4"
+			y: -1.5d
+			x: 4.5d
+		}
+		{
+			tasks: [{
+				id: "20B9F3F8A433EE44"
+				type: "item"
+				item: "storagenetwork:speed_upgrade"
+			}]
+			dependencies: ["70E13AA8B68A3AE0"]
+			id: "14BC086845471C27"
+			y: -1.5d
+			x: 2.5d
+		}
+		{
+			tasks: [{
+				id: "265766EB546FF3B4"
+				type: "item"
+				item: "storagenetwork:slow_upgrade"
+			}]
+			dependencies: ["70E13AA8B68A3AE0"]
+			id: "1428A307D913631C"
+			y: -1.5d
+			x: 3.5d
+		}
+		{
+			tasks: [{
+				id: "0910F919C419BFC9"
+				type: "item"
+				item: "storagenetwork:kabel"
+			}]
+			dependencies: ["06F02D582529DE36"]
+			id: "161AB704DDE3C88B"
+			y: 0.0d
+			x: -1.5d
+		}
+		{
+			tasks: [{
+				id: "3B98C3AB51531057"
+				type: "item"
+				item: "storagenetwork:storage_kabel"
+			}]
+			dependencies: ["161AB704DDE3C88B"]
+			id: "052AD3661E4621E0"
+			y: 0.0d
+			x: 0.0d
+		}
+		{
+			tasks: [{
+				id: "30400BA87028E938"
+				type: "item"
+				item: "storagenetwork:import_kabel"
+			}]
+			dependencies: ["052AD3661E4621E0"]
+			id: "6859716CB3C707D3"
+			y: -1.5d
+			x: -0.5d
+		}
+		{
+			tasks: [{
+				id: "33CEEF26156501FC"
+				type: "item"
+				item: "storagenetwork:export_kabel"
+			}]
+			dependencies: ["052AD3661E4621E0"]
+			id: "70E13AA8B68A3AE0"
+			y: -1.5d
+			x: 0.5d
+		}
+		{
+			tasks: [{
+				id: "102A43AE0C1CC77F"
+				type: "item"
+				item: "storagenetwork:filter_kabel"
+			}]
+			dependencies: ["052AD3661E4621E0"]
+			id: "4DE293FA3F04F888"
+			y: -2.5d
+			x: 0.5d
+		}
+		{
+			tasks: [{
+				id: "16020B8D254BAA46"
+				type: "item"
+				item: "storagenetwork:import_filter_kabel"
+			}]
+			dependencies: ["052AD3661E4621E0"]
+			id: "7DF7B3719531ADE9"
+			y: -2.5d
+			x: -0.5d
+		}
+		{
+			tasks: [{
+				id: "40E699F16C475C94"
+				type: "item"
+				item: "storagenetwork:stock_upgrade"
+			}]
+			dependencies: ["70E13AA8B68A3AE0"]
+			id: "36DEFE88E12E9369"
+			y: -2.5d
+			x: 2.5d
+		}
+		{
+			tasks: [{
+				id: "1D7E1E8D9941BC0A"
+				type: "item"
+				item: "storagenetwork:operation_upgrade"
+			}]
+			dependencies: ["70E13AA8B68A3AE0"]
+			id: "3838639469A7CE44"
+			y: -2.5d
+			x: 3.5d
+		}
+		{
+			tasks: [{
+				id: "22B3C5E8C7B01C7A"
+				type: "item"
+				item: "storagenetwork:single_upgrade"
+			}]
+			dependencies: ["70E13AA8B68A3AE0"]
+			id: "59A445A0A351D321"
+			y: -2.5d
+			x: 4.5d
+		}
+		{
+			tasks: [{
+				id: "2151DC88B4FA1E88"
+				type: "item"
+				item: "storagenetwork:collector"
+			}]
+			dependencies: ["10DA74E24F5942CD"]
+			id: "13B3B242840483EB"
+			y: 0.0d
+			x: 3.0d
+		}
+	]
+}

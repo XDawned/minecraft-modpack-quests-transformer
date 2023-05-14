@@ -1,0 +1,110 @@
+key,中文,英文
+ftbquests.chapter.additional_quests_tier_2.quests.43.title,超频,Overclocker
+ftbquests.chapter.additional_quests_tier_3.quests.16.title,缠绕,Entangled
+ftbquests.chapter.all_the_resources.quests.16.title,铅块,Block of Lead
+ftbquests.chapter.all_the_resources.quests.16.tasks.0.title,铅块,Block of Lead
+ftbquests.chapter.all_the_resources.quests.17.title,镍块,Block of Nickel
+ftbquests.chapter.all_the_resources.quests.17.tasks.0.title,镍块,Block of Nickel
+ftbquests.chapter.all_the_resources.quests.18.tasks.0.title,银块,Block of Silver
+ftbquests.chapter.all_the_resources.quests.19.tasks.0.title,锡块,Block of Tin
+ftbquests.chapter.all_the_resources.quests.20.tasks.0.title,铂块,Block of Platinum
+ftbquests.chapter.all_the_resources.quests.21.tasks.0.title,铝块,Block of Aluminum
+ftbquests.chapter.all_the_resources.quests.22.tasks.0.title,锌块,Block of Zinc
+ftbquests.chapter.all_the_resources.quests.23.tasks.0.title,铀块,Block of Uranium
+ftbquests.chapter.all_the_resources.quests.25.tasks.0.title,块,Block of Osmium
+ftbquests.chapter.all_the_resources.quests.73.title,钢块,Block of Steel
+ftbquests.chapter.all_the_resources.quests.73.tasks.0.title,钢块,Block of Steel
+ftbquests.chapter.all_the_resources.quests.74.title,玫瑰金块,Block of Rose Gold
+ftbquests.chapter.all_the_resources.quests.74.tasks.0.title,玫瑰金块,Block of Rose Gold
+ftbquests.chapter.all_the_resources.quests.75.title,青铜块,Block of Bronze
+ftbquests.chapter.all_the_resources.quests.75.tasks.0.title,青铜块,Block of Bronze
+ftbquests.chapter.all_the_resources.quests.76.title,琥珀金块,Block of Electrum
+ftbquests.chapter.all_the_resources.quests.76.tasks.0.title,琥珀金块,Block on Electrum
+ftbquests.chapter.all_the_resources.quests.77.title,殷钢块,Block of Invar
+ftbquests.chapter.all_the_resources.quests.77.tasks.0.title,殷钢方块,Block on Invar
+ftbquests.chapter.all_the_resources.quests.78.title,康铜块,Block of Constantan
+ftbquests.chapter.all_the_resources.quests.78.tasks.0.title,康铜块,Block of Constantan
+ftbquests.chapter.all_the_resources.quests.80.title,信素块,Block of Signalum
+ftbquests.chapter.all_the_resources.quests.80.tasks.0.title,信素块,Block of Signalum
+ftbquests.chapter.all_the_resources.quests.81.tasks.0.title,流明块,Block of Lumium
+ftbquests.chapter.all_the_resources.quests.82.tasks.0.title,末影块,Block of Enderium
+ftbquests.chapter.all_the_waredore.title,所有护甲,All the Waredore
+ftbquests.chapter.all_the_waredore.quests.0.tasks.0.title,造型分析,Styling' Profiling'
+ftbquests.chapter.all_the_waredore.quests.1.tasks.0.title,阶段1,Tier 1
+ftbquests.chapter.all_the_waredore.quests.2.description.0,需要一个召唤祭坛,Requires a Summoning Altar
+ftbquests.chapter.all_the_waredore.quests.2.tasks.0.title,阶段3,Tier 3
+ftbquests.chapter.all_the_waredore.quests.3.description.0,需要一个觉醒祭坛,Requires a Awanking Altar
+ftbquests.chapter.all_the_waredore.quests.3.tasks.0.title,阶段4,Tier 4
+ftbquests.chapter.all_the_waredore.quests.4.description.0,需要一个高级工作台,Requires a Advanced Crating Table
+ftbquests.chapter.all_the_waredore.quests.4.tasks.0.title,通关游戏,End Game
+ftbquests.chapter.all_the_waredore.quests.5.title,红物质套装,Red Matter Set
+ftbquests.chapter.all_the_waredore.quests.6.title,暗物质套装,Dark Matter Set
+ftbquests.chapter.all_the_waredore.quests.7.title,下级套装,Inferium Set
+ftbquests.chapter.all_the_waredore.quests.8.title,初级套装,Prudentium Set
+ftbquests.chapter.all_the_waredore.quests.9.title,中级套装,Tertium Set
+ftbquests.chapter.all_the_waredore.quests.10.title,高级套装,Imperium Set
+ftbquests.chapter.all_the_waredore.quests.11.title,终极套装,Supremium Set
+ftbquests.chapter.all_the_waredore.quests.12.title,觉醒中级套装,Awakened Supremium Set
+ftbquests.chapter.all_the_waredore.quests.14.title,ATM套装,AlltheModium Set
+ftbquests.chapter.all_the_waredore.quests.15.title,菌丝套装,Insanium Set
+ftbquests.chapter.all_the_waredore.quests.16.title,皮革套装,Leather Set
+ftbquests.chapter.all_the_waredore.quests.17.title,锁链套装,Chainmail Set
+ftbquests.chapter.all_the_waredore.quests.18.title,铁套装,Iron Set
+ftbquests.chapter.all_the_waredore.quests.19.title,钻石套装,Diamond Set
+ftbquests.chapter.all_the_waredore.quests.20.title,金套,Gold Set
+ftbquests.chapter.all_the_waredore.quests.21.title,下界合金套装,Netherite Set
+ftbquests.chapter.all_the_waredore.quests.22.title,煤炭套装,Coal Set
+ftbquests.chapter.all_the_waredore.quests.23.title,红石套装,Redstone Set
+ftbquests.chapter.all_the_waredore.quests.24.title,小鸡套装,Chicken Set
+ftbquests.chapter.all_the_waredore.quests.25.title,黏液套装,Slime Set
+ftbquests.chapter.all_the_waredore.quests.26.title,绿宝石套装,Emerald Set
+ftbquests.chapter.all_the_waredore.quests.27.title,富集黑曜石套装,Enriched Obsidian Set
+ftbquests.chapter.all_the_waredore.quests.28.title,灌注熔岩套装,Infused Lava Set
+ftbquests.chapter.all_the_waredore.quests.29.title,守卫者套装,Guardian Set
+ftbquests.chapter.all_the_waredore.quests.30.title,下界之星套装,Super Star Set
+ftbquests.chapter.all_the_waredore.quests.31.title,末影龙套,Ender Dragon Set
+ftbquests.chapter.all_the_waredore.quests.32.title,杀手套装,Slayer Set
+ftbquests.chapter.all_the_waredore.quests.33.title,强化锁链套装,Enhanced Chainmail Set
+ftbquests.chapter.all_the_waredore.quests.34.title,强化金套装,Enhanced Gold Set
+ftbquests.chapter.all_the_waredore.quests.35.title,强化钻石套装,Enhanced Diamond Set
+ftbquests.chapter.all_the_waredore.quests.36.title,强化下界合金套装,Enhanced Netherite Set
+ftbquests.chapter.all_the_waredore.quests.37.title,冰霜套装,Frost Set
+ftbquests.chapter.all_the_waredore.quests.38.title,霜火套装,Frost-Lava Set
+ftbquests.chapter.all_the_waredore.quests.39.title,榴石套装,Pyrope Set
+ftbquests.chapter.all_the_waredore.quests.40.title,水蓝石套装,Aquite Set
+ftbquests.chapter.all_the_waredore.quests.41.title,透辉石套装,Diopside Set
+ftbquests.chapter.all_the_waredore.quests.42.title,绛紫晶套装,Charoite Set
+ftbquests.chapter.all_the_waredore.quests.43.title,炙铁套装,Horizonite Set
+ftbquests.chapter.all_the_waredore.quests.44.title,魔力钢套装,Manasteel Set
+ftbquests.chapter.all_the_waredore.quests.45.title,源质钢套装,Elementium Set
+ftbquests.chapter.all_the_waredore.quests.46.title,泰拉钢套装,Terrasteel Set
+ftbquests.chapter.all_the_waredore.quests.47.title,哭泣黑曜石套装,Crystallized Obsidian Set
+ftbquests.chapter.all_the_waredore.quests.48.title,法拉第套装,Faraday Set
+ftbquests.chapter.all_the_waredore.quests.49.title,青铜套装,Bronze Set
+ftbquests.chapter.all_the_waredore.quests.50.title,青金石套装,Lapis Set
+ftbquests.chapter.all_the_waredore.quests.51.title,锇套装,Osmium Set
+ftbquests.chapter.all_the_waredore.quests.52.title,强化荧石套装,Refined Glowstone Set
+ftbquests.chapter.all_the_waredore.quests.53.title,强化黑曜石套装,Refined Obsidian Set
+ftbquests.chapter.all_the_waredore.quests.54.title,钢套装,Steel Set
+ftbquests.chapter.all_the_waredore.quests.55.title,燧石套装,Flint Set
+ftbquests.chapter.all_the_waredore.quests.56.title,压缩铁套装,Compressed Iron Set
+ftbquests.chapter.all_the_waredore.quests.57.title,扼塞套装,Cloggrum Set
+ftbquests.chapter.all_the_waredore.quests.58.title,霜钢套装,Froststeel Set
+ftbquests.chapter.all_the_waredore.quests.59.title,御腐套装,Utherium Set
+ftbquests.chapter.all_the_waredore.quests.60.title,铜套装,Copper Set
+ftbquests.chapter.all_the_waredore.quests.61.title,锡套装,Tin Set
+ftbquests.chapter.all_the_waredore.quests.62.title,铅套装,Lead Set
+ftbquests.chapter.all_the_waredore.quests.63.title,银套,Silver Set
+ftbquests.chapter.all_the_waredore.quests.64.title,镍套装,Nickel Set
+ftbquests.chapter.all_the_waredore.quests.65.title,琥珀金套装,Electrum Set
+ftbquests.chapter.all_the_waredore.quests.66.title,殷钢套装,Invar Set
+ftbquests.chapter.all_the_waredore.quests.67.title,康铜套装,Constantan Set
+ftbquests.chapter.all_the_waredore.quests.68.title,铁木套装,Ironwood Set
+ftbquests.chapter.all_the_waredore.quests.69.title,炽铁套装,Fiery Set
+ftbquests.chapter.all_the_waredore.quests.70.title,骑士钢套装,Knightmetal Set
+ftbquests.chapter.all_the_waredore.quests.71.title,北极套装,Arctic Set
+ftbquests.chapter.all_the_waredore.quests.72.title,雪怪套装,Yeti Set
+ftbquests.chapter.all_the_waredore.quests.73.title,强化铁套装,Enhanced Iron Set
+ftbquests.chapter.all_the_waredore.quests.74.title,钢叶套装,Steeleaf Set
+ftbquests.chapter.all_the_waredore.quests.75.description.0,需要符文祭坛,Requires the Runic Altar
+ftbquests.loot_table.beginning_rewards.title,筛子,Sieving

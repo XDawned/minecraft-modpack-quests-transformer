@@ -1,0 +1,686 @@
+{
+	quest_links: [ ]
+	default_hide_dependency_lines: false
+	group: "26B45D9099BEACEA"
+	id: "7BE2210EF00A20E1"
+	filename: "additional_quests_tier_1"
+	default_quest_shape: "square"
+	icon: "minecraft:stick"
+	title: "额外的任务阶段 1"
+	order_index: 5
+	quests: [
+		{
+			tasks: [{
+				id: "0757C49890F16328"
+				type: "checkmark"
+				title: "真正更多"
+			}]
+			dependencies: ["3A921447E8BA16F4"]
+			id: "1D9C4F48F9D7050B"
+			y: 0.5d
+			x: 0.0d
+		}
+		{
+			tasks: [{
+				id: "713B4E7825500515"
+				type: "checkmark"
+				title: "解锁额外任务阶段 2"
+			}]
+			dependency_requirement: "one_completed"
+			dependencies: [
+				"6FCB6995B41AFCC1"
+				"7EF959DEB21A2935"
+				"575DCB0F979097D0"
+			]
+			id: "706DDD4E7D249B3D"
+			y: 0.5d
+			x: 8.5d
+		}
+		{
+			tasks: [{
+				id: "0FCC99E7798EEAF9"
+				type: "item"
+				item: "elevatorid:elevator_white"
+			}]
+			dependencies: ["1D9C4F48F9D7050B"]
+			id: "50588623ABB560AE"
+			y: 0.5d
+			x: -2.5d
+		}
+		{
+			tasks: [{
+				id: "112FA0408D84E5B9"
+				type: "item"
+				item: "ironfurnaces:iron_furnace"
+			}]
+			dependencies: ["5269AF4BB468703F"]
+			id: "74C95FD92F478ED4"
+			y: 1.5d
+			x: 3.5d
+		}
+		{
+			tasks: [{
+				id: "0E440FDD70EE60C3"
+				type: "item"
+				item: "ironfurnaces:gold_furnace"
+			}]
+			dependencies: ["600D3CD7E07DBCF6"]
+			id: "389F66003B8F2971"
+			y: 1.5d
+			x: 5.5d
+		}
+		{
+			tasks: [{
+				id: "3EBD492AEBA0D013"
+				type: "item"
+				item: "ironfurnaces:diamond_furnace"
+			}]
+			dependencies: ["389F66003B8F2971"]
+			id: "7EF959DEB21A2935"
+			y: 1.5d
+			x: 6.5d
+		}
+		{
+			tasks: [{
+				id: "33C56C0E0796DB96"
+				type: "item"
+				item: "ironfurnaces:obsidian_furnace"
+			}]
+			dependencies: ["2D9C2A47C76AA7B5"]
+			id: "39AFFB786A063E2A"
+			y: 3.5d
+			x: 5.5d
+		}
+		{
+			tasks: [{
+				id: "36035866DE4052C3"
+				type: "item"
+				item: "ironfurnaces:emerald_furnace"
+			}]
+			dependencies: ["73B8319C8403B69E"]
+			id: "2D9C2A47C76AA7B5"
+			y: 3.5d
+			x: 6.5d
+		}
+		{
+			tasks: [{
+				id: "3A262638C1FCD47B"
+				type: "item"
+				item: "ironfurnaces:netherite_furnace"
+			}]
+			dependencies: ["39AFFB786A063E2A"]
+			id: "275E7BD45A6578A7"
+			y: 3.5d
+			x: 4.5d
+		}
+		{
+			tasks: [{
+				id: "52E7C3CC5A99BF89"
+				type: "item"
+				item: {
+					id: "ironfurnaces:million_furnace"
+					Count: 1b
+					tag: {
+						display: {
+							Name: "{\"extra\":[{\"color\":\"blue\",\"text\":\"R\"},{\"color\":\"blue\",\"text\":\"a\"},{\"color\":\"green\",\"text\":\"i\"},{\"color\":\"red\",\"text\":\"n\"},{\"color\":\"red\",\"text\":\"b\"},{\"color\":\"blue\",\"text\":\"o\"},{\"color\":\"red\",\"text\":\"w\"},{\"color\":\"green\",\"text\":\" \"},{\"color\":\"light_purple\",\"text\":\"F\"},{\"color\":\"red\",\"text\":\"u\"},{\"color\":\"yellow\",\"text\":\"r\"},{\"color\":\"red\",\"text\":\"n\"},{\"color\":\"green\",\"text\":\"a\"},{\"color\":\"light_purple\",\"text\":\"c\"},{\"color\":\"aqua\",\"text\":\"e\"}],\"text\":\"\"}"
+						}
+					}
+				}
+			}]
+			dependencies: ["275E7BD45A6578A7"]
+			id: "680D91BF6C556BE5"
+			y: 3.5d
+			x: 3.5d
+		}
+		{
+			tasks: [
+				{
+					id: "51412635B0C3A578"
+					type: "item"
+					disable_toast: true
+					item: "ironfurnaces:item_heater"
+				}
+				{
+					id: "1A77CA805CBFBFAA"
+					type: "item"
+					disable_toast: true
+					item: "ironfurnaces:augment_factory"
+				}
+				{
+					id: "66D02FED0DFFA13D"
+					type: "item"
+					disable_toast: true
+					item: "ironfurnaces:augment_generator"
+				}
+				{
+					id: "0E2923AB68A185FF"
+					type: "item"
+					disable_toast: true
+					item: "ironfurnaces:augment_speed"
+				}
+				{
+					id: "4CF3A81FBFBEE113"
+					type: "item"
+					disable_toast: true
+					item: "ironfurnaces:augment_fuel"
+				}
+				{
+					id: "09DC8F31E1B86ACF"
+					type: "item"
+					disable_toast: true
+					item: "ironfurnaces:augment_blasting"
+				}
+				{
+					id: "475C512A440A0207"
+					type: "item"
+					disable_toast: true
+					item: "ironfurnaces:augment_smoking"
+				}
+			]
+			dependencies: ["5269AF4BB468703F"]
+			id: "35D0238824CA1CA3"
+			y: 2.5d
+			x: 2.5d
+			title: "升级"
+		}
+		{
+			tasks: [{
+				id: "0A55539B1A2D781F"
+				type: "item"
+				item: "notenoughwands:illumination_wand"
+			}]
+			dependencies: ["1D9C4F48F9D7050B"]
+			id: "3CD5E77464D2E46B"
+			y: 3.5d
+			x: -1.0d
+		}
+		{
+			tasks: [{
+				id: "51C1F5F49BEFD43D"
+				type: "item"
+				item: "notenoughwands:teleportation_wand"
+			}]
+			dependencies: ["1D9C4F48F9D7050B"]
+			id: "70035EF177C6103B"
+			y: 3.5d
+			x: 0.0d
+		}
+		{
+			tasks: [{
+				id: "280BC2CD26310178"
+				type: "item"
+				item: "notenoughwands:building_wand"
+			}]
+			dependencies: ["1D9C4F48F9D7050B"]
+			id: "2EC6CA87FAC1BCF2"
+			y: 3.5d
+			x: 1.0d
+		}
+		{
+			tasks: [{
+				id: "2D8EFB4C2A059B0C"
+				type: "item"
+				item: "notenoughwands:displacement_wand"
+			}]
+			dependencies: ["1D9C4F48F9D7050B"]
+			id: "52224F93F9CA7C24"
+			y: 4.5d
+			x: 1.0d
+		}
+		{
+			tasks: [{
+				id: "43F536B598A14B88"
+				type: "item"
+				item: "notenoughwands:swapping_wand"
+			}]
+			dependencies: ["1D9C4F48F9D7050B"]
+			id: "0BCFDD1171636DFC"
+			y: 4.5d
+			x: 0.0d
+		}
+		{
+			tasks: [{
+				id: "728A7457690FE5A9"
+				type: "item"
+				item: "notenoughwands:moving_wand"
+			}]
+			dependencies: ["1D9C4F48F9D7050B"]
+			id: "6336A2ECF51DCDE3"
+			y: 4.5d
+			x: -1.0d
+		}
+		{
+			tasks: [{
+				id: "32EB3920B62D34C1"
+				type: "item"
+				item: {
+					id: "sophisticatedbackpacks:backpack"
+					Count: 1b
+					tag: {
+						inventorySlots: 27
+						upgradeSlots: 1
+						contentsUuid: [I;
+							-555648641
+							-909816710
+							-2073414340
+							1920910613
+						]
+					}
+				}
+			}]
+			dependencies: ["1D9C4F48F9D7050B"]
+			id: "2EE180713AF3381E"
+			y: -0.5d
+			x: 2.5d
+		}
+		{
+			tasks: [{
+				id: "24C59FB799D16EF4"
+				type: "item"
+				item: {
+					id: "sophisticatedbackpacks:iron_backpack"
+					Count: 1b
+					tag: {
+						inventorySlots: 54
+						upgradeSlots: 2
+						contentsUuid: [I;
+							-391949806
+							-800111936
+							-1817537293
+							771130345
+						]
+					}
+				}
+			}]
+			dependencies: ["2EE180713AF3381E"]
+			id: "2B8F28BF8670C94A"
+			y: -0.5d
+			x: 3.5d
+		}
+		{
+			tasks: [{
+				id: "1A9AB0A1DF339238"
+				type: "item"
+				item: {
+					id: "sophisticatedbackpacks:gold_backpack"
+					Count: 1b
+					tag: {
+						inventorySlots: 81
+						upgradeSlots: 3
+						contentsUuid: [I;
+							208507308
+							533479831
+							-1149894973
+							-575493443
+						]
+					}
+				}
+			}]
+			dependencies: ["2B8F28BF8670C94A"]
+			id: "4189F1427F74D43B"
+			y: -0.5d
+			x: 4.5d
+		}
+		{
+			tasks: [{
+				id: "598C945D9FADB184"
+				type: "item"
+				item: {
+					id: "sophisticatedbackpacks:diamond_backpack"
+					Count: 1b
+					tag: {
+						inventorySlots: 108
+						upgradeSlots: 5
+						contentsUuid: [I;
+							-1996362122
+							742149619
+							-2029125272
+							1484228639
+						]
+					}
+				}
+			}]
+			dependencies: ["4189F1427F74D43B"]
+			id: "312731AF7E66E908"
+			y: -0.5d
+			x: 5.5d
+		}
+		{
+			tasks: [{
+				id: "582F7690D2155077"
+				type: "item"
+				item: {
+					id: "sophisticatedbackpacks:netherite_backpack"
+					Count: 1b
+					tag: {
+						inventorySlots: 120
+						upgradeSlots: 7
+						contentsUuid: [I;
+							1087191674
+							-579451245
+							-2080918270
+							-1125340954
+						]
+					}
+				}
+			}]
+			dependencies: ["312731AF7E66E908"]
+			id: "575DCB0F979097D0"
+			y: -0.5d
+			x: 6.5d
+		}
+		{
+			tasks: [{
+				id: "257A5FF686D2F7F3"
+				type: "item"
+				item: "torchmaster:megatorch"
+			}]
+			dependencies: ["1D9C4F48F9D7050B"]
+			id: "5DA0C98F85208288"
+			y: -2.0d
+			x: -4.0d
+		}
+		{
+			tasks: [{
+				id: "60E999014D0D7187"
+				type: "item"
+				item: "torchmaster:dreadlamp"
+			}]
+			dependencies: ["1D9C4F48F9D7050B"]
+			id: "262ADB7D92CA37EF"
+			y: -2.0d
+			x: -3.0d
+		}
+		{
+			tasks: [{
+				id: "2101D6517381D647"
+				type: "item"
+				item: "torchmaster:feral_flare_lantern"
+			}]
+			dependencies: ["1D9C4F48F9D7050B"]
+			id: "16339E9FF973C3CA"
+			y: -2.0d
+			x: -2.0d
+		}
+		{
+			tasks: [{
+				id: "09F909886F9623BF"
+				type: "item"
+				item: "trashcans:item_trash_can"
+			}]
+			dependencies: ["1D9C4F48F9D7050B"]
+			id: "68AC8AE6DC6D834F"
+			y: 0.5d
+			x: 3.0d
+		}
+		{
+			tasks: [{
+				id: "6C2DA832F6251E34"
+				type: "item"
+				item: "trashcans:liquid_trash_can"
+			}]
+			dependencies: ["68AC8AE6DC6D834F"]
+			id: "2246390A1F02F33A"
+			y: 0.5d
+			x: 4.0d
+		}
+		{
+			tasks: [{
+				id: "7F3EDB13801CF66E"
+				type: "item"
+				item: "trashcans:energy_trash_can"
+			}]
+			dependencies: ["2246390A1F02F33A"]
+			id: "6C01B2C64492400C"
+			y: 0.5d
+			x: 5.0d
+		}
+		{
+			tasks: [{
+				id: "6864A1D10EC27AE9"
+				type: "item"
+				item: "trashcans:ultimate_trash_can"
+			}]
+			dependencies: ["6C01B2C64492400C"]
+			id: "6FCB6995B41AFCC1"
+			y: 0.5d
+			x: 6.0d
+		}
+		{
+			tasks: [{
+				id: "3E4885C65D1DD1CB"
+				type: "item"
+				item: "cyclic:crusher"
+			}]
+			dependencies: ["1D9C4F48F9D7050B"]
+			id: "0E149382C5BCF0CC"
+			y: 2.5d
+			x: -3.5d
+		}
+		{
+			tasks: [{
+				id: "6F390EDD04EE6197"
+				type: "item"
+				item: "cyclic:packager"
+			}]
+			dependencies: ["1D9C4F48F9D7050B"]
+			id: "13D1838FBC69183C"
+			y: 2.5d
+			x: -2.5d
+		}
+		{
+			tasks: [{
+				id: "6FBADB72DDFA56E6"
+				type: "item"
+				item: "cyclic:inventory_cake"
+			}]
+			dependencies: ["1D9C4F48F9D7050B"]
+			id: "510227CF991A06D8"
+			y: -0.5d
+			x: -2.5d
+		}
+		{
+			tasks: [{
+				id: "3D7FE4CAD5D22A9A"
+				type: "item"
+				item: {
+					id: "chargers:charger_t1"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			dependencies: ["1D9C4F48F9D7050B"]
+			id: "0A40888DB25C01C2"
+			y: -2.0d
+			x: -0.5d
+		}
+		{
+			tasks: [{
+				id: "5848FC23A5FBAF64"
+				type: "item"
+				item: {
+					id: "chargers:charger_t2"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			dependencies: ["0A40888DB25C01C2"]
+			id: "786C34620772F0DD"
+			y: -3.0d
+			x: -0.5d
+		}
+		{
+			tasks: [{
+				id: "4BBA2525B97CF9F6"
+				type: "item"
+				item: {
+					id: "chargers:charger_t3"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			dependencies: ["786C34620772F0DD"]
+			id: "341B51ADCF59C6AF"
+			y: -4.0d
+			x: -0.5d
+		}
+		{
+			tasks: [{
+				id: "3709BF1A60565935"
+				type: "item"
+				item: "cyclic:teleport"
+			}]
+			dependencies: ["1D9C4F48F9D7050B"]
+			id: "006622296B31C3F9"
+			y: 3.5d
+			x: -3.5d
+		}
+		{
+			tasks: [
+				{
+					id: "3B2C79791DA05885"
+					type: "item"
+					item: "cyclic:wireless_transmitter"
+				}
+				{
+					id: "210CC1ACE9A68E4B"
+					type: "item"
+					item: "cyclic:wireless_receiver"
+				}
+			]
+			dependencies: ["1D9C4F48F9D7050B"]
+			id: "6E4C3858B93B48D2"
+			y: 1.5d
+			x: -2.5d
+			title: "无线红石"
+		}
+		{
+			tasks: [{
+				id: "61AC23A1142B2996"
+				type: "item"
+				item: "cyclic:disenchanter"
+			}]
+			dependencies: ["1D9C4F48F9D7050B"]
+			id: "41346C6024CAD3C9"
+			y: 4.5d
+			x: -3.5d
+		}
+		{
+			tasks: [{
+				id: "1FF680D29DE5E189"
+				type: "item"
+				item: "cyclic:anvil"
+			}]
+			dependencies: ["1D9C4F48F9D7050B"]
+			id: "3046A3C8FDF2BB8D"
+			y: 4.5d
+			x: -2.5d
+		}
+		{
+			tasks: [{
+				id: "3F350CF85DC74B29"
+				type: "item"
+				item: "cyclic:energy_pipe"
+			}]
+			dependencies: ["185A56E2F3D2406D"]
+			id: "56475EBBEC83D969"
+			y: -2.5d
+			x: 2.5d
+		}
+		{
+			tasks: [{
+				id: "3F2A732B7A3315BC"
+				type: "item"
+				item: "cyclic:item_pipe"
+			}]
+			dependencies: ["185A56E2F3D2406D"]
+			id: "501EAB92317F6DCF"
+			y: -3.5d
+			x: 2.5d
+		}
+		{
+			tasks: [{
+				id: "6B58B79805F1B2CB"
+				type: "item"
+				item: "cyclic:fluid_pipe"
+			}]
+			dependencies: ["185A56E2F3D2406D"]
+			id: "5FD7A268A3878A77"
+			y: -3.5d
+			x: 1.5d
+		}
+		{
+			tasks: [{
+				id: "2EAD98A8C42B1E16"
+				type: "item"
+				item: "cyclic:cable_wrench"
+			}]
+			dependencies: ["1D9C4F48F9D7050B"]
+			id: "185A56E2F3D2406D"
+			y: -2.0d
+			x: 1.0d
+		}
+		{
+			tasks: [{
+				id: "4C9F9A07FB900D9D"
+				type: "item"
+				item: "ironfurnaces:copper_furnace"
+			}]
+			dependencies: ["1D9C4F48F9D7050B"]
+			id: "5269AF4BB468703F"
+			y: 1.5d
+			x: 2.5d
+		}
+		{
+			tasks: [{
+				id: "67B043A04ADD2621"
+				type: "item"
+				item: "ironfurnaces:crystal_furnace"
+			}]
+			dependencies: ["7EF959DEB21A2935"]
+			id: "73B8319C8403B69E"
+			y: 2.5d
+			x: 6.5d
+		}
+		{
+			tasks: [{
+				id: "0348CFABDD53E99E"
+				type: "item"
+				item: "ironfurnaces:silver_furnace"
+			}]
+			dependencies: ["74C95FD92F478ED4"]
+			id: "600D3CD7E07DBCF6"
+			y: 1.5d
+			x: 4.5d
+		}
+		{
+			tasks: [{
+				id: "0A13A7DBE9FE30D7"
+				type: "item"
+				item: "waystones:warp_plate"
+			}]
+			dependencies: ["1D9C4F48F9D7050B"]
+			id: "1C6A08C5CA9764C5"
+			y: 3.5d
+			x: -2.5d
+		}
+		{
+			tasks: [
+				{
+					id: "536A2CFE1C4CC104"
+					type: "item"
+					item: "travelanchors:travel_anchor"
+				}
+				{
+					id: "74AFF1137E73DC8C"
+					type: "item"
+					item: "travelanchors:travel_staff"
+				}
+			]
+			dependencies: ["1D9C4F48F9D7050B"]
+			id: "650B4101029A48A8"
+			y: 0.5d
+			x: -3.5d
+		}
+	]
+}

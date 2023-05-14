@@ -1,0 +1,12 @@
+{
+	chapter_groups: [
+		{ id: "1B5135B04A9FBE34", title: "额外的物品" }
+		{ id: "26B45D9099BEACEA", title: "阶段1" }
+		{ id: "7ACFC886019EA7E0", title: "阶段2" }
+		{ id: "3F74603074C9AFB3", title: "阶段3" }
+		{ id: "07A9419A06D6B296", title: "通关游戏" }
+		{ id: "354A85BC2234DA50", title: "探索" }
+		{ id: "7666C88BBE05D284", title: "魔法时间" }
+		{ id: "269E1EFA0EF8FE1E", title: "额外挑战" }
+	]
+}

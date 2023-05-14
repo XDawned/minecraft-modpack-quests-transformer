@@ -1,0 +1,800 @@
+{
+	quest_links: [ ]
+	default_hide_dependency_lines: false
+	group: "3F74603074C9AFB3"
+	id: "398A764B40D27B17"
+	filename: "beyond_earth"
+	default_quest_shape: ""
+	icon: {
+		id: "ad_astra:tier_4_rocket"
+		Count: 1b
+		tag: {
+			BotariumData: { }
+		}
+	}
+	title: "Ad Astra"
+	order_index: 2
+	quests: [
+		{
+			tasks: [{
+				id: "0414D8F221A9A5FD"
+				type: "checkmark"
+				title: "Outer of this World"
+			}]
+			dependencies: ["3BE4ADBD48D42AAC"]
+			id: "3AB348354A6440AF"
+			y: -2.0d
+			x: -1.0d
+		}
+		{
+			tasks: [{
+				id: "52C34B2F6B35631C"
+				type: "item"
+				item: "ad_astra:nasa_workbench"
+			}]
+			dependencies: ["3AB348354A6440AF"]
+			id: "3D3AE74B153829B7"
+			y: -2.0d
+			x: 0.5d
+		}
+		{
+			tasks: [{
+				id: "1095779184E26314"
+				type: "item"
+				item: "ad_astra:launch_pad"
+			}]
+			dependencies: ["3D3AE74B153829B7"]
+			id: "6DC548A3436642D2"
+			y: -1.0d
+			x: 2.0d
+		}
+		{
+			tasks: [{
+				id: "58681BFF233C32A2"
+				type: "item"
+				item: {
+					id: "ad_astra:tier_1_rocket"
+					Count: 1b
+					tag: {
+						BotariumData: { }
+					}
+				}
+			}]
+			dependencies: ["3D3AE74B153829B7"]
+			id: "5964A297B4068D22"
+			y: -0.5d
+			x: -0.5d
+		}
+		{
+			tasks: [{
+				id: "5E281FB9F5235278"
+				type: "item"
+				item: {
+					id: "ad_astra:tier_2_rocket"
+					Count: 1b
+					tag: {
+						BotariumData: { }
+					}
+				}
+			}]
+			dependencies: ["5964A297B4068D22"]
+			id: "2C118DE7392976B3"
+			y: 1.0d
+			x: -0.5d
+		}
+		{
+			tasks: [{
+				id: "26559188716A3B97"
+				type: "item"
+				item: {
+					id: "ad_astra:tier_4_rocket"
+					Count: 1b
+					tag: {
+						BotariumData: { }
+					}
+				}
+			}]
+			dependencies: ["73785435EB536E3C"]
+			id: "4A4EC5BF845C647B"
+			y: 4.0d
+			x: -0.5d
+		}
+		{
+			tasks: [{
+				id: "25D00DB467963D04"
+				type: "item"
+				item: {
+					id: "ad_astra:tier_3_rocket"
+					Count: 1b
+					tag: {
+						BotariumData: { }
+					}
+				}
+			}]
+			dependencies: ["2C118DE7392976B3"]
+			id: "73785435EB536E3C"
+			y: 2.5d
+			x: -0.5d
+		}
+		{
+			tasks: [
+				{
+					id: "4BE30D6DF9988982"
+					type: "item"
+					disable_toast: true
+					item: {
+						id: "ad_astra:space_helmet"
+						Count: 1b
+						tag: {
+							BotariumData: { }
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "550983CD4356953F"
+					type: "item"
+					disable_toast: true
+					item: {
+						id: "ad_astra:space_suit"
+						Count: 1b
+						tag: {
+							BotariumData: { }
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1DA468430F62DE82"
+					type: "item"
+					disable_toast: true
+					item: {
+						id: "ad_astra:space_pants"
+						Count: 1b
+						tag: {
+							BotariumData: { }
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "62A6D42EAFE02224"
+					type: "item"
+					disable_toast: true
+					item: {
+						id: "ad_astra:space_boots"
+						Count: 1b
+						tag: {
+							BotariumData: { }
+							Damage: 0
+						}
+					}
+				}
+			]
+			icon: {
+				id: "ad_astra:space_suit"
+				Count: 1b
+				tag: {
+					BotariumData: { }
+					Damage: 0
+				}
+			}
+			id: "293AA730A6E4D3D4"
+			x: -1.0d
+			y: -5.0d
+			title: "Space Suit"
+			dependencies: ["7C346D3D8440DA5B"]
+		}
+		{
+			tasks: [
+				{
+					id: "39546896694AF758"
+					type: "item"
+					disable_toast: true
+					item: {
+						id: "ad_astra:netherite_space_helmet"
+						Count: 1b
+						tag: {
+							BotariumData: { }
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "07ABA3184D14CABF"
+					type: "item"
+					disable_toast: true
+					item: {
+						id: "ad_astra:netherite_space_suit"
+						Count: 1b
+						tag: {
+							BotariumData: { }
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "12BCBC733F290101"
+					type: "item"
+					disable_toast: true
+					item: {
+						id: "ad_astra:netherite_space_pants"
+						Count: 1b
+						tag: {
+							BotariumData: { }
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "142A0B614248B44A"
+					type: "item"
+					disable_toast: true
+					item: {
+						id: "ad_astra:netherite_space_boots"
+						Count: 1b
+						tag: {
+							BotariumData: { }
+							Damage: 0
+						}
+					}
+				}
+			]
+			icon: {
+				id: "ad_astra:netherite_space_suit"
+				Count: 1b
+				tag: {
+					BotariumData: { }
+					Damage: 0
+				}
+			}
+			id: "4129AEFE86766F75"
+			x: -1.0d
+			y: -6.0d
+			title: "Netherit Space Suit"
+			dependencies: ["293AA730A6E4D3D4"]
+		}
+		{
+			tasks: [{
+				id: "38EC0E1693175943"
+				type: "item"
+				item: {
+					id: "ad_astra:tier_1_rover"
+					Count: 1b
+					tag: {
+						BotariumData: { }
+					}
+				}
+			}]
+			dependencies: ["5964A297B4068D22"]
+			id: "66C2A381608C8089"
+			y: -0.5d
+			x: 0.5d
+		}
+		{
+			tasks: [
+				{
+					id: "2C88EB6CBFE7B22E"
+					type: "item"
+					item: "ad_astra:raw_desh"
+				}
+				{
+					id: "08D97E324CAD5D26"
+					type: "item"
+					item: "ad_astra:ice_shard"
+				}
+				{
+					id: "07C83F90D3BAB255"
+					type: "item"
+					item: "ad_astra:cheese"
+				}
+			]
+			dependencies: ["4AC08D40E23D4552"]
+			id: "3E3F86C1CA4B0300"
+			y: 0.0d
+			x: -3.0d
+			title: "Moon Exploration"
+		}
+		{
+			tasks: [{
+				id: "1AC6BF22C2F74E2E"
+				type: "item"
+				item: "ad_astra:raw_ostrum"
+			}]
+			dependencies: ["25FC2D4485F72CB3"]
+			id: "6C20BF18F1D859F1"
+			y: 0.5d
+			x: 2.0d
+			title: "Mars Exploration"
+		}
+		{
+			tasks: [{
+				id: "1F11DE2A0C527934"
+				type: "item"
+				item: "ad_astra:mercury_stone"
+			}]
+			dependencies: ["381AD9E3407B16CD"]
+			id: "43F3372BDF210F21"
+			y: 2.5d
+			x: 2.0d
+			title: "Mercury Exploration"
+		}
+		{
+			tasks: [{
+				id: "53D1777CD45D5DFC"
+				type: "item"
+				item: "ad_astra:raw_calorite"
+			}]
+			dependencies: ["66D5E4C7E9B72947"]
+			id: "0E2BDE7A75D40E9C"
+			y: 2.0d
+			x: -3.0d
+			title: "Venus Exploration"
+		}
+		{
+			tasks: [{
+				id: "152CB58D5F5D3C38"
+				type: "item"
+				item: "ad_astra:oxygen_loader"
+			}]
+			description: ["Just add water"]
+			dependencies: ["3AB348354A6440AF"]
+			id: "7C346D3D8440DA5B"
+			y: -4.0d
+			x: -1.0d
+		}
+		{
+			tasks: [{
+				id: "0C92390B19DD5A38"
+				type: "item"
+				item: "ad_astra:fuel_refinery"
+			}]
+			dependencies: ["3AB348354A6440AF"]
+			id: "7D173162B7D57FA5"
+			y: -4.0d
+			x: 0.0d
+		}
+		{
+			tasks: [{
+				id: "3F9D70F0B26EB693"
+				type: "item"
+				item: "ad_astra:compressor"
+			}]
+			dependencies: ["3AB348354A6440AF"]
+			id: "789D45D01484FFFD"
+			y: -4.0d
+			x: 1.0d
+		}
+		{
+			tasks: [{
+				id: "4C1093CAF6D25FCB"
+				type: "dimension"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "ad_astra:textures/painting/moon.png"
+					}
+				}
+				dimension: "ad_astra:moon"
+			}]
+			id: "4AC08D40E23D4552"
+			x: -2.0d
+			y: -0.5d
+			title: "Visit Moon"
+			rewards: [{
+				id: "7CF43E54F627288A"
+				type: "item"
+				item: "waystones:waystone"
+			}]
+			dependencies: ["5964A297B4068D22"]
+		}
+		{
+			tasks: [{
+				type: "kill"
+				value: 5L
+				id: "63C10527A92D2B2B"
+				icon: "ad_astra:corrupted_lunarian_spawn_egg"
+				entity: "ad_astra:corrupted_lunarian"
+			}]
+			dependencies: ["4AC08D40E23D4552"]
+			id: "32CAEE0317460571"
+			y: -0.5d
+			x: -4.0d
+		}
+		{
+			tasks: [{
+				id: "52AD620BAFACB8B9"
+				type: "item"
+				item: "ad_astra:white_flag"
+			}]
+			dependencies: ["4AC08D40E23D4552"]
+			id: "6642F7AB7BA4088D"
+			y: 1.0d
+			x: -3.0d
+			title: "First Steve on the Moon"
+		}
+		{
+			tasks: [{
+				id: "6555FFD782252B55"
+				type: "dimension"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "ad_astra:textures/painting/mars.png"
+					}
+				}
+				dimension: "ad_astra:mars"
+			}]
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "ad_astra:textures/painting/mars.png"
+				}
+			}
+			id: "25FC2D4485F72CB3"
+			x: 1.0d
+			y: 1.0d
+			title: "Visit Mars"
+			dependencies: ["2C118DE7392976B3"]
+		}
+		{
+			tasks: [{
+				type: "kill"
+				value: 5L
+				id: "459C09677B8817D8"
+				icon: "ad_astra:martian_raptor_spawn_egg"
+				entity: "ad_astra:martian_raptor"
+			}]
+			dependencies: ["25FC2D4485F72CB3"]
+			id: "240A39059652AC91"
+			y: 1.0d
+			x: 3.0d
+		}
+		{
+			tasks: [{
+				id: "646338F8365B63A7"
+				type: "dimension"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "ad_astra:textures/painting/mercury.png"
+					}
+				}
+				dimension: "ad_astra:mercury"
+			}]
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "ad_astra:textures/painting/mercury.png"
+				}
+			}
+			id: "381AD9E3407B16CD"
+			x: 1.0d
+			y: 2.5d
+			title: "Visit Mercury"
+			dependencies: ["73785435EB536E3C"]
+		}
+		{
+			tasks: [{
+				id: "62FA660B7042BF2D"
+				type: "dimension"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "ad_astra:textures/painting/venus.png"
+					}
+				}
+				dimension: "ad_astra:venus"
+			}]
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "ad_astra:textures/painting/venus.png"
+				}
+			}
+			id: "66D5E4C7E9B72947"
+			x: -2.0d
+			y: 2.5d
+			title: "Visit Venus"
+			rewards: [{
+				id: "66B93E8ACBD48FB0"
+				type: "item"
+				item: "waystones:waystone"
+			}]
+			dependencies: ["73785435EB536E3C"]
+		}
+		{
+			tasks: [{
+				type: "kill"
+				value: 5L
+				id: "45F55C366789E9A5"
+				icon: "ad_astra:mogler_spawn_egg"
+				entity: "ad_astra:mogler"
+			}]
+			dependencies: ["66D5E4C7E9B72947"]
+			id: "0279C471B932A67E"
+			y: 2.5d
+			x: -4.0d
+		}
+		{
+			tasks: [{
+				id: "5E40BEEBDFB4E208"
+				type: "dimension"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "ad_astra:textures/painting/glacio.png"
+					}
+				}
+				dimension: "ad_astra:glacio"
+			}]
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "ad_astra:textures/painting/glacio.png"
+				}
+			}
+			id: "330A8B4C44F52B91"
+			x: 1.0d
+			y: 4.0d
+			title: "Visit Glacio"
+			dependencies: ["4A4EC5BF845C647B"]
+		}
+		{
+			tasks: [{
+				id: "6F9C296C869F920B"
+				type: "item"
+				item: "ad_astra_giselle_addon:fuel_loader"
+			}]
+			dependencies: ["6DC548A3436642D2"]
+			id: "5DA6DE40E0284B24"
+			y: -1.0d
+			x: 3.0d
+		}
+		{
+			tasks: [{
+				id: "302644BCEA9D3E9B"
+				type: "item"
+				item: "ad_astra_giselle_addon:automation_nasa_workbench"
+			}]
+			dependencies: ["3D3AE74B153829B7"]
+			id: "3A506655A7511938"
+			y: -2.0d
+			x: 2.0d
+		}
+		{
+			tasks: [{
+				id: "461BA6C29F599744"
+				type: "item"
+				item: "ad_astra:desh_plate"
+			}]
+			dependencies: ["789D45D01484FFFD"]
+			id: "5DDB5CCC237D3D9D"
+			y: -5.0d
+			x: 2.0d
+		}
+		{
+			tasks: [{
+				id: "37B90AAEF8E2709E"
+				type: "item"
+				item: "ad_astra:ostrum_plate"
+			}]
+			dependencies: ["789D45D01484FFFD"]
+			id: "56F0B7A154F484B4"
+			y: -4.0d
+			x: 2.0d
+		}
+		{
+			tasks: [{
+				id: "73D18086FA7B3C41"
+				type: "item"
+				item: "ad_astra:calorite_plate"
+			}]
+			dependencies: ["789D45D01484FFFD"]
+			id: "013672A6289A65C5"
+			y: -3.0d
+			x: 2.0d
+		}
+		{
+			tasks: [{
+				id: "036237EACED7FB86"
+				type: "item"
+				item: "ad_astra:cryo_freezer"
+			}]
+			dependencies: ["3AB348354A6440AF"]
+			id: "4D5B5760B9763F0C"
+			y: -4.0d
+			x: -2.0d
+		}
+		{
+			tasks: [{
+				id: "6FB00EC206A7BD4A"
+				type: "item"
+				item: "ad_astra:cryo_fuel_bucket"
+			}]
+			dependencies: ["4D5B5760B9763F0C"]
+			id: "0C3DD82C385F3BC5"
+			y: -5.0d
+			x: -2.0d
+		}
+		{
+			tasks: [
+				{
+					id: "1705F54596250005"
+					type: "item"
+					item: "ad_astra:moon_sand"
+				}
+				{
+					id: "3AEB7DFCC7065E57"
+					type: "item"
+					item: "ad_astra:moon_stone"
+				}
+			]
+			dependencies: ["4AC08D40E23D4552"]
+			id: "184C5EB56668558F"
+			y: -1.0d
+			x: -3.0d
+		}
+		{
+			tasks: [
+				{
+					id: "23D1C3459AE47246"
+					type: "item"
+					item: "ad_astra:mars_sand"
+				}
+				{
+					id: "51285A79B35932AE"
+					type: "item"
+					item: "ad_astra:mars_stone"
+				}
+				{
+					id: "208FE5803493E0FE"
+					type: "item"
+					item: "ad_astra:conglomerate"
+				}
+			]
+			dependencies: ["25FC2D4485F72CB3"]
+			id: "39AE27AC4737879B"
+			y: 1.5d
+			x: 2.0d
+		}
+		{
+			tasks: [{
+				id: "6FA38243CEAC4704"
+				type: "advancement"
+				advancement: "ad_astra:moon_dungeon"
+				criterion: ""
+			}]
+			dependencies: ["4AC08D40E23D4552"]
+			id: "5FA654232B459F8C"
+			y: 1.0d
+			x: -4.0d
+		}
+		{
+			tasks: [
+				{
+					id: "2CDFE1F0CBEE95E3"
+					type: "item"
+					item: "ad_astra:venus_sand"
+				}
+				{
+					id: "137E94DC2E35B336"
+					type: "item"
+					item: "ad_astra:venus_stone"
+				}
+				{
+					id: "03A0F84F6DA4FD29"
+					type: "item"
+					item: "ad_astra:venus_sandstone"
+				}
+			]
+			dependencies: ["66D5E4C7E9B72947"]
+			id: "3348200E55A3ED96"
+			y: 3.0d
+			x: -3.0d
+		}
+		{
+			tasks: [
+				{
+					id: "198ECA6A739CA579"
+					type: "item"
+					item: "ad_astra:glacio_stone"
+				}
+				{
+					id: "61BC4F0C4FAFC4A7"
+					type: "item"
+					item: "ad_astra:permafrost"
+				}
+			]
+			dependencies: ["330A8B4C44F52B91"]
+			id: "7A512EF31E97C687"
+			y: 4.0d
+			x: 2.0d
+		}
+		{
+			tasks: [{
+				id: "0933AA085042DD44"
+				type: "item"
+				item: "ad_astra:fuel_bucket"
+			}]
+			dependencies: ["7D173162B7D57FA5"]
+			id: "67211EFEE850C697"
+			y: -5.0d
+			x: 0.0d
+		}
+		{
+			tasks: [
+				{
+					id: "4783F9C7CEC79FA0"
+					type: "item"
+					item: {
+						id: "ad_astra:jet_suit_helmet"
+						Count: 1b
+						tag: {
+							BotariumData: { }
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6FE3C0A05699E794"
+					type: "item"
+					item: {
+						id: "ad_astra:jet_suit"
+						Count: 1b
+						tag: {
+							BotariumData: { }
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "691DE7E946C1814E"
+					type: "item"
+					item: {
+						id: "ad_astra:jet_suit_pants"
+						Count: 1b
+						tag: {
+							BotariumData: { }
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2E2E684AE0E6C97B"
+					type: "item"
+					item: {
+						id: "ad_astra:jet_suit_boots"
+						Count: 1b
+						tag: {
+							BotariumData: { }
+							Damage: 0
+						}
+					}
+				}
+			]
+			icon: {
+				id: "ad_astra:jet_suit"
+				Count: 1b
+				tag: {
+					BotariumData: { }
+					Damage: 0
+				}
+			}
+			id: "6ACC8E45F9B75AE2"
+			x: -1.0d
+			y: -7.0d
+			title: "Jet Suit"
+			dependencies: ["4129AEFE86766F75"]
+		}
+	]
+}

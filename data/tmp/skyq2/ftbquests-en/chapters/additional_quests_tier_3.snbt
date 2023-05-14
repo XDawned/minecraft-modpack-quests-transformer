@@ -1,0 +1,397 @@
+{
+	quest_links: [ ]
+	default_hide_dependency_lines: false
+	group: "3F74603074C9AFB3"
+	id: "182D5736A0E096DE"
+	filename: "additional_quests_tier_3"
+	default_quest_shape: ""
+	icon: "minecraft:stick"
+	title: "Additional Quests Tier 3"
+	order_index: 6
+	quests: [
+		{
+			tasks: [{
+				id: "5ADFDE123C0AE002"
+				type: "checkmark"
+				title: "Really More, now this is getting Ridiculous <3"
+			}]
+			dependencies: ["2CBE5787131522E9"]
+			id: "6ACC9A47C2E593D7"
+			y: -11.0d
+			x: -18.0d
+		}
+		{
+			x: -12.5d
+			y: -8.0d
+			id: "78A4D2865CBBC987"
+			tasks: [{
+				id: "37C4CAB7C0844677"
+				type: "item"
+				item: "industrialforegoing:mob_duplicator"
+			}]
+		}
+		{
+			x: -12.5d
+			y: -6.0d
+			id: "47AEE101712DF5CC"
+			tasks: [{
+				id: "043EFC906054E855"
+				type: "item"
+				item: "industrialforegoing:wither_builder"
+			}]
+		}
+		{
+			x: -16.0d
+			y: -7.0d
+			id: "4748A9C4C3FEFD5D"
+			tasks: [{
+				id: "3148250D903AFE5B"
+				type: "item"
+				item: "industrialforegoing:stasis_chamber"
+			}]
+		}
+		{
+			x: -11.0d
+			y: -7.0d
+			id: "2262917ABCDA1C33"
+			tasks: [{
+				id: "020337D1B446C9CE"
+				type: "item"
+				item: "industrialforegoing:infinity_charger"
+			}]
+		}
+		{
+			x: -9.5d
+			y: -6.0d
+			id: "342AF4284BBAF636"
+			tasks: [{
+				id: "776EB636CE2A1291"
+				type: "item"
+				item: {
+					id: "industrialforegoing:infinity_drill"
+					Count: 1b
+					tag: {
+						Energy: 93600L
+						CanCharge: 1b
+						Special: 0b
+						Fluid: {
+							FluidName: "biofuel"
+							Amount: 0
+						}
+						Selected: "POOR"
+					}
+				}
+			}]
+		}
+		{
+			x: -9.5d
+			y: -8.0d
+			id: "6224EEFFDFE9F4B5"
+			tasks: [{
+				id: "4548978049DFC8ED"
+				type: "item"
+				item: {
+					id: "industrialforegoing:infinity_saw"
+					Count: 1b
+					tag: {
+						Energy: 0L
+						CanCharge: 1b
+						Special: 0b
+						Fluid: {
+							FluidName: "biofuel"
+							Amount: 0
+						}
+						Selected: "POOR"
+					}
+				}
+			}]
+		}
+		{
+			x: -10.5d
+			y: -8.5d
+			id: "702EB79DE7D410A8"
+			tasks: [{
+				id: "12B34E62B2EDD906"
+				type: "item"
+				item: {
+					id: "industrialforegoing:infinity_hammer"
+					Count: 1b
+					tag: {
+						Energy: 0L
+						CanCharge: 1b
+						Special: 0b
+						Fluid: {
+							FluidName: "biofuel"
+							Amount: 0
+						}
+						Selected: "POOR"
+						Beheading: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -9.0d
+			y: -7.0d
+			id: "5B47D8AF660F1C02"
+			tasks: [{
+				id: "4BCF77A43CFEA052"
+				type: "item"
+				item: {
+					id: "industrialforegoing:infinity_trident"
+					Count: 1b
+					tag: {
+						Riptide: 0
+						CanCharge: 1b
+						Fluid: {
+							FluidName: "biofuel"
+							Amount: 0
+						}
+						Channeling: 0b
+						Selected: "POOR"
+						Special: 0b
+						Loyalty: 0
+						Energy: 0L
+					}
+				}
+			}]
+		}
+		{
+			x: -10.5d
+			y: -5.5d
+			id: "7BDFFD5D8FBBC0AA"
+			tasks: [{
+				id: "76929E8EC7590293"
+				type: "item"
+				item: {
+					id: "industrialforegoing:infinity_backpack"
+					Count: 1b
+					tag: {
+						Energy: 0L
+						CanCharge: 1b
+						Special: 0b
+						Tanks: { }
+						Selected: "POOR"
+					}
+				}
+			}]
+		}
+		{
+			tasks: [{
+				id: "2E2F85B3AEF049E4"
+				type: "item"
+				item: "industrialforegoing:mob_imprisonment_tool"
+			}]
+			dependencies: ["7B2A5CF7FA9D7BAA"]
+			id: "1F218BA885947CF7"
+			y: -9.0d
+			x: -12.5d
+		}
+		{
+			x: -17.0d
+			y: -12.5d
+			id: "0DF95318AC55A4AB"
+			tasks: [{
+				id: "69A25E923CEF2541"
+				type: "item"
+				item: "fluxnetworks:flux_dust"
+			}]
+		}
+		{
+			x: -16.0d
+			y: -12.5d
+			id: "50EB3021C19A4A81"
+			tasks: [{
+				id: "453A5E9F537D3005"
+				type: "item"
+				item: "fluxnetworks:flux_controller"
+			}]
+		}
+		{
+			x: -16.0d
+			y: -13.5d
+			id: "41702D44B73E747A"
+			tasks: [{
+				id: "0FF148DECFCECF41"
+				type: "item"
+				item: "fluxnetworks:flux_plug"
+			}]
+		}
+		{
+			x: -15.0d
+			y: -12.5d
+			id: "3EFDC4B3BB7E3546"
+			tasks: [{
+				id: "1C2E38CE42025CDA"
+				type: "item"
+				item: "fluxnetworks:flux_point"
+			}]
+		}
+		{
+			x: -13.0d
+			y: -12.5d
+			id: "6823FE0675B3B019"
+			tasks: [{
+				id: "0F2D132AFF75DF77"
+				type: "item"
+				item: "tesseract:tesseract"
+			}]
+		}
+		{
+			tasks: [
+				{
+					id: "415591C8B9ECA5C8"
+					type: "item"
+					item: {
+						id: "entangled:item"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "7D6D4374EEC399E8"
+					type: "item"
+					item: {
+						id: "entangled:block"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+			id: "24B5944C62D01763"
+			y: -12.5d
+			x: -12.0d
+			title: "Entangled"
+		}
+		{
+			x: -11.0d
+			y: -12.5d
+			id: "7FF070F7B6792E74"
+			tasks: [{
+				id: "31B66DBE71ACDAA4"
+				type: "item"
+				item: "cyclic:location_data"
+			}]
+		}
+		{
+			x: -12.0d
+			y: -13.5d
+			id: "055B0FE5DF8F9161"
+			tasks: [{
+				id: "16529144AC3CF9FA"
+				type: "item"
+				item: "cyclic:wireless_energy"
+			}]
+		}
+		{
+			x: -11.0d
+			y: -13.5d
+			id: "126A63B4E29836EB"
+			tasks: [{
+				id: "21009D8818BA1420"
+				type: "item"
+				item: "cyclic:wireless_item"
+			}]
+		}
+		{
+			x: -10.0d
+			y: -13.5d
+			id: "5EAE745355557C24"
+			tasks: [{
+				id: "010330DA79FB30CD"
+				type: "item"
+				item: "cyclic:wireless_fluid"
+			}]
+		}
+		{
+			x: -12.5d
+			y: -7.0d
+			id: "60AC149833691633"
+			tasks: [{
+				id: "6763D68B46355929"
+				type: "item"
+				item: "industrialforegoing:machine_frame_supreme"
+			}]
+		}
+		{
+			x: -17.0d
+			y: -7.0d
+			id: "701122EAD6908E61"
+			tasks: [{
+				id: "689EBCFAC28BA583"
+				type: "item"
+				item: "industrialforegoing:machine_frame_advanced"
+			}]
+		}
+		{
+			x: -13.5d
+			y: -7.0d
+			id: "62EE24C1FD42E8E3"
+			tasks: [{
+				id: "4274BC330BAB591E"
+				type: "item"
+				item: "industrialforegoing:machine_frame_supreme"
+			}]
+		}
+		{
+			x: -16.0d
+			y: -8.0d
+			id: "2FCCC61A25C8BF08"
+			tasks: [{
+				id: "28E19A5C79122A59"
+				type: "item"
+				item: "industrialforegoing:mob_crusher"
+			}]
+		}
+		{
+			x: -16.0d
+			y: -6.0d
+			id: "6F66330EDB1CADB3"
+			tasks: [{
+				id: "2B214A44854B2F5C"
+				type: "item"
+				item: "industrialforegoing:material_stonework_factory"
+			}]
+		}
+		{
+			x: -19.5d
+			y: -7.5d
+			id: "6E39F444D9F05CB8"
+			tasks: [{
+				id: "3406C14FEA2A0A1C"
+				type: "item"
+				item: "industrialforegoing:ore_laser_base"
+			}]
+		}
+		{
+			x: -18.5d
+			y: -7.0d
+			id: "7049C94D7EA1CEC7"
+			tasks: [{
+				id: "209EA0D68AE2E09C"
+				type: "item"
+				item: "industrialforegoing:laser_drill"
+			}]
+		}
+		{
+			x: -19.5d
+			y: -6.5d
+			id: "10454AD92FB46DEA"
+			tasks: [{
+				id: "4B9868FDB129C99B"
+				type: "item"
+				item: "industrialforegoing:fluid_laser_base"
+			}]
+		}
+		{
+			x: -14.5d
+			y: -7.0d
+			id: "12838C836DB614C9"
+			tasks: [{
+				id: "4FB98B5A5A00AE0F"
+				type: "item"
+				item: "industrialforegoing:ether_gas_bucket"
+			}]
+		}
+	]
+}

@@ -1,0 +1,1905 @@
+{
+	quest_links: [ ]
+	default_hide_dependency_lines: false
+	group: "7666C88BBE05D284"
+	id: "6AFA06F9D2292D67"
+	filename: "botania"
+	default_quest_shape: ""
+	icon: {
+		id: "botania:lexicon"
+		Count: 1b
+		tag: {
+			"botania:elven_unlock": 1b
+		}
+	}
+	title: "植物魔法"
+	order_index: 1
+	quests: [
+		{
+			tasks: [{
+				id: "2A9EAF63FC603FFB"
+				type: "checkmark"
+				title: "欢迎来到植物魔法"
+				icon: "botania:lexicon"
+			}]
+			description: ["使用这本书来帮助你更多了解这个模组."]
+			id: "2645AD6CFD0D5724"
+			x: 0.0d
+			y: 0.0d
+			rewards: [{
+				id: "4382A80F6312274C"
+				type: "item"
+				item: "botania:lexicon"
+			}]
+			dependencies: ["25974FEFF2398224"]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			id: "2A60010FD5360D39"
+			tasks: [{
+				id: "45E6782AC845AA2D"
+				type: "item"
+				item: "botania:apothecary_default"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -1.0d
+			id: "6D41D609835456A0"
+			tasks: [{
+				id: "17C71ACEA367A4C6"
+				type: "item"
+				item: "botania:mana_spreader"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -1.0d
+			id: "3D180DC9F0327CB0"
+			tasks: [{
+				id: "6A5AAB36A4B986A9"
+				type: "item"
+				item: "botania:elven_spreader"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -1.0d
+			id: "77977563CBEA1AE0"
+			tasks: [{
+				id: "7F45E68EBABF05CD"
+				type: "item"
+				item: "botania:gaia_spreader"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			id: "5F285C58E6424987"
+			tasks: [{
+				id: "4F765DC978D9B926"
+				type: "item"
+				item: "botania:mana_pool"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 1.0d
+			id: "6565044D10D0E57E"
+			tasks: [{
+				id: "72FD02969449BE8E"
+				type: "item"
+				item: "botania:livingwood_log"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 1.0d
+			id: "42E39D6E8059DCE0"
+			tasks: [{
+				id: "44062B562F8CEE18"
+				type: "item"
+				item: "botania:livingrock"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 1.0d
+			id: "1DAB1769FB5F1CCB"
+			tasks: [{
+				id: "4DD8DE8CA7BED07B"
+				type: "item"
+				item: "botania:dreamwood_log"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 2.0d
+			id: "10F735D78B88FDF0"
+			tasks: [{
+				id: "442D52B894A22D72"
+				type: "item"
+				item: "botania:alchemy_catalyst"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 2.0d
+			id: "1A9328B738709693"
+			tasks: [{
+				id: "432D2C102DDE7DF0"
+				type: "item"
+				item: "botania:conjuration_catalyst"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -3.5d
+			id: "47DA250B4456613C"
+			tasks: [{
+				id: "4C3AA3A0AD51BAFF"
+				type: "item"
+				item: "botania:mana_pylon"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -3.5d
+			id: "2B7744B836E880D7"
+			tasks: [{
+				id: "0F551E73A6D090E6"
+				type: "item"
+				item: "botania:natura_pylon"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -3.5d
+			id: "305D33A0D0FD2DC9"
+			tasks: [{
+				id: "58383B98EA9561D9"
+				type: "item"
+				item: "botania:gaia_pylon"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -4.5d
+			id: "5F8717C5A43731DE"
+			tasks: [{
+				id: "635B2535F949D861"
+				type: "item"
+				item: "botania:alfheim_portal"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 0.0d
+			id: "3774A49DC42C48F7"
+			tasks: [{
+				id: "198AF5BD7CA77450"
+				type: "item"
+				item: "botania:runic_altar"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 0.0d
+			id: "0D097DF79CE085BA"
+			tasks: [{
+				id: "4F18C546D617C4A0"
+				type: "item"
+				item: "botania:brewery"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -4.5d
+			id: "616095080D8649EB"
+			tasks: [{
+				id: "3F473C6C63B2A6DB"
+				type: "item"
+				item: "botania:terra_plate"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -4.5d
+			id: "101E2B38B35ED778"
+			tasks: [{
+				id: "1BC04AF9B08E7CF1"
+				type: "item"
+				item: "botania:enchanter"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -1.0d
+			id: "1DF8683252F988B0"
+			tasks: [{
+				id: "32ADB5A6C29A264B"
+				type: "item"
+				item: "botania:open_crate"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.0d
+			id: "1AC3CBE0225E9E39"
+			tasks: [{
+				id: "598EE624A17ABEDF"
+				type: "item"
+				item: {
+					id: "botania:twig_wand"
+					Count: 1b
+					tag: {
+						color1: 0
+						color2: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -10.0d
+			y: -7.5d
+			id: "09871136EBED580A"
+			tasks: [{
+				id: "4FFB9EF3E403B2A3"
+				type: "item"
+				item: "botania:fertilizer"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -10.5d
+			id: "3F36C8E1ACDF9CDC"
+			tasks: [{
+				id: "0E292A430B9B82C0"
+				type: "item"
+				item: "botania:white_petal"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -10.5d
+			id: "433E528259FCDE37"
+			tasks: [{
+				id: "1B94B09F929818EA"
+				type: "item"
+				item: "botania:orange_petal"
+			}]
+		}
+		{
+			x: -4.0d
+			y: -10.5d
+			id: "516BFF637133818E"
+			tasks: [{
+				id: "70BF3B967EB9D3A4"
+				type: "item"
+				item: "botania:magenta_petal"
+			}]
+		}
+		{
+			x: -5.0d
+			y: -10.5d
+			id: "53E87A5EBBDD4349"
+			tasks: [{
+				id: "1518B7F991307A98"
+				type: "item"
+				item: "botania:light_blue_petal"
+			}]
+		}
+		{
+			x: -6.0d
+			y: -10.5d
+			id: "03A77DEC396B9C8A"
+			tasks: [{
+				id: "6A13AA9017384FDC"
+				type: "item"
+				item: "botania:yellow_petal"
+			}]
+		}
+		{
+			x: -7.0d
+			y: -10.5d
+			id: "059F17D3F8ACE023"
+			tasks: [{
+				id: "771C08013CD3649D"
+				type: "item"
+				item: "botania:lime_petal"
+			}]
+		}
+		{
+			x: -8.0d
+			y: -10.5d
+			id: "28B010C78BB86820"
+			tasks: [{
+				id: "1E6188E8385B74A0"
+				type: "item"
+				item: "botania:pink_petal"
+			}]
+		}
+		{
+			x: -9.0d
+			y: -10.5d
+			id: "615139FC581D52FE"
+			tasks: [{
+				id: "0A8FB2D692B66CBB"
+				type: "item"
+				item: "botania:gray_petal"
+			}]
+		}
+		{
+			x: -10.0d
+			y: -10.5d
+			id: "134F9CF90B510384"
+			tasks: [{
+				id: "19D3F5B0388CB577"
+				type: "item"
+				item: "botania:light_gray_petal"
+			}]
+		}
+		{
+			x: -11.0d
+			y: -10.5d
+			id: "0AD0DC3489D7BC5F"
+			tasks: [{
+				id: "746A6357BC9B894D"
+				type: "item"
+				item: "botania:cyan_petal"
+			}]
+		}
+		{
+			x: -12.0d
+			y: -10.5d
+			id: "467A25AD082B5232"
+			tasks: [{
+				id: "0BA7DBF37E8879F1"
+				type: "item"
+				item: "botania:purple_petal"
+			}]
+		}
+		{
+			x: -13.0d
+			y: -10.5d
+			id: "32789B4D6A8E0400"
+			tasks: [{
+				id: "512DA681048AA083"
+				type: "item"
+				item: "botania:blue_petal"
+			}]
+		}
+		{
+			x: -14.0d
+			y: -10.5d
+			id: "7FF4C1A160817406"
+			tasks: [{
+				id: "4DA70358BB43D550"
+				type: "item"
+				item: "botania:brown_petal"
+			}]
+		}
+		{
+			x: -15.0d
+			y: -10.5d
+			id: "5A98234603E242BE"
+			tasks: [{
+				id: "48082B025FBD2DFF"
+				type: "item"
+				item: "botania:green_petal"
+			}]
+		}
+		{
+			x: -16.0d
+			y: -10.5d
+			id: "47D2AEA9B45A32A9"
+			tasks: [{
+				id: "246BC77E4CF425D7"
+				type: "item"
+				item: "botania:red_petal"
+			}]
+		}
+		{
+			x: -17.0d
+			y: -10.5d
+			id: "490B61D6CF26431C"
+			tasks: [{
+				id: "5D4F4CA82C02F927"
+				type: "item"
+				item: "botania:black_petal"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -6.0d
+			id: "717139B34A39DE5E"
+			tasks: [{
+				id: "11704375A78C6FF6"
+				type: "item"
+				item: "botania:manasteel_ingot"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -6.0d
+			id: "1F6A7713ACA56E3F"
+			tasks: [{
+				id: "114A95FC49B9176D"
+				type: "item"
+				item: "botania:mana_pearl"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -6.0d
+			id: "0016C17051C60C02"
+			tasks: [{
+				id: "704CCB0503034369"
+				type: "item"
+				item: "botania:mana_diamond"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -2.5d
+			id: "77561EDE2F30E20B"
+			tasks: [{
+				id: "46F0CE3F1B5F6A62"
+				type: "item"
+				item: "botania:terrasteel_ingot"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -7.0d
+			id: "4DFE8A3650485E9F"
+			tasks: [{
+				id: "5DE8209E6E972E3D"
+				type: "item"
+				item: "botania:elementium_ingot"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -7.0d
+			id: "358C6C4BD7076A28"
+			tasks: [{
+				id: "1CE9AA3D5F3B33DC"
+				type: "item"
+				item: "botania:pixie_dust"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -7.0d
+			id: "14F61F1BB4FEA5AB"
+			tasks: [{
+				id: "2FD8766E4989DB7A"
+				type: "item"
+				item: "botania:dragonstone"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -10.0d
+			id: "4A0BA80F2C3BB394"
+			tasks: [{
+				id: "6E5FE4FE9456409F"
+				type: "item"
+				item: "botania:life_essence"
+			}]
+		}
+		{
+			x: 16.5d
+			y: -2.5d
+			id: "248738B7D2D789F4"
+			tasks: [{
+				id: "62533FCCC91EAF3D"
+				type: "item"
+				item: "botania:gaia_ingot"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -2.5d
+			id: "5965C0351BAAC10A"
+			tasks: [{
+				id: "6ED747C47F39818D"
+				type: "item"
+				item: "botania:ender_air_bottle"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -9.5d
+			id: "2F34DB62041101B3"
+			tasks: [{
+				id: "7BCA649A5AD0FF86"
+				type: "item"
+				item: "botania:white_mystical_flower"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -9.5d
+			id: "4F5C4049749340A0"
+			tasks: [{
+				id: "13EDD7AB81B51F5F"
+				type: "item"
+				item: "botania:orange_mystical_flower"
+			}]
+		}
+		{
+			x: -4.0d
+			y: -9.5d
+			id: "6950882D74FB94B9"
+			tasks: [{
+				id: "70BC72DB213D7F4D"
+				type: "item"
+				item: "botania:magenta_mystical_flower"
+			}]
+		}
+		{
+			x: -5.0d
+			y: -9.5d
+			id: "471E26F27ED8BA96"
+			tasks: [{
+				id: "31F08153244366AE"
+				type: "item"
+				item: "botania:light_blue_mystical_flower"
+			}]
+		}
+		{
+			x: -6.0d
+			y: -9.5d
+			id: "7EC761375202C86D"
+			tasks: [{
+				id: "23C470FDE7730A7D"
+				type: "item"
+				item: "botania:yellow_mystical_flower"
+			}]
+		}
+		{
+			x: -7.0d
+			y: -9.5d
+			id: "7CE99F6FA4FE36F5"
+			tasks: [{
+				id: "0738DF8CF4E81825"
+				type: "item"
+				item: "botania:lime_mystical_flower"
+			}]
+		}
+		{
+			x: -8.0d
+			y: -9.5d
+			id: "5A2CD8508DC7B935"
+			tasks: [{
+				id: "4E69556CAFCC4098"
+				type: "item"
+				item: "botania:pink_mystical_flower"
+			}]
+		}
+		{
+			x: -9.0d
+			y: -9.5d
+			id: "2EAAC0F9740C8506"
+			tasks: [{
+				id: "2AB0ED96BE5CCEA5"
+				type: "item"
+				item: "botania:gray_mystical_flower"
+			}]
+		}
+		{
+			x: -10.0d
+			y: -9.5d
+			id: "7096C2D023485869"
+			tasks: [{
+				id: "72FD6BE838F149F6"
+				type: "item"
+				item: "botania:light_gray_mystical_flower"
+			}]
+		}
+		{
+			x: -11.0d
+			y: -9.5d
+			id: "440BAA15F83CB9F7"
+			tasks: [{
+				id: "06CE84D05D83C444"
+				type: "item"
+				item: "botania:cyan_mystical_flower"
+			}]
+		}
+		{
+			x: -12.0d
+			y: -9.5d
+			id: "550A73DD63DBA3CD"
+			tasks: [{
+				id: "247CC3281E3AE985"
+				type: "item"
+				item: "botania:purple_mystical_flower"
+			}]
+		}
+		{
+			x: -14.0d
+			y: -9.5d
+			id: "2D0B7C4CF4271874"
+			tasks: [{
+				id: "54BFF025A959B3D2"
+				type: "item"
+				item: "botania:brown_mystical_flower"
+			}]
+		}
+		{
+			x: -13.0d
+			y: -9.5d
+			id: "6206F65CC4212988"
+			tasks: [{
+				id: "2F87884EB359B928"
+				type: "item"
+				item: "botania:blue_mystical_flower"
+			}]
+		}
+		{
+			x: -16.0d
+			y: -9.5d
+			id: "2BD16F7C0C476EBF"
+			tasks: [{
+				id: "040F3062B547B06D"
+				type: "item"
+				item: "botania:red_mystical_flower"
+			}]
+		}
+		{
+			x: -15.0d
+			y: -9.5d
+			id: "1D0977BE5882C692"
+			tasks: [{
+				id: "5063C66C988FD83D"
+				type: "item"
+				item: "botania:green_mystical_flower"
+			}]
+		}
+		{
+			x: -17.0d
+			y: -9.5d
+			id: "6F81FF5FC05DB705"
+			tasks: [{
+				id: "2CBA55AD863098E0"
+				type: "item"
+				item: "botania:black_mystical_flower"
+			}]
+		}
+		{
+			x: 10.5d
+			y: -5.0d
+			id: "3522799B97F5C255"
+			tasks: [{
+				id: "2C554804024A60E1"
+				type: "item"
+				item: "botania:rune_water"
+			}]
+		}
+		{
+			x: 11.5d
+			y: -5.0d
+			id: "5F8B8CD474DA53C8"
+			tasks: [{
+				id: "40256DCD8CF53F3F"
+				type: "item"
+				item: "botania:rune_fire"
+			}]
+		}
+		{
+			x: 12.5d
+			y: -5.0d
+			id: "47F8EE60FA6ACAAD"
+			tasks: [{
+				id: "39BEC860A2D142A5"
+				type: "item"
+				item: "botania:rune_earth"
+			}]
+		}
+		{
+			x: 13.5d
+			y: -5.0d
+			id: "66BF459AF7DE786B"
+			tasks: [{
+				id: "6ECEB768041A0213"
+				type: "item"
+				item: "botania:rune_air"
+			}]
+		}
+		{
+			x: 10.5d
+			y: -6.5d
+			id: "07AD210730B76F54"
+			tasks: [{
+				id: "4B7045703BAF67A2"
+				type: "item"
+				item: "botania:rune_spring"
+			}]
+		}
+		{
+			x: 11.5d
+			y: -6.5d
+			id: "1FFB4CC11B5DFC2C"
+			tasks: [{
+				id: "59CB10EB38416B81"
+				type: "item"
+				item: "botania:rune_summer"
+			}]
+		}
+		{
+			x: 12.5d
+			y: -6.5d
+			id: "2F032FE8C4E3959D"
+			tasks: [{
+				id: "34F6C0E5DBAAA665"
+				type: "item"
+				item: "botania:rune_autumn"
+			}]
+		}
+		{
+			x: 13.5d
+			y: -6.5d
+			id: "5C9FD919EC886C26"
+			tasks: [{
+				id: "2076E819371AD8DE"
+				type: "item"
+				item: "botania:rune_winter"
+			}]
+		}
+		{
+			x: 12.0d
+			y: -3.5d
+			id: "4BDEA8C3AC824302"
+			tasks: [{
+				id: "7B2521EF468FFE39"
+				type: "item"
+				item: "botania:rune_mana"
+			}]
+		}
+		{
+			x: 9.0d
+			y: -7.5d
+			id: "4F9962C71DFF6ACC"
+			tasks: [{
+				id: "7EB8CA1B4B78F3B6"
+				type: "item"
+				item: "botania:rune_lust"
+			}]
+		}
+		{
+			x: 10.0d
+			y: -7.5d
+			id: "0CADCE375580F13F"
+			tasks: [{
+				id: "0A81995F8CB1C71C"
+				type: "item"
+				item: "botania:rune_gluttony"
+			}]
+		}
+		{
+			x: 11.0d
+			y: -7.5d
+			id: "7F7300B5CBA97F73"
+			tasks: [{
+				id: "18E47A6AFCF21DE9"
+				type: "item"
+				item: "botania:rune_greed"
+			}]
+		}
+		{
+			x: 12.0d
+			y: -7.5d
+			id: "1E3F240CDE5F9688"
+			tasks: [{
+				id: "6691157B34DE3E2A"
+				type: "item"
+				item: "botania:rune_sloth"
+			}]
+		}
+		{
+			x: 13.0d
+			y: -7.5d
+			id: "6646F621253F55C7"
+			tasks: [{
+				id: "05A2588E712970A9"
+				type: "item"
+				item: "botania:rune_wrath"
+			}]
+		}
+		{
+			x: 14.0d
+			y: -7.5d
+			id: "4C6568D69F22C632"
+			tasks: [{
+				id: "2D40A110226DA8B8"
+				type: "item"
+				item: "botania:rune_envy"
+			}]
+		}
+		{
+			x: 15.0d
+			y: -7.5d
+			id: "6B23700BD2716D52"
+			tasks: [{
+				id: "3724486EC974C655"
+				type: "item"
+				item: "botania:rune_pride"
+			}]
+		}
+		{
+			x: -5.5d
+			y: -2.5d
+			id: "1FEE209952EB5DF6"
+			tasks: [{
+				id: "5459EED7C8BA627C"
+				type: "item"
+				item: "botania:grass_seeds"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -2.5d
+			id: "7D3972C9214438FB"
+			tasks: [{
+				id: "78B95BAD96ECA21C"
+				type: "item"
+				item: "botania:mycelium_seeds"
+			}]
+		}
+		{
+			x: -5.5d
+			y: -1.5d
+			id: "2B9EB0B515D81192"
+			tasks: [{
+				id: "1D4C9204F9B50986"
+				type: "item"
+				item: "botania:dirt_rod"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -1.5d
+			id: "0DEBF7754500AE83"
+			tasks: [{
+				id: "30F433FB53F881F0"
+				type: "item"
+				item: "botania:cobble_rod"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -1.5d
+			id: "70F1FCA512A54C63"
+			tasks: [{
+				id: "5092B388EBF575F6"
+				type: "item"
+				item: "botania:water_rod"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -2.5d
+			id: "7395397B19D74607"
+			tasks: [{
+				id: "4FD2B2B2BE212B2E"
+				type: "item"
+				item: "botania:podzol_seeds"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 4.5d
+			id: "39D24FD76789E29C"
+			tasks: [{
+				id: "52D6595DF120ECE1"
+				type: "item"
+				item: "botania:mana_ring"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 5.5d
+			id: "1C67CBF1F8EC967D"
+			tasks: [{
+				id: "7551C64A1FE5D4FF"
+				type: "item"
+				item: "botania:aura_ring"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 6.5d
+			id: "1628588A1511E80E"
+			tasks: [{
+				id: "3176CFD120E4C31F"
+				type: "item"
+				item: "botania:magnet_ring"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 4.5d
+			id: "2F144FB0B77D544C"
+			tasks: [{
+				id: "57A3763E91CCCC91"
+				type: "item"
+				item: "botania:mana_ring_greater"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 5.5d
+			id: "45BC76BA00053B3B"
+			tasks: [{
+				id: "05486575A3E5DE62"
+				type: "item"
+				item: "botania:aura_ring_greater"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 6.5d
+			id: "42513FB075486293"
+			tasks: [{
+				id: "5BC4D7CFBE5A4CA8"
+				type: "item"
+				item: "botania:magnet_ring_greater"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 6.5d
+			id: "7D462399B4DE921A"
+			tasks: [{
+				id: "015146B18EF1443F"
+				type: "item"
+				item: "botania:travel_belt"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 6.5d
+			id: "13B90FA604ABD0E7"
+			tasks: [{
+				id: "301B9EC24C094A56"
+				type: "item"
+				item: "botania:super_travel_belt"
+			}]
+		}
+		{
+			x: 6.5d
+			y: 6.5d
+			id: "3DDAF7B6B1172481"
+			tasks: [{
+				id: "02568A167B397E20"
+				type: "item"
+				item: "botania:speed_up_belt"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 8.5d
+			id: "33F660F7DE03EBB1"
+			tasks: [{
+				id: "06D9A2C128CE4B6E"
+				type: "item"
+				item: "botania:water_ring"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 8.5d
+			id: "11BC2F40BCD59ED2"
+			tasks: [{
+				id: "708FE1F011E3135C"
+				type: "item"
+				item: "botania:swap_ring"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 9.5d
+			id: "727327A959E65149"
+			tasks: [{
+				id: "118D694A58B05106"
+				type: "item"
+				item: "botania:dodge_ring"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 9.5d
+			id: "560E782F8FCFA536"
+			tasks: [{
+				id: "07536B98DACA2376"
+				type: "item"
+				item: "botania:mining_ring"
+			}]
+		}
+		{
+			x: 9.0d
+			y: -1.0d
+			id: "1701BB3FB8EED49C"
+			tasks: [{
+				id: "37AD73CBC0848405"
+				type: "item"
+				item: "botania:spark"
+			}]
+		}
+		{
+			x: 10.0d
+			y: -1.0d
+			id: "2654A28DE82A9E78"
+			tasks: [{
+				id: "4CFD9DF28D1725C3"
+				type: "item"
+				item: "botania:corporea_spark"
+			}]
+		}
+		{
+			x: 11.0d
+			y: -1.0d
+			id: "476ABD7C892C565C"
+			tasks: [{
+				id: "773870245B73C16A"
+				type: "item"
+				item: "botania:corporea_spark_master"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -4.5d
+			id: "08848526F3637410"
+			tasks: [{
+				id: "3BFE189E98B7477C"
+				type: "item"
+				item: "botania:black_lotus"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -4.5d
+			id: "01F8FEA37C115AD3"
+			tasks: [{
+				id: "24594B16EAF9AF38"
+				type: "item"
+				item: "botania:blacker_lotus"
+			}]
+		}
+		{
+			x: 8.5d
+			y: 0.0d
+			id: "17CB089BBA545C35"
+			tasks: [{
+				id: "14BA51B34DA4BD97"
+				type: "item"
+				item: "botania:spark_upgrade_dispersive"
+			}]
+		}
+		{
+			x: 9.5d
+			y: 0.0d
+			id: "69D63792C7809635"
+			tasks: [{
+				id: "09A485247CACBF74"
+				type: "item"
+				item: "botania:spark_upgrade_dominant"
+			}]
+		}
+		{
+			x: 10.5d
+			y: 0.0d
+			id: "0300B56F4AA284FB"
+			tasks: [{
+				id: "57E1EFA7B7ADC574"
+				type: "item"
+				item: "botania:spark_upgrade_recessive"
+			}]
+		}
+		{
+			x: 11.5d
+			y: 0.0d
+			id: "5B95E8055275E66B"
+			tasks: [{
+				id: "3FA8D4688CF53DB0"
+				type: "item"
+				item: "botania:spark_upgrade_isolated"
+			}]
+		}
+		{
+			x: -5.5d
+			y: -4.5d
+			id: "6762FD8B0ADFB56E"
+			tasks: [{
+				id: "075B04B3093C6528"
+				type: "item"
+				item: "botania:overgrowth_seed"
+			}]
+		}
+		{
+			x: 18.0d
+			y: -2.5d
+			id: "03222C2AC1706DA0"
+			tasks: [{
+				id: "3D5A4E3FE695C7B3"
+				type: "item"
+				item: {
+					id: "botania:dice"
+					Count: 1b
+					tag: {
+						soulbindUUID: "d922c4dc-9798-415b-8751-15bb2a3f64ef"
+					}
+				}
+			}]
+		}
+		{
+			x: 19.0d
+			y: -3.5d
+			id: "1B226DDD91A87766"
+			tasks: [{
+				id: "04977761825FA17D"
+				type: "item"
+				item: {
+					id: "botania:infinite_fruit"
+					Count: 1b
+					tag: {
+						soulbindUUID: "d922c4dc-9798-415b-8751-15bb2a3f64ef"
+					}
+				}
+			}]
+		}
+		{
+			x: 19.0d
+			y: -2.5d
+			id: "2073E0E490E0F9E1"
+			tasks: [{
+				id: "2CFB20DDD5C9D157"
+				type: "item"
+				item: {
+					id: "botania:king_key"
+					Count: 1b
+					tag: {
+						soulbindUUID: "d922c4dc-9798-415b-8751-15bb2a3f64ef"
+					}
+				}
+			}]
+		}
+		{
+			x: 19.0d
+			y: -1.5d
+			id: "2CC4779BE7207C81"
+			tasks: [{
+				id: "4E94D5FDF68CC480"
+				type: "item"
+				item: {
+					id: "botania:flugel_eye"
+					Count: 1b
+					tag: {
+						soulbindUUID: "d922c4dc-9798-415b-8751-15bb2a3f64ef"
+					}
+				}
+			}]
+		}
+		{
+			x: 20.0d
+			y: -3.5d
+			id: "4809E43E1A6FB4BD"
+			tasks: [{
+				id: "67F77C5C10473469"
+				type: "item"
+				item: {
+					id: "botania:thor_ring"
+					Count: 1b
+					tag: {
+						soulbindUUID: "d922c4dc-9798-415b-8751-15bb2a3f64ef"
+					}
+				}
+			}]
+		}
+		{
+			x: 20.0d
+			y: -2.5d
+			id: "5A7E3ACEFBC92C01"
+			tasks: [{
+				id: "7D3B2C665394F696"
+				type: "item"
+				item: {
+					id: "botania:odin_ring"
+					Count: 1b
+					tag: {
+						baubleUUID: [I;
+							-1792299142
+							-1223930752
+							-1979999864
+							1758080916
+						]
+						soulbindUUID: "d922c4dc-9798-415b-8751-15bb2a3f64ef"
+					}
+				}
+			}]
+		}
+		{
+			x: 20.0d
+			y: -1.5d
+			id: "17DACFBA8EF62276"
+			tasks: [{
+				id: "07F1B39C88976612"
+				type: "item"
+				item: {
+					id: "botania:loki_ring"
+					Count: 1b
+					tag: {
+						xOrigin: 0
+						soulbindUUID: "d922c4dc-9798-415b-8751-15bb2a3f64ef"
+						zOrigin: 0
+						yOrigin: -2147483648
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			id: "12423B72BCA97AAB"
+			tasks: [{
+				id: "484A6643FC3CF1C8"
+				type: "item"
+				item: "botania:pure_daisy"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 3.5d
+			id: "34A8D077AD4E6315"
+			tasks: [{
+				id: "15A2347E2839D878"
+				type: "item"
+				item: "botania:hydroangeas"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 4.5d
+			id: "23C0B3AFFD2F3D5A"
+			tasks: [{
+				id: "182E23E30AAE8855"
+				type: "item"
+				item: "botania:endoflame"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 5.5d
+			id: "18565867C873182C"
+			tasks: [{
+				id: "744A5F48C6976608"
+				type: "item"
+				item: "botania:manastar"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 2.5d
+			id: "688CEA90885A127B"
+			tasks: [{
+				id: "0EABB6249A7EE5D7"
+				type: "item"
+				item: "botania:thermalily"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 3.5d
+			id: "2C3DA12DD8591048"
+			tasks: [{
+				id: "1127ECCCA173F619"
+				type: "item"
+				item: "botania:rosa_arcana"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 4.5d
+			id: "6598DF56ED52F840"
+			tasks: [{
+				id: "746A4947C98FF9DA"
+				type: "item"
+				item: "botania:munchdew"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 5.5d
+			id: "32A1D7A8848D43C8"
+			tasks: [{
+				id: "3786D9002968411F"
+				type: "item"
+				item: "botania:entropinnyum"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 6.5d
+			id: "1701E71E8F4D2CC4"
+			tasks: [{
+				id: "5037F83F27F8FAA5"
+				type: "item"
+				item: "botania:kekimurus"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 7.5d
+			id: "31C2F96BF3F1E9F3"
+			tasks: [{
+				id: "79650DB97C4E4D00"
+				type: "item"
+				item: "botania:gourmaryllis"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 2.5d
+			id: "70B2D558F9CF66BD"
+			tasks: [{
+				id: "55BCA4B7385635CF"
+				type: "item"
+				item: "botania:narslimmus"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 3.5d
+			id: "70A1BE937E421FA3"
+			tasks: [{
+				id: "28E81FF3B0DCB59D"
+				type: "item"
+				item: "botania:spectrolus"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 4.5d
+			id: "3FEAFEEB1C99B342"
+			tasks: [{
+				id: "5B311FCF5FAE24A7"
+				type: "item"
+				item: "botania:rafflowsia"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 5.5d
+			id: "556682C2ED3EF533"
+			tasks: [{
+				id: "3B05473809FE1DB4"
+				type: "item"
+				item: "botania:shulk_me_not"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 6.5d
+			id: "0C8E33A71EC18FD3"
+			tasks: [{
+				id: "7522F02C36FE45D6"
+				type: "item"
+				item: "botania:dandelifeon"
+			}]
+		}
+		{
+			x: -8.0d
+			y: 2.5d
+			id: "7C350DEA56936B44"
+			tasks: [{
+				id: "75F96355512D4BA6"
+				type: "item"
+				item: "botania:bellethorn"
+			}]
+		}
+		{
+			x: -8.0d
+			y: 3.5d
+			id: "27B559A4FDEEB68D"
+			tasks: [{
+				id: "47B32B024DC85A95"
+				type: "item"
+				item: "botania:bergamute"
+			}]
+		}
+		{
+			x: -8.0d
+			y: 4.5d
+			id: "6804BD1B1C47629A"
+			tasks: [{
+				id: "06CBBCE6B47F3451"
+				type: "item"
+				item: "botania:dreadthorn"
+			}]
+		}
+		{
+			x: -8.0d
+			y: 5.5d
+			id: "337E5DAE14DE7847"
+			tasks: [{
+				id: "7C593673E05CBE50"
+				type: "item"
+				item: "botania:heisei_dream"
+			}]
+		}
+		{
+			x: -8.0d
+			y: 6.5d
+			id: "04BFD75168BE105D"
+			tasks: [{
+				id: "1749A016B3BAD729"
+				type: "item"
+				item: "botania:tigerseye"
+			}]
+		}
+		{
+			x: -12.0d
+			y: 2.5d
+			id: "45922CBDA8639DBC"
+			tasks: [{
+				id: "65DDBA8370DB22E2"
+				type: "item"
+				item: "botania:jaded_amaranthus"
+			}]
+		}
+		{
+			x: -9.0d
+			y: 2.5d
+			id: "1288AB27DA5C9F4B"
+			tasks: [{
+				id: "4C0A007AD7DF8574"
+				type: "item"
+				item: "botania:orechid"
+			}]
+		}
+		{
+			x: -9.0d
+			y: 3.5d
+			id: "1795307BBBBBDDC2"
+			tasks: [{
+				id: "17748348DF03CB57"
+				type: "item"
+				item: "botania:fallen_kanade"
+			}]
+		}
+		{
+			x: -9.0d
+			y: 4.5d
+			id: "5DE65595C4B7645D"
+			tasks: [{
+				id: "38288A1621B01E75"
+				type: "item"
+				item: "botania:exoflame"
+			}]
+		}
+		{
+			x: -9.0d
+			y: 5.5d
+			id: "54EAF72B860FE761"
+			tasks: [{
+				id: "3C48A9E9094BE982"
+				type: "item"
+				item: "botania:agricarnation"
+			}]
+		}
+		{
+			x: -9.0d
+			y: 6.5d
+			id: "039F9E9B4098732A"
+			tasks: [{
+				id: "5803C2D580C052EC"
+				type: "item"
+				item: "botania:hopperhock"
+			}]
+		}
+		{
+			x: -12.0d
+			y: 6.5d
+			id: "772D773E5D715B49"
+			tasks: [{
+				id: "211358784597F289"
+				type: "item"
+				item: "botania:tangleberrie"
+			}]
+		}
+		{
+			x: -12.0d
+			y: 5.5d
+			id: "35BB0A6CB1C53F55"
+			tasks: [{
+				id: "2DF223EA5569276D"
+				type: "item"
+				item: "botania:jiyuulia"
+			}]
+		}
+		{
+			x: -10.0d
+			y: 6.5d
+			id: "33B6B5EB2351CF5A"
+			tasks: [{
+				id: "5C85C633F9F18B10"
+				type: "item"
+				item: "botania:rannuncarpus"
+			}]
+		}
+		{
+			x: -10.0d
+			y: 5.5d
+			id: "0C70BC7D70BFC207"
+			tasks: [{
+				id: "34A9CBE3FA6D725F"
+				type: "item"
+				item: "botania:hyacidus"
+			}]
+		}
+		{
+			x: -10.0d
+			y: 4.5d
+			id: "3DD05A3C2FE62B8F"
+			tasks: [{
+				id: "163219C5E3C5FEEE"
+				type: "item"
+				item: "botania:pollidisiac"
+			}]
+		}
+		{
+			x: -10.0d
+			y: 3.5d
+			id: "7607B134E3F8606A"
+			tasks: [{
+				id: "13CE78661CFF73B7"
+				type: "item"
+				item: "botania:clayconia"
+			}]
+		}
+		{
+			x: -10.0d
+			y: 2.5d
+			id: "0CF607478EF4B44B"
+			tasks: [{
+				id: "604BBEEE15087202"
+				type: "item"
+				item: "botania:loonium"
+			}]
+		}
+		{
+			x: -11.0d
+			y: 2.5d
+			id: "35F4E6257163D891"
+			tasks: [{
+				id: "67D92CD1FC6ED1C7"
+				type: "item"
+				item: "botania:daffomill"
+			}]
+		}
+		{
+			x: -11.0d
+			y: 3.5d
+			id: "7207F05ABD93CC15"
+			tasks: [{
+				id: "5BC6E2DFF7568B90"
+				type: "item"
+				item: "botania:vinculotus"
+			}]
+		}
+		{
+			x: -11.0d
+			y: 4.5d
+			id: "6AA4A2E4D44EB9B1"
+			tasks: [{
+				id: "5B06E4E4591A001E"
+				type: "item"
+				item: "botania:spectranthemum"
+			}]
+		}
+		{
+			x: -11.0d
+			y: 5.5d
+			id: "5CF12B714E1A1415"
+			tasks: [{
+				id: "3FC1D3F3CB373A42"
+				type: "item"
+				item: "botania:medumone"
+			}]
+		}
+		{
+			x: -11.0d
+			y: 6.5d
+			id: "57F0F854CA7518A4"
+			tasks: [{
+				id: "23D49DB12852A51D"
+				type: "item"
+				item: "botania:marimorphosis"
+			}]
+		}
+		{
+			x: -12.0d
+			y: 4.5d
+			id: "10D5D3BF60C21C9B"
+			tasks: [{
+				id: "72B60DB426DAA337"
+				type: "item"
+				item: "botania:bubbell"
+			}]
+		}
+		{
+			x: -9.0d
+			y: 1.5d
+			id: "119501D04E6AF788"
+			tasks: [{
+				id: "14E3E2F814FAAA59"
+				type: "item"
+				item: "botania:orechid_ignem"
+			}]
+		}
+		{
+			x: -12.0d
+			y: 3.5d
+			id: "01F2FC2ADDE3A599"
+			tasks: [{
+				id: "0A6684EFD1A83C6B"
+				type: "item"
+				item: "botania:solegnolia"
+			}]
+		}
+		{
+			x: 9.5d
+			y: -6.5d
+			id: "3D2CD282361EFAF1"
+			tasks: [{
+				id: "11A88A8E200CEA3F"
+				type: "item"
+				item: "botanicadds:rune_tp"
+			}]
+		}
+		{
+			x: 14.5d
+			y: -6.5d
+			id: "449218ADB6A7707A"
+			tasks: [{
+				id: "69D5E622A8E074E5"
+				type: "item"
+				item: "botanicadds:rune_energy"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -10.0d
+			id: "55CD4E7EA279A018"
+			tasks: [{
+				id: "6D8252B13A564BCD"
+				type: "item"
+				item: "botanicadds:gaiasteel_ingot"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -10.0d
+			id: "771EEB4D76C72A7F"
+			tasks: [{
+				id: "17EBAA3F82217F6D"
+				type: "item"
+				item: "botanicadds:gaia_shard"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -8.0d
+			id: "3444851100AD5AE4"
+			tasks: [{
+				id: "53C5DD9F7D5ED548"
+				type: "item"
+				item: "botanicadds:mana_lapis"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -8.0d
+			id: "77F15E454F848050"
+			tasks: [{
+				id: "11AF5CDF2A664F6F"
+				type: "item"
+				item: "botanicadds:elven_lapis"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -8.0d
+			id: "407D072F1C4BB2A2"
+			tasks: [{
+				id: "34B82B745A931DCD"
+				type: "item"
+				item: "botania:mana_powder"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -3.5d
+			id: "202762689DE5BC2F"
+			tasks: [{
+				id: "5268DBF96A73E9BA"
+				type: "item"
+				item: "botanicadds:gaiasteel_pylon"
+			}]
+		}
+		{
+			x: 7.0d
+			y: -3.0d
+			id: "2A1E621817DE944D"
+			tasks: [{
+				id: "4789101A682DA219"
+				type: "item"
+				item: "botanicadds:terra_catalyst"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -4.5d
+			id: "3B68DCE5C212769E"
+			tasks: [{
+				id: "40C1AB9E60A3C6DD"
+				type: "item"
+				item: "botanicadds:gaia_plate"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -4.5d
+			id: "4927C93C7E845CE3"
+			tasks: [{
+				id: "2B28E9CB78A0B10D"
+				type: "item"
+				item: "botanicadds:elven_brewery"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -4.5d
+			id: "120259611E3092EA"
+			tasks: [{
+				id: "1248DE4119188878"
+				type: "item"
+				item: "botanicadds:elven_altar"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -5.5d
+			id: "4E61386915ED2DD5"
+			tasks: [{
+				id: "64EE556DC42FF8E0"
+				type: "item"
+				item: "botanicadds:dreaming_pool"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -3.5d
+			id: "54CCDD7DCA1E4CAC"
+			tasks: [{
+				id: "6CCE20703D509E32"
+				type: "item"
+				item: "botanicadds:dreamrock"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 3.0d
+			id: "79A7480972F06BBC"
+			tasks: [{
+				id: "5786CDC6A3C5C5F0"
+				type: "item"
+				item: "botanicadds:mana_tesseract"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 4.5d
+			id: "6C1353A53FAF8AB6"
+			tasks: [{
+				id: "451BD1691B181FA0"
+				type: "item"
+				item: "botanicadds:mana_ring_gaia"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 5.5d
+			id: "1681E064E09A2339"
+			tasks: [{
+				id: "2184A0919E431AB6"
+				type: "item"
+				item: "botanicadds:aura_ring_gaia"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 7.5d
+			id: "35AB05ECEDD51E8C"
+			tasks: [{
+				id: "26178B876DDC867E"
+				type: "item"
+				item: "botanicadds:flowers/energizera"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 8.5d
+			id: "750C5E3F229B79C3"
+			tasks: [{
+				id: "786039359755FB99"
+				type: "item"
+				item: "botanicadds:flowers/vibrantia"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 8.5d
+			id: "684170C31916F957"
+			tasks: [{
+				id: "2D70E3471A7E803B"
+				type: "item"
+				item: "botanicadds:flowers/glaciflora"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 9.5d
+			id: "6D38BCFA2496C0D3"
+			tasks: [{
+				id: "012B016C6E2726D4"
+				type: "item"
+				item: "botanicadds:flowers/rainute"
+			}]
+		}
+		{
+			x: -8.0d
+			y: 7.5d
+			id: "0A7F5C6C14ECC8B2"
+			tasks: [{
+				id: "5E119055A3123E80"
+				type: "item"
+				item: "botanicadds:flowers/apicaria"
+			}]
+		}
+		{
+			x: -9.0d
+			y: 7.5d
+			id: "5A08C8D1BC138804"
+			tasks: [{
+				id: "0194605839590014"
+				type: "item"
+				item: "botanicadds:flowers/necroidus"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 9.5d
+			id: "5A70FDAF0A097724"
+			tasks: [{
+				id: "202299D808DED047"
+				type: "item"
+				item: "botanicadds:flowers/tempestea"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 3.0d
+			id: "6223AE404888742D"
+			tasks: [{
+				id: "6F0784F6B594563C"
+				type: "item"
+				item: "botanicadds:tesseract_attuner"
+			}]
+		}
+	]
+}

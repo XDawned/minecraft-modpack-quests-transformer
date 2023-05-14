@@ -1,0 +1,2164 @@
+{
+	quest_links: [ ]
+	default_hide_dependency_lines: false
+	group: "269E1EFA0EF8FE1E"
+	id: "2FF8BCB311F3665A"
+	filename: "all_the_resources"
+	default_quest_shape: ""
+	icon: "minecraft:diamond"
+	title: "所有资源"
+	order_index: 2
+	quests: [
+		{
+			tasks: [{
+				id: "5FB55BECA7C12F95"
+				type: "checkmark"
+				title: "把所有东西都还我!"
+			}]
+			dependencies: ["105D595ADBD4A01F"]
+			id: "64DD566E4BA9569C"
+			y: 0.0d
+			x: 1.0d
+		}
+		{
+			tasks: [{
+				id: "6DCCAAAB1D57259E"
+				type: "item"
+				item: "minecraft:iron_block"
+			}]
+			id: "40C2E97C77F7C7E3"
+			y: -3.5d
+			x: -1.0d
+			rewards: [{
+				id: "55FE20C2E6A7BF45"
+				type: "item"
+				item: "minecraft:iron_ingot"
+				count: 64
+			}]
+		}
+		{
+			tasks: [{
+				id: "7A255FADD91EF594"
+				type: "item"
+				item: "cyclic:flint_block"
+			}]
+			id: "176BDB3C54AE4705"
+			y: -1.5d
+			x: -1.0d
+			rewards: [{
+				id: "6F9B4B170C19AFBC"
+				type: "item"
+				item: "minecraft:flint"
+				count: 64
+			}]
+		}
+		{
+			tasks: [{
+				id: "0E2F4A82AC1D8C59"
+				type: "item"
+				item: "minecraft:coal_block"
+			}]
+			id: "4E4074BA07B089AF"
+			y: -1.5d
+			x: -2.0d
+			rewards: [{
+				id: "092044290F2F2C18"
+				type: "item"
+				item: "minecraft:coal"
+				count: 64
+			}]
+		}
+		{
+			tasks: [{
+				id: "0907CF9CD576DE8F"
+				type: "item"
+				item: "minecraft:lapis_block"
+			}]
+			id: "74FBE2596619BA15"
+			y: -2.5d
+			x: -2.0d
+			rewards: [{
+				id: "20DD312EA9788C04"
+				type: "item"
+				item: "minecraft:lapis_lazuli"
+				count: 64
+			}]
+		}
+		{
+			tasks: [{
+				id: "587ABEF0C91BAB41"
+				type: "item"
+				item: "minecraft:redstone_block"
+			}]
+			id: "7098A8C932F60D23"
+			y: -3.5d
+			x: -2.0d
+			rewards: [{
+				id: "498B145301461F51"
+				type: "item"
+				item: "minecraft:redstone"
+				count: 64
+			}]
+		}
+		{
+			tasks: [{
+				id: "4430A653EB671680"
+				type: "item"
+				item: "minecraft:gold_block"
+			}]
+			id: "299887E71D3E44B8"
+			y: -4.5d
+			x: -1.0d
+			rewards: [{
+				id: "00E430E9520A0E42"
+				type: "item"
+				item: "minecraft:gold_ingot"
+				count: 64
+			}]
+		}
+		{
+			tasks: [{
+				id: "2ED68DCAE6706B64"
+				type: "item"
+				item: "minecraft:diamond_block"
+			}]
+			id: "4047C986BF2399EB"
+			y: -5.5d
+			x: -1.0d
+			rewards: [{
+				id: "281283FCA4548CD6"
+				type: "item"
+				item: "minecraft:diamond"
+				count: 64
+			}]
+		}
+		{
+			tasks: [{
+				id: "3FE095C2EF4ABEBF"
+				type: "item"
+				item: "minecraft:emerald_block"
+			}]
+			id: "1DF9DC61E9A47028"
+			y: -6.5d
+			x: -1.0d
+			rewards: [{
+				id: "1DF634B716917080"
+				type: "item"
+				item: "minecraft:emerald"
+				count: 64
+			}]
+		}
+		{
+			tasks: [{
+				id: "1DC9738DCD99B5A4"
+				type: "item"
+				item: "minecraft:netherite_block"
+			}]
+			id: "122399CAA942DF40"
+			y: -5.5d
+			x: -2.0d
+			rewards: [{
+				id: "2964CAAEAE81FC39"
+				type: "item"
+				item: "minecraft:netherite_ingot"
+				count: 64
+			}]
+		}
+		{
+			tasks: [{
+				id: "6409FB44B7C7C948"
+				type: "item"
+				item: "minecraft:glowstone"
+			}]
+			id: "3E843EB543F76232"
+			y: -4.5d
+			x: -2.0d
+			rewards: [{
+				id: "09B61266FC2760CF"
+				type: "item"
+				item: "minecraft:glowstone_dust"
+				count: 64
+			}]
+		}
+		{
+			tasks: [{
+				id: "63496593FB54353A"
+				type: "item"
+				item: "extendedcrafting:nether_star_block"
+			}]
+			id: "1030FAE736A9B38C"
+			y: -6.5d
+			x: -2.0d
+			rewards: [{
+				id: "0419C4BDCF4D6B85"
+				type: "item"
+				item: "minecraft:nether_star"
+				count: 64
+			}]
+		}
+		{
+			tasks: [{
+				id: "752E51D49E53DB41"
+				type: "item"
+				item: "minecraft:copper_block"
+			}]
+			id: "302B27E11B3E3323"
+			y: -2.5d
+			x: -1.0d
+			rewards: [{
+				id: "5ACFD9A1DCAE4A62"
+				type: "item"
+				item: "minecraft:copper_ingot"
+				count: 64
+			}]
+		}
+		{
+			tasks: [{
+				id: "677AEB821C5154F9"
+				type: "item"
+				item: "thermal:apatite_block"
+			}]
+			id: "7ECAFC178E493BDF"
+			y: -1.5d
+			x: 0.0d
+			rewards: [{
+				id: "71EC47BAED1BA7DA"
+				type: "item"
+				item: "thermal:apatite"
+				count: 64
+			}]
+		}
+		{
+			tasks: [{
+				id: "516775992AE26A1C"
+				type: "item"
+				item: "thermal:cinnabar_block"
+			}]
+			id: "51319E46DF2C5180"
+			y: -2.5d
+			x: 0.0d
+			rewards: [{
+				id: "57467D86EBBD16C1"
+				type: "item"
+				item: "thermal:cinnabar"
+				count: 64
+			}]
+		}
+		{
+			tasks: [{
+				id: "2F18F929FC1C5991"
+				type: "item"
+				item: "thermal:niter_block"
+			}]
+			id: "25A8DAAFBB6B7258"
+			y: -3.5d
+			x: 0.0d
+			rewards: [{
+				id: "22BBBACF0C012BB7"
+				type: "item"
+				item: "thermal:niter"
+				count: 64
+			}]
+		}
+		{
+			tasks: [{
+				id: "5BE89A8D606499B6"
+				type: "item"
+				title: "铅块"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:storage_blocks/lead"
+					}
+				}
+			}]
+			rewards: [{
+				id: "279FAD2369939C7A"
+				type: "item"
+				item: "alltheores:lead_ingot"
+				count: 64
+			}]
+			id: "59F7906E1F645DDF"
+			y: -4.5d
+			x: 0.0d
+			title: "铅块"
+		}
+		{
+			tasks: [{
+				id: "12A24A2312162E37"
+				type: "item"
+				title: "镍块"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:storage_blocks/nickel"
+					}
+				}
+			}]
+			rewards: [{
+				id: "04374260DC5C6BAC"
+				type: "item"
+				item: "alltheores:nickel_ingot"
+				count: 64
+			}]
+			id: "0C6DC382BCAE20B2"
+			y: -5.5d
+			x: 0.0d
+			title: "镍块"
+		}
+		{
+			tasks: [{
+				id: "38727AE7F67472DE"
+				type: "item"
+				title: "银块"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:storage_blocks/silver"
+					}
+				}
+			}]
+			id: "671BFDDE9DEA68E7"
+			y: -6.5d
+			x: 0.0d
+			rewards: [{
+				id: "55373DBFC3218F69"
+				type: "item"
+				item: "alltheores:silver_ingot"
+				count: 64
+			}]
+		}
+		{
+			tasks: [{
+				id: "28D264E166B9F5F5"
+				type: "item"
+				title: "锡块"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:storage_blocks/tin"
+					}
+				}
+			}]
+			id: "6539FB253D9DF877"
+			y: -6.5d
+			x: 1.0d
+			rewards: [{
+				id: "17CC35D6058914C6"
+				type: "item"
+				item: "alltheores:tin_ingot"
+				count: 64
+			}]
+		}
+		{
+			tasks: [{
+				id: "453B650836D3C853"
+				type: "item"
+				title: "块"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:storage_blocks/platinum"
+					}
+				}
+			}]
+			id: "44D9C4B3602A0865"
+			y: -6.5d
+			x: 2.0d
+			rewards: [{
+				id: "6CEF8F38EB22541B"
+				type: "item"
+				item: "alltheores:platinum_ingot"
+				count: 64
+			}]
+		}
+		{
+			tasks: [{
+				id: "1EF5C9EC67328A8E"
+				type: "item"
+				title: "铝块"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:storage_blocks/aluminum"
+					}
+				}
+			}]
+			id: "7976F478A4B13BC2"
+			y: -5.5d
+			x: 1.0d
+			rewards: [{
+				id: "26054A3675C73280"
+				type: "item"
+				item: "alltheores:aluminum_ingot"
+				count: 64
+			}]
+		}
+		{
+			tasks: [{
+				id: "39097D96A5D040CE"
+				type: "item"
+				title: "锌块"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:storage_blocks/zinc"
+					}
+				}
+			}]
+			id: "29AB09A860B4E731"
+			y: -5.5d
+			x: 2.0d
+			rewards: [{
+				id: "47C5CECB7C84641C"
+				type: "item"
+				item: "alltheores:zinc_ingot"
+				count: 64
+			}]
+		}
+		{
+			tasks: [{
+				id: "7DE71FF9497FF211"
+				type: "item"
+				title: "铀块"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:storage_blocks/uranium"
+					}
+				}
+			}]
+			id: "104028D16AFEFE3A"
+			y: -4.5d
+			x: 1.0d
+			rewards: [{
+				id: "2FCC0DB5E41D3D78"
+				type: "item"
+				item: "alltheores:uranium_ingot"
+				count: 64
+			}]
+		}
+		{
+			tasks: [{
+				id: "525CF7772FF58132"
+				type: "item"
+				item: "thermal:sulfur_block"
+			}]
+			id: "505271DBC728E3FB"
+			y: -1.5d
+			x: 1.0d
+			rewards: [{
+				id: "5C357B26A089BF9C"
+				type: "item"
+				item: "thermal:sulfur"
+				count: 64
+			}]
+		}
+		{
+			tasks: [{
+				id: "682F90D4D93BD263"
+				type: "item"
+				title: "块"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:storage_blocks/osmium"
+					}
+				}
+			}]
+			id: "5A109EEEE89C9EC5"
+			y: -1.5d
+			x: 2.0d
+			rewards: [{
+				id: "61C269A5683853BA"
+				type: "item"
+				item: "alltheores:osmium_ingot"
+				count: 64
+			}]
+		}
+		{
+			tasks: [{
+				id: "13BD7501C4CD31B4"
+				type: "item"
+				item: "mekanism:block_fluorite"
+			}]
+			id: "7F720C9D390ADE43"
+			y: -2.5d
+			x: 2.0d
+			rewards: [{
+				id: "568065489DA4F55B"
+				type: "item"
+				item: "mekanism:fluorite_gem"
+				count: 64
+			}]
+		}
+		{
+			tasks: [{
+				id: "6FBC4B9C8A6E11FD"
+				type: "item"
+				item: "mekanism:block_salt"
+			}]
+			id: "6CCEA8CFC5187898"
+			y: -2.5d
+			x: 3.0d
+			rewards: [{
+				id: "480AEAE41470E691"
+				type: "item"
+				item: "mekanism:salt"
+				count: 64
+			}]
+		}
+		{
+			tasks: [{
+				id: "61EB63F47A76EFA4"
+				type: "item"
+				item: "thermal:gunpowder_block"
+			}]
+			id: "6E3B002ED05A2224"
+			y: -2.5d
+			x: 1.0d
+			rewards: [{
+				id: "6F913AE0C7FDD4B2"
+				type: "item"
+				item: "minecraft:gunpowder"
+				count: 64
+			}]
+		}
+		{
+			tasks: [{
+				id: "28E878ED03A8C633"
+				type: "item"
+				item: "minecraft:quartz_block"
+			}]
+			id: "7E026397026DDAB2"
+			y: -4.5d
+			x: -3.0d
+			rewards: [{
+				id: "78F0F484791970FB"
+				type: "item"
+				item: "minecraft:quartz"
+				count: 64
+			}]
+		}
+		{
+			tasks: [{
+				id: "49FA138BF5948022"
+				type: "item"
+				item: "mysticalagriculture:inferium_block"
+			}]
+			id: "1522CC51EC49D3F2"
+			y: -1.5d
+			x: -5.0d
+			rewards: [{
+				id: "7F35FAFE00E3BC5C"
+				type: "item"
+				item: "mysticalagriculture:inferium_essence"
+				count: 64
+			}]
+		}
+		{
+			tasks: [{
+				id: "789CDFE5FE914DAD"
+				type: "item"
+				item: "mysticalagriculture:soulium_block"
+			}]
+			id: "24C2464B3A3F392A"
+			y: -1.5d
+			x: -6.0d
+			rewards: [{
+				id: "265DBF9F17246F58"
+				type: "item"
+				item: "mysticalagriculture:soulium_dust"
+				count: 64
+			}]
+		}
+		{
+			tasks: [{
+				id: "1D9155AF15EEE0D0"
+				type: "item"
+				item: "mysticalagriculture:prosperity_block"
+			}]
+			id: "38AE097B2BB49D37"
+			y: -1.5d
+			x: -4.0d
+			rewards: [{
+				id: "4E79B6A28656ACEF"
+				type: "item"
+				item: "mysticalagriculture:prosperity_shard"
+				count: 64
+			}]
+		}
+		{
+			tasks: [{
+				id: "3FE947D7BD965F02"
+				type: "item"
+				item: "minecraft:amethyst_block"
+			}]
+			id: "16A9B32DB681A382"
+			y: -5.5d
+			x: -3.0d
+			rewards: [{
+				id: "7EEBCEAF77F21D64"
+				type: "item"
+				item: "minecraft:amethyst_shard"
+				count: 64
+			}]
+		}
+		{
+			tasks: [{
+				id: "5BA3A5A9847F006F"
+				type: "item"
+				item: "minecraft:honey_block"
+			}]
+			id: "6B7E1246B85CD508"
+			y: -3.5d
+			x: -3.0d
+			rewards: [{
+				id: "4476F92A6FD316AE"
+				type: "item"
+				item: "minecraft:honeycomb"
+				count: 64
+			}]
+		}
+		{
+			tasks: [{
+				id: "5FDDB1AE351AB7E3"
+				type: "item"
+				item: "minecraft:slime_block"
+			}]
+			id: "72DB9D7DDC2B6612"
+			y: -2.5d
+			x: -3.0d
+			rewards: [{
+				id: "70DA9D31D561DB9F"
+				type: "item"
+				item: "minecraft:slime_ball"
+				count: 64
+			}]
+		}
+		{
+			tasks: [{
+				id: "2B1EAACE3D372923"
+				type: "item"
+				item: "ad_astra:cheese_block"
+			}]
+			id: "6CDEE1D094BE8AD4"
+			y: -2.5d
+			x: 5.0d
+			rewards: [{
+				id: "04C9A502DA1E1B08"
+				type: "item"
+				item: "ad_astra:cheese"
+				count: 64
+			}]
+		}
+		{
+			tasks: [{
+				id: "19DDFCA467319F21"
+				type: "item"
+				item: "ad_astra:desh_block"
+			}]
+			id: "5B3647E1129008E6"
+			y: -3.5d
+			x: 5.0d
+			rewards: [{
+				id: "6D8A12656F986A68"
+				type: "item"
+				item: "ad_astra:desh_ingot"
+				count: 64
+			}]
+		}
+		{
+			tasks: [{
+				id: "6C2596425AE5D4DE"
+				type: "item"
+				item: "ad_astra:ostrum_block"
+			}]
+			id: "6E3A1339A7E600E5"
+			y: -4.5d
+			x: 5.0d
+			rewards: [{
+				id: "31B66C36185C3D03"
+				type: "item"
+				item: "ad_astra:ostrum_ingot"
+				count: 64
+			}]
+		}
+		{
+			tasks: [{
+				id: "1E6E5EABDABDF676"
+				type: "item"
+				item: "ad_astra:calorite_block"
+			}]
+			id: "2DB06E0306001F93"
+			y: -5.5d
+			x: 5.0d
+			rewards: [{
+				id: "0544B2963B52A3E8"
+				type: "item"
+				item: "ad_astra:calorite_ingot"
+				count: 64
+			}]
+		}
+		{
+			tasks: [{
+				id: "425D9AFC6D0C6BFF"
+				type: "item"
+				item: "alltheores:brass_block"
+			}]
+			id: "4F532D6052DB0D4A"
+			y: -4.5d
+			x: 2.0d
+			rewards: [{
+				id: "3A9E5775995C55AB"
+				type: "item"
+				item: "alltheores:brass_ingot"
+				count: 64
+			}]
+		}
+		{
+			tasks: [{
+				id: "6F965577CE2A91BD"
+				type: "item"
+				item: "allthemodium:allthemodium_block"
+			}]
+			id: "18440372566763B6"
+			y: -3.5d
+			x: 6.0d
+			rewards: [{
+				id: "62E85024A6F5D59B"
+				type: "item"
+				item: "allthemodium:allthemodium_ingot"
+				count: 64
+			}]
+		}
+		{
+			tasks: [{
+				id: "57C22ECC42D04424"
+				type: "item"
+				item: "allthemodium:vibranium_block"
+			}]
+			id: "5948AB6A80BF16AD"
+			y: -4.5d
+			x: 6.0d
+			rewards: [{
+				id: "4DF81E3BA4FCD808"
+				type: "item"
+				item: "allthemodium:vibranium_ingot"
+				count: 64
+			}]
+		}
+		{
+			tasks: [{
+				id: "1197F5221C3DE97E"
+				type: "item"
+				item: "allthemodium:unobtainium_block"
+			}]
+			id: "4A0A5E2A7B3984AE"
+			y: -5.5d
+			x: 6.0d
+			rewards: [{
+				id: "6475D5F781B4E2AA"
+				type: "item"
+				item: "allthemodium:unobtainium_ingot"
+				count: 64
+			}]
+		}
+		{
+			tasks: [{
+				id: "658FECC88D114B53"
+				type: "item"
+				item: "ae2:quartz_block"
+			}]
+			id: "6920DC08148B1510"
+			y: -3.5d
+			x: -4.0d
+			rewards: [{
+				id: "5D1F82104A171331"
+				type: "item"
+				item: "ae2:certus_quartz_crystal"
+				count: 64
+			}]
+		}
+		{
+			tasks: [{
+				id: "6EC8CD739714209A"
+				type: "item"
+				item: "ae2:fluix_block"
+			}]
+			id: "69E14CCD5C47BEEA"
+			y: -4.5d
+			x: -4.0d
+			rewards: [{
+				id: "58F3E1261B3D168E"
+				type: "item"
+				item: "ae2:fluix_crystal"
+				count: 64
+			}]
+		}
+		{
+			tasks: [{
+				id: "0E9F486913537435"
+				type: "item"
+				item: "blue_skies:moonstone_block"
+			}]
+			id: "5DB5A25A3EF1347D"
+			y: -2.5d
+			x: 8.0d
+			rewards: [{
+				id: "5816E2A7EA6011BB"
+				type: "item"
+				item: "blue_skies:moonstone"
+				count: 64
+			}]
+		}
+		{
+			tasks: [{
+				id: "6E8B5C7524D94238"
+				type: "item"
+				item: "blue_skies:sunstone_block"
+			}]
+			id: "0DB321E899F16824"
+			y: -3.5d
+			x: 8.0d
+			rewards: [{
+				id: "3A1C47F7026DB6B6"
+				type: "item"
+				item: "blue_skies:sunstone_crystal"
+				count: 64
+			}]
+		}
+		{
+			tasks: [{
+				id: "4E2EA49CDC27C3BA"
+				type: "item"
+				item: "blue_skies:falsite_block"
+			}]
+			id: "73A6BC794AD5EA0D"
+			y: -4.5d
+			x: 8.0d
+			rewards: [{
+				id: "01A11E1ADF9C8F21"
+				type: "item"
+				item: "blue_skies:falsite_ingot"
+				count: 64
+			}]
+		}
+		{
+			tasks: [{
+				id: "223C21230C842071"
+				type: "item"
+				item: "blue_skies:ventium_block"
+			}]
+			id: "73C5437B3B0B9B59"
+			y: -5.5d
+			x: 8.0d
+			rewards: [{
+				id: "02439528937221EF"
+				type: "item"
+				item: "blue_skies:ventium_ingot"
+				count: 64
+			}]
+		}
+		{
+			tasks: [{
+				id: "213F2D88887E1ECB"
+				type: "item"
+				item: "blue_skies:horizonite_block"
+			}]
+			id: "087CAA1E8D8319B8"
+			y: -5.5d
+			x: 9.0d
+			rewards: [{
+				id: "2CF85E37C5346EBB"
+				type: "item"
+				item: "blue_skies:horizonite_ingot"
+				count: 64
+			}]
+		}
+		{
+			tasks: [{
+				id: "0F6707D40D2AD6B6"
+				type: "item"
+				item: "blue_skies:pyrope_block"
+			}]
+			id: "218C89B61C61FD60"
+			y: -4.5d
+			x: 9.0d
+			rewards: [{
+				id: "5792894B880534DE"
+				type: "item"
+				item: "blue_skies:pyrope_gem"
+				count: 64
+			}]
+		}
+		{
+			tasks: [{
+				id: "47E8C3BE1B9BB86D"
+				type: "item"
+				item: "blue_skies:aquite_block"
+			}]
+			id: "36D6150EFDBE925C"
+			y: -3.5d
+			x: 9.0d
+			rewards: [{
+				id: "5971E7E062BE74EA"
+				type: "item"
+				item: "blue_skies:aquite"
+				count: 64
+			}]
+		}
+		{
+			tasks: [{
+				id: "0F3C04F9BBF77E60"
+				type: "item"
+				item: "blue_skies:diopside_block"
+			}]
+			id: "70B74187511BE382"
+			y: -2.5d
+			x: 9.0d
+			rewards: [{
+				id: "2ED05FBEA48B8686"
+				type: "item"
+				item: "blue_skies:diopside_gem"
+				count: 64
+			}]
+		}
+		{
+			tasks: [{
+				id: "0314398758319D4A"
+				type: "item"
+				item: "blue_skies:charoite_block"
+			}]
+			id: "3E6097918F8EDEBC"
+			y: -1.5d
+			x: 8.5d
+			rewards: [{
+				id: "40684E5C02850FE4"
+				type: "item"
+				item: "blue_skies:charoite"
+				count: 64
+			}]
+		}
+		{
+			tasks: [{
+				id: "30BE58DBDE9CB762"
+				type: "item"
+				item: "botania:manasteel_block"
+			}]
+			id: "32124CC8D22A8DE7"
+			y: -1.5d
+			x: 11.5d
+			rewards: [{
+				id: "011BD9981644F63B"
+				type: "item"
+				item: "botania:manasteel_ingot"
+				count: 64
+			}]
+		}
+		{
+			tasks: [{
+				id: "33025066AEFDCC6F"
+				type: "item"
+				item: "botania:terrasteel_block"
+			}]
+			id: "320B31B7B87CCEE0"
+			y: -2.5d
+			x: 11.5d
+			rewards: [{
+				id: "344EE285F4727068"
+				type: "item"
+				item: "botania:terrasteel_ingot"
+				count: 64
+			}]
+		}
+		{
+			tasks: [{
+				id: "72351E8C093BEAC9"
+				type: "item"
+				item: "botania:elementium_block"
+			}]
+			id: "6A9A09EAD892FC47"
+			y: -3.5d
+			x: 11.5d
+			rewards: [{
+				id: "4B315A8D7E965D81"
+				type: "item"
+				item: "botania:elementium_ingot"
+				count: 64
+			}]
+		}
+		{
+			tasks: [{
+				id: "58694578E93C757D"
+				type: "item"
+				item: "botania:mana_diamond_block"
+			}]
+			id: "5D920C14C6AEF614"
+			y: -4.5d
+			x: 11.5d
+			rewards: [{
+				id: "3661ADE6BB8636BF"
+				type: "item"
+				item: "botania:mana_diamond"
+				count: 64
+			}]
+		}
+		{
+			tasks: [{
+				id: "50F4161CDC4A5C52"
+				type: "item"
+				item: "botania:dragonstone_block"
+			}]
+			id: "424FE529CDC13BC2"
+			y: -5.5d
+			x: 11.5d
+			rewards: [{
+				id: "249CDF7356AD4B51"
+				type: "item"
+				item: "botania:dragonstone"
+				count: 64
+			}]
+		}
+		{
+			x: 12.5d
+			y: -5.5d
+			id: "2C856C90903E2DB1"
+			tasks: [{
+				id: "41B013706DF12016"
+				type: "item"
+				item: "botania:dark_quartz"
+			}]
+		}
+		{
+			tasks: [{
+				id: "24FE3ED4F419B30F"
+				type: "item"
+				item: "pneumaticcraft:compressed_iron_block"
+			}]
+			id: "0DB90161445C0F54"
+			y: 0.0d
+			x: 3.5d
+			rewards: [{
+				id: "4EA3CDC6A4A50671"
+				type: "item"
+				item: "pneumaticcraft:ingot_iron_compressed"
+				count: 64
+			}]
+		}
+		{
+			tasks: [{
+				id: "4A75F8771EAFF327"
+				type: "item"
+				item: "refinedstorage:quartz_enriched_iron_block"
+			}]
+			id: "2694152B49DC7EAB"
+			y: 0.0d
+			x: 4.5d
+			rewards: [{
+				id: "30D8EBAAD2321370"
+				type: "item"
+				item: "refinedstorage:quartz_enriched_iron"
+				count: 64
+			}]
+		}
+		{
+			tasks: [{
+				id: "404B70B0514212B5"
+				type: "item"
+				item: "powah:energized_steel_block"
+			}]
+			id: "6A3E70602FBE895A"
+			y: 0.0d
+			x: 6.0d
+			rewards: [{
+				id: "3529EB5EE51BEA40"
+				type: "item"
+				item: "powah:steel_energized"
+				count: 64
+			}]
+		}
+		{
+			tasks: [{
+				id: "01191AB066F2203B"
+				type: "item"
+				item: "powah:blazing_crystal_block"
+			}]
+			id: "448F9E25B309B1BA"
+			y: 0.0d
+			x: 7.0d
+			rewards: [{
+				id: "4FC773254B8495C5"
+				type: "item"
+				item: "powah:crystal_blazing"
+				count: 64
+			}]
+		}
+		{
+			tasks: [{
+				id: "43B0121E8E461014"
+				type: "item"
+				item: "powah:niotic_crystal_block"
+			}]
+			id: "1DC6B351CB59AE8B"
+			y: 0.0d
+			x: 8.0d
+			rewards: [{
+				id: "6D36074464D03817"
+				type: "item"
+				item: "powah:crystal_niotic"
+				count: 64
+			}]
+		}
+		{
+			tasks: [{
+				id: "6FCC8B91E560F2AF"
+				type: "item"
+				item: "powah:spirited_crystal_block"
+			}]
+			id: "296E7BE8CAB4431D"
+			y: 1.0d
+			x: 6.0d
+			rewards: [{
+				id: "7EFC130B695B2B88"
+				type: "item"
+				item: "powah:crystal_spirited"
+				count: 64
+			}]
+		}
+		{
+			tasks: [{
+				id: "768665F90E6119B8"
+				type: "item"
+				item: "powah:nitro_crystal_block"
+			}]
+			id: "230BAA8D674F2BC7"
+			y: 1.0d
+			x: 7.0d
+			rewards: [{
+				id: "7FC17CF074A1337C"
+				type: "item"
+				item: "powah:crystal_nitro"
+				count: 64
+			}]
+		}
+		{
+			tasks: [{
+				id: "71927ECBC30B7CB2"
+				type: "item"
+				item: "powah:uraninite_block"
+			}]
+			id: "7A2D3C76DBCB7406"
+			y: 1.0d
+			x: 8.0d
+			rewards: [{
+				id: "284EB4A4F6CC63DA"
+				type: "item"
+				item: "powah:uraninite"
+				count: 64
+			}]
+		}
+		{
+			tasks: [{
+				id: "5ACD9C1B763F3CDF"
+				type: "item"
+				item: "undergarden:cloggrum_block"
+			}]
+			id: "7EE3841D398C95E1"
+			y: 0.0d
+			x: 10.5d
+			rewards: [{
+				id: "4FADF4B6A0B53F68"
+				type: "item"
+				item: "undergarden:cloggrum_ingot"
+				count: 64
+			}]
+		}
+		{
+			tasks: [{
+				id: "26C465B01C082AA9"
+				type: "item"
+				item: "undergarden:froststeel_block"
+			}]
+			id: "311EEAE747482577"
+			y: 0.0d
+			x: 11.5d
+			rewards: [{
+				id: "7461B88A5549DE29"
+				type: "item"
+				item: "undergarden:froststeel_ingot"
+				count: 64
+			}]
+		}
+		{
+			tasks: [{
+				id: "761861E8779CA420"
+				type: "item"
+				item: "undergarden:utherium_block"
+			}]
+			id: "309F71BECD9F31F2"
+			y: 0.0d
+			x: 12.5d
+			rewards: [{
+				id: "693FAE256E857F0E"
+				type: "item"
+				item: "undergarden:utherium_crystal"
+				count: 64
+			}]
+		}
+		{
+			tasks: [{
+				id: "7B47083D3A80AEC9"
+				type: "item"
+				item: "undergarden:forgotten_block"
+			}]
+			id: "51D2D4F401331441"
+			y: 1.0d
+			x: 11.5d
+			rewards: [{
+				id: "5A6921598944786F"
+				type: "item"
+				item: "undergarden:forgotten_ingot"
+				count: 64
+			}]
+		}
+		{
+			tasks: [{
+				id: "62487C723E303128"
+				type: "item"
+				title: "钢块"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:storage_blocks/steel"
+					}
+				}
+			}]
+			rewards: [{
+				id: "365FA4CB4015EA7C"
+				type: "item"
+				item: "thermal:steel_ingot"
+				count: 64
+			}]
+			id: "2B56C081EF3DE5A6"
+			y: -3.5d
+			x: 1.0d
+			title: "钢块"
+		}
+		{
+			tasks: [{
+				id: "5576754DED6CA9D1"
+				type: "item"
+				title: "玫瑰金块"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:storage_blocks/rose_gold"
+					}
+				}
+			}]
+			id: "1468B304767600C9"
+			y: -3.5d
+			x: 2.0d
+			title: "玫瑰金块"
+		}
+		{
+			tasks: [{
+				id: "2B61F6DF1CC1839E"
+				type: "item"
+				title: "青铜块"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:storage_blocks/bronze"
+					}
+				}
+			}]
+			rewards: [{
+				id: "583353E694F37AD9"
+				type: "item"
+				item: "thermal:bronze_ingot"
+				count: 64
+			}]
+			id: "3A70DD786C20AAA5"
+			y: -3.5d
+			x: 3.0d
+			title: "青铜块"
+		}
+		{
+			tasks: [{
+				id: "678BAB1D6A99E336"
+				type: "item"
+				title: "琥珀金块"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:storage_blocks/electrum"
+					}
+				}
+			}]
+			icon: "thermal:electrum_block"
+			id: "5B62295EDF6A51F7"
+			x: 3.0d
+			y: -4.5d
+			title: "琥珀金块"
+			rewards: [{
+				id: "1B3EDA16D8E0737B"
+				type: "item"
+				item: "thermal:electrum_ingot"
+				count: 64
+			}]
+		}
+		{
+			tasks: [{
+				id: "5A79FEC1ADC5EEA5"
+				type: "item"
+				title: "殷钢方块"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:storage_blocks/invar"
+					}
+				}
+			}]
+			rewards: [{
+				id: "3ED9A80CD4AF1BF5"
+				type: "item"
+				item: "thermal:invar_ingot"
+				count: 64
+			}]
+			id: "5D5604EA5737F68D"
+			y: -5.5d
+			x: 3.0d
+			title: "殷钢块"
+		}
+		{
+			tasks: [{
+				id: "73B8FD0E4FC4D3CD"
+				type: "item"
+				title: "康铜块"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:storage_blocks/constantan"
+					}
+				}
+			}]
+			rewards: [{
+				id: "32C09CE4A10A7B5F"
+				type: "item"
+				item: "thermal:constantan_ingot"
+				count: 64
+			}]
+			id: "1CE30662CF547CC8"
+			y: -6.5d
+			x: 3.0d
+			title: "康铜块"
+		}
+		{
+			tasks: [{
+				id: "12118B768B245E66"
+				type: "item"
+				item: "undergarden:regalium_block"
+			}]
+			id: "20B948867C4702FE"
+			y: 1.0d
+			x: 10.5d
+			rewards: [{
+				id: "28C77412490ECD05"
+				type: "item"
+				item: "undergarden:regalium_crystal"
+				count: 64
+			}]
+		}
+		{
+			tasks: [{
+				id: "22591EAC8C3B0F90"
+				type: "item"
+				title: "信素块"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:storage_blocks/signalum"
+					}
+				}
+			}]
+			rewards: [{
+				id: "4C01F8A3B0E7FDB1"
+				type: "item"
+				item: "thermal:signalum_ingot"
+				count: 64
+			}]
+			id: "2C9031ED39837AE2"
+			y: -1.5d
+			x: 3.0d
+			title: "信素块"
+		}
+		{
+			tasks: [{
+				id: "6BFAA8455EE53A12"
+				type: "item"
+				title: "流明块"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:storage_blocks/lumium"
+					}
+				}
+			}]
+			id: "2000856F62475C60"
+			y: -1.5d
+			x: 4.0d
+			rewards: [{
+				id: "74AD7EB15587939A"
+				type: "item"
+				item: "thermal:lumium_ingot"
+				count: 64
+			}]
+		}
+		{
+			tasks: [{
+				id: "758D8E8BDAA26E59"
+				type: "item"
+				title: "末影块"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:storage_blocks/enderium"
+					}
+				}
+			}]
+			id: "20FAD22AC693B968"
+			y: -2.5d
+			x: 4.0d
+			rewards: [{
+				id: "3CAFF7125D0624A5"
+				type: "item"
+				item: "thermal:enderium_ingot"
+				count: 64
+			}]
+		}
+		{
+			tasks: [{
+				id: "2B27A9BE309A9F56"
+				type: "item"
+				item: "armorplus:block_lava_crystal"
+			}]
+			id: "00E95E78B769689A"
+			y: 1.0d
+			x: -1.5d
+			rewards: [{
+				id: "6FF73F37F08582FB"
+				type: "item"
+				item: "armorplus:lava_crystal"
+				count: 64
+			}]
+		}
+		{
+			tasks: [{
+				id: "016A439865EB821B"
+				type: "item"
+				item: "armorplus:block_frost_crystal"
+			}]
+			id: "57FE0E0527B21A25"
+			y: 1.0d
+			x: -2.5d
+			rewards: [{
+				id: "51A21A1068D90A1C"
+				type: "item"
+				item: "armorplus:frost_crystal"
+				count: 64
+			}]
+		}
+		{
+			tasks: [{
+				id: "5CE02E40471AE290"
+				type: "item"
+				item: "armorplus:block_infused_lava_crystal"
+			}]
+			id: "30DFC4B8B6D7B242"
+			y: 2.0d
+			x: -1.5d
+			rewards: [{
+				id: "06D1094B53F5FFF8"
+				type: "item"
+				item: "armorplus:infused_lava_crystal"
+				count: 64
+			}]
+		}
+		{
+			tasks: [{
+				id: "4FD9E35D4DFBCDCF"
+				type: "item"
+				item: "armorplus:block_infused_frost_crystal"
+			}]
+			id: "39315967568421CE"
+			y: 2.0d
+			x: -2.5d
+			rewards: [{
+				id: "693B2941ECE22BBA"
+				type: "item"
+				item: "armorplus:infused_frost_crystal"
+				count: 64
+			}]
+		}
+		{
+			tasks: [{
+				id: "02EA6742D3D8A3C7"
+				type: "item"
+				item: "botanicadds:gaiasteel_block"
+			}]
+			id: "4900D62128BB979A"
+			y: -4.5d
+			x: 12.5d
+			rewards: [{
+				id: "48D0A095933E5EC6"
+				type: "item"
+				item: "botanicadds:gaiasteel_ingot"
+				count: 64
+			}]
+		}
+		{
+			tasks: [{
+				id: "56D5D1721E2C65A8"
+				type: "item"
+				item: "botanicadds:mana_lapis_block"
+			}]
+			id: "49A73C3BF53D0285"
+			y: -3.5d
+			x: 12.5d
+			rewards: [{
+				id: "54E824C832F70A93"
+				type: "item"
+				item: "botanicadds:mana_lapis"
+				count: 64
+			}]
+		}
+		{
+			tasks: [{
+				id: "686CFD8399C9E451"
+				type: "item"
+				item: "botanicadds:elven_lapis_block"
+			}]
+			id: "36D0991701E3CD86"
+			y: -2.5d
+			x: 12.5d
+			rewards: [{
+				id: "4C31A5FA6AFFBAF1"
+				type: "item"
+				item: "botanicadds:elven_lapis"
+				count: 64
+			}]
+		}
+		{
+			tasks: [{
+				id: "3DC154EB1E38C6ED"
+				type: "item"
+				item: "ars_nouveau:source_gem_block"
+			}]
+			id: "24072A8A9BFDD079"
+			y: 1.0d
+			x: 0.0d
+			rewards: [{
+				id: "5FF0DC8C1E07F93B"
+				type: "item"
+				item: "ars_nouveau:source_gem"
+				count: 64
+			}]
+		}
+		{
+			tasks: [{
+				id: "454025C5E31BE113"
+				type: "item"
+				item: "extendedcrafting:luminessence_block"
+			}]
+			id: "26CACF31526C01AA"
+			y: 2.0d
+			x: 1.5d
+			rewards: [{
+				id: "3965A35545B11EF8"
+				type: "item"
+				item: "extendedcrafting:luminessence"
+				count: 64
+			}]
+		}
+		{
+			tasks: [{
+				id: "42D92858A2647088"
+				type: "item"
+				item: "extendedcrafting:black_iron_block"
+			}]
+			id: "3CEA41AA743ECBDE"
+			y: 2.0d
+			x: 2.5d
+			rewards: [{
+				id: "7929D91847EAD618"
+				type: "item"
+				item: "extendedcrafting:black_iron_ingot"
+				count: 64
+			}]
+		}
+		{
+			tasks: [{
+				id: "3F147B696DD4192D"
+				type: "item"
+				item: "extendedcrafting:redstone_ingot_block"
+			}]
+			id: "23C343BEEFFAEEB3"
+			y: 2.0d
+			x: 3.5d
+			rewards: [{
+				id: "21B47F251BE610C6"
+				type: "item"
+				item: "extendedcrafting:redstone_ingot"
+				count: 64
+			}]
+		}
+		{
+			tasks: [{
+				id: "532D1A8BBC92502E"
+				type: "item"
+				item: "extendedcrafting:enhanced_redstone_ingot_block"
+			}]
+			id: "5EA304E3705AD83B"
+			y: 2.0d
+			x: 4.5d
+			rewards: [{
+				id: "7CDBEEDAE4530AD3"
+				type: "item"
+				item: "extendedcrafting:enhanced_redstone_ingot"
+				count: 64
+			}]
+		}
+		{
+			tasks: [{
+				id: "419C0F6FA325E675"
+				type: "item"
+				item: "extendedcrafting:ender_ingot_block"
+			}]
+			id: "43E138B225058E21"
+			y: 3.0d
+			x: 1.5d
+			rewards: [{
+				id: "58A2402BE518211E"
+				type: "item"
+				item: "extendedcrafting:ender_ingot"
+				count: 64
+			}]
+		}
+		{
+			tasks: [{
+				id: "203ABCC128F55370"
+				type: "item"
+				item: "extendedcrafting:enhanced_ender_ingot_block"
+			}]
+			id: "6EB67EA748611B0C"
+			y: 3.0d
+			x: 2.5d
+			rewards: [{
+				id: "71173CF903A243A2"
+				type: "item"
+				item: "extendedcrafting:enhanced_ender_ingot"
+				count: 64
+			}]
+		}
+		{
+			tasks: [{
+				id: "0A305953AE1D540E"
+				type: "item"
+				item: "extendedcrafting:crystaltine_block"
+			}]
+			id: "741FE4D844532F8D"
+			y: 3.0d
+			x: 3.5d
+			rewards: [{
+				id: "2D33F6466B9A2A62"
+				type: "item"
+				item: "extendedcrafting:crystaltine_ingot"
+				count: 64
+			}]
+		}
+		{
+			tasks: [{
+				id: "6B03D7B8C29A14B7"
+				type: "item"
+				item: "extendedcrafting:the_ultimate_block"
+			}]
+			id: "52954DFD0250FDF3"
+			y: 3.0d
+			x: 4.5d
+			rewards: [{
+				id: "6932F2693B673B80"
+				type: "item"
+				item: "extendedcrafting:the_ultimate_ingot"
+				count: 64
+			}]
+		}
+		{
+			tasks: [{
+				id: "50B5F1F57E875326"
+				type: "item"
+				item: "extendedcrafting:flux_star_block"
+			}]
+			id: "67E933303C6AD2BB"
+			y: 4.0d
+			x: 1.5d
+			rewards: [{
+				id: "138786B45BFA5286"
+				type: "item"
+				item: "extendedcrafting:flux_star"
+				count: 64
+			}]
+		}
+		{
+			tasks: [{
+				id: "36186E8459F0C50E"
+				type: "item"
+				item: "extendedcrafting:ender_star_block"
+			}]
+			id: "37BC3DF34C944047"
+			y: 4.0d
+			x: 2.5d
+			rewards: [{
+				id: "6818BD1FF9DBD70C"
+				type: "item"
+				item: "extendedcrafting:ender_star"
+				count: 64
+			}]
+		}
+		{
+			tasks: [{
+				id: "527F8ACEA157D933"
+				type: "item"
+				item: "mysticalagriculture:prudentium_block"
+			}]
+			id: "2BFE018918692E32"
+			y: -2.5d
+			x: -5.0d
+			rewards: [{
+				id: "0D4C2DC4250EAB32"
+				type: "item"
+				item: "mysticalagriculture:prudentium_essence"
+				count: 64
+			}]
+		}
+		{
+			tasks: [{
+				id: "307166997A26B050"
+				type: "item"
+				item: "mysticalagriculture:tertium_block"
+			}]
+			id: "02DBBDE53A77866C"
+			y: -2.5d
+			x: -6.0d
+			rewards: [{
+				id: "354A90FD51EE8985"
+				type: "item"
+				item: "mysticalagriculture:tertium_essence"
+				count: 64
+			}]
+		}
+		{
+			tasks: [{
+				id: "46426FD7A0C371FF"
+				type: "item"
+				item: "mysticalagriculture:imperium_block"
+			}]
+			id: "63D931CE1E81D1A6"
+			y: -2.5d
+			x: -7.0d
+			rewards: [{
+				id: "6EAE6F2834B39624"
+				type: "item"
+				item: "mysticalagriculture:imperium_essence"
+				count: 64
+			}]
+		}
+		{
+			tasks: [{
+				id: "6670D0CA5F8DD28E"
+				type: "item"
+				item: "mysticalagriculture:supremium_block"
+			}]
+			id: "57058308F8C66C16"
+			y: -1.5d
+			x: -7.0d
+			rewards: [{
+				id: "1778A39AED63C21A"
+				type: "item"
+				item: "mysticalagriculture:supremium_essence"
+				count: 64
+			}]
+		}
+		{
+			tasks: [{
+				id: "3D803FDA29BD4BBF"
+				type: "item"
+				item: "mysticalagriculture:awakened_supremium_block"
+			}]
+			id: "3AA32B277E7E8BE7"
+			y: -1.5d
+			x: -8.0d
+			rewards: [{
+				id: "22ADE8A07BC1693C"
+				type: "item"
+				item: "mysticalagriculture:awakened_supremium_essence"
+				count: 64
+			}]
+		}
+		{
+			tasks: [{
+				id: "22E6DBC297D9E215"
+				type: "item"
+				item: "mysticalagradditions:insanium_block"
+			}]
+			id: "21C0852A41EED8BE"
+			y: -2.5d
+			x: -8.0d
+			rewards: [{
+				id: "666C61D3FD137780"
+				type: "item"
+				item: "mysticalagradditions:insanium_essence"
+				count: 64
+			}]
+		}
+		{
+			tasks: [{
+				id: "36293567BDF8331A"
+				type: "item"
+				item: "redstone_arsenal:flux_metal_block"
+			}]
+			id: "3130FC1DBAA5058F"
+			y: -3.5d
+			x: 4.0d
+			rewards: [{
+				id: "2C858B2E4CBD8200"
+				type: "item"
+				item: "redstone_arsenal:flux_ingot"
+				count: 64
+			}]
+		}
+		{
+			tasks: [{
+				id: "29C8850ED7CBD522"
+				type: "item"
+				item: "redstone_arsenal:flux_gem_block"
+			}]
+			id: "54F821A07916FA3E"
+			y: -4.5d
+			x: 4.0d
+			rewards: [{
+				id: "21276C23EAF758CC"
+				type: "item"
+				item: "redstone_arsenal:flux_gem"
+				count: 64
+			}]
+		}
+		{
+			tasks: [{
+				id: "23475B6A6F531F99"
+				type: "item"
+				item: "projecte:dark_matter_block"
+			}]
+			id: "1CDBDECF0CF66F15"
+			y: 6.0d
+			x: 1.5d
+			rewards: [{
+				id: "265C3A21CDEFE3E8"
+				type: "item"
+				item: "projecte:dark_matter"
+				count: 64
+			}]
+		}
+		{
+			tasks: [{
+				id: "172F643C9108E1D3"
+				type: "item"
+				item: "projecte:red_matter_block"
+			}]
+			id: "4A442A07B46E3664"
+			y: 6.0d
+			x: 2.5d
+			rewards: [{
+				id: "370FD9524B9DD594"
+				type: "item"
+				item: "projecte:red_matter"
+				count: 64
+			}]
+		}
+		{
+			tasks: [{
+				id: "705F379403D49A39"
+				type: "item"
+				item: "projecte:alchemical_coal_block"
+			}]
+			id: "6022555780562849"
+			y: 7.0d
+			x: 1.5d
+			rewards: [{
+				id: "283035517F17F403"
+				type: "item"
+				item: "projecte:alchemical_coal"
+				count: 64
+			}]
+		}
+		{
+			tasks: [{
+				id: "1D2F781A6E5B310A"
+				type: "item"
+				item: "projecte:mobius_fuel_block"
+			}]
+			id: "1115B24E4A883E3D"
+			y: 7.0d
+			x: 2.5d
+			rewards: [{
+				id: "4ED19E419EAE9F75"
+				type: "item"
+				item: "projecte:mobius_fuel"
+				count: 64
+			}]
+		}
+		{
+			tasks: [{
+				id: "40EA9F9654624BA0"
+				type: "item"
+				item: "projecte:aeternalis_fuel_block"
+			}]
+			id: "0B53BB1DB2EE032F"
+			y: 7.0d
+			x: 3.5d
+			rewards: [{
+				id: "76645D54B5BFEE92"
+				type: "item"
+				item: "projecte:aeternalis_fuel"
+				count: 64
+			}]
+		}
+		{
+			tasks: [{
+				id: "4CA447A7944B7317"
+				type: "item"
+				item: "spirit:soul_steel_block"
+			}]
+			id: "5D93A9C7F211799E"
+			y: 0.0d
+			x: 2.5d
+			rewards: [{
+				id: "4727FEB7BA6EDD90"
+				type: "item"
+				item: "spirit:soul_steel_ingot"
+				count: 64
+			}]
+		}
+		{
+			tasks: [{
+				id: "37B37AF4C1D3DE20"
+				type: "item"
+				item: "thermal_extra:soul_infused_block"
+			}]
+			id: "2D85052D9580FE20"
+			y: 3.5d
+			x: 6.5d
+			rewards: [{
+				id: "60CFA2A3298D2591"
+				type: "item"
+				item: "thermal_extra:soul_infused_ingot"
+				count: 64
+			}]
+		}
+		{
+			tasks: [{
+				id: "47BD64B33C6B9A78"
+				type: "item"
+				item: "thermal_extra:shellite_block"
+			}]
+			id: "688087B77433444A"
+			y: 3.5d
+			x: 7.5d
+			rewards: [{
+				id: "4AA4E2FE4E5E795D"
+				type: "item"
+				item: "thermal_extra:shellite_ingot"
+				count: 64
+			}]
+		}
+		{
+			tasks: [{
+				id: "03A93100D9BF115E"
+				type: "item"
+				item: "thermal_extra:twinite_block"
+			}]
+			id: "42EE0C71534AB6D4"
+			y: 3.5d
+			x: 8.5d
+			rewards: [{
+				id: "0590AC9BF3AAF72D"
+				type: "item"
+				item: "thermal_extra:twinite_ingot"
+				count: 64
+			}]
+		}
+		{
+			tasks: [{
+				id: "02C6363B7801EB52"
+				type: "item"
+				item: "thermal_extra:dragonsteel_block"
+			}]
+			id: "1BA1525D38F88CE1"
+			y: 3.5d
+			x: 9.5d
+			rewards: [{
+				id: "1010806A1584477B"
+				type: "item"
+				item: "thermal_extra:dragonsteel_ingot"
+				count: 64
+			}]
+		}
+		{
+			tasks: [{
+				id: "66C00259F7D1A983"
+				type: "item"
+				item: "evilcraft:dark_block"
+			}]
+			id: "11D90904B5BC8087"
+			y: 1.0d
+			x: -4.0d
+			rewards: [{
+				id: "6D305A40945C85EC"
+				type: "item"
+				item: "evilcraft:dark_gem"
+				count: 64
+			}]
+		}
+		{
+			tasks: [{
+				id: "144A47D2E6761F25"
+				type: "item"
+				item: "evilcraft:dark_power_gem_block"
+			}]
+			id: "7D80DDD121B584C3"
+			y: 2.0d
+			x: -4.0d
+			rewards: [{
+				id: "72DE2EE1B41CFC88"
+				type: "item"
+				item: "evilcraft:dark_power_gem"
+				count: 16
+			}]
+		}
+		{
+			tasks: [{
+				id: "01716C6D178B6B74"
+				type: "item"
+				item: "twilightforest:ironwood_block"
+			}]
+			id: "3C40234EB326E6D9"
+			y: 1.0d
+			x: -6.5d
+			rewards: [{
+				id: "160DE5308A380CEA"
+				type: "item"
+				item: "twilightforest:ironwood_ingot"
+				count: 64
+			}]
+		}
+		{
+			tasks: [{
+				id: "554B4C4095042644"
+				type: "item"
+				item: "twilightforest:steeleaf_block"
+			}]
+			id: "32C145194E36352A"
+			y: 1.0d
+			x: -7.5d
+			rewards: [{
+				id: "013F44254EC9F1D7"
+				type: "item"
+				item: "twilightforest:steeleaf_ingot"
+				count: 64
+			}]
+		}
+		{
+			tasks: [{
+				id: "741D82BD2C1539E8"
+				type: "item"
+				item: "twilightforest:fiery_block"
+			}]
+			id: "6C830F9AE3115D3B"
+			y: 2.0d
+			x: -6.5d
+			rewards: [{
+				id: "6A18D568D6232982"
+				type: "item"
+				item: "twilightforest:fiery_ingot"
+				count: 64
+			}]
+		}
+		{
+			tasks: [{
+				id: "7069BED459130D3A"
+				type: "item"
+				item: "twilightforest:knightmetal_block"
+			}]
+			id: "49CDA44C082F27F6"
+			y: 2.0d
+			x: -7.5d
+			rewards: [{
+				id: "7C0973FF3BA11E81"
+				type: "item"
+				item: "twilightforest:knightmetal_ingot"
+				count: 64
+			}]
+		}
+		{
+			tasks: [{
+				id: "26CF65D44AEC6B5F"
+				type: "item"
+				item: "twilightforest:carminite_block"
+			}]
+			id: "4E553144D79499FE"
+			y: 3.0d
+			x: -6.5d
+			rewards: [{
+				id: "2F0A1601DA268F75"
+				type: "item"
+				item: "twilightforest:carminite"
+				count: 64
+			}]
+		}
+		{
+			tasks: [{
+				id: "1DE56A05759B2DB3"
+				type: "item"
+				item: "twilightforest:arctic_fur_block"
+			}]
+			id: "449C73001F329B9A"
+			y: 3.0d
+			x: -7.5d
+			rewards: [{
+				id: "1E975964F864640C"
+				type: "item"
+				item: "twilightforest:arctic_fur"
+				count: 64
+			}]
+		}
+	]
+}

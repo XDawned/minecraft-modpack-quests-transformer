@@ -1,0 +1,13 @@
+{
+	rewards: [
+		{ item: "minecraft:cobblestone", count: 32, weight: 10.0f }
+		{ item: "minecraft:gravel", count: 16, weight: 6.0f }
+		{ item: "minecraft:sand", count: 16, weight: 2.0f }
+		{ item: "exnihilosequentia:dust", count: 16 }
+	]
+	loot_size: 1
+	order_index: 1
+	id: "2C85AC948A69E10A"
+	icon: "minecraft:cobblestone"
+	title: "Sieving"
+}

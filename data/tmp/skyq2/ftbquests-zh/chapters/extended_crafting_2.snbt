@@ -1,0 +1,659 @@
+{
+	quest_links: [ ]
+	default_hide_dependency_lines: false
+	group: "07A9419A06D6B296"
+	id: "3092A348BE33988E"
+	filename: "extended_crafting_2"
+	default_quest_shape: ""
+	icon: "extendedcrafting:ultimate_singularity"
+	title: "合成拓展"
+	order_index: 0
+	quests: [
+		{
+			tasks: [
+				{
+					id: "546B86230B051A95"
+					type: "item"
+					disable_toast: true
+					item: "extendedcrafting:ender_crafter"
+				}
+				{
+					id: "04C3CB44A0EA9F9B"
+					type: "item"
+					item: "extendedcrafting:ender_alternator"
+				}
+			]
+			description: ["你拥有的末影发电机越多,速度就越快."]
+			id: "5A3FB07AFD5F3785"
+			x: 0.0d
+			y: 0.0d
+			title: "末影工作台"
+			dependencies: ["735997203EEF7BA5"]
+		}
+		{
+			tasks: [{
+				id: "075B004DFF64D554"
+				type: "item"
+				item: "extendedcrafting:luminessence"
+			}]
+			dependencies: ["5A3FB07AFD5F3785"]
+			id: "513A9677CDAC0C0B"
+			y: 0.5d
+			x: -1.5d
+		}
+		{
+			tasks: [{
+				id: "01147B1102782AC1"
+				type: "item"
+				item: "extendedcrafting:black_iron_ingot"
+			}]
+			dependencies: ["5A3FB07AFD5F3785"]
+			id: "31515FA8F0C3153C"
+			y: 0.0d
+			x: -2.5d
+		}
+		{
+			tasks: [{
+				id: "5E0EAF1B17CA508A"
+				type: "item"
+				item: "extendedcrafting:redstone_ingot"
+			}]
+			dependencies: ["5A3FB07AFD5F3785"]
+			id: "1311EFE7D6A85631"
+			y: -1.0d
+			x: -2.5d
+		}
+		{
+			tasks: [{
+				id: "5FD6E9AC81C76E49"
+				type: "item"
+				item: "extendedcrafting:ender_ingot"
+			}]
+			dependencies: ["5A3FB07AFD5F3785"]
+			id: "00D6E19A7BE00BAD"
+			y: 1.0d
+			x: -2.5d
+		}
+		{
+			tasks: [{
+				id: "0E4189ADE65D58C4"
+				type: "item"
+				item: "extendedcrafting:basic_table"
+			}]
+			dependencies: ["5A3FB07AFD5F3785"]
+			id: "2BDD0B3BC780712B"
+			y: 2.0d
+			x: 0.0d
+		}
+		{
+			tasks: [{
+				id: "12A22D17FF338F32"
+				type: "item"
+				item: "extendedcrafting:basic_auto_table"
+			}]
+			dependencies: ["2BDD0B3BC780712B"]
+			id: "323BCA9592B85A7D"
+			y: 2.0d
+			x: -1.0d
+		}
+		{
+			tasks: [{
+				id: "7A8618F0D1496572"
+				type: "item"
+				item: "extendedcrafting:advanced_table"
+			}]
+			dependencies: ["2BDD0B3BC780712B"]
+			id: "1AC61C996263AE33"
+			y: 3.5d
+			x: 0.0d
+		}
+		{
+			tasks: [{
+				id: "33ABD7656B905B10"
+				type: "item"
+				item: "extendedcrafting:advanced_auto_table"
+			}]
+			dependencies: ["1AC61C996263AE33"]
+			id: "331D1BB46DD04C4B"
+			y: 3.5d
+			x: -1.0d
+		}
+		{
+			tasks: [{
+				id: "709B24769439E263"
+				type: "item"
+				item: "extendedcrafting:elite_auto_table"
+			}]
+			dependencies: ["11AF69B7C1A58B1B"]
+			id: "0EE0504F8BD88B6D"
+			y: 5.0d
+			x: -1.0d
+		}
+		{
+			tasks: [{
+				id: "0F6031C6034B15A2"
+				type: "item"
+				item: "extendedcrafting:elite_table"
+			}]
+			dependencies: ["1AC61C996263AE33"]
+			id: "11AF69B7C1A58B1B"
+			y: 5.0d
+			x: 0.0d
+		}
+		{
+			tasks: [{
+				id: "5912B349A5B7214A"
+				type: "item"
+				item: "extendedcrafting:ultimate_auto_table"
+			}]
+			dependencies: ["7A90C0930E65E295"]
+			id: "1B955D7173AD2039"
+			y: 6.5d
+			x: -1.0d
+		}
+		{
+			tasks: [{
+				id: "7CA38B09799D9CAC"
+				type: "item"
+				item: "extendedcrafting:ultimate_table"
+			}]
+			dependencies: ["11AF69B7C1A58B1B"]
+			id: "7A90C0930E65E295"
+			y: 6.5d
+			x: 0.0d
+		}
+		{
+			tasks: [{
+				id: "77065BD340249E1C"
+				type: "item"
+				item: "extendedcrafting:compressor"
+			}]
+			dependencies: ["7A90C0930E65E295"]
+			id: "5A8C9E8AF6BF2F51"
+			y: 8.0d
+			x: 0.0d
+		}
+		{
+			tasks: [{
+				id: "2BF548D4D50196D6"
+				type: "item"
+				item: "extendedcrafting:ultimate_singularity"
+			}]
+			dependencies: ["5A8C9E8AF6BF2F51"]
+			id: "6AC6E3B4ED91A630"
+			y: 8.5d
+			x: -1.0d
+		}
+		{
+			tasks: [
+				{
+					id: "4028DE45BE549E50"
+					type: "item"
+					disable_toast: true
+					item: "extendedcrafting:crafting_core"
+				}
+				{
+					id: "0F112D5200818B12"
+					type: "item"
+					disable_toast: true
+					item: "extendedcrafting:pedestal"
+				}
+			]
+			dependencies: ["5A8C9E8AF6BF2F51"]
+			id: "42D29CC3469BAD86"
+			y: 9.5d
+			x: 0.0d
+		}
+		{
+			tasks: [{
+				id: "37D7D5418E9AE6F5"
+				type: "checkmark"
+				title: "解锁创造章节"
+			}]
+			dependencies: ["42D29CC3469BAD86"]
+			id: "2AF6F5484DBDF3CA"
+			y: 9.5d
+			x: -1.0d
+		}
+		{
+			tasks: [{
+				id: "5BDA1883FA3D5DAB"
+				type: "checkmark"
+				title: "解锁等价交换"
+			}]
+			dependencies: ["7A90C0930E65E295"]
+			id: "69E32CD74E9A55A1"
+			y: 7.5d
+			x: -1.0d
+		}
+		{
+			tasks: [{
+				id: "4337678C080AFE86"
+				type: "item"
+				item: "angelring:angel_ring"
+			}]
+			dependencies: ["11AF69B7C1A58B1B"]
+			id: "5C60E2C604C6DEA8"
+			y: 5.0d
+			x: 1.5d
+		}
+		{
+			tasks: [{
+				id: "1918C692019C1C80"
+				type: "item"
+				item: "avaritia:neutron_collector"
+			}]
+			dependencies: ["1AC61C996263AE33"]
+			id: "62895CF249CBDEFF"
+			y: 3.5d
+			x: 6.5d
+		}
+		{
+			tasks: [{
+				id: "024405DBBEB88E9C"
+				type: "item"
+				item: "avaritia:neutronium_ingot"
+			}]
+			dependencies: ["63267133F0FDA6B5"]
+			id: "72F9CCB6817DE588"
+			y: 0.5d
+			x: 6.5d
+		}
+		{
+			tasks: [{
+				id: "47C6166AFD9D8392"
+				type: "item"
+				item: "avaritia:neutronium_nugget"
+			}]
+			dependencies: ["76CCBFCE28B5D37A"]
+			id: "63267133F0FDA6B5"
+			y: 1.5d
+			x: 6.5d
+		}
+		{
+			tasks: [{
+				id: "3CD864C498E921BB"
+				type: "item"
+				item: "avaritia:pileof_neutrons"
+			}]
+			dependencies: ["62895CF249CBDEFF"]
+			id: "76CCBFCE28B5D37A"
+			y: 2.5d
+			x: 6.5d
+		}
+		{
+			tasks: [{
+				id: "0FEECF3C25A8A733"
+				type: "item"
+				item: "avaritia:infinity_ingot"
+			}]
+			dependencies: ["11AF69B7C1A58B1B"]
+			id: "6185A5713D639E4D"
+			y: 5.0d
+			x: 4.5d
+		}
+		{
+			tasks: [{
+				id: "14A39E59525D2173"
+				type: "item"
+				item: {
+					id: "avaritia:swordofthe_cosmos"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			dependencies: ["7A90C0930E65E295"]
+			id: "0B5EC2A94CFD1E4F"
+			y: 7.5d
+			x: 4.0d
+		}
+		{
+			tasks: [{
+				id: "3B9830006EF784CA"
+				type: "item"
+				item: {
+					id: "avaritia:world_breaker"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							lvl: 10s
+							id: "minecraft:fortune"
+						}]
+					}
+				}
+			}]
+			dependencies: ["7A90C0930E65E295"]
+			id: "220942A16C0F9E6A"
+			y: 7.5d
+			x: 5.0d
+		}
+		{
+			tasks: [{
+				id: "4BF77EBF0C0650A9"
+				type: "item"
+				item: {
+					id: "avaritia:planet_eater"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			dependencies: ["7A90C0930E65E295"]
+			id: "413414116377AB11"
+			y: 8.5d
+			x: 4.0d
+		}
+		{
+			tasks: [{
+				id: "0B17CB0BB87BAFA8"
+				type: "item"
+				item: {
+					id: "avaritia:natures_ruin"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			dependencies: ["7A90C0930E65E295"]
+			id: "767AE2DEFE32BB4F"
+			y: 8.5d
+			x: 5.0d
+		}
+		{
+			tasks: [{
+				id: "2CB75426AE9EFA55"
+				type: "item"
+				item: {
+					id: "avaritia:hoeofthe_green_earth"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			dependencies: ["7A90C0930E65E295"]
+			id: "6CA3A752E2B75E39"
+			y: 9.5d
+			x: 4.0d
+		}
+		{
+			tasks: [{
+				id: "275B31EFFE17ACC4"
+				type: "item"
+				item: {
+					id: "avaritia:longbowofthe_heavens"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			dependencies: ["7A90C0930E65E295"]
+			id: "1BA64F6CA7486E51"
+			y: 9.5d
+			x: 5.0d
+		}
+		{
+			tasks: [{
+				id: "6272BB5C1F8F790A"
+				type: "item"
+				item: "pipez:infinity_upgrade"
+			}]
+			dependencies: [
+				"1AC61C996263AE33"
+				"5BA7F833DCA1BB8F"
+			]
+			id: "47336509198548E5"
+			y: 3.5d
+			x: 1.5d
+		}
+		{
+			tasks: [{
+				id: "3E0F20DF8A8A03BF"
+				type: "item"
+				item: "avaritia:endest_pearl"
+			}]
+			dependencies: ["1AC61C996263AE33"]
+			id: "1DF870BBF5CCA8F8"
+			y: 3.5d
+			x: 3.0d
+		}
+		{
+			tasks: [{
+				id: "64042001607FF885"
+				type: "item"
+				item: "avaritia:ultimate_stew"
+			}]
+			dependencies: ["11AF69B7C1A58B1B"]
+			id: "21EF65D753C3A45E"
+			y: 5.0d
+			x: 6.0d
+		}
+		{
+			tasks: [{
+				id: "15203EA891903B93"
+				type: "item"
+				item: "avaritia:cosmic_meatballs"
+			}]
+			dependencies: ["11AF69B7C1A58B1B"]
+			id: "2BE934F94F35129C"
+			y: 5.0d
+			x: 7.5d
+		}
+		{
+			tasks: [
+				{
+					id: "45062768F718AD52"
+					type: "item"
+					item: "extendedcrafting:flux_crafter"
+				}
+				{
+					id: "76A18D723E920D9B"
+					type: "item"
+					item: "extendedcrafting:flux_alternator"
+				}
+			]
+			dependencies: ["5A3FB07AFD5F3785"]
+			id: "17A8610CF0C49529"
+			y: -3.0d
+			x: 0.0d
+		}
+		{
+			tasks: [{
+				id: "47FA0EC47F8819E4"
+				type: "item"
+				item: "extendedcrafting:the_ultimate_ingot"
+			}]
+			dependencies: ["7A90C0930E65E295"]
+			id: "6E6B5D139E2BA4BD"
+			y: 6.5d
+			x: 3.0d
+		}
+		{
+			tasks: [{
+				id: "169F04E7C3C8EE56"
+				type: "item"
+				item: "extendedcrafting:enhanced_ender_ingot"
+			}]
+			dependencies: ["17A8610CF0C49529"]
+			id: "5E80906D9C3C6ECD"
+			y: -2.0d
+			x: -2.5d
+		}
+		{
+			tasks: [{
+				id: "797EAC7984AA6E2C"
+				type: "item"
+				item: "extendedcrafting:crystaltine_ingot"
+			}]
+			dependencies: ["17A8610CF0C49529"]
+			id: "3BF4A2AF815A4E40"
+			y: -3.0d
+			x: -2.5d
+		}
+		{
+			tasks: [{
+				id: "53673553A2432BD9"
+				type: "item"
+				item: "extendedcrafting:ender_star"
+			}]
+			dependencies: ["5A3FB07AFD5F3785"]
+			id: "7CE3185B2CDAC5A4"
+			y: -0.5d
+			x: -1.5d
+		}
+		{
+			tasks: [{
+				id: "00B593D54DABF598"
+				type: "item"
+				item: "extendedcrafting:flux_star"
+			}]
+			dependencies: ["17A8610CF0C49529"]
+			id: "60F5D4E5E100C45C"
+			y: -3.0d
+			x: -1.5d
+		}
+		{
+			tasks: [{
+				id: "39E23D48F4C76D23"
+				type: "item"
+				item: "packagedexcrafting:basic_crafter"
+			}]
+			dependencies: ["323BCA9592B85A7D"]
+			id: "5DA99B9595FD7B45"
+			y: 2.0d
+			x: -2.0d
+		}
+		{
+			tasks: [{
+				id: "5F814FBAD6B4AF09"
+				type: "item"
+				item: "packagedexcrafting:advanced_crafter"
+			}]
+			dependencies: ["331D1BB46DD04C4B"]
+			id: "2FBCFAA9E8BDFBC7"
+			y: 3.5d
+			x: -2.0d
+		}
+		{
+			tasks: [{
+				id: "050F3571EEC72834"
+				type: "item"
+				item: "packagedexcrafting:elite_crafter"
+			}]
+			dependencies: ["0EE0504F8BD88B6D"]
+			id: "4A3BAE104A3C8B01"
+			y: 5.0d
+			x: -2.0d
+		}
+		{
+			tasks: [{
+				id: "14243F3B637801E7"
+				type: "item"
+				item: "packagedexcrafting:ultimate_crafter"
+			}]
+			dependencies: ["1B955D7173AD2039"]
+			id: "1D51AD7569345A0B"
+			y: 6.5d
+			x: -2.0d
+		}
+		{
+			tasks: [{
+				id: "7BAC1EEB7F60FD5B"
+				type: "item"
+				item: "packagedexcrafting:ender_crafter"
+			}]
+			dependencies: ["5A3FB07AFD5F3785"]
+			id: "402DA326526418E1"
+			y: 0.0d
+			x: 1.0d
+		}
+		{
+			tasks: [{
+				id: "5427E5665F8A6FFC"
+				type: "item"
+				item: "packagedexcrafting:flux_crafter"
+			}]
+			dependencies: ["17A8610CF0C49529"]
+			id: "438DE6B8851EEA5C"
+			y: -3.0d
+			x: 1.0d
+		}
+		{
+			tasks: [
+				{
+					id: "75B001F5C3C7F4F7"
+					type: "item"
+					item: "packagedexcrafting:combination_crafter"
+				}
+				{
+					id: "78DD71B0ACE5EF82"
+					type: "item"
+					item: "packagedexcrafting:marked_pedestal"
+				}
+			]
+			dependencies: ["17A8610CF0C49529"]
+			id: "2D394832FEA5F069"
+			y: -4.0d
+			x: 1.0d
+		}
+		{
+			tasks: [{
+				id: "7CF82EC8F37DF1E3"
+				type: "item"
+				item: "extendedcrafting:enhanced_redstone_ingot"
+			}]
+			dependencies: ["17A8610CF0C49529"]
+			id: "6D9AAB82CC7CD8DE"
+			y: -4.0d
+			x: -2.5d
+		}
+		{
+			tasks: [{
+				id: "4A86513AA5BAD405"
+				type: "item"
+				item: "avaritia:infinity_catalyst"
+			}]
+			dependencies: ["11AF69B7C1A58B1B"]
+			id: "39B6B295E4CF8C73"
+			y: 5.0d
+			x: 3.0d
+		}
+		{
+			tasks: [{
+				id: "6A1CE6F2D030AA89"
+				type: "item"
+				item: "mysticalagradditions:creative_essence"
+			}]
+			dependencies: ["6E6B5D139E2BA4BD"]
+			id: "6CF248F72A758812"
+			y: 6.5d
+			x: 4.0d
+		}
+		{
+			x: 5.0d
+			y: 6.5d
+			id: "564ADE44EE6660E6"
+			tasks: [{
+				id: "0AA888D4482A0942"
+				type: "item"
+				item: "solarflux:sp_avaritia.neutronium"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 6.5d
+			id: "1B0A10F147F7EBA4"
+			tasks: [{
+				id: "3B712BBE04692DFF"
+				type: "item"
+				item: "solarflux:sp_avaritia.infinity"
+			}]
+		}
+	]
+}

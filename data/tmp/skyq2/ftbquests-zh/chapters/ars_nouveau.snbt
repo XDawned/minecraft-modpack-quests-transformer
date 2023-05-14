@@ -1,0 +1,30 @@
+{
+	quest_links: [ ]
+	default_hide_dependency_lines: false
+	group: "7666C88BBE05D284"
+	id: "4A27EB808149A947"
+	filename: "ars_nouveau"
+	default_quest_shape: ""
+	icon: "ars_nouveau:creative_spell_book"
+	title: "新生魔艺"
+	order_index: 0
+	quests: [{
+		tasks: [{
+			id: "7A9DB9B951BF277F"
+			type: "checkmark"
+			title: "欢迎来到新生魔艺"
+			icon: "ars_nouveau:worn_notebook"
+		}]
+		description: ["使用这本书来帮助你了解这个模组."]
+		id: "6AF58E74B81FA93C"
+		x: 0.0d
+		y: 0.0d
+		title: "欢迎来到新生魔艺"
+		rewards: [{
+			id: "24D4181E7F3A009E"
+			type: "item"
+			item: "ars_nouveau:worn_notebook"
+		}]
+		dependencies: ["25974FEFF2398224"]
+	}]
+}

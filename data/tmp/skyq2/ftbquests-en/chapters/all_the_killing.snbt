@@ -1,0 +1,22 @@
+{
+	quest_links: [ ]
+	default_hide_dependency_lines: false
+	group: "269E1EFA0EF8FE1E"
+	id: "6EFCE9CE02C454EB"
+	filename: "all_the_killing"
+	default_quest_shape: ""
+	icon: "minecraft:dragon_head"
+	title: "All the Killing"
+	order_index: 1
+	quests: [{
+		tasks: [{
+			id: "721067FE623C8732"
+			type: "checkmark"
+			title: "You trying to kill me haha!!"
+		}]
+		dependencies: ["105D595ADBD4A01F"]
+		id: "6E7859AB7BFEE555"
+		y: 0.0d
+		x: 0.0d
+	}]
+}
