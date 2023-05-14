@@ -2,7 +2,8 @@
 提取已汉化的整合包任务文件生成数据集
 
 并使用其微调[transformer预训练模型](https://huggingface.co/Helsinki-NLP/opus-mt-en-zh)以优化在mc术语上的表现。
-
+# 使用说明
+  这个项目不是针对所有人的，代码逻辑十分简单并且留下了部分注释，如果你有一些编程基础相信这难不倒你。
 ## 数据集
 几个推荐的优质数据获取处
 - [CFPA-Modpack](https://modpack.cfpa.team/) (比较陈旧，少数使用了ftbquest模组的整合包汉化可以使用)
