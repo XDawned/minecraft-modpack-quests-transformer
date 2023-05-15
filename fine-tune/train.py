@@ -25,6 +25,10 @@ model = model.to(device)
 
 df = pd.read_csv('my_data.csv', usecols=['source', 'target'])  # 修改此处my_data.csv为你要训练的数据集
 
+# 清除无效数据
+df = df.dropna(subset=['source'])
+df = df.dropna(subset=['target'])
+
 dataset = datasets.DatasetDict({
     "train": datasets.Dataset.from_pandas(df)
 })
