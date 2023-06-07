@@ -2,7 +2,7 @@
 1.提取已汉化的整合包任务文件生成数据集
 2.使用数据集微调[transformer预训练模型](https://huggingface.co/Helsinki-NLP/opus-mt-en-zh)以优化在mc术语上的表现。
 # 使用说明
-  这个项目不是针对所有人的，代码逻辑十分简单并且留下了部分注释，如果你有一些编程基础相信这难不倒你。
+  这个项目不是针对所有人的，需要你有一定的机器学习基础，整体上代码逻辑并不复杂且留下了部分注释。
 ## 数据集
 几个推荐的优质数据获取处
 - [CFPA-Modpack](https://modpack.cfpa.team/) (比较陈旧，少数使用了ftbquest模组的整合包汉化可以使用)
@@ -22,9 +22,7 @@ PS:推荐使用mini版本并进行数据清洗后使用
 ## 模型
 如果你的硬件配置不够，你可以基于huggingface平台进行托管训练，点击左上角的Train使用AutoTrain即可
 
-**我已经简单训练了一个模型[XDawned/minecraft-en-zh](https://huggingface.co/XDawned/minecraft-en-zh)并实现了简单应用[FTBQLocalizationTools](https://github.com/XDawned/FTBQLocalizationTools/tree/model_trans)，所有代码完全开源的或许会对你有所启发**
+**我已使用网络上搜集而来的数据(大约一百万条数据的训练集）完成了一份微调后的模型[XDawned/minecraft-en-zh](https://huggingface.co/XDawned/minecraft-en-zh)并实现了应用[FTBQLocalizationTools](https://github.com/XDawned/FTBQLocalizationTools/tree/model_trans)，它的代码完全开源的或许会对你有所启发**
 
 ## PS
-此项目是一个翻译模型微调的小尝试，用的都是前人已经包装好的方法
-
-水平有限，大佬勿喷。
+此项目是对翻译模型的微调，借由诸多工作者们的方法封装与模型开源，整体技术难点不多。
